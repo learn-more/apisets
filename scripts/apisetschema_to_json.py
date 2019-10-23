@@ -25,9 +25,10 @@ class API_SET_NAMESPACE_ARRAY:
 
 
 class API_SET_NAMESPACE_ENTRY:
-    def __init__(self, name, dataoffset):
+    def __init__(self, name, dataoffset, count=0):
         self.name = name
         self.dataoffset = dataoffset
+        self.count = count
 
     def __repr__(self):
         return '{}: +0x{:x}'.format(self.name, self.dataoffset)
@@ -70,9 +71,9 @@ class Parser_2(BaseParser):
         offset += struct.calcsize(self.namespace_format)
         return offset, API_SET_NAMESPACE_ENTRY(name, DataOffset)
 
-    def parse_value_header(self, data, offset):
-        Count, = struct.unpack_from(self.value_header_format, data, offset)
-        offset += struct.calcsize(self.value_header_format)
+    def parse_value_header(self, data, namespace):
+        Count, = struct.unpack_from(self.value_header_format, data, namespace.dataoffset)
+        offset = namespace.dataoffset + struct.calcsize(self.value_header_format)
         return API_SET_VALUE_ARRAY(Count, offset)
 
     def parse_value(self, data, offset):
@@ -101,9 +102,9 @@ class Parser_4(BaseParser):
         offset += struct.calcsize(self.namespace_format)
         return offset, API_SET_NAMESPACE_ENTRY(name, DataOffset)
 
-    def parse_value_header(self, data, offset):
-        Flags, Count = struct.unpack_from(self.value_header_format, data, offset)
-        offset += struct.calcsize(self.value_header_format)
+    def parse_value_header(self, data, namespace):
+        Flags, Count = struct.unpack_from(self.value_header_format, data, namespace.dataoffset)
+        offset = namespace.dataoffset + struct.calcsize(self.value_header_format)
         return API_SET_VALUE_ARRAY(Count, offset)
 
     def parse_value(self, data, offset):
@@ -117,7 +118,6 @@ class Parser_4(BaseParser):
 class Parser_6(BaseParser):
     namespace_header_format = '<IIIIIII'
     namespace_format = '<IIIIII'
-    value_header_format = '<II'
     value_format = '<IIIII'
 
     def parse_header(self, data):
@@ -130,12 +130,11 @@ class Parser_6(BaseParser):
         Flags, NameOffset, NameLength, NameLengthMinusHyphen, DataOffset, NumberOfHosts = struct.unpack_from(self.namespace_format, data, offset)
         name = read_string(data, NameOffset, NameLength)
         offset += struct.calcsize(self.namespace_format)
-        return offset, API_SET_NAMESPACE_ENTRY(name, DataOffset)
+        return offset, API_SET_NAMESPACE_ENTRY(name, DataOffset, NumberOfHosts)
 
-    def parse_value_header(self, data, offset):
-        Flags, Count = struct.unpack_from(self.value_header_format, data, offset)
-        offset += struct.calcsize(self.value_header_format)
-        return API_SET_VALUE_ARRAY(Count, offset)
+    def parse_value_header(self, data, namespace):
+        # v6 does not have a header, but has the required info encoded in the namespace
+        return API_SET_VALUE_ARRAY(namespace.count, namespace.dataoffset)
 
     def parse_value(self, data, offset):
         Flags, NameOffset, NameLength, ValueOffset, ValueLength = struct.unpack_from(self.value_format, data, offset)
@@ -170,8 +169,7 @@ class ApisetParser:
 
     def value_header(self, namespace):
         data = self.data
-        offset = namespace.dataoffset
-        return self.parser.parse_value_header(data, offset)
+        return self.parser.parse_value_header(data, namespace)
 
     def values(self, header):
         data = self.data
