@@ -42,7 +42,12 @@ def process_file(input_file, output_dir):
         print('No version found in', input_file)
         return
 
-    name = '{}-{}'.format(version, arch)
+    if version.find('.') < 2:
+        version_file = '0' + version
+    else:
+        version_file = version
+
+    name = '{}-{}'.format(version_file, arch)
     print('Generating apiset for', name)
 
     # Calculate the md5 from the (internal) raw data of the PE file
@@ -60,12 +65,16 @@ def process_file(input_file, output_dir):
             vals.append({'name': value.name, 'value': value.value})
         ns = {
             'name': namespace.name,
-            'values_count': val_hdr.count,
-            'values': vals
+            'host': vals[0]['value'],
         }
+        assert vals[0]['name'] == ''
+        if len(vals) > 1:
+            assert len(vals) == 2
+            ns['alt_name'] = vals[1]['name']
+            ns['alt_host'] = vals[1]['value']
         namespaces.append(ns)
     obj = {
-        'Version': version,
+        'Version': '{}-{}'.format(version, arch),
         'md5': md5sum,
         'namespaces_count': hdr.count,
         'namespaces': namespaces

@@ -1,7855 +1,3149 @@
 {
-  "Version": "10.0.17134.1",
+  "Version": "10.0.17134.1-AMD64",
   "md5": "d250b2f8fc2465361df4864c92705aa0",
   "namespaces_count": 782,
   "namespaces": [
     {
       "name": "api-ms-onecoreuap-print-render-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "printrenderapihost.dll"
-        }
-      ]
+      "host": "printrenderapihost.dll"
     },
     {
       "name": "api-ms-onecoreuap-settingsync-status-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "settingsynccore.dll"
-        }
-      ]
+      "host": "settingsynccore.dll"
     },
     {
       "name": "api-ms-win-appmodel-identity-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "api-ms-win-appmodel-runtime-internal-l1-1-5",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "api-ms-win-appmodel-runtime-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "api-ms-win-appmodel-state-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "api-ms-win-appmodel-state-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "api-ms-win-appmodel-unlock-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "api-ms-win-base-bootconfig-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-base-util-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-composition-redirection-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "dwmredir.dll"
-        }
-      ]
+      "host": "dwmredir.dll"
     },
     {
       "name": "api-ms-win-composition-windowmanager-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "udwm.dll"
-        }
-      ]
+      "host": "udwm.dll"
     },
     {
       "name": "api-ms-win-core-apiquery-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ntdll.dll"
-        }
-      ]
+      "host": "ntdll.dll"
     },
     {
       "name": "api-ms-win-core-appcompat-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-appinit-l1-1-0",
-      "values_count": 2,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        },
-        {
-          "name": "kernel32.dll",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-atoms-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-backgroundtask-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-bicltapi-l1-1-5",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "bi.dll"
-        }
-      ]
+      "host": "bi.dll"
     },
     {
       "name": "api-ms-win-core-biplmapi-l1-1-5",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "twinapi.appcore.dll"
-        }
-      ]
+      "host": "twinapi.appcore.dll"
     },
     {
       "name": "api-ms-win-core-biptcltapi-l1-1-6",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "twinapi.appcore.dll"
-        }
-      ]
+      "host": "twinapi.appcore.dll"
     },
     {
       "name": "api-ms-win-core-calendar-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-com-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "combase.dll"
-        }
-      ]
+      "host": "combase.dll"
     },
     {
       "name": "api-ms-win-core-com-l2-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "coml2.dll"
-        }
-      ]
+      "host": "coml2.dll"
     },
     {
       "name": "api-ms-win-core-com-midlproxystub-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "combase.dll"
-        }
-      ]
+      "host": "combase.dll"
     },
     {
       "name": "api-ms-win-core-com-private-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "combase.dll"
-        }
-      ]
+      "host": "combase.dll"
     },
     {
       "name": "api-ms-win-core-com-private-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "combase.dll"
-        }
-      ]
+      "host": "combase.dll"
     },
     {
       "name": "api-ms-win-core-comm-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-console-ansi-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-console-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-console-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-console-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-console-l2-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-console-l3-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-console-l3-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-crt-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ntdll.dll"
-        }
-      ]
+      "host": "ntdll.dll"
     },
     {
       "name": "api-ms-win-core-crt-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-datetime-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-debug-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-debug-minidump-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "dbgcore.dll"
-        }
-      ]
+      "host": "dbgcore.dll"
     },
     {
       "name": "api-ms-win-core-delayload-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-enclave-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-errorhandling-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-featurestaging-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-core-fibers-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-fibers-l2-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-file-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-file-ansi-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-file-fromapp-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.onecore.dll"
-        }
-      ]
+      "host": "windows.storage.onecore.dll"
     },
     {
       "name": "api-ms-win-core-file-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-file-l1-2-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-file-l2-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-firmware-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-guard-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-handle-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-heap-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-heap-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-heap-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-heap-obsolete-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-interlocked-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-interlocked-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-io-l1-1-1",
-      "values_count": 2,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        },
-        {
-          "name": "kernel32.dll",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-job-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-job-l2-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-kernel32-legacy-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-kernel32-legacy-l1-1-6",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-kernel32-private-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-largeinteger-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-libraryloader-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-libraryloader-l1-2-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-libraryloader-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-libraryloader-private-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-localization-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-localization-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-localization-l1-2-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-localization-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-localization-obsolete-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-localization-obsolete-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-localization-obsolete-l1-3-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-localization-private-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-localregistry-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-marshal-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "combase.dll"
-        }
-      ]
+      "host": "combase.dll"
     },
     {
       "name": "api-ms-win-core-memory-l1-1-6",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-misc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-multipleproviderrouter-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "mpr.dll"
-        }
-      ]
+      "host": "mpr.dll"
     },
     {
       "name": "api-ms-win-core-namedpipe-ansi-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-namedpipe-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-namedpipe-l1-2-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-namespace-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-namespace-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-normalization-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-path-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-pcw-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-perfcounters-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-perfcounters-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-perfstm-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-privateprofile-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-processenvironment-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-processenvironment-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-processenvironment-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-processsecurity-l1-1-0",
-      "values_count": 2,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        },
-        {
-          "name": "kernel32.dll",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-processsnapshot-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-processthreads-l1-1-3",
-      "values_count": 2,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        },
-        {
-          "name": "kernel32.dll",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-processtopology-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-processtopology-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-processtopology-obsolete-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-processtopology-private-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-profile-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-psapi-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-psapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-psapi-obsolete-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-psapiansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-psm-app-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "twinapi.appcore.dll"
-        }
-      ]
+      "host": "twinapi.appcore.dll"
     },
     {
       "name": "api-ms-win-core-psm-appnotify-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "twinapi.appcore.dll"
-        }
-      ]
+      "host": "twinapi.appcore.dll"
     },
     {
       "name": "api-ms-win-core-psm-info-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "appsruprov.dll"
-        }
-      ]
+      "host": "appsruprov.dll"
     },
     {
       "name": "api-ms-win-core-psm-key-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-psm-plm-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "twinapi.appcore.dll"
-        }
-      ]
+      "host": "twinapi.appcore.dll"
     },
     {
       "name": "api-ms-win-core-psm-plm-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "twinapi.appcore.dll"
-        }
-      ]
+      "host": "twinapi.appcore.dll"
     },
     {
       "name": "api-ms-win-core-psm-rtimer-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "twinapi.appcore.dll"
-        }
-      ]
+      "host": "twinapi.appcore.dll"
     },
     {
       "name": "api-ms-win-core-psm-tc-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "twinapi.appcore.dll"
-        }
-      ]
+      "host": "twinapi.appcore.dll"
     },
     {
       "name": "api-ms-win-core-quirks-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-realtime-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-registry-fromapp-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "reguwpapi.dll"
-        }
-      ]
+      "host": "reguwpapi.dll"
     },
     {
       "name": "api-ms-win-core-registry-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-registry-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-core-registry-l2-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-core-registry-l2-3-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-core-registry-private-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-core-registryuserspecific-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-rtlsupport-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ntdll.dll"
-        }
-      ]
+      "host": "ntdll.dll"
     },
     {
       "name": "api-ms-win-core-rtlsupport-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ntdll.dll"
-        }
-      ]
+      "host": "ntdll.dll"
     },
     {
       "name": "api-ms-win-core-shlwapi-legacy-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-shlwapi-obsolete-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-shlwapi-obsolete-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-shutdown-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-core-shutdown-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-core-sidebyside-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-sidebyside-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-slapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "clipc.dll"
-        }
-      ]
+      "host": "clipc.dll"
     },
     {
       "name": "api-ms-win-core-string-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-string-l2-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-string-obsolete-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-stringansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-stringloader-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-synch-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-synch-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-synch-l1-2-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-sysinfo-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-sysinfo-l1-2-4",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-sysinfo-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-core-systemtopology-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-textinput-client-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "textinputframework.dll"
-        }
-      ]
+      "host": "textinputframework.dll"
     },
     {
       "name": "api-ms-win-core-threadpool-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-threadpool-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-threadpool-legacy-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-threadpool-private-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-timezone-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-timezone-private-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-toolhelp-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-ums-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-core-url-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-util-l1-1-1",
-      "values_count": 2,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        },
-        {
-          "name": "kernel32.dll",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-version-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-version-private-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-versionansi-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-windowsceip-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-windowserrorreporting-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-winrt-error-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "combase.dll"
-        }
-      ]
+      "host": "combase.dll"
     },
     {
       "name": "api-ms-win-core-winrt-errorprivate-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "combase.dll"
-        }
-      ]
+      "host": "combase.dll"
     },
     {
       "name": "api-ms-win-core-winrt-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "combase.dll"
-        }
-      ]
+      "host": "combase.dll"
     },
     {
       "name": "api-ms-win-core-winrt-propertysetprivate-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wintypes.dll"
-        }
-      ]
+      "host": "wintypes.dll"
     },
     {
       "name": "api-ms-win-core-winrt-registration-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "combase.dll"
-        }
-      ]
+      "host": "combase.dll"
     },
     {
       "name": "api-ms-win-core-winrt-robuffer-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wintypes.dll"
-        }
-      ]
+      "host": "wintypes.dll"
     },
     {
       "name": "api-ms-win-core-winrt-roparameterizediid-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "combase.dll"
-        }
-      ]
+      "host": "combase.dll"
     },
     {
       "name": "api-ms-win-core-winrt-string-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "combase.dll"
-        }
-      ]
+      "host": "combase.dll"
     },
     {
       "name": "api-ms-win-core-wow64-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-core-xstate-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ntdll.dll"
-        }
-      ]
+      "host": "ntdll.dll"
     },
     {
       "name": "api-ms-win-core-xstate-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-coremessaging-host-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "api-ms-win-coreui-secruntime-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "api-ms-win-crt-conio-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-convert-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-environment-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-filesystem-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-heap-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-locale-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-math-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-multibyte-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-private-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-process-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-runtime-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-stdio-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-string-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-time-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-crt-utility-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ucrtbase.dll"
-        }
-      ]
+      "host": "ucrtbase.dll"
     },
     {
       "name": "api-ms-win-deprecated-apis-advapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "api-ms-win-deprecated-apis-legacy-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "api-ms-win-deprecated-apis-legacy-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "api-ms-win-deprecated-apis-obsolete-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-devices-config-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "cfgmgr32.dll"
-        }
-      ]
+      "host": "cfgmgr32.dll"
     },
     {
       "name": "api-ms-win-devices-query-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "cfgmgr32.dll"
-        }
-      ]
+      "host": "cfgmgr32.dll"
     },
     {
       "name": "api-ms-win-devices-swdevice-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "cfgmgr32.dll"
-        }
-      ]
+      "host": "cfgmgr32.dll"
     },
     {
       "name": "api-ms-win-downlevel-advapi32-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-downlevel-advapi32-l2-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-downlevel-advapi32-l3-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ntmarta.dll"
-        }
-      ]
+      "host": "ntmarta.dll"
     },
     {
       "name": "api-ms-win-downlevel-advapi32-l4-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-downlevel-kernel32-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-downlevel-kernel32-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-downlevel-normaliz-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-downlevel-ole32-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "combase.dll"
-        }
-      ]
+      "host": "combase.dll"
     },
     {
       "name": "api-ms-win-downlevel-shell32-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-downlevel-shlwapi-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-downlevel-shlwapi-l2-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-downlevel-user32-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-downlevel-version-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-dwmapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "dwmapi.dll"
-        }
-      ]
+      "host": "dwmapi.dll"
     },
     {
       "name": "api-ms-win-dx-d3dkmt-l1-1-4",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32.dll"
-        }
-      ]
+      "host": "gdi32.dll"
     },
     {
       "name": "api-ms-win-eventing-classicprovider-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-eventing-consumer-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-eventing-controller-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-eventing-legacy-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-eventing-obsolete-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-eventing-provider-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-eventing-tdh-l1-1-0",
-      "values_count": 2,
-      "values": [
-        {
-          "name": "",
-          "value": "tdh.dll"
-        },
-        {
-          "name": "tdh.dll",
-          "value": "mintdh.dll"
-        }
-      ]
+      "host": "tdh.dll",
+      "alt_name": "tdh.dll",
+      "alt_host": "mintdh.dll"
     },
     {
       "name": "api-ms-win-eventlog-legacy-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-eventlog-private-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-gaming-deviceinformation-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-gaming-expandedresources-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gamemode.dll"
-        }
-      ]
+      "host": "gamemode.dll"
     },
     {
       "name": "api-ms-win-gaming-gamemonitor-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gamemonitor.dll"
-        }
-      ]
+      "host": "gamemonitor.dll"
     },
     {
       "name": "api-ms-win-gaming-tcui-l1-1-4",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gamingtcui.dll"
-        }
-      ]
+      "host": "gamingtcui.dll"
     },
     {
       "name": "api-ms-win-gdi-dpiinfo-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32.dll"
-        }
-      ]
+      "host": "gdi32.dll"
     },
     {
       "name": "api-ms-win-gdi-internal-uap-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "api-ms-win-http-time-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-input-ie-interactioncontext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "api-ms-win-legacy-shlwapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-mm-joystick-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winmmbase.dll"
-        }
-      ]
+      "host": "winmmbase.dll"
     },
     {
       "name": "api-ms-win-mm-mci-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winmm.dll"
-        }
-      ]
+      "host": "winmm.dll"
     },
     {
       "name": "api-ms-win-mm-misc-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winmmbase.dll"
-        }
-      ]
+      "host": "winmmbase.dll"
     },
     {
       "name": "api-ms-win-mm-misc-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winmm.dll"
-        }
-      ]
+      "host": "winmm.dll"
     },
     {
       "name": "api-ms-win-mm-mme-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winmmbase.dll"
-        }
-      ]
+      "host": "winmmbase.dll"
     },
     {
       "name": "api-ms-win-mm-playsound-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winmm.dll"
-        }
-      ]
+      "host": "winmm.dll"
     },
     {
       "name": "api-ms-win-mm-time-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-net-isolation-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "firewallapi.dll"
-        }
-      ]
+      "host": "firewallapi.dll"
     },
     {
       "name": "api-ms-win-networking-interfacecontexts-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ondemandconnroutehelper.dll"
-        }
-      ]
+      "host": "ondemandconnroutehelper.dll"
     },
     {
       "name": "api-ms-win-ngc-serialization-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ngckeyenum.dll"
-        }
-      ]
+      "host": "ngckeyenum.dll"
     },
     {
       "name": "api-ms-win-ntuser-ie-message-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-ntuser-ie-window-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-ntuser-ie-wmpointer-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-ntuser-rectangle-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-ntuser-sysparams-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-obsolete-localization-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-obsolete-psapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-obsolete-shlwapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-ole32-ie-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ole32.dll"
-        }
-      ]
+      "host": "ole32.dll"
     },
     {
       "name": "api-ms-win-oobe-notification-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "api-ms-win-perf-legacy-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-power-base-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "powrprof.dll"
-        }
-      ]
+      "host": "powrprof.dll"
     },
     {
       "name": "api-ms-win-power-limitsmanagement-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "powrprof.dll"
-        }
-      ]
+      "host": "powrprof.dll"
     },
     {
       "name": "api-ms-win-power-setting-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "powrprof.dll"
-        }
-      ]
+      "host": "powrprof.dll"
     },
     {
       "name": "api-ms-win-ro-typeresolution-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wintypes.dll"
-        }
-      ]
+      "host": "wintypes.dll"
     },
     {
       "name": "api-ms-win-rtcore-minuser-private-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "api-ms-win-rtcore-navigation-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "api-ms-win-rtcore-ntuser-clipboard-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-rtcore-ntuser-draw-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-rtcore-ntuser-powermanagement-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-rtcore-ntuser-private-l1-1-6",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-rtcore-ntuser-shell-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-rtcore-ntuser-synch-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-rtcore-ntuser-window-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-rtcore-ntuser-winevent-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-rtcore-ntuser-wmpointer-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "api-ms-win-rtcore-ole32-clipboard-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ole32.dll"
-        }
-      ]
+      "host": "ole32.dll"
     },
     {
       "name": "api-ms-win-rtcore-session-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "api-ms-win-rtcore-session-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "api-ms-win-security-accesshlpr-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-security-activedirectoryclient-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-security-appcontainer-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-security-audit-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-security-base-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-security-base-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-security-base-l1-2-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-security-base-private-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-security-capability-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-security-cpwl-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-security-credentials-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-security-credentials-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-security-cryptoapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "cryptsp.dll"
-        }
-      ]
+      "host": "cryptsp.dll"
     },
     {
       "name": "api-ms-win-security-grouppolicy-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-security-isolatedcontainer-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-security-logon-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-security-lsalookup-ansi-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-security-lsalookup-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-security-lsalookup-l2-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-security-lsapolicy-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-security-provider-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-security-provider-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ntmarta.dll"
-        }
-      ]
+      "host": "ntmarta.dll"
     },
     {
       "name": "api-ms-win-security-sddl-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-security-sddl-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-security-sddl-private-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-security-sddlparsecond-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-security-systemfunctions-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-security-trustee-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-service-core-ansi-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "api-ms-win-service-core-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-service-management-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-service-management-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-service-private-l1-1-5",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-service-winsvc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-service-winsvc-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sechost.dll"
-        }
-      ]
+      "host": "sechost.dll"
     },
     {
       "name": "api-ms-win-shcore-comhelpers-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-shcore-obsolete-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-shcore-path-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-shcore-registry-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-shcore-scaling-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-shcore-stream-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-shcore-stream-winrt-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-shcore-sysinfo-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-shcore-thread-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-shcore-unicodeansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-shell-associations-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "api-ms-win-shell-changenotify-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "api-ms-win-shell-dataobject-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "api-ms-win-shell-namespace-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "api-ms-win-shell-shdirectory-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shcore.dll"
-        }
-      ]
+      "host": "shcore.dll"
     },
     {
       "name": "api-ms-win-shell-shellcom-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-shell-shellfolders-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "api-ms-win-shlwapi-ie-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shlwapi.dll"
-        }
-      ]
+      "host": "shlwapi.dll"
     },
     {
       "name": "api-ms-win-shlwapi-winrt-storage-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shlwapi.dll"
-        }
-      ]
+      "host": "shlwapi.dll"
     },
     {
       "name": "api-ms-win-stateseparation-helpers-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernelbase.dll"
-        }
-      ]
+      "host": "kernelbase.dll"
     },
     {
       "name": "api-ms-win-storage-exports-external-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "api-ms-win-storage-exports-internal-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "api-ms-win-winrt-search-folder-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.search.dll"
-        }
-      ]
+      "host": "windows.storage.search.dll"
     },
     {
       "name": "api-ms-win-wsl-api-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wslapi.dll"
-        }
-      ]
+      "host": "wslapi.dll"
     },
     {
       "name": "ext-ms-mf-pal-l2-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-net-eap-sim-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "eapsimextdesktop.dll"
-        }
-      ]
+      "host": "eapsimextdesktop.dll"
     },
     {
       "name": "ext-ms-net-vpn-soh-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "vpnsohdesktop.dll"
-        }
-      ]
+      "host": "vpnsohdesktop.dll"
     },
     {
       "name": "ext-ms-onecore-appchromeapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-onecore-appdefaults-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "ext-ms-onecore-appmodel-emclient-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-onecore-appmodel-emsvcs-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-onecore-appmodel-pacmanclient-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-onecore-appmodel-plm-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "execmodelclient.dll"
-        }
-      ]
+      "host": "execmodelclient.dll"
     },
     {
       "name": "ext-ms-onecore-appmodel-staterepository-cache-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.staterepositorycore.dll"
-        }
-      ]
+      "host": "windows.staterepositorycore.dll"
     },
     {
       "name": "ext-ms-onecore-appmodel-staterepository-internal-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.staterepositoryclient.dll"
-        }
-      ]
+      "host": "windows.staterepositoryclient.dll"
     },
     {
       "name": "ext-ms-onecore-appmodel-tdlmigration-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "tdlmigration.dll"
-        }
-      ]
+      "host": "tdlmigration.dll"
     },
     {
       "name": "ext-ms-onecore-comp-dwmmonitor-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-onecore-dcomp-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "dcomp.dll"
-        }
-      ]
+      "host": "dcomp.dll"
     },
     {
       "name": "ext-ms-onecore-defaultdiscovery-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-onecore-hcap-svf-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "svf.dll"
-        }
-      ]
+      "host": "svf.dll"
     },
     {
       "name": "ext-ms-onecore-hlink-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "hlink.dll"
-        }
-      ]
+      "host": "hlink.dll"
     },
     {
       "name": "ext-ms-onecore-hnetcfg-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "hnetcfgclient.dll"
-        }
-      ]
+      "host": "hnetcfgclient.dll"
     },
     {
       "name": "ext-ms-onecore-ipnathlp-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ipnathlpclient.dll"
-        }
-      ]
+      "host": "ipnathlpclient.dll"
     },
     {
       "name": "ext-ms-onecore-mpc-input-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "hologramcompositor.dll"
-        }
-      ]
+      "host": "hologramcompositor.dll"
     },
     {
       "name": "ext-ms-onecore-orientation-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-onecore-shellchromeapi-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-onecore-shellremindersapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-onecore-shlwapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shlwapi.dll"
-        }
-      ]
+      "host": "shlwapi.dll"
     },
     {
       "name": "ext-ms-onecore-spectrumsyncclient-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "spectrumsyncclient.dll"
-        }
-      ]
+      "host": "spectrumsyncclient.dll"
     },
     {
       "name": "ext-ms-win-adsi-activeds-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "activeds.dll"
-        }
-      ]
+      "host": "activeds.dll"
     },
     {
       "name": "ext-ms-win-advapi32-auth-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-advapi32-encryptedfile-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-advapi32-eventlog-ansi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-advapi32-eventlog-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-advapi32-hwprof-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-advapi32-idletask-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-advapi32-lsa-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-advapi32-msi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-advapi32-npusername-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-advapi32-ntmarta-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-advapi32-psm-app-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "twinapi.appcore.dll"
-        }
-      ]
+      "host": "twinapi.appcore.dll"
     },
     {
       "name": "ext-ms-win-advapi32-registry-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-advapi32-safer-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-advapi32-shutdown-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "advapi32.dll"
-        }
-      ]
+      "host": "advapi32.dll"
     },
     {
       "name": "ext-ms-win-appcompat-aepic-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "aepic.dll"
-        }
-      ]
+      "host": "aepic.dll"
     },
     {
       "name": "ext-ms-win-appcompat-apphelp-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "apphelp.dll"
-        }
-      ]
+      "host": "apphelp.dll"
     },
     {
       "name": "ext-ms-win-appcompat-pcacli-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "pcacli.dll"
-        }
-      ]
+      "host": "pcacli.dll"
     },
     {
       "name": "ext-ms-win-appmodel-activation-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "activationmanager.dll"
-        }
-      ]
+      "host": "activationmanager.dll"
     },
     {
       "name": "ext-ms-win-appmodel-appcontainerpath-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-appmodel-appexecutionalias-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "apisethost.appexecutionalias.dll"
-        }
-      ]
+      "host": "apisethost.appexecutionalias.dll"
     },
     {
       "name": "ext-ms-win-appmodel-datasharingservice-extensions-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-appmodel-daxcore-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "daxexec.dll"
-        }
-      ]
+      "host": "daxexec.dll"
     },
     {
       "name": "ext-ms-win-appmodel-deployment-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-appmodel-deploymentvolumes-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-appmodel-opc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "opcservices.dll"
-        }
-      ]
+      "host": "opcservices.dll"
     },
     {
       "name": "ext-ms-win-appmodel-restrictedappcontainer-internal-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "ext-ms-win-appmodel-state-ext-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "ext-ms-win-appmodel-usercontext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-appmodel-viewscalefactor-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-appxdeploymentclient-appxdeploy-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "appxdeploymentclient.dll"
-        }
-      ]
+      "host": "appxdeploymentclient.dll"
     },
     {
       "name": "ext-ms-win-appxdeploymentclient-appxdeployonecore-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "appxdeploymentclient.dll"
-        }
-      ]
+      "host": "appxdeploymentclient.dll"
     },
     {
       "name": "ext-ms-win-audiocore-coreaudiopolicymanager-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "coreaudiopolicymanagerext.dll"
-        }
-      ]
+      "host": "coreaudiopolicymanagerext.dll"
     },
     {
       "name": "ext-ms-win-audiocore-pal-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-audiocore-policymanager-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-audiocore-spatial-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-authz-claimpolicies-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "authz.dll"
-        }
-      ]
+      "host": "authz.dll"
     },
     {
       "name": "ext-ms-win-authz-context-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "authz.dll"
-        }
-      ]
+      "host": "authz.dll"
     },
     {
       "name": "ext-ms-win-authz-remote-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "logoncli.dll"
-        }
-      ]
+      "host": "logoncli.dll"
     },
     {
       "name": "ext-ms-win-base-psapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "psapi.dll"
-        }
-      ]
+      "host": "psapi.dll"
     },
     {
       "name": "ext-ms-win-base-rstrtmgr-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rstrtmgr.dll"
-        }
-      ]
+      "host": "rstrtmgr.dll"
     },
     {
       "name": "ext-ms-win-biometrics-winbio-core-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winbio.dll"
-        }
-      ]
+      "host": "winbio.dll"
     },
     {
       "name": "ext-ms-win-biometrics-winbio-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winbio.dll"
-        }
-      ]
+      "host": "winbio.dll"
     },
     {
       "name": "ext-ms-win-biometrics-winbio-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winbioext.dll"
-        }
-      ]
+      "host": "winbioext.dll"
     },
     {
       "name": "ext-ms-win-biometrics-winbio-l1-3-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winbioext.dll"
-        }
-      ]
+      "host": "winbioext.dll"
     },
     {
       "name": "ext-ms-win-bluetooth-apis-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "bluetoothapis.dll"
-        }
-      ]
+      "host": "bluetoothapis.dll"
     },
     {
       "name": "ext-ms-win-bluetooth-apis-private-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "bluetoothapis.dll"
-        }
-      ]
+      "host": "bluetoothapis.dll"
     },
     {
       "name": "ext-ms-win-branding-winbrand-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winbrand.dll"
-        }
-      ]
+      "host": "winbrand.dll"
     },
     {
       "name": "ext-ms-win-branding-winbrand-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winbrand.dll"
-        }
-      ]
+      "host": "winbrand.dll"
     },
     {
       "name": "ext-ms-win-casting-device-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-casting-lockscreen-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "castingshellext.dll"
-        }
-      ]
+      "host": "castingshellext.dll"
     },
     {
       "name": "ext-ms-win-casting-receiver-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-casting-shell-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "castingshellext.dll"
-        }
-      ]
+      "host": "castingshellext.dll"
     },
     {
       "name": "ext-ms-win-ci-xbox-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-cloudap-tbal-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-clouddomainjoin-usermanagement-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-cluster-clusapi-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "clusapi.dll"
-        }
-      ]
+      "host": "clusapi.dll"
     },
     {
       "name": "ext-ms-win-cluster-resutils-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "resutils.dll"
-        }
-      ]
+      "host": "resutils.dll"
     },
     {
       "name": "ext-ms-win-cmd-util-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "cmdext.dll"
-        }
-      ]
+      "host": "cmdext.dll"
     },
     {
       "name": "ext-ms-win-cng-rng-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "bcryptprimitives.dll"
-        }
-      ]
+      "host": "bcryptprimitives.dll"
     },
     {
       "name": "ext-ms-win-com-clbcatq-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "clbcatq.dll"
-        }
-      ]
+      "host": "clbcatq.dll"
     },
     {
       "name": "ext-ms-win-com-coml2-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "coml2.dll"
-        }
-      ]
+      "host": "coml2.dll"
     },
     {
       "name": "ext-ms-win-com-ole32-l1-1-5",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ole32.dll"
-        }
-      ]
+      "host": "ole32.dll"
     },
     {
       "name": "ext-ms-win-com-psmregister-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "ext-ms-win-com-psmregister-l1-2-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "ext-ms-win-com-psmregister-l1-3-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "ext-ms-win-com-suspendresiliency-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-composition-ghost-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "dwmghost.dll"
-        }
-      ]
+      "host": "dwmghost.dll"
     },
     {
       "name": "ext-ms-win-composition-holographic-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "hologramcompositor.dll"
-        }
-      ]
+      "host": "hologramcompositor.dll"
     },
     {
       "name": "ext-ms-win-composition-init-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "dwminit.dll"
-        }
-      ]
+      "host": "dwminit.dll"
     },
     {
       "name": "ext-ms-win-compositor-hosting-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ism.dll"
-        }
-      ]
+      "host": "ism.dll"
     },
     {
       "name": "ext-ms-win-compositor-hosting-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ism.dll"
-        }
-      ]
+      "host": "ism.dll"
     },
     {
       "name": "ext-ms-win-core-app-package-registration-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-core-app-package-volume-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-core-dhcp6client-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-core-iuri-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "urlmon.dll"
-        }
-      ]
+      "host": "urlmon.dll"
     },
     {
       "name": "ext-ms-win-core-licensemanager-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-core-psm-extendedresourcemode-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-core-psm-service-l1-1-4",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "psmserviceexthost.dll"
-        }
-      ]
+      "host": "psmserviceexthost.dll"
     },
     {
       "name": "ext-ms-win-core-resourcemanager-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rmclient.dll"
-        }
-      ]
+      "host": "rmclient.dll"
     },
     {
       "name": "ext-ms-win-core-resourcemanager-l1-2-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rmclient.dll"
-        }
-      ]
+      "host": "rmclient.dll"
     },
     {
       "name": "ext-ms-win-core-resourcepolicy-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "resourcepolicyclient.dll"
-        }
-      ]
+      "host": "resourcepolicyclient.dll"
     },
     {
       "name": "ext-ms-win-core-resourcepolicyserver-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "resourcepolicyserver.dll"
-        }
-      ]
+      "host": "resourcepolicyserver.dll"
     },
     {
       "name": "ext-ms-win-core-stateseparationext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-core-storelicensing-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "licensemanagerapi.dll"
-        }
-      ]
+      "host": "licensemanagerapi.dll"
     },
     {
       "name": "ext-ms-win-core-storelicensing-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "licensemanagerapi.dll"
-        }
-      ]
+      "host": "licensemanagerapi.dll"
     },
     {
       "name": "ext-ms-win-core-winrt-remote-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-core-winsrv-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winsrvext.dll"
-        }
-      ]
+      "host": "winsrvext.dll"
     },
     {
       "name": "ext-ms-win-core-xbrm-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-coreui-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-coreui-navshutdown-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "navshutdown.dll"
-        }
-      ]
+      "host": "navshutdown.dll"
     },
     {
       "name": "ext-ms-win-crypto-xbox-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-deployment-productenumerator-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "productenumerator.dll"
-        }
-      ]
+      "host": "productenumerator.dll"
     },
     {
       "name": "ext-ms-win-desktopappx-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "daxexec.dll"
-        }
-      ]
+      "host": "daxexec.dll"
     },
     {
       "name": "ext-ms-win-devmgmt-dm-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "dmapisetextimpldesktop.dll"
-        }
-      ]
+      "host": "dmapisetextimpldesktop.dll"
     },
     {
       "name": "ext-ms-win-devmgmt-policy-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "policymanager.dll"
-        }
-      ]
+      "host": "policymanager.dll"
     },
     {
       "name": "ext-ms-win-direct2d-desktop-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "direct2ddesktop.dll"
-        }
-      ]
+      "host": "direct2ddesktop.dll"
     },
     {
       "name": "ext-ms-win-domainjoin-netjoin-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "netjoin.dll"
-        }
-      ]
+      "host": "netjoin.dll"
     },
     {
       "name": "ext-ms-win-dwmapi-ext-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "dwmapi.dll"
-        }
-      ]
+      "host": "dwmapi.dll"
     },
     {
       "name": "ext-ms-win-dwmapidxgi-ext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "dwmapi.dll"
-        }
-      ]
+      "host": "dwmapi.dll"
     },
     {
       "name": "ext-ms-win-dx-d3d9-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "d3d9.dll"
-        }
-      ]
+      "host": "d3d9.dll"
     },
     {
       "name": "ext-ms-win-dx-ddraw-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ddraw.dll"
-        }
-      ]
+      "host": "ddraw.dll"
     },
     {
       "name": "ext-ms-win-dx-dinput8-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "dinput8.dll"
-        }
-      ]
+      "host": "dinput8.dll"
     },
     {
       "name": "ext-ms-win-edputil-policy-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "edputil.dll"
-        }
-      ]
+      "host": "edputil.dll"
     },
     {
       "name": "ext-ms-win-els-elscore-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "elscore.dll"
-        }
-      ]
+      "host": "elscore.dll"
     },
     {
       "name": "ext-ms-win-eventing-pdh-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "pdh.dll"
-        }
-      ]
+      "host": "pdh.dll"
     },
     {
       "name": "ext-ms-win-eventing-rundown-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "etwrundown.dll"
-        }
-      ]
+      "host": "etwrundown.dll"
     },
     {
       "name": "ext-ms-win-eventing-tdh-ext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "tdh.dll"
-        }
-      ]
+      "host": "tdh.dll"
     },
     {
       "name": "ext-ms-win-familysafety-childaccount-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "familysafetyext.dll"
-        }
-      ]
+      "host": "familysafetyext.dll"
     },
     {
       "name": "ext-ms-win-feclient-encryptedfile-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "feclient.dll"
-        }
-      ]
+      "host": "feclient.dll"
     },
     {
       "name": "ext-ms-win-firewallapi-webproxy-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "firewallapi.dll"
-        }
-      ]
+      "host": "firewallapi.dll"
     },
     {
       "name": "ext-ms-win-font-fontgroups-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "fontgroupsoverride.dll"
-        }
-      ]
+      "host": "fontgroupsoverride.dll"
     },
     {
       "name": "ext-ms-win-fs-clfs-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "clfs.sys"
-        }
-      ]
+      "host": "clfs.sys"
     },
     {
       "name": "ext-ms-win-fs-cscapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "cscapi.dll"
-        }
-      ]
+      "host": "cscapi.dll"
     },
     {
       "name": "ext-ms-win-fs-vssapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "vssapi.dll"
-        }
-      ]
+      "host": "vssapi.dll"
     },
     {
       "name": "ext-ms-win-fsutilext-ifsutil-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "fsutilext.dll"
-        }
-      ]
+      "host": "fsutilext.dll"
     },
     {
       "name": "ext-ms-win-fsutilext-ulib-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "fsutilext.dll"
-        }
-      ]
+      "host": "fsutilext.dll"
     },
     {
       "name": "ext-ms-win-fveapi-query-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "fveapi.dll"
-        }
-      ]
+      "host": "fveapi.dll"
     },
     {
       "name": "ext-ms-win-gaming-gamechatoverlay-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gamechatoverlayext.dll"
-        }
-      ]
+      "host": "gamechatoverlayext.dll"
     },
     {
       "name": "ext-ms-win-gaming-xblgamesave-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "xblgamesaveext.dll"
-        }
-      ]
+      "host": "xblgamesaveext.dll"
     },
     {
       "name": "ext-ms-win-gaming-xinput-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "xinputuap.dll"
-        }
-      ]
+      "host": "xinputuap.dll"
     },
     {
       "name": "ext-ms-win-gdi-clipping-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-gdi-dc-create-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-gdi-dc-l1-2-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-gdi-devcaps-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-gdi-draw-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-gdi-font-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-gdi-gdiplus-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdiplus.dll"
-        }
-      ]
+      "host": "gdiplus.dll"
     },
     {
       "name": "ext-ms-win-gdi-internal-desktop-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-gdi-metafile-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-gdi-path-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-gdi-print-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-gdi-private-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-gdi-render-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32.dll"
-        }
-      ]
+      "host": "gdi32.dll"
     },
     {
       "name": "ext-ms-win-gdi-rgn-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-gdi-wcs-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-globalization-collation-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "globcollationhost.dll"
-        }
-      ]
+      "host": "globcollationhost.dll"
     },
     {
       "name": "ext-ms-win-globalization-input-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "globinputhost.dll"
-        }
-      ]
+      "host": "globinputhost.dll"
     },
     {
       "name": "ext-ms-win-gpapi-grouppolicy-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gpapi.dll"
-        }
-      ]
+      "host": "gpapi.dll"
     },
     {
       "name": "ext-ms-win-gpsvc-grouppolicy-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gpsvc.dll"
-        }
-      ]
+      "host": "gpsvc.dll"
     },
     {
       "name": "ext-ms-win-gui-dui70-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "dui70.dll"
-        }
-      ]
+      "host": "dui70.dll"
     },
     {
       "name": "ext-ms-win-gui-ieui-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ieui.dll"
-        }
-      ]
+      "host": "ieui.dll"
     },
     {
       "name": "ext-ms-win-gui-uxinit-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "uxinit.dll"
-        }
-      ]
+      "host": "uxinit.dll"
     },
     {
       "name": "ext-ms-win-hyperv-compute-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "vmcompute.dll"
-        }
-      ]
+      "host": "vmcompute.dll"
     },
     {
       "name": "ext-ms-win-hyperv-hgs-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "vmhgs.dll"
-        }
-      ]
+      "host": "vmhgs.dll"
     },
     {
       "name": "ext-ms-win-hyperv-hvemulation-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winhvemulation.dll"
-        }
-      ]
+      "host": "winhvemulation.dll"
     },
     {
       "name": "ext-ms-win-hyperv-hvplatform-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winhvplatform.dll"
-        }
-      ]
+      "host": "winhvplatform.dll"
     },
     {
       "name": "ext-ms-win-imm-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "imm32.dll"
-        }
-      ]
+      "host": "imm32.dll"
     },
     {
       "name": "ext-ms-win-kernel32-appcompat-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "ext-ms-win-kernel32-datetime-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "ext-ms-win-kernel32-elevation-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "ext-ms-win-kernel32-errorhandling-l1-1-0",
-      "values_count": 2,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        },
-        {
-          "name": "kernel32.dll",
-          "value": "faultrep.dll"
-        }
-      ]
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "faultrep.dll"
     },
     {
       "name": "ext-ms-win-kernel32-file-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "ext-ms-win-kernel32-localization-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "ext-ms-win-kernel32-package-current-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "ext-ms-win-kernel32-package-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel.appcore.dll"
-        }
-      ]
+      "host": "kernel.appcore.dll"
     },
     {
       "name": "ext-ms-win-kernel32-process-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "ext-ms-win-kernel32-quirks-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "ext-ms-win-kernel32-registry-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "ext-ms-win-kernel32-sidebyside-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "ext-ms-win-kernel32-transacted-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "ext-ms-win-kernel32-windowserrorreporting-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "ext-ms-win-kernelbase-processthread-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kernel32.dll"
-        }
-      ]
+      "host": "kernel32.dll"
     },
     {
       "name": "ext-ms-win-kioskmode-config-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-mapi-mapi32-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "mapistub.dll"
-        }
-      ]
+      "host": "mapistub.dll"
     },
     {
       "name": "ext-ms-win-media-avi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "avifil32.dll"
-        }
-      ]
+      "host": "avifil32.dll"
     },
     {
       "name": "ext-ms-win-mf-vfw-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "mfvfw.dll"
-        }
-      ]
+      "host": "mfvfw.dll"
     },
     {
       "name": "ext-ms-win-mininput-cursorhost-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "inputhost.dll"
-        }
-      ]
+      "host": "inputhost.dll"
     },
     {
       "name": "ext-ms-win-mininput-extensions-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-mininput-inputhost-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "inputhost.dll"
-        }
-      ]
+      "host": "inputhost.dll"
     },
     {
       "name": "ext-ms-win-mininput-inputhost-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "inputhost.dll"
-        }
-      ]
+      "host": "inputhost.dll"
     },
     {
       "name": "ext-ms-win-mininput-systeminputhost-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ism.dll"
-        }
-      ]
+      "host": "ism.dll"
     },
     {
       "name": "ext-ms-win-mm-io-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-mm-msacm-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "msacm32.dll"
-        }
-      ]
+      "host": "msacm32.dll"
     },
     {
       "name": "ext-ms-win-mm-pehelper-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "mf.dll"
-        }
-      ]
+      "host": "mf.dll"
     },
     {
       "name": "ext-ms-win-mm-wmvcore-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wmvcore.dll"
-        }
-      ]
+      "host": "wmvcore.dll"
     },
     {
       "name": "ext-ms-win-mobilecore-deviceinfo-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-mobilecore-ie-textinput-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-moderncore-win32k-base-ntgdi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "win32kfull.sys"
-        }
-      ]
+      "host": "win32kfull.sys"
     },
     {
       "name": "ext-ms-win-moderncore-win32k-base-ntuser-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "win32kfull.sys"
-        }
-      ]
+      "host": "win32kfull.sys"
     },
     {
       "name": "ext-ms-win-moderncore-win32k-base-sysentry-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "win32k.sys"
-        }
-      ]
+      "host": "win32k.sys"
     },
     {
       "name": "ext-ms-win-mpr-multipleproviderrouter-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "mprext.dll"
-        }
-      ]
+      "host": "mprext.dll"
     },
     {
       "name": "ext-ms-win-mrmcorer-environment-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-mrmcorer-resmanager-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "mrmcorer.dll"
-        }
-      ]
+      "host": "mrmcorer.dll"
     },
     {
       "name": "ext-ms-win-msa-device-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-msa-ui-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "msauserext.dll"
-        }
-      ]
+      "host": "msauserext.dll"
     },
     {
       "name": "ext-ms-win-msa-user-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "msauserext.dll"
-        }
-      ]
+      "host": "msauserext.dll"
     },
     {
       "name": "ext-ms-win-msi-misc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "msi.dll"
-        }
-      ]
+      "host": "msi.dll"
     },
     {
       "name": "ext-ms-win-msiltcfg-msi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "msiltcfg.dll"
-        }
-      ]
+      "host": "msiltcfg.dll"
     },
     {
       "name": "ext-ms-win-msimg-draw-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "msimg32.dll"
-        }
-      ]
+      "host": "msimg32.dll"
     },
     {
       "name": "ext-ms-win-net-cmvpn-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "cmintegrator.dll"
-        }
-      ]
+      "host": "cmintegrator.dll"
     },
     {
       "name": "ext-ms-win-net-httpproxyext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "httpprxc.dll"
-        }
-      ]
+      "host": "httpprxc.dll"
     },
     {
       "name": "ext-ms-win-net-isoext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "firewallapi.dll"
-        }
-      ]
+      "host": "firewallapi.dll"
     },
     {
       "name": "ext-ms-win-net-netbios-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "netbios.dll"
-        }
-      ]
+      "host": "netbios.dll"
     },
     {
       "name": "ext-ms-win-net-netshell-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "netshell.dll"
-        }
-      ]
+      "host": "netshell.dll"
     },
     {
       "name": "ext-ms-win-net-nfdapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ndfapi.dll"
-        }
-      ]
+      "host": "ndfapi.dll"
     },
     {
       "name": "ext-ms-win-net-vpn-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-netprovision-netprovfw-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "netprovfw.dll"
-        }
-      ]
+      "host": "netprovfw.dll"
     },
     {
       "name": "ext-ms-win-networking-iphlpsvc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-networking-mpssvc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-networking-ncsiuserprobe-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-networking-nlaapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "nlaapi.dll"
-        }
-      ]
+      "host": "nlaapi.dll"
     },
     {
       "name": "ext-ms-win-networking-radiomonitor-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.devices.radios.dll"
-        }
-      ]
+      "host": "windows.devices.radios.dll"
     },
     {
       "name": "ext-ms-win-networking-teredo-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.networking.connectivity.dll"
-        }
-      ]
+      "host": "windows.networking.connectivity.dll"
     },
     {
       "name": "ext-ms-win-networking-wcmapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wcmapi.dll"
-        }
-      ]
+      "host": "wcmapi.dll"
     },
     {
       "name": "ext-ms-win-networking-winipsec-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winipsec.dll"
-        }
-      ]
+      "host": "winipsec.dll"
     },
     {
       "name": "ext-ms-win-networking-wlanapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wlanapi.dll"
-        }
-      ]
+      "host": "wlanapi.dll"
     },
     {
       "name": "ext-ms-win-networking-wlanstorage-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-networking-xblconnectivity-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-newdev-config-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "newdev.dll"
-        }
-      ]
+      "host": "newdev.dll"
     },
     {
       "name": "ext-ms-win-nfc-semgr-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "semgrsvc.dll"
-        }
-      ]
+      "host": "semgrsvc.dll"
     },
     {
       "name": "ext-ms-win-ntdsa-activedirectoryserver-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ntdsa.dll"
-        }
-      ]
+      "host": "ntdsa.dll"
     },
     {
       "name": "ext-ms-win-ntdsapi-activedirectoryclient-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ntdsapi.dll"
-        }
-      ]
+      "host": "ntdsapi.dll"
     },
     {
       "name": "ext-ms-win-ntos-clipsp-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "clipsp.sys"
-        }
-      ]
+      "host": "clipsp.sys"
     },
     {
       "name": "ext-ms-win-ntos-kcminitcfg-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "cmimcext.sys"
-        }
-      ]
+      "host": "cmimcext.sys"
     },
     {
       "name": "ext-ms-win-ntos-ksecurity-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-ntos-ksigningpolicy-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-ntos-ksr-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-ntos-stateseparation-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-ntos-tm-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "tm.sys"
-        }
-      ]
+      "host": "tm.sys"
     },
     {
       "name": "ext-ms-win-ntos-ucode-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ntosext.sys"
-        }
-      ]
+      "host": "ntosext.sys"
     },
     {
       "name": "ext-ms-win-ntos-vmsvc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-ntos-werkernel-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "werkernel.sys"
-        }
-      ]
+      "host": "werkernel.sys"
     },
     {
       "name": "ext-ms-win-ntuser-caret-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-chartranslation-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-dc-access-ext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-dialogbox-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-draw-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-gui-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-gui-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-gui-l1-3-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-keyboard-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-keyboard-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-keyboard-l1-3-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-menu-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-message-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-misc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-misc-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-misc-l1-3-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-misc-l1-5-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-mit-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-mouse-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-powermanagement-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-private-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-private-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-private-l1-3-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-rawinput-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-rectangle-ext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-rim-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-rotationmanager-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-server-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-string-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-synch-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-sysparams-ext-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-touch-hittest-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-uicontext-ext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-window-l1-1-4",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-windowclass-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-windowstation-ansi-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-ntuser-windowstation-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-odbc-odbc32-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "odbc32.dll"
-        }
-      ]
+      "host": "odbc32.dll"
     },
     {
       "name": "ext-ms-win-ole32-bindctx-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ole32.dll"
-        }
-      ]
+      "host": "ole32.dll"
     },
     {
       "name": "ext-ms-win-ole32-ie-ext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ole32.dll"
-        }
-      ]
+      "host": "ole32.dll"
     },
     {
       "name": "ext-ms-win-ole32-oleautomation-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ole32.dll"
-        }
-      ]
+      "host": "ole32.dll"
     },
     {
       "name": "ext-ms-win-oleacc-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "oleacc.dll"
-        }
-      ]
+      "host": "oleacc.dll"
     },
     {
       "name": "ext-ms-win-onecore-shutdown-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-parentalcontrols-setup-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wpcapi.dll"
-        }
-      ]
+      "host": "wpcapi.dll"
     },
     {
       "name": "ext-ms-win-pinenrollment-enrollment-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "pinenrollmenthelper.dll"
-        }
-      ]
+      "host": "pinenrollmenthelper.dll"
     },
     {
       "name": "ext-ms-win-printer-prntvpt-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "prntvpt.dll"
-        }
-      ]
+      "host": "prntvpt.dll"
     },
     {
       "name": "ext-ms-win-printer-winspool-l1-1-4",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winspool.drv"
-        }
-      ]
+      "host": "winspool.drv"
     },
     {
       "name": "ext-ms-win-profile-extender-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "userenv.dll"
-        }
-      ]
+      "host": "userenv.dll"
     },
     {
       "name": "ext-ms-win-profile-load-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-profile-profsvc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "profsvcext.dll"
-        }
-      ]
+      "host": "profsvcext.dll"
     },
     {
       "name": "ext-ms-win-profile-userenv-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "profext.dll"
-        }
-      ]
+      "host": "profext.dll"
     },
     {
       "name": "ext-ms-win-provisioning-platform-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "provplatformdesktop.dll"
-        }
-      ]
+      "host": "provplatformdesktop.dll"
     },
     {
       "name": "ext-ms-win-ras-rasapi32-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rasapi32.dll"
-        }
-      ]
+      "host": "rasapi32.dll"
     },
     {
       "name": "ext-ms-win-ras-rasdlg-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rasdlg.dll"
-        }
-      ]
+      "host": "rasdlg.dll"
     },
     {
       "name": "ext-ms-win-ras-rasman-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rasman.dll"
-        }
-      ]
+      "host": "rasman.dll"
     },
     {
       "name": "ext-ms-win-ras-tapi32-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "tapi32.dll"
-        }
-      ]
+      "host": "tapi32.dll"
     },
     {
       "name": "ext-ms-win-raschapext-eap-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "raschapext.dll"
-        }
-      ]
+      "host": "raschapext.dll"
     },
     {
       "name": "ext-ms-win-rastlsext-eap-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rastlsext.dll"
-        }
-      ]
+      "host": "rastlsext.dll"
     },
     {
       "name": "ext-ms-win-rdr-davhlpr-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "davhlpr.dll"
-        }
-      ]
+      "host": "davhlpr.dll"
     },
     {
       "name": "ext-ms-win-reinfo-query-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "reinfo.dll"
-        }
-      ]
+      "host": "reinfo.dll"
     },
     {
       "name": "ext-ms-win-remotewipe-platform-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-resourcemanager-crm-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rmclient.dll"
-        }
-      ]
+      "host": "rmclient.dll"
     },
     {
       "name": "ext-ms-win-resourcemanager-gamemode-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rmclient.dll"
-        }
-      ]
+      "host": "rmclient.dll"
     },
     {
       "name": "ext-ms-win-resourcemanager-gamemode-l1-2-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rmclient.dll"
-        }
-      ]
+      "host": "rmclient.dll"
     },
     {
       "name": "ext-ms-win-resources-deployment-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "mrmdeploy.dll"
-        }
-      ]
+      "host": "mrmdeploy.dll"
     },
     {
       "name": "ext-ms-win-resources-languageoverlay-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "languageoverlayutil.dll"
-        }
-      ]
+      "host": "languageoverlayutil.dll"
     },
     {
       "name": "ext-ms-win-ro-typeresolution-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wintypes.dll"
-        }
-      ]
+      "host": "wintypes.dll"
     },
     {
       "name": "ext-ms-win-rometadata-dispenser-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rometadata.dll"
-        }
-      ]
+      "host": "rometadata.dll"
     },
     {
       "name": "ext-ms-win-rpc-firewallportuse-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rpcrtremote.dll"
-        }
-      ]
+      "host": "rpcrtremote.dll"
     },
     {
       "name": "ext-ms-win-rpc-ssl-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "rpcrtremote.dll"
-        }
-      ]
+      "host": "rpcrtremote.dll"
     },
     {
       "name": "ext-ms-win-rtcore-gdi-devcaps-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32.dll"
-        }
-      ]
+      "host": "gdi32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-gdi-object-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32.dll"
-        }
-      ]
+      "host": "gdi32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-gdi-rgn-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32.dll"
-        }
-      ]
+      "host": "gdi32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-minuser-host-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-rtcore-minuser-input-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-rtcore-minuser-private-ext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-console-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-controllernavigation-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "inputhost.dll"
-        }
-      ]
+      "host": "inputhost.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-cursor-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-dc-access-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-dpi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-dpi-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-iam-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-inputintercept-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-integration-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-mininit-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-rawinput-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-synch-ext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-syscolors-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-sysparams-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-window-ext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-winevent-ext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "user32.dll"
-        }
-      ]
+      "host": "user32.dll"
     },
     {
       "name": "ext-ms-win-samsrv-accountstore-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "samsrv.dll"
-        }
-      ]
+      "host": "samsrv.dll"
     },
     {
       "name": "ext-ms-win-scesrv-server-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "scesrv.dll"
-        }
-      ]
+      "host": "scesrv.dll"
     },
     {
       "name": "ext-ms-win-search-folder-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "searchfolder.dll"
-        }
-      ]
+      "host": "searchfolder.dll"
     },
     {
       "name": "ext-ms-win-secur32-translatename-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "secur32.dll"
-        }
-      ]
+      "host": "secur32.dll"
     },
     {
       "name": "ext-ms-win-security-appinfoext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "appinfoext.dll"
-        }
-      ]
+      "host": "appinfoext.dll"
     },
     {
       "name": "ext-ms-win-security-authbrokerui-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "authbrokerui.dll"
-        }
-      ]
+      "host": "authbrokerui.dll"
     },
     {
       "name": "ext-ms-win-security-capauthz-ext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-security-capauthz-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "capauthz.dll"
-        }
-      ]
+      "host": "capauthz.dll"
     },
     {
       "name": "ext-ms-win-security-certpoleng-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "certpoleng.dll"
-        }
-      ]
+      "host": "certpoleng.dll"
     },
     {
       "name": "ext-ms-win-security-cfl-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "cflapi.dll"
-        }
-      ]
+      "host": "cflapi.dll"
     },
     {
       "name": "ext-ms-win-security-chambers-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-security-credui-internal-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wincredui.dll"
-        }
-      ]
+      "host": "wincredui.dll"
     },
     {
       "name": "ext-ms-win-security-credui-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "credui.dll"
-        }
-      ]
+      "host": "credui.dll"
     },
     {
       "name": "ext-ms-win-security-cryptui-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "cryptui.dll"
-        }
-      ]
+      "host": "cryptui.dll"
     },
     {
       "name": "ext-ms-win-security-developerunlock-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-security-deviceid-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-security-efs-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "efsext.dll"
-        }
-      ]
+      "host": "efsext.dll"
     },
     {
       "name": "ext-ms-win-security-efswrt-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "efswrt.dll"
-        }
-      ]
+      "host": "efswrt.dll"
     },
     {
       "name": "ext-ms-win-security-kerberos-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "kerberos.dll"
-        }
-      ]
+      "host": "kerberos.dll"
     },
     {
       "name": "ext-ms-win-security-ngc-local-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ngclocal.dll"
-        }
-      ]
+      "host": "ngclocal.dll"
     },
     {
       "name": "ext-ms-win-security-shutdownext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shutdownext.dll"
-        }
-      ]
+      "host": "shutdownext.dll"
     },
     {
       "name": "ext-ms-win-security-slc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "slc.dll"
-        }
-      ]
+      "host": "slc.dll"
     },
     {
       "name": "ext-ms-win-security-srp-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "srpapi.dll"
-        }
-      ]
+      "host": "srpapi.dll"
     },
     {
       "name": "ext-ms-win-security-tokenbrokerui-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "tokenbrokerui.dll"
-        }
-      ]
+      "host": "tokenbrokerui.dll"
     },
     {
       "name": "ext-ms-win-security-vaultcli-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "vaultcli.dll"
-        }
-      ]
+      "host": "vaultcli.dll"
     },
     {
       "name": "ext-ms-win-security-winscard-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winscard.dll"
-        }
-      ]
+      "host": "winscard.dll"
     },
     {
       "name": "ext-ms-win-sensors-core-private-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sensorsnativeapi.dll"
-        }
-      ]
+      "host": "sensorsnativeapi.dll"
     },
     {
       "name": "ext-ms-win-sensors-utilities-private-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sensorsutilsv2.dll"
-        }
-      ]
+      "host": "sensorsutilsv2.dll"
     },
     {
       "name": "ext-ms-win-session-userinit-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "userinitext.dll"
-        }
-      ]
+      "host": "userinitext.dll"
     },
     {
       "name": "ext-ms-win-session-usermgr-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "usermgrcli.dll"
-        }
-      ]
+      "host": "usermgrcli.dll"
     },
     {
       "name": "ext-ms-win-session-usermgr-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "usermgrcli.dll"
-        }
-      ]
+      "host": "usermgrcli.dll"
     },
     {
       "name": "ext-ms-win-session-usertoken-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wtsapi32.dll"
-        }
-      ]
+      "host": "wtsapi32.dll"
     },
     {
       "name": "ext-ms-win-session-wininit-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wininitext.dll"
-        }
-      ]
+      "host": "wininitext.dll"
     },
     {
       "name": "ext-ms-win-session-winlogon-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winlogonext.dll"
-        }
-      ]
+      "host": "winlogonext.dll"
     },
     {
       "name": "ext-ms-win-session-winsta-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winsta.dll"
-        }
-      ]
+      "host": "winsta.dll"
     },
     {
       "name": "ext-ms-win-session-wtsapi32-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wtsapi32.dll"
-        }
-      ]
+      "host": "wtsapi32.dll"
     },
     {
       "name": "ext-ms-win-setupapi-classinstallers-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "setupapi.dll"
-        }
-      ]
+      "host": "setupapi.dll"
     },
     {
       "name": "ext-ms-win-setupapi-inf-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "setupapi.dll"
-        }
-      ]
+      "host": "setupapi.dll"
     },
     {
       "name": "ext-ms-win-setupapi-logging-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "setupapi.dll"
-        }
-      ]
+      "host": "setupapi.dll"
     },
     {
       "name": "ext-ms-win-shell-aclui-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "aclui.dll"
-        }
-      ]
+      "host": "aclui.dll"
     },
     {
       "name": "ext-ms-win-shell-browsersettingsync-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-shell-comctl32-da-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "comctl32.dll"
-        }
-      ]
+      "host": "comctl32.dll"
     },
     {
       "name": "ext-ms-win-shell-comctl32-init-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "comctl32.dll"
-        }
-      ]
+      "host": "comctl32.dll"
     },
     {
       "name": "ext-ms-win-shell-comctl32-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "comctl32.dll"
-        }
-      ]
+      "host": "comctl32.dll"
     },
     {
       "name": "ext-ms-win-shell-comctl32-window-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "comctl32.dll"
-        }
-      ]
+      "host": "comctl32.dll"
     },
     {
       "name": "ext-ms-win-shell-comdlg32-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "comdlg32.dll"
-        }
-      ]
+      "host": "comdlg32.dll"
     },
     {
       "name": "ext-ms-win-shell-directory-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "ext-ms-win-shell-efsadu-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "efsadu.dll"
-        }
-      ]
+      "host": "efsadu.dll"
     },
     {
       "name": "ext-ms-win-shell-embeddedmode-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "embeddedmodesvcapi.dll"
-        }
-      ]
+      "host": "embeddedmodesvcapi.dll"
     },
     {
       "name": "ext-ms-win-shell-exports-internal-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shell32.dll"
-        }
-      ]
+      "host": "shell32.dll"
     },
     {
       "name": "ext-ms-win-shell-knownfolderext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-shell-ntshrui-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ntshrui.dll"
-        }
-      ]
+      "host": "ntshrui.dll"
     },
     {
       "name": "ext-ms-win-shell-propsys-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "propsys.dll"
-        }
-      ]
+      "host": "propsys.dll"
     },
     {
       "name": "ext-ms-win-shell-settingsync-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "settingsyncpolicy.dll"
-        }
-      ]
+      "host": "settingsyncpolicy.dll"
     },
     {
       "name": "ext-ms-win-shell-shdocvw-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shdocvw.dll"
-        }
-      ]
+      "host": "shdocvw.dll"
     },
     {
       "name": "ext-ms-win-shell-shell32-l1-2-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shell32.dll"
-        }
-      ]
+      "host": "shell32.dll"
     },
     {
       "name": "ext-ms-win-shell-shlwapi-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shlwapi.dll"
-        }
-      ]
+      "host": "shlwapi.dll"
     },
     {
       "name": "ext-ms-win-shell-shlwapi-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "shlwapi.dll"
-        }
-      ]
+      "host": "shlwapi.dll"
     },
     {
       "name": "ext-ms-win-shell-tabbedtitlebar-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "twinapi.appcore.dll"
-        }
-      ]
+      "host": "twinapi.appcore.dll"
     },
     {
       "name": "ext-ms-win-shell32-shellcom-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "ext-ms-win-shell32-shellfolders-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "ext-ms-win-shell32-shellfolders-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "ext-ms-win-smbshare-browser-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "browser.dll"
-        }
-      ]
+      "host": "browser.dll"
     },
     {
       "name": "ext-ms-win-smbshare-browserclient-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "browcli.dll"
-        }
-      ]
+      "host": "browcli.dll"
     },
     {
       "name": "ext-ms-win-smbshare-sscore-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sscoreext.dll"
-        }
-      ]
+      "host": "sscoreext.dll"
     },
     {
       "name": "ext-ms-win-spinf-inf-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "spinf.dll"
-        }
-      ]
+      "host": "spinf.dll"
     },
     {
       "name": "ext-ms-win-storage-hbaapi-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "hbaapi.dll"
-        }
-      ]
+      "host": "hbaapi.dll"
     },
     {
       "name": "ext-ms-win-storage-iscsidsc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "iscsidsc.dll"
-        }
-      ]
+      "host": "iscsidsc.dll"
     },
     {
       "name": "ext-ms-win-storage-sense-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "storageusage.dll"
-        }
-      ]
+      "host": "storageusage.dll"
     },
     {
       "name": "ext-ms-win-storage-sense-l1-2-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "storageusage.dll"
-        }
-      ]
+      "host": "storageusage.dll"
     },
     {
       "name": "ext-ms-win-sxs-oleautomation-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sxs.dll"
-        }
-      ]
+      "host": "sxs.dll"
     },
     {
       "name": "ext-ms-win-test-sys1-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-test-sys2-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-tsf-inputsetting-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "input.dll"
-        }
-      ]
+      "host": "input.dll"
     },
     {
       "name": "ext-ms-win-tsf-msctf-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "msctf.dll"
-        }
-      ]
+      "host": "msctf.dll"
     },
     {
       "name": "ext-ms-win-ttlsext-eap-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "ttlsext.dll"
-        }
-      ]
+      "host": "ttlsext.dll"
     },
     {
       "name": "ext-ms-win-ui-viewmanagement-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-uiacore-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "uiautomationcore.dll"
-        }
-      ]
+      "host": "uiautomationcore.dll"
     },
     {
       "name": "ext-ms-win-umpoext-umpo-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "umpoext.dll"
-        }
-      ]
+      "host": "umpoext.dll"
     },
     {
       "name": "ext-ms-win-usp10-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "gdi32full.dll"
-        }
-      ]
+      "host": "gdi32full.dll"
     },
     {
       "name": "ext-ms-win-uwf-servicing-apis-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "uwfservicingapi.dll"
-        }
-      ]
+      "host": "uwfservicingapi.dll"
     },
     {
       "name": "ext-ms-win-uxtheme-themes-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "uxtheme.dll"
-        }
-      ]
+      "host": "uxtheme.dll"
     },
     {
       "name": "ext-ms-win-wer-reporting-l1-1-2",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wer.dll"
-        }
-      ]
+      "host": "wer.dll"
     },
     {
       "name": "ext-ms-win-wer-ui-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "werui.dll"
-        }
-      ]
+      "host": "werui.dll"
     },
     {
       "name": "ext-ms-win-wer-wct-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wer.dll"
-        }
-      ]
+      "host": "wer.dll"
     },
     {
       "name": "ext-ms-win-wer-xbox-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-wevtapi-eventlog-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wevtapi.dll"
-        }
-      ]
+      "host": "wevtapi.dll"
     },
     {
       "name": "ext-ms-win-winlogon-mincreds-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-winrt-device-access-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "deviceaccess.dll"
-        }
-      ]
+      "host": "deviceaccess.dll"
     },
     {
       "name": "ext-ms-win-winrt-networking-connectivity-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-winrt-storage-fileexplorer-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-winrt-storage-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "ext-ms-win-winrt-storage-l1-2-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.storage.dll"
-        }
-      ]
+      "host": "windows.storage.dll"
     },
     {
       "name": "ext-ms-win-winrt-storage-removable-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-wlan-grouppolicy-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wlgpclnt.dll"
-        }
-      ]
+      "host": "wlgpclnt.dll"
     },
     {
       "name": "ext-ms-win-wlan-onexui-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "onexui.dll"
-        }
-      ]
+      "host": "onexui.dll"
     },
     {
       "name": "ext-ms-win-wlan-scard-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "winscard.dll"
-        }
-      ]
+      "host": "winscard.dll"
     },
     {
       "name": "ext-ms-win-wnv-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wnv.sys"
-        }
-      ]
+      "host": "wnv.sys"
     },
     {
       "name": "ext-ms-win-wpn-phoneext-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-wrp-sfc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "sfc.dll"
-        }
-      ]
+      "host": "sfc.dll"
     },
     {
       "name": "ext-ms-win-wsclient-devlicense-l1-1-1",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wsclient.dll"
-        }
-      ]
+      "host": "wsclient.dll"
     },
     {
       "name": "ext-ms-win-wwaext-misc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wwaext.dll"
-        }
-      ]
+      "host": "wwaext.dll"
     },
     {
       "name": "ext-ms-win-wwaext-module-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wwaext.dll"
-        }
-      ]
+      "host": "wwaext.dll"
     },
     {
       "name": "ext-ms-win-wwan-wwapi-l1-1-3",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "wwapi.dll"
-        }
-      ]
+      "host": "wwapi.dll"
     },
     {
       "name": "ext-ms-win-xaml-controls-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": "windows.ui.xaml.phone.dll"
-        }
-      ]
+      "host": "windows.ui.xaml.phone.dll"
     },
     {
       "name": "ext-ms-win-xaml-pal-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-xblauth-console-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-win-xboxlive-xboxnetapisvc-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     },
     {
       "name": "ext-ms-windowscore-deviceinfo-l1-1-0",
-      "values_count": 1,
-      "values": [
-        {
-          "name": "",
-          "value": ""
-        }
-      ]
+      "host": ""
     }
   ]
 }

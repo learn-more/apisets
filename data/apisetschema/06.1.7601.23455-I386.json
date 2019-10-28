@@ -1,0 +1,161 @@
+{
+  "Version": "6.1.7601.23455-I386",
+  "md5": "5696e291c7b53be4f83f9c43a0ae3454",
+  "namespaces_count": 35,
+  "namespaces": [
+    {
+      "name": "MS-Win-Core-Console-L1-1-0",
+      "host": "kernel32.dll"
+    },
+    {
+      "name": "MS-Win-Core-DateTime-L1-1-0",
+      "host": "kernel32.dll"
+    },
+    {
+      "name": "MS-Win-Core-Debug-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-DelayLoad-L1-1-0",
+      "host": "kernel32.dll"
+    },
+    {
+      "name": "MS-Win-Core-ErrorHandling-L1-1-0",
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-Fibers-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-File-L1-1-0",
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-Handle-L1-1-0",
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-Heap-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-Interlocked-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-IO-L1-1-0",
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-LibraryLoader-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-Localization-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-LocalRegistry-L1-1-0",
+      "host": "kernel32.dll"
+    },
+    {
+      "name": "MS-Win-Core-Memory-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-Misc-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-NamedPipe-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-ProcessEnvironment-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-ProcessThreads-L1-1-0",
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-Profile-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-RtlSupport-L1-1-0",
+      "host": "ntdll.dll"
+    },
+    {
+      "name": "MS-Win-Core-String-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-Synch-L1-1-0",
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-SysInfo-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-ThreadPool-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-UMS-L1-1-0",
+      "host": "kernel32.dll"
+    },
+    {
+      "name": "MS-Win-Core-Util-L1-1-0",
+      "host": "kernel32.dll",
+      "alt_name": "kernel32.dll",
+      "alt_host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Core-XState-L1-1-0",
+      "host": "ntdll.dll"
+    },
+    {
+      "name": "MS-Win-Security-Base-L1-1-0",
+      "host": "kernelbase.dll"
+    },
+    {
+      "name": "MS-Win-Security-LSALookup-L1-1-0",
+      "host": "sechost.dll"
+    },
+    {
+      "name": "MS-Win-Security-SDDL-L1-1-0",
+      "host": "sechost.dll"
+    },
+    {
+      "name": "MS-Win-Service-Core-L1-1-0",
+      "host": "sechost.dll"
+    },
+    {
+      "name": "MS-Win-Service-Management-L1-1-0",
+      "host": "sechost.dll"
+    },
+    {
+      "name": "MS-Win-Service-Management-L2-1-0",
+      "host": "sechost.dll"
+    },
+    {
+      "name": "MS-Win-Service-winsvc-L1-1-0",
+      "host": "sechost.dll"
+    }
+  ]
+}
