@@ -1,4 +1,17 @@
 baseURL = "https://learn-more.github.io/apisets/"
 languageCode = "en-us"
 title = "apisets index"
-theme = "beautifulhugo"
+theme = "hugo-theme-techdoc"
+
+metaDataFormat = "yaml"
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[Params]
+  # Souce Code repository section
+  description = "apiset information"
+  github_repository = "https://github.com/learn-more/apisets"
+
+  # Documentation repository section
+  github_doc_repository = "https://github.com/learn-more/apisets"
