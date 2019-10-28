@@ -1,0 +1,10 @@
+
+<ul>
+{{ range sort $.Site.Data.apisetschema }}
+    <li><a href="#{{ .Version }}">{{ .Version }}</a></li>
+{{ end }}
+</ul>
+
+{{ range sort $.Site.Data.apisetschema }}
+    {{ partial "apisetschema.html" . }}
+{{ end }}
