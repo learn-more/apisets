@@ -1,0 +1,4 @@
+baseURL = "https://learn-more.github.io/apisets/"
+languageCode = "en-us"
+title = "apisets index"
+theme = "beautifulhugo"
