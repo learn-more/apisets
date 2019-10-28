@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>apisets index</title><link>https://learn-more.github.io/apisets/</link><description>Recent content on apisets index</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 28 Oct 2019 21:10:49 +0100</lastBuildDate><atom:link href="https://learn-more.github.io/apisets/index.xml" rel="self" type="application/rss+xml"/><item><title>Apiset forwarders</title><link>https://learn-more.github.io/apisets/</link><pubDate>Mon, 28 Oct 2019 21:10:49 +0100</pubDate><guid>https://learn-more.github.io/apisets/</guid><description>This is a test page for hugo</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>apisets index</title><link>https://learn-more.github.io/apisets/</link><description>Recent content on apisets index</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 28 Oct 2019 21:10:49 +0100</lastBuildDate><atom:link href="https://learn-more.github.io/apisets/index.xml" rel="self" type="application/rss+xml"/><item><title>Apiset forwarders</title><link>https://learn-more.github.io/apisets/</link><pubDate>Mon, 28 Oct 2019 21:10:49 +0100</pubDate><guid>https://learn-more.github.io/apisets/</guid><description>6.1.7601.23455-AMD64
+6.1.7601.23455-I386
+6.3.9600.16384-AMD64
+10.0.17134.1-AMD64
+10.0.17763.1-AMD64
+6.1.7601.23455-AMD64
+Generated from apisetschema.dll with md5: e82eb00e9d6878ef8a4051d3ca6c52e1
+Apisethost
+MS-Win-Core-Console-L1-1-0
+kernel32.dll
+MS-Win-Core-DateTime-L1-1-0
+kernel32.dll
+MS-Win-Core-Debug-L1-1-0
+kernelbase.dll
+MS-Win-Core-DelayLoad-L1-1-0
+kernel32.dll
+MS-Win-Core-ErrorHandling-L1-1-0
+kernel32.dll
+(kernel32.dll - kernelbase.dll)
+MS-Win-Core-Fibers-L1-1-0
+kernelbase.dll
+MS-Win-Core-File-L1-1-0
+kernel32.dll
+(kernel32.dll - kernelbase.dll)
+MS-Win-Core-Handle-L1-1-0
+kernel32.dll
+(kernel32.dll - kernelbase.dll)
+MS-Win-Core-Heap-L1-1-0
+kernelbase.dll
+MS-Win-Core-Interlocked-L1-1-0
+kernelbase.</description></item></channel></rss>
