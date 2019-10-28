@@ -71,14 +71,15 @@ def process_file(input_file, output_dir):
         'namespaces': namespaces
     }
     filename = '{}.json'.format(name)
-    with open(Path(output_dir) / filename, 'w') as json_file:
+    output_dir.mkdir(parents=True, exist_ok=True)
+    with open(output_dir / filename, 'w') as json_file:
         dump(obj, json_file, indent='  ')
 
 
 
 def main(input_dir, output_dir):
     for filename in Path(input_dir).glob('**/apisetschema.dll'):
-        process_file(filename, output_dir)
+        process_file(filename, output_dir / 'apisetschema')
 
 if __name__ == '__main__':
     main(input_dir= DEFAULTINPUTDIR, output_dir= DEFAULTDATADIR)
