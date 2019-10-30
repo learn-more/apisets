@@ -1,0 +1,22 @@
+
+{{ with (index $.Site.Data.apisetschema ($.Page.Slug)) }}
+
+Generated from apisetschema.dll with md5: {{ .md5 }}
+
+<table>
+    <tr><th>Apiset</th><th>Host</th><th>Special forwarder</th></tr>
+{{ range .namespaces }}
+    <tr>
+        <td>{{ .name }}</td>
+        <td>{{ .host }}</td>
+        <td>
+            {{ if .alt_name }}
+             {{ .alt_name }} &roarr; {{ .alt_host }}
+            {{ end }}
+        </td>
+    </tr>
+{{ end }}
+</table>
+
+{{ end }}
+
