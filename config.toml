@@ -1,4 +1,4 @@
-baseURL = "https://learn-more.github.io/apisets/"
+baseURL = "https://apisets.info"
 languageCode = "en-us"
 title = "apisets index"
 theme = "hugo-theme-techdoc"
