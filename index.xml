@@ -1,118 +1,113 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apiset forwarders on apisets index</title><link>https://apisets.info/</link><description>Recent content in Apiset forwarders on apisets index</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 28 Oct 2019 21:10:49 +0100</lastBuildDate><atom:link href="https://apisets.info/index.xml" rel="self" type="application/rss+xml"/><item><title>6.1.7601.23455-AMD64</title><link>https://apisets.info/apisetschemas/6.1.7601.23455-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/6.1.7601.23455-amd64/</guid><description>Generated from apisetschema.dll with md5: e82eb00e9d6878ef8a4051d3ca6c52e1
 ApisetHostSpecial forwarder
-MS-Win-Core-Console-L1-1-0
+api-MS-Win-Core-Console-L1-1-0.dll
 kernel32.dll
-MS-Win-Core-DateTime-L1-1-0
+api-MS-Win-Core-DateTime-L1-1-0.dll
 kernel32.dll
-MS-Win-Core-Debug-L1-1-0
+api-MS-Win-Core-Debug-L1-1-0.dll
 kernelbase.dll
-MS-Win-Core-DelayLoad-L1-1-0
+api-MS-Win-Core-DelayLoad-L1-1-0.dll
 kernel32.dll
-MS-Win-Core-ErrorHandling-L1-1-0
+api-MS-Win-Core-ErrorHandling-L1-1-0.dll
 kernel32.dll
 kernel32.dll &amp;roarr; kernelbase.dll
-MS-Win-Core-Fibers-L1-1-0
+api-MS-Win-Core-Fibers-L1-1-0.dll
 kernelbase.dll
-MS-Win-Core-File-L1-1-0
+api-MS-Win-Core-File-L1-1-0.dll
 kernel32.dll
 kernel32.dll &amp;roarr; kernelbase.dll
-MS-Win-Core-Handle-L1-1-0
+api-MS-Win-Core-Handle-L1-1-0.dll
 kernel32.dll
 kernel32.dll &amp;roarr; kernelbase.dll
-MS-Win-Core-Heap-L1-1-0
+api-MS-Win-Core-Heap-L1-1-0.dll
 kernelbase.dll
-MS-Win-Core-Interlocked-L1-1-0
-kernelbase.</description></item><item><title>6.1.7601.23455-I386</title><link>https://apisets.info/apisetschemas/6.1.7601.23455-i386/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/6.1.7601.23455-i386/</guid><description>Generated from apisetschema.dll with md5: 5696e291c7b53be4f83f9c43a0ae3454
+api-MS-Win-Core-Interlocked-L1-1-0.</description></item><item><title>6.1.7601.23455-I386</title><link>https://apisets.info/apisetschemas/6.1.7601.23455-i386/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/6.1.7601.23455-i386/</guid><description>Generated from apisetschema.dll with md5: 5696e291c7b53be4f83f9c43a0ae3454
 ApisetHostSpecial forwarder
-MS-Win-Core-Console-L1-1-0
+api-MS-Win-Core-Console-L1-1-0.dll
 kernel32.dll
-MS-Win-Core-DateTime-L1-1-0
+api-MS-Win-Core-DateTime-L1-1-0.dll
 kernel32.dll
-MS-Win-Core-Debug-L1-1-0
+api-MS-Win-Core-Debug-L1-1-0.dll
 kernelbase.dll
-MS-Win-Core-DelayLoad-L1-1-0
+api-MS-Win-Core-DelayLoad-L1-1-0.dll
 kernel32.dll
-MS-Win-Core-ErrorHandling-L1-1-0
+api-MS-Win-Core-ErrorHandling-L1-1-0.dll
 kernel32.dll
 kernel32.dll &amp;roarr; kernelbase.dll
-MS-Win-Core-Fibers-L1-1-0
+api-MS-Win-Core-Fibers-L1-1-0.dll
 kernelbase.dll
-MS-Win-Core-File-L1-1-0
+api-MS-Win-Core-File-L1-1-0.dll
 kernel32.dll
 kernel32.dll &amp;roarr; kernelbase.dll
-MS-Win-Core-Handle-L1-1-0
+api-MS-Win-Core-Handle-L1-1-0.dll
 kernel32.dll
 kernel32.dll &amp;roarr; kernelbase.dll
-MS-Win-Core-Heap-L1-1-0
+api-MS-Win-Core-Heap-L1-1-0.dll
 kernelbase.dll
-MS-Win-Core-Interlocked-L1-1-0
-kernelbase.</description></item><item><title>6.3.9600.16384-AMD64</title><link>https://apisets.info/apisetschemas/6.3.9600.16384-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/6.3.9600.16384-amd64/</guid><description>Generated from apisetschema.dll with md5: 96a14fd7a76a4bb0d0dfa81f11307c09
+api-MS-Win-Core-Interlocked-L1-1-0.</description></item><item><title>6.3.9600.16384-AMD64</title><link>https://apisets.info/apisetschemas/6.3.9600.16384-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/6.3.9600.16384-amd64/</guid><description>Generated from apisetschema.dll with md5: 96a14fd7a76a4bb0d0dfa81f11307c09
 ApisetHostSpecial forwarder
-ms-win-advapi32-auth-l1-1-0
+api-ms-win-advapi32-auth-l1-1-0.dll
 advapi32.dll
-ms-win-advapi32-encryptedfile-l1-1-0
+api-ms-win-advapi32-encryptedfile-l1-1-0.dll
 advapi32.dll
-ms-win-advapi32-eventingcontroller-l1-1-0
+api-ms-win-advapi32-eventingcontroller-l1-1-0.dll
 advapi32.dll
-ms-win-advapi32-eventlog-l1-1-0
+api-ms-win-advapi32-eventlog-l1-1-0.dll
 advapi32.dll
-ms-win-advapi32-idletask-l1-1-0
+api-ms-win-advapi32-idletask-l1-1-0.dll
 advapi32.dll
-ms-win-advapi32-lsa-l1-1-0
+api-ms-win-advapi32-lsa-l1-1-0.dll
 advapi32.dll
-ms-win-advapi32-msi-l1-1-0
+api-ms-win-advapi32-msi-l1-1-0.dll
 advapi32.dll
-ms-win-advapi32-ntmarta-l1-1-0
+api-ms-win-advapi32-ntmarta-l1-1-0.dll
 advapi32.dll
-ms-win-advapi32-psm-app-l1-1-0
+api-ms-win-advapi32-psm-app-l1-1-0.dll
 twinapi.appcore.dll
-ms-win-advapi32-registry-l1-1-0
+api-ms-win-advapi32-registry-l1-1-0.dll
 advapi32.dll
-ms-win-advapi32-safer-l1-1-0
-advapi32.</description></item><item><title>10.0.17134.1-AMD64</title><link>https://apisets.info/apisetschemas/10.0.17134.1-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/10.0.17134.1-amd64/</guid><description>Generated from apisetschema.dll with md5: d250b2f8fc2465361df4864c92705aa0
+api-ms-win-advapi32-safer-l1-1-0.</description></item><item><title>10.0.17134.1-AMD64</title><link>https://apisets.info/apisetschemas/10.0.17134.1-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/10.0.17134.1-amd64/</guid><description>Generated from apisetschema.dll with md5: d250b2f8fc2465361df4864c92705aa0
 ApisetHostSpecial forwarder
-api-ms-onecoreuap-print-render-l1-1-0
+api-ms-onecoreuap-print-render-l1-1-0.dll
 printrenderapihost.dll
-api-ms-onecoreuap-settingsync-status-l1-1-0
+api-ms-onecoreuap-settingsync-status-l1-1-0.dll
 settingsynccore.dll
-api-ms-win-appmodel-identity-l1-2-0
+api-ms-win-appmodel-identity-l1-2-0.dll
 kernel.appcore.dll
-api-ms-win-appmodel-runtime-internal-l1-1-5
+api-ms-win-appmodel-runtime-internal-l1-1-5.dll
 kernel.appcore.dll
-api-ms-win-appmodel-runtime-l1-1-2
+api-ms-win-appmodel-runtime-l1-1-2.dll
 kernel.appcore.dll
-api-ms-win-appmodel-state-l1-1-2
+api-ms-win-appmodel-state-l1-1-2.dll
 kernel.appcore.dll
-api-ms-win-appmodel-state-l1-2-0
+api-ms-win-appmodel-state-l1-2-0.dll
 kernel.appcore.dll
-api-ms-win-appmodel-unlock-l1-1-0
+api-ms-win-appmodel-unlock-l1-1-0.dll
 kernel.appcore.dll
-api-ms-win-base-bootconfig-l1-1-0
+api-ms-win-base-bootconfig-l1-1-0.dll
 advapi32.dll
-api-ms-win-base-util-l1-1-0
+api-ms-win-base-util-l1-1-0.dll
 advapi32.dll
-api-ms-win-composition-redirection-l1-1-0
-dwmredir.</description></item><item><title>10.0.17763.1-AMD64</title><link>https://apisets.info/apisetschemas/10.0.17763.1-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/10.0.17763.1-amd64/</guid><description>Generated from apisetschema.dll with md5: 14637ec468580238aad580347b700e48
+api-ms-win-composition-redirection-l1-1-0.</description></item><item><title>10.0.17763.1-AMD64</title><link>https://apisets.info/apisetschemas/10.0.17763.1-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/10.0.17763.1-amd64/</guid><description>Generated from apisetschema.dll with md5: 14637ec468580238aad580347b700e48
 ApisetHostSpecial forwarder
-api-ms-onecoreuap-print-render-l1-1-0
+api-ms-onecoreuap-print-render-l1-1-0.dll
 printrenderapihost.dll
-api-ms-onecoreuap-settingsync-status-l1-1-0
+api-ms-onecoreuap-settingsync-status-l1-1-0.dll
 settingsynccore.dll
-api-ms-win-appmodel-identity-l1-2-0
+api-ms-win-appmodel-identity-l1-2-0.dll
 kernel.appcore.dll
-api-ms-win-appmodel-runtime-internal-l1-1-5
+api-ms-win-appmodel-runtime-internal-l1-1-5.dll
 kernel.appcore.dll
-api-ms-win-appmodel-runtime-l1-1-2
+api-ms-win-appmodel-runtime-l1-1-2.dll
 kernel.appcore.dll
-api-ms-win-appmodel-state-l1-1-2
+api-ms-win-appmodel-state-l1-1-2.dll
 kernel.appcore.dll
-api-ms-win-appmodel-state-l1-2-0
+api-ms-win-appmodel-state-l1-2-0.dll
 kernel.appcore.dll
-api-ms-win-appmodel-unlock-l1-1-0
+api-ms-win-appmodel-unlock-l1-1-0.dll
 kernel.appcore.dll
-api-ms-win-base-bootconfig-l1-1-0
+api-ms-win-base-bootconfig-l1-1-0.dll
 advapi32.dll
-api-ms-win-base-util-l1-1-0
+api-ms-win-base-util-l1-1-0.dll
 advapi32.dll
-api-ms-win-composition-redirection-l1-1-0
-dwmredir.</description></item></channel></rss>
+api-ms-win-composition-redirection-l1-1-0.</description></item></channel></rss>
