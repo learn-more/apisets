@@ -1,17 +1,18 @@
-baseURL = "https://apisets.info"
+baseURL = "https://apisets.info/"
 languageCode = "en-us"
-title = "apisets index"
-theme = "hugo-theme-techdoc"
 
-metaDataFormat = "yaml"
+title = "apisets index"
+theme = "kraiklyn-multipage"
 
 pygmentsCodeFences = true
-pygmentsUseClasses = true
+pygmentsStyle = "monokailight"
 
 [Params]
-  # Souce Code repository section
-  description = "apiset information"
-  github_repository = "https://github.com/learn-more/apisets"
+  sidebarColor = "default"
+  externalTitle = "links"
 
-  # Documentation repository section
-  github_doc_repository = "https://github.com/learn-more/apisets"
+[[menu.shortcuts]]
+  name = "apisets on Github"
+  url = "https://github.com/learn-more/apisets"
+  weight = 10
+
