@@ -1,6 +1,14 @@
 {
   "Version": "6.3.9600.16384-AMD64",
   "md5": "96a14fd7a76a4bb0d0dfa81f11307c09",
+  "InternalName": "apisetschema",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Schema DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 93310,
+  "Size": 70496,
+  "Machine": "AMD64",
   "namespaces_count": 502,
   "namespaces": [
     {

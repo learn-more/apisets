@@ -1,8 +1,17 @@
 
 {{ with (index $.Site.Data.apisetschema ($.Page.Slug)) }}
-
-Generated from apisetschema.dll with md5: {{ .md5 }}
-
+<br />
+Generated from apisetschema.dll
+<table class="noborder">
+    <tr><td>InternalName:</td><td>.InternalName</td></tr>
+    <tr><td>CompanyName:</td><td>.CompanyName</td></tr>
+    <tr><td>FileDescription:</td><td>.FileDescription</td></tr>
+    <tr><td>FileVersion:</td><td>.FileVersion</td></tr>
+    <tr><td>PE Checksum:</td><td>.PeChecksum</td></tr>
+    <tr><td>Size:</td><td>.Size</td></tr>
+    <tr><td>MD5:</td><td>.md5</td></tr>
+</table>
+<br />
 <table>
     <tr><th>Apiset</th><th>Host</th><th>Special forwarder</th></tr>
 {{ range .namespaces }}
