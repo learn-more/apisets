@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apiset forwarders on apisets index</title><link>https://apisets.info/</link><description>Recent content in Apiset forwarders on apisets index</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://apisets.info/index.xml" rel="self" type="application/rss+xml"/><item><title>6.1.7601.23455-AMD64</title><link>https://apisets.info/apisetschemas/6.1.7601.23455-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/6.1.7601.23455-amd64/</guid><description>Generated from apisetschema.dll
-InternalName:.InternalName
-CompanyName:.CompanyName
-FileDescription:.FileDescription
-FileVersion:.FileVersion
-PE Checksum:.PeChecksum
-Size:.Size
-MD5:.md5
+InternalName:apisetschema
+CompanyName:Microsoft Corporation
+FileDescription:ApiSet Schema DLL
+FileVersion:6.1.7601.23455 (win7sp1_ldr.160516-0600)
+PE Checksum:40675
+Size:6656
+MD5:e82eb00e9d6878ef8a4051d3ca6c52e1
 ApisetHostSpecial forwarder
 api-MS-Win-Core-Console-L1-1-0.dll
 kernel32.dll
@@ -24,15 +24,14 @@ api-MS-Win-Core-File-L1-1-0.dll
 kernel32.dll
 kernel32.dll &amp;roarr; kernelbase.dll
 api-MS-Win-Core-Handle-L1-1-0.dll
-kernel32.dll
-kernel32.dll &amp;roarr; kernelbase.</description></item><item><title>6.1.7601.23455-I386</title><link>https://apisets.info/apisetschemas/6.1.7601.23455-i386/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/6.1.7601.23455-i386/</guid><description>Generated from apisetschema.dll
-InternalName:.InternalName
-CompanyName:.CompanyName
-FileDescription:.FileDescription
-FileVersion:.FileVersion
-PE Checksum:.PeChecksum
-Size:.Size
-MD5:.md5
+kernel32.</description></item><item><title>6.1.7601.23455-I386</title><link>https://apisets.info/apisetschemas/6.1.7601.23455-i386/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/6.1.7601.23455-i386/</guid><description>Generated from apisetschema.dll
+InternalName:apisetschema
+CompanyName:Microsoft Corporation
+FileDescription:ApiSet Schema DLL
+FileVersion:6.1.7601.23455 (win7sp1_ldr.160516-0600)
+PE Checksum:70593
+Size:6656
+MD5:5696e291c7b53be4f83f9c43a0ae3454
 ApisetHostSpecial forwarder
 api-MS-Win-Core-Console-L1-1-0.dll
 kernel32.dll
@@ -51,15 +50,14 @@ api-MS-Win-Core-File-L1-1-0.dll
 kernel32.dll
 kernel32.dll &amp;roarr; kernelbase.dll
 api-MS-Win-Core-Handle-L1-1-0.dll
-kernel32.dll
-kernel32.dll &amp;roarr; kernelbase.</description></item><item><title>6.3.9600.16384-AMD64</title><link>https://apisets.info/apisetschemas/6.3.9600.16384-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/6.3.9600.16384-amd64/</guid><description>Generated from apisetschema.dll
-InternalName:.InternalName
-CompanyName:.CompanyName
-FileDescription:.FileDescription
-FileVersion:.FileVersion
-PE Checksum:.PeChecksum
-Size:.Size
-MD5:.md5
+kernel32.</description></item><item><title>6.3.9600.16384-AMD64</title><link>https://apisets.info/apisetschemas/6.3.9600.16384-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/6.3.9600.16384-amd64/</guid><description>Generated from apisetschema.dll
+InternalName:apisetschema
+CompanyName:Microsoft Corporation
+FileDescription:ApiSet Schema DLL
+FileVersion:6.3.9600.16384 (winblue_rtm.130821-1623)
+PE Checksum:93310
+Size:70496
+MD5:96a14fd7a76a4bb0d0dfa81f11307c09
 ApisetHostSpecial forwarder
 api-ms-win-advapi32-auth-l1-1-0.dll
 advapi32.dll
@@ -78,15 +76,14 @@ advapi32.dll
 api-ms-win-advapi32-ntmarta-l1-1-0.dll
 advapi32.dll
 api-ms-win-advapi32-psm-app-l1-1-0.dll
-twinapi.appcore.dll
-api-ms-win-advapi32-registry-l1-1-0.</description></item><item><title>10.0.17134.1-AMD64</title><link>https://apisets.info/apisetschemas/10.0.17134.1-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/10.0.17134.1-amd64/</guid><description>Generated from apisetschema.dll
-InternalName:.InternalName
-CompanyName:.CompanyName
-FileDescription:.FileDescription
-FileVersion:.FileVersion
-PE Checksum:.PeChecksum
-Size:.Size
-MD5:.md5
+twinapi.</description></item><item><title>10.0.17134.1-AMD64</title><link>https://apisets.info/apisetschemas/10.0.17134.1-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/10.0.17134.1-amd64/</guid><description>Generated from apisetschema.dll
+InternalName:apisetschema.dll
+CompanyName:Microsoft Corporation
+FileDescription:ApiSet Schema DLL
+FileVersion:10.0.17134.1 (WinBuild.160101.0800)
+PE Checksum:116250
+Size:114072
+MD5:d250b2f8fc2465361df4864c92705aa0
 ApisetHostSpecial forwarder
 api-ms-onecoreuap-print-render-l1-1-0.dll
 printrenderapihost.dll
@@ -105,15 +102,14 @@ kernel.appcore.dll
 api-ms-win-appmodel-unlock-l1-1-0.dll
 kernel.appcore.dll
 api-ms-win-base-bootconfig-l1-1-0.dll
-advapi32.dll
-api-ms-win-base-util-l1-1-0.</description></item><item><title>10.0.17763.1-AMD64</title><link>https://apisets.info/apisetschemas/10.0.17763.1-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/10.0.17763.1-amd64/</guid><description>Generated from apisetschema.dll
-InternalName:.InternalName
-CompanyName:.CompanyName
-FileDescription:.FileDescription
-FileVersion:.FileVersion
-PE Checksum:.PeChecksum
-Size:.Size
-MD5:.md5
+advapi32.</description></item><item><title>10.0.17763.1-AMD64</title><link>https://apisets.info/apisetschemas/10.0.17763.1-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/10.0.17763.1-amd64/</guid><description>Generated from apisetschema.dll
+InternalName:apisetschema.dll
+CompanyName:Microsoft Corporation
+FileDescription:ApiSet Schema DLL
+FileVersion:10.0.17763.1 (WinBuild.160101.0800)
+PE Checksum:120647
+Size:116536
+MD5:14637ec468580238aad580347b700e48
 ApisetHostSpecial forwarder
 api-ms-onecoreuap-print-render-l1-1-0.dll
 printrenderapihost.dll
@@ -132,5 +128,4 @@ kernel.appcore.dll
 api-ms-win-appmodel-unlock-l1-1-0.dll
 kernel.appcore.dll
 api-ms-win-base-bootconfig-l1-1-0.dll
-advapi32.dll
-api-ms-win-base-util-l1-1-0.</description></item></channel></rss>
+advapi32.</description></item></channel></rss>
