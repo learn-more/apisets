@@ -1,0 +1,634 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "9cada7cc00753250c1beda32c23e22ee",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 38795,
+  "Size": 6144,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "GetAcceptLanguagesW"
+    },
+    {
+      "ord": 2,
+      "name": "HashData"
+    },
+    {
+      "ord": 3,
+      "name": "IsInternetESCEnabled"
+    },
+    {
+      "ord": 4,
+      "name": "ParseURLW"
+    },
+    {
+      "ord": 5,
+      "name": "PathAddBackslashA"
+    },
+    {
+      "ord": 6,
+      "name": "PathAddBackslashW"
+    },
+    {
+      "ord": 7,
+      "name": "PathAddExtensionA"
+    },
+    {
+      "ord": 8,
+      "name": "PathAddExtensionW"
+    },
+    {
+      "ord": 9,
+      "name": "PathAppendA"
+    },
+    {
+      "ord": 10,
+      "name": "PathAppendW"
+    },
+    {
+      "ord": 11,
+      "name": "PathCanonicalizeA"
+    },
+    {
+      "ord": 12,
+      "name": "PathCanonicalizeW"
+    },
+    {
+      "ord": 13,
+      "name": "PathCommonPrefixA"
+    },
+    {
+      "ord": 14,
+      "name": "PathCommonPrefixW"
+    },
+    {
+      "ord": 15,
+      "name": "PathCreateFromUrlAlloc"
+    },
+    {
+      "ord": 16,
+      "name": "PathCreateFromUrlW"
+    },
+    {
+      "ord": 17,
+      "name": "PathFileExistsA"
+    },
+    {
+      "ord": 18,
+      "name": "PathFileExistsW"
+    },
+    {
+      "ord": 19,
+      "name": "PathFindExtensionA"
+    },
+    {
+      "ord": 20,
+      "name": "PathFindExtensionW"
+    },
+    {
+      "ord": 21,
+      "name": "PathFindFileNameA"
+    },
+    {
+      "ord": 22,
+      "name": "PathFindFileNameW"
+    },
+    {
+      "ord": 23,
+      "name": "PathFindNextComponentA"
+    },
+    {
+      "ord": 24,
+      "name": "PathFindNextComponentW"
+    },
+    {
+      "ord": 25,
+      "name": "PathGetArgsA"
+    },
+    {
+      "ord": 26,
+      "name": "PathGetArgsW"
+    },
+    {
+      "ord": 27,
+      "name": "PathGetDriveNumberA"
+    },
+    {
+      "ord": 28,
+      "name": "PathGetDriveNumberW"
+    },
+    {
+      "ord": 29,
+      "name": "PathIsFileSpecA"
+    },
+    {
+      "ord": 30,
+      "name": "PathIsFileSpecW"
+    },
+    {
+      "ord": 31,
+      "name": "PathIsLFNFileSpecA"
+    },
+    {
+      "ord": 32,
+      "name": "PathIsLFNFileSpecW"
+    },
+    {
+      "ord": 33,
+      "name": "PathIsPrefixA"
+    },
+    {
+      "ord": 34,
+      "name": "PathIsPrefixW"
+    },
+    {
+      "ord": 35,
+      "name": "PathIsRelativeA"
+    },
+    {
+      "ord": 36,
+      "name": "PathIsRelativeW"
+    },
+    {
+      "ord": 37,
+      "name": "PathIsRootA"
+    },
+    {
+      "ord": 38,
+      "name": "PathIsRootW"
+    },
+    {
+      "ord": 39,
+      "name": "PathIsSameRootA"
+    },
+    {
+      "ord": 40,
+      "name": "PathIsSameRootW"
+    },
+    {
+      "ord": 41,
+      "name": "PathIsUNCA"
+    },
+    {
+      "ord": 42,
+      "name": "PathIsUNCServerA"
+    },
+    {
+      "ord": 43,
+      "name": "PathIsUNCServerShareA"
+    },
+    {
+      "ord": 44,
+      "name": "PathIsUNCServerShareW"
+    },
+    {
+      "ord": 45,
+      "name": "PathIsUNCServerW"
+    },
+    {
+      "ord": 46,
+      "name": "PathIsUNCW"
+    },
+    {
+      "ord": 47,
+      "name": "PathIsURLW"
+    },
+    {
+      "ord": 48,
+      "name": "PathParseIconLocationA"
+    },
+    {
+      "ord": 49,
+      "name": "PathParseIconLocationW"
+    },
+    {
+      "ord": 50,
+      "name": "PathRelativePathToA"
+    },
+    {
+      "ord": 51,
+      "name": "PathRelativePathToW"
+    },
+    {
+      "ord": 52,
+      "name": "PathRemoveBackslashA"
+    },
+    {
+      "ord": 53,
+      "name": "PathRemoveBackslashW"
+    },
+    {
+      "ord": 54,
+      "name": "PathRemoveBlanksA"
+    },
+    {
+      "ord": 55,
+      "name": "PathRemoveBlanksW"
+    },
+    {
+      "ord": 56,
+      "name": "PathRemoveExtensionA"
+    },
+    {
+      "ord": 57,
+      "name": "PathRemoveExtensionW"
+    },
+    {
+      "ord": 58,
+      "name": "PathRemoveFileSpecA"
+    },
+    {
+      "ord": 59,
+      "name": "PathRemoveFileSpecW"
+    },
+    {
+      "ord": 60,
+      "name": "PathRenameExtensionA"
+    },
+    {
+      "ord": 61,
+      "name": "PathRenameExtensionW"
+    },
+    {
+      "ord": 62,
+      "name": "PathSkipRootA"
+    },
+    {
+      "ord": 63,
+      "name": "PathSkipRootW"
+    },
+    {
+      "ord": 64,
+      "name": "PathStripPathA"
+    },
+    {
+      "ord": 65,
+      "name": "PathStripPathW"
+    },
+    {
+      "ord": 66,
+      "name": "PathStripToRootA"
+    },
+    {
+      "ord": 67,
+      "name": "PathStripToRootW"
+    },
+    {
+      "ord": 68,
+      "name": "PathUnquoteSpacesA"
+    },
+    {
+      "ord": 69,
+      "name": "PathUnquoteSpacesW"
+    },
+    {
+      "ord": 70,
+      "name": "QISearch"
+    },
+    {
+      "ord": 71,
+      "name": "SHLoadIndirectString"
+    },
+    {
+      "ord": 72,
+      "name": "SHRegCloseUSKey"
+    },
+    {
+      "ord": 73,
+      "name": "SHRegDeleteUSValueA"
+    },
+    {
+      "ord": 74,
+      "name": "SHRegDeleteUSValueW"
+    },
+    {
+      "ord": 75,
+      "name": "SHRegEnumUSKeyA"
+    },
+    {
+      "ord": 76,
+      "name": "SHRegEnumUSKeyW"
+    },
+    {
+      "ord": 77,
+      "name": "SHRegGetBoolUSValueA"
+    },
+    {
+      "ord": 78,
+      "name": "SHRegGetBoolUSValueW"
+    },
+    {
+      "ord": 79,
+      "name": "SHRegGetUSValueA"
+    },
+    {
+      "ord": 80,
+      "name": "SHRegGetUSValueW"
+    },
+    {
+      "ord": 81,
+      "name": "SHRegOpenUSKeyA"
+    },
+    {
+      "ord": 82,
+      "name": "SHRegOpenUSKeyW"
+    },
+    {
+      "ord": 83,
+      "name": "SHRegQueryUSValueA"
+    },
+    {
+      "ord": 84,
+      "name": "SHRegQueryUSValueW"
+    },
+    {
+      "ord": 85,
+      "name": "SHRegSetUSValueA"
+    },
+    {
+      "ord": 86,
+      "name": "SHRegSetUSValueW"
+    },
+    {
+      "ord": 87,
+      "name": "StrCSpnA"
+    },
+    {
+      "ord": 88,
+      "name": "StrCSpnIA"
+    },
+    {
+      "ord": 89,
+      "name": "StrCSpnIW"
+    },
+    {
+      "ord": 90,
+      "name": "StrCSpnW"
+    },
+    {
+      "ord": 91,
+      "name": "StrCatBuffA"
+    },
+    {
+      "ord": 92,
+      "name": "StrCatBuffW"
+    },
+    {
+      "ord": 93,
+      "name": "StrCatChainW"
+    },
+    {
+      "ord": 94,
+      "name": "StrChrA"
+    },
+    {
+      "ord": 95,
+      "name": "StrChrIA"
+    },
+    {
+      "ord": 96,
+      "name": "StrChrIW"
+    },
+    {
+      "ord": 97,
+      "name": "StrChrNIW"
+    },
+    {
+      "ord": 98,
+      "name": "StrChrNW"
+    },
+    {
+      "ord": 99,
+      "name": "StrChrW"
+    },
+    {
+      "ord": 100,
+      "name": "StrCmpCA"
+    },
+    {
+      "ord": 101,
+      "name": "StrCmpCW"
+    },
+    {
+      "ord": 102,
+      "name": "StrCmpICA"
+    },
+    {
+      "ord": 103,
+      "name": "StrCmpICW"
+    },
+    {
+      "ord": 104,
+      "name": "StrCmpIW"
+    },
+    {
+      "ord": 105,
+      "name": "StrCmpLogicalW"
+    },
+    {
+      "ord": 106,
+      "name": "StrCmpNA"
+    },
+    {
+      "ord": 107,
+      "name": "StrCmpNCA"
+    },
+    {
+      "ord": 108,
+      "name": "StrCmpNCW"
+    },
+    {
+      "ord": 109,
+      "name": "StrCmpNIA"
+    },
+    {
+      "ord": 110,
+      "name": "StrCmpNICA"
+    },
+    {
+      "ord": 111,
+      "name": "StrCmpNICW"
+    },
+    {
+      "ord": 112,
+      "name": "StrCmpNIW"
+    },
+    {
+      "ord": 113,
+      "name": "StrCmpNW"
+    },
+    {
+      "ord": 114,
+      "name": "StrCmpW"
+    },
+    {
+      "ord": 115,
+      "name": "StrCpyNW"
+    },
+    {
+      "ord": 116,
+      "name": "StrDupA"
+    },
+    {
+      "ord": 117,
+      "name": "StrDupW"
+    },
+    {
+      "ord": 118,
+      "name": "StrIsIntlEqualA"
+    },
+    {
+      "ord": 119,
+      "name": "StrIsIntlEqualW"
+    },
+    {
+      "ord": 120,
+      "name": "StrPBrkA"
+    },
+    {
+      "ord": 121,
+      "name": "StrPBrkW"
+    },
+    {
+      "ord": 122,
+      "name": "StrRChrA"
+    },
+    {
+      "ord": 123,
+      "name": "StrRChrIA"
+    },
+    {
+      "ord": 124,
+      "name": "StrRChrIW"
+    },
+    {
+      "ord": 125,
+      "name": "StrRChrW"
+    },
+    {
+      "ord": 126,
+      "name": "StrRStrIA"
+    },
+    {
+      "ord": 127,
+      "name": "StrRStrIW"
+    },
+    {
+      "ord": 128,
+      "name": "StrSpnA"
+    },
+    {
+      "ord": 129,
+      "name": "StrSpnW"
+    },
+    {
+      "ord": 130,
+      "name": "StrStrA"
+    },
+    {
+      "ord": 131,
+      "name": "StrStrIA"
+    },
+    {
+      "ord": 132,
+      "name": "StrStrIW"
+    },
+    {
+      "ord": 133,
+      "name": "StrStrNIW"
+    },
+    {
+      "ord": 134,
+      "name": "StrStrNW"
+    },
+    {
+      "ord": 135,
+      "name": "StrStrW"
+    },
+    {
+      "ord": 136,
+      "name": "StrToInt64ExA"
+    },
+    {
+      "ord": 137,
+      "name": "StrToInt64ExW"
+    },
+    {
+      "ord": 138,
+      "name": "StrToIntA"
+    },
+    {
+      "ord": 139,
+      "name": "StrToIntExA"
+    },
+    {
+      "ord": 140,
+      "name": "StrToIntExW"
+    },
+    {
+      "ord": 141,
+      "name": "StrToIntW"
+    },
+    {
+      "ord": 142,
+      "name": "StrTrimA"
+    },
+    {
+      "ord": 143,
+      "name": "StrTrimW"
+    },
+    {
+      "ord": 144,
+      "name": "UrlApplySchemeW"
+    },
+    {
+      "ord": 145,
+      "name": "UrlCanonicalizeW"
+    },
+    {
+      "ord": 146,
+      "name": "UrlCombineA"
+    },
+    {
+      "ord": 147,
+      "name": "UrlCombineW"
+    },
+    {
+      "ord": 148,
+      "name": "UrlCreateFromPathW"
+    },
+    {
+      "ord": 149,
+      "name": "UrlEscapeW"
+    },
+    {
+      "ord": 150,
+      "name": "UrlFixupW"
+    },
+    {
+      "ord": 151,
+      "name": "UrlGetLocationW"
+    },
+    {
+      "ord": 152,
+      "name": "UrlGetPartW"
+    },
+    {
+      "ord": 153,
+      "name": "UrlIsW"
+    },
+    {
+      "ord": 154,
+      "name": "UrlUnescapeA"
+    },
+    {
+      "ord": 155,
+      "name": "UrlUnescapeW"
+    }
+  ]
+}

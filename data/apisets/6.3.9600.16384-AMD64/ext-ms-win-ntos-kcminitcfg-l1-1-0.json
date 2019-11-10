@@ -1,0 +1,22 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "d82b6c11a1e7bb7aeaced69a8b18a7b9",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 57136,
+  "Size": 12120,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CmCompleteInitMachineConfig"
+    },
+    {
+      "ord": 2,
+      "name": "CmSetInitMachineConfig"
+    }
+  ]
+}

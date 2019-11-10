@@ -1,0 +1,74 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "94346fc8f3f6761b85d4c8e86c27aa7c",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 68286,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AuditComputeEffectivePolicyBySid"
+    },
+    {
+      "ord": 2,
+      "name": "AuditEnumerateCategories"
+    },
+    {
+      "ord": 3,
+      "name": "AuditEnumeratePerUserPolicy"
+    },
+    {
+      "ord": 4,
+      "name": "AuditEnumerateSubCategories"
+    },
+    {
+      "ord": 5,
+      "name": "AuditFree"
+    },
+    {
+      "ord": 6,
+      "name": "AuditLookupCategoryNameW"
+    },
+    {
+      "ord": 7,
+      "name": "AuditLookupSubCategoryNameW"
+    },
+    {
+      "ord": 8,
+      "name": "AuditQueryGlobalSaclW"
+    },
+    {
+      "ord": 9,
+      "name": "AuditQueryPerUserPolicy"
+    },
+    {
+      "ord": 10,
+      "name": "AuditQuerySecurity"
+    },
+    {
+      "ord": 11,
+      "name": "AuditQuerySystemPolicy"
+    },
+    {
+      "ord": 12,
+      "name": "AuditSetGlobalSaclW"
+    },
+    {
+      "ord": 13,
+      "name": "AuditSetPerUserPolicy"
+    },
+    {
+      "ord": 14,
+      "name": "AuditSetSecurity"
+    },
+    {
+      "ord": 15,
+      "name": "AuditSetSystemPolicy"
+    }
+  ]
+}

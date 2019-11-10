@@ -1,0 +1,166 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "c376332e71b2a1ce7f6191789c683564",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 15780,
+  "Size": 4096,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AttachConsole"
+    },
+    {
+      "ord": 2,
+      "name": "CreateConsoleScreenBuffer"
+    },
+    {
+      "ord": 3,
+      "name": "FillConsoleOutputAttribute"
+    },
+    {
+      "ord": 4,
+      "name": "FillConsoleOutputCharacterA"
+    },
+    {
+      "ord": 5,
+      "name": "FillConsoleOutputCharacterW"
+    },
+    {
+      "ord": 6,
+      "name": "FlushConsoleInputBuffer"
+    },
+    {
+      "ord": 7,
+      "name": "FreeConsole"
+    },
+    {
+      "ord": 8,
+      "name": "GenerateConsoleCtrlEvent"
+    },
+    {
+      "ord": 9,
+      "name": "GetConsoleCursorInfo"
+    },
+    {
+      "ord": 10,
+      "name": "GetConsoleScreenBufferInfo"
+    },
+    {
+      "ord": 11,
+      "name": "GetConsoleScreenBufferInfoEx"
+    },
+    {
+      "ord": 12,
+      "name": "GetConsoleTitleW"
+    },
+    {
+      "ord": 13,
+      "name": "GetLargestConsoleWindowSize"
+    },
+    {
+      "ord": 14,
+      "name": "PeekConsoleInputW"
+    },
+    {
+      "ord": 15,
+      "name": "ReadConsoleOutputA"
+    },
+    {
+      "ord": 16,
+      "name": "ReadConsoleOutputAttribute"
+    },
+    {
+      "ord": 17,
+      "name": "ReadConsoleOutputCharacterA"
+    },
+    {
+      "ord": 18,
+      "name": "ReadConsoleOutputCharacterW"
+    },
+    {
+      "ord": 19,
+      "name": "ReadConsoleOutputW"
+    },
+    {
+      "ord": 20,
+      "name": "ScrollConsoleScreenBufferA"
+    },
+    {
+      "ord": 21,
+      "name": "ScrollConsoleScreenBufferW"
+    },
+    {
+      "ord": 22,
+      "name": "SetConsoleActiveScreenBuffer"
+    },
+    {
+      "ord": 23,
+      "name": "SetConsoleCP"
+    },
+    {
+      "ord": 24,
+      "name": "SetConsoleCursorInfo"
+    },
+    {
+      "ord": 25,
+      "name": "SetConsoleCursorPosition"
+    },
+    {
+      "ord": 26,
+      "name": "SetConsoleOutputCP"
+    },
+    {
+      "ord": 27,
+      "name": "SetConsoleScreenBufferInfoEx"
+    },
+    {
+      "ord": 28,
+      "name": "SetConsoleScreenBufferSize"
+    },
+    {
+      "ord": 29,
+      "name": "SetConsoleTextAttribute"
+    },
+    {
+      "ord": 30,
+      "name": "SetConsoleTitleW"
+    },
+    {
+      "ord": 31,
+      "name": "SetConsoleWindowInfo"
+    },
+    {
+      "ord": 32,
+      "name": "WriteConsoleInputA"
+    },
+    {
+      "ord": 33,
+      "name": "WriteConsoleInputW"
+    },
+    {
+      "ord": 34,
+      "name": "WriteConsoleOutputA"
+    },
+    {
+      "ord": 35,
+      "name": "WriteConsoleOutputAttribute"
+    },
+    {
+      "ord": 36,
+      "name": "WriteConsoleOutputCharacterA"
+    },
+    {
+      "ord": 37,
+      "name": "WriteConsoleOutputCharacterW"
+    },
+    {
+      "ord": 38,
+      "name": "WriteConsoleOutputW"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "41ada51793577321c00e4239ea32f74d",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 39581,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CloseDesktop"
+    },
+    {
+      "ord": 2,
+      "name": "CloseWindowStation"
+    },
+    {
+      "ord": 3,
+      "name": "CreateDesktopW"
+    },
+    {
+      "ord": 4,
+      "name": "CreateWindowStationW"
+    },
+    {
+      "ord": 5,
+      "name": "EnumDesktopWindows"
+    },
+    {
+      "ord": 6,
+      "name": "GetProcessWindowStation"
+    },
+    {
+      "ord": 7,
+      "name": "GetThreadDesktop"
+    },
+    {
+      "ord": 8,
+      "name": "GetUserObjectInformationW"
+    },
+    {
+      "ord": 9,
+      "name": "OpenWindowStationW"
+    },
+    {
+      "ord": 10,
+      "name": "SetProcessWindowStation"
+    },
+    {
+      "ord": 11,
+      "name": "SetThreadDesktop"
+    },
+    {
+      "ord": 12,
+      "name": "SwitchDesktop"
+    }
+  ]
+}

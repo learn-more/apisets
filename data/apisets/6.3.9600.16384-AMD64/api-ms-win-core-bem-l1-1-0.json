@@ -1,0 +1,34 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "af1b1043103235e0735a4ed9d27f32f7",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 11392,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "BemCopyReference"
+    },
+    {
+      "ord": 2,
+      "name": "BemCreateContractFrom"
+    },
+    {
+      "ord": 3,
+      "name": "BemCreateReference"
+    },
+    {
+      "ord": 4,
+      "name": "BemFreeContract"
+    },
+    {
+      "ord": 5,
+      "name": "BemFreeReference"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "55344cdd5fbaa1a9626016b01c8169d1",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 56279,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "VaultAddItem"
+    },
+    {
+      "ord": 2,
+      "name": "VaultCloseVault"
+    },
+    {
+      "ord": 3,
+      "name": "VaultCreateItemType"
+    },
+    {
+      "ord": 4,
+      "name": "VaultFree"
+    },
+    {
+      "ord": 5,
+      "name": "VaultGetItem"
+    },
+    {
+      "ord": 6,
+      "name": "VaultGetItemType"
+    },
+    {
+      "ord": 7,
+      "name": "VaultOpenVault"
+    },
+    {
+      "ord": 8,
+      "name": "VaultRemoveItem"
+    }
+  ]
+}

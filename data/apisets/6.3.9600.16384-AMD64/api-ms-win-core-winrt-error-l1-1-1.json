@@ -1,0 +1,90 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "84ff6b37592a6d4f3ec38b1c54df052e",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 13152,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "GetRestrictedErrorInfo"
+    },
+    {
+      "ord": 2,
+      "name": "IsErrorPropagationEnabled"
+    },
+    {
+      "ord": 3,
+      "name": "RoCaptureErrorContext"
+    },
+    {
+      "ord": 4,
+      "name": "RoClearError"
+    },
+    {
+      "ord": 5,
+      "name": "RoFailFastWithErrorContext"
+    },
+    {
+      "ord": 6,
+      "name": "RoGetErrorReportingFlags"
+    },
+    {
+      "ord": 7,
+      "name": "RoGetMatchingRestrictedErrorInfo"
+    },
+    {
+      "ord": 8,
+      "name": "RoInspectCapturedStackBackTrace"
+    },
+    {
+      "ord": 9,
+      "name": "RoInspectThreadErrorInfo"
+    },
+    {
+      "ord": 10,
+      "name": "RoOriginateError"
+    },
+    {
+      "ord": 11,
+      "name": "RoOriginateErrorW"
+    },
+    {
+      "ord": 12,
+      "name": "RoOriginateLanguageException"
+    },
+    {
+      "ord": 13,
+      "name": "RoReportFailedDelegate"
+    },
+    {
+      "ord": 14,
+      "name": "RoReportUnhandledError"
+    },
+    {
+      "ord": 15,
+      "name": "RoResolveRestrictedErrorInfoReference"
+    },
+    {
+      "ord": 16,
+      "name": "RoSetErrorReportingFlags"
+    },
+    {
+      "ord": 17,
+      "name": "RoTransformError"
+    },
+    {
+      "ord": 18,
+      "name": "RoTransformErrorW"
+    },
+    {
+      "ord": 19,
+      "name": "SetRestrictedErrorInfo"
+    }
+  ]
+}

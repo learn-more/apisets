@@ -1,0 +1,405 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "1a3e6b83fe9fd3c108b02c21ed7090da",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 20210,
+  "Size": 6656,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1005,
+      "name": "D3DKMTAcquireKeyedMutex"
+    },
+    {
+      "ord": 1006,
+      "name": "D3DKMTAcquireKeyedMutex2"
+    },
+    {
+      "ord": 1007,
+      "name": "D3DKMTCacheHybridQueryValue"
+    },
+    {
+      "ord": 1008,
+      "name": "D3DKMTCheckExclusiveOwnership"
+    },
+    {
+      "ord": 1009,
+      "name": "D3DKMTCheckMonitorPowerState"
+    },
+    {
+      "ord": 1010,
+      "name": "D3DKMTCheckOcclusion"
+    },
+    {
+      "ord": 1011,
+      "name": "D3DKMTCheckSharedResourceAccess"
+    },
+    {
+      "ord": 1012,
+      "name": "D3DKMTCheckVidPnExclusiveOwnership"
+    },
+    {
+      "ord": 1013,
+      "name": "D3DKMTCloseAdapter"
+    },
+    {
+      "ord": 1014,
+      "name": "D3DKMTConfigureSharedResource"
+    },
+    {
+      "ord": 1015,
+      "name": "D3DKMTCreateAllocation"
+    },
+    {
+      "ord": 1016,
+      "name": "D3DKMTCreateAllocation2"
+    },
+    {
+      "ord": 1017,
+      "name": "D3DKMTCreateContext"
+    },
+    {
+      "ord": 1018,
+      "name": "D3DKMTCreateDCFromMemory"
+    },
+    {
+      "ord": 1019,
+      "name": "D3DKMTCreateDevice"
+    },
+    {
+      "ord": 1020,
+      "name": "D3DKMTCreateKeyedMutex"
+    },
+    {
+      "ord": 1021,
+      "name": "D3DKMTCreateKeyedMutex2"
+    },
+    {
+      "ord": 1022,
+      "name": "D3DKMTCreateOutputDupl"
+    },
+    {
+      "ord": 1023,
+      "name": "D3DKMTCreateOverlay"
+    },
+    {
+      "ord": 1024,
+      "name": "D3DKMTCreateSynchronizationObject"
+    },
+    {
+      "ord": 1025,
+      "name": "D3DKMTCreateSynchronizationObject2"
+    },
+    {
+      "ord": 1026,
+      "name": "D3DKMTDestroyAllocation"
+    },
+    {
+      "ord": 1027,
+      "name": "D3DKMTDestroyContext"
+    },
+    {
+      "ord": 1028,
+      "name": "D3DKMTDestroyDCFromMemory"
+    },
+    {
+      "ord": 1029,
+      "name": "D3DKMTDestroyDevice"
+    },
+    {
+      "ord": 1030,
+      "name": "D3DKMTDestroyKeyedMutex"
+    },
+    {
+      "ord": 1031,
+      "name": "D3DKMTDestroyOutputDupl"
+    },
+    {
+      "ord": 1032,
+      "name": "D3DKMTDestroyOverlay"
+    },
+    {
+      "ord": 1033,
+      "name": "D3DKMTDestroySynchronizationObject"
+    },
+    {
+      "ord": 1034,
+      "name": "D3DKMTEscape"
+    },
+    {
+      "ord": 1035,
+      "name": "D3DKMTFlipOverlay"
+    },
+    {
+      "ord": 1036,
+      "name": "D3DKMTGetCachedHybridQueryValue"
+    },
+    {
+      "ord": 1037,
+      "name": "D3DKMTGetContextSchedulingPriority"
+    },
+    {
+      "ord": 1038,
+      "name": "D3DKMTGetDeviceState"
+    },
+    {
+      "ord": 1039,
+      "name": "D3DKMTGetDisplayModeList"
+    },
+    {
+      "ord": 1040,
+      "name": "D3DKMTGetMultisampleMethodList"
+    },
+    {
+      "ord": 1041,
+      "name": "D3DKMTGetOverlayState"
+    },
+    {
+      "ord": 1042,
+      "name": "D3DKMTGetPresentHistory"
+    },
+    {
+      "ord": 1043,
+      "name": "D3DKMTGetPresentQueueEvent"
+    },
+    {
+      "ord": 1044,
+      "name": "D3DKMTGetProcessSchedulingPriorityClass"
+    },
+    {
+      "ord": 1045,
+      "name": "D3DKMTGetRuntimeData"
+    },
+    {
+      "ord": 1046,
+      "name": "D3DKMTGetScanLine"
+    },
+    {
+      "ord": 1047,
+      "name": "D3DKMTGetSharedPrimaryHandle"
+    },
+    {
+      "ord": 1048,
+      "name": "D3DKMTGetSharedResourceAdapterLuid"
+    },
+    {
+      "ord": 1049,
+      "name": "D3DKMTInvalidateActiveVidPn"
+    },
+    {
+      "ord": 1050,
+      "name": "D3DKMTLock"
+    },
+    {
+      "ord": 1051,
+      "name": "D3DKMTOfferAllocations"
+    },
+    {
+      "ord": 1052,
+      "name": "D3DKMTOpenAdapterFromDeviceName"
+    },
+    {
+      "ord": 1053,
+      "name": "D3DKMTOpenAdapterFromGdiDisplayName"
+    },
+    {
+      "ord": 1054,
+      "name": "D3DKMTOpenAdapterFromHdc"
+    },
+    {
+      "ord": 1055,
+      "name": "D3DKMTOpenKeyedMutex"
+    },
+    {
+      "ord": 1056,
+      "name": "D3DKMTOpenKeyedMutex2"
+    },
+    {
+      "ord": 1057,
+      "name": "D3DKMTOpenNtHandleFromName"
+    },
+    {
+      "ord": 1058,
+      "name": "D3DKMTOpenResource"
+    },
+    {
+      "ord": 1059,
+      "name": "D3DKMTOpenResource2"
+    },
+    {
+      "ord": 1060,
+      "name": "D3DKMTOpenResourceFromNtHandle"
+    },
+    {
+      "ord": 1061,
+      "name": "D3DKMTOpenSyncObjectFromNtHandle"
+    },
+    {
+      "ord": 1062,
+      "name": "D3DKMTOpenSynchronizationObject"
+    },
+    {
+      "ord": 1063,
+      "name": "D3DKMTOutputDuplGetFrameInfo"
+    },
+    {
+      "ord": 1064,
+      "name": "D3DKMTOutputDuplGetMetaData"
+    },
+    {
+      "ord": 1065,
+      "name": "D3DKMTOutputDuplGetPointerShapeData"
+    },
+    {
+      "ord": 1066,
+      "name": "D3DKMTOutputDuplPresent"
+    },
+    {
+      "ord": 1067,
+      "name": "D3DKMTOutputDuplReleaseFrame"
+    },
+    {
+      "ord": 1068,
+      "name": "D3DKMTPollDisplayChildren"
+    },
+    {
+      "ord": 1069,
+      "name": "D3DKMTPresent"
+    },
+    {
+      "ord": 1070,
+      "name": "D3DKMTQueryAdapterInfo"
+    },
+    {
+      "ord": 1071,
+      "name": "D3DKMTQueryAllocationResidency"
+    },
+    {
+      "ord": 1072,
+      "name": "D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName"
+    },
+    {
+      "ord": 1073,
+      "name": "D3DKMTQueryResourceInfo"
+    },
+    {
+      "ord": 1074,
+      "name": "D3DKMTQueryResourceInfoFromNtHandle"
+    },
+    {
+      "ord": 1075,
+      "name": "D3DKMTQueryStatistics"
+    },
+    {
+      "ord": 1076,
+      "name": "D3DKMTReclaimAllocations"
+    },
+    {
+      "ord": 1077,
+      "name": "D3DKMTReleaseKeyedMutex"
+    },
+    {
+      "ord": 1078,
+      "name": "D3DKMTReleaseKeyedMutex2"
+    },
+    {
+      "ord": 1079,
+      "name": "D3DKMTReleaseProcessVidPnSourceOwners"
+    },
+    {
+      "ord": 1080,
+      "name": "D3DKMTRender"
+    },
+    {
+      "ord": 1081,
+      "name": "D3DKMTSetAllocationPriority"
+    },
+    {
+      "ord": 1082,
+      "name": "D3DKMTSetContextSchedulingPriority"
+    },
+    {
+      "ord": 1083,
+      "name": "D3DKMTSetDisplayMode"
+    },
+    {
+      "ord": 1084,
+      "name": "D3DKMTSetDisplayPrivateDriverFormat"
+    },
+    {
+      "ord": 1085,
+      "name": "D3DKMTSetGammaRamp"
+    },
+    {
+      "ord": 1086,
+      "name": "D3DKMTSetProcessSchedulingPriorityClass"
+    },
+    {
+      "ord": 1087,
+      "name": "D3DKMTSetQueuedLimit"
+    },
+    {
+      "ord": 1088,
+      "name": "D3DKMTSetStereoEnabled"
+    },
+    {
+      "ord": 1089,
+      "name": "D3DKMTSetVidPnSourceOwner"
+    },
+    {
+      "ord": 1090,
+      "name": "D3DKMTShareObjects"
+    },
+    {
+      "ord": 1091,
+      "name": "D3DKMTSharedPrimaryLockNotification"
+    },
+    {
+      "ord": 1092,
+      "name": "D3DKMTSharedPrimaryUnLockNotification"
+    },
+    {
+      "ord": 1093,
+      "name": "D3DKMTSignalSynchronizationObject"
+    },
+    {
+      "ord": 1094,
+      "name": "D3DKMTSignalSynchronizationObject2"
+    },
+    {
+      "ord": 1095,
+      "name": "D3DKMTUnlock"
+    },
+    {
+      "ord": 1096,
+      "name": "D3DKMTUpdateOverlay"
+    },
+    {
+      "ord": 1097,
+      "name": "D3DKMTWaitForIdle"
+    },
+    {
+      "ord": 1098,
+      "name": "D3DKMTWaitForSynchronizationObject"
+    },
+    {
+      "ord": 1099,
+      "name": "D3DKMTWaitForSynchronizationObject2"
+    },
+    {
+      "ord": 1100,
+      "name": "D3DKMTWaitForVerticalBlankEvent"
+    },
+    {
+      "ord": 1101,
+      "name": "GdiEntry13"
+    },
+    {
+      "ord": 1004
+    }
+  ]
+}

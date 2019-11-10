@@ -1,0 +1,106 @@
+{
+  "Version": "6.1.7601.23455-I386",
+  "md5": "74dc02b76dbc3a0926a46b8fb078bd2d",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.1.7601.23455 (win7sp1_ldr.160516-0600)",
+  "ProductVersion": "6.1.7601.23455",
+  "PeChecksum": 66822,
+  "Size": 3584,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AddDllDirectory"
+    },
+    {
+      "ord": 2,
+      "name": "DisableThreadLibraryCalls"
+    },
+    {
+      "ord": 3,
+      "name": "FindResourceExW"
+    },
+    {
+      "ord": 4,
+      "name": "FindStringOrdinal"
+    },
+    {
+      "ord": 5,
+      "name": "FreeLibrary"
+    },
+    {
+      "ord": 6,
+      "name": "FreeLibraryAndExitThread"
+    },
+    {
+      "ord": 7,
+      "name": "FreeResource"
+    },
+    {
+      "ord": 8,
+      "name": "GetModuleFileNameA"
+    },
+    {
+      "ord": 9,
+      "name": "GetModuleFileNameW"
+    },
+    {
+      "ord": 10,
+      "name": "GetModuleHandleA"
+    },
+    {
+      "ord": 11,
+      "name": "GetModuleHandleExA"
+    },
+    {
+      "ord": 12,
+      "name": "GetModuleHandleExW"
+    },
+    {
+      "ord": 13,
+      "name": "GetModuleHandleW"
+    },
+    {
+      "ord": 14,
+      "name": "GetProcAddress"
+    },
+    {
+      "ord": 15,
+      "name": "LoadLibraryExA"
+    },
+    {
+      "ord": 16,
+      "name": "LoadLibraryExW"
+    },
+    {
+      "ord": 17,
+      "name": "LoadResource"
+    },
+    {
+      "ord": 18,
+      "name": "LoadStringA"
+    },
+    {
+      "ord": 19,
+      "name": "LoadStringW"
+    },
+    {
+      "ord": 20,
+      "name": "LockResource"
+    },
+    {
+      "ord": 21,
+      "name": "RemoveDllDirectory"
+    },
+    {
+      "ord": 22,
+      "name": "SetDefaultDllDirectories"
+    },
+    {
+      "ord": 23,
+      "name": "SizeofResource"
+    }
+  ]
+}

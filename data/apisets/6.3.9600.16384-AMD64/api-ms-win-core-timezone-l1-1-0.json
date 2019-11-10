@@ -1,0 +1,66 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "a84f802749ae5a0aa522f203ece20b7f",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 30689,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "EnumDynamicTimeZoneInformation"
+    },
+    {
+      "ord": 2,
+      "name": "FileTimeToSystemTime"
+    },
+    {
+      "ord": 3,
+      "name": "GetDynamicTimeZoneInformation"
+    },
+    {
+      "ord": 4,
+      "name": "GetDynamicTimeZoneInformationEffectiveYears"
+    },
+    {
+      "ord": 5,
+      "name": "GetTimeZoneInformation"
+    },
+    {
+      "ord": 6,
+      "name": "GetTimeZoneInformationForYear"
+    },
+    {
+      "ord": 7,
+      "name": "SetDynamicTimeZoneInformation"
+    },
+    {
+      "ord": 8,
+      "name": "SetTimeZoneInformation"
+    },
+    {
+      "ord": 9,
+      "name": "SystemTimeToFileTime"
+    },
+    {
+      "ord": 10,
+      "name": "SystemTimeToTzSpecificLocalTime"
+    },
+    {
+      "ord": 11,
+      "name": "SystemTimeToTzSpecificLocalTimeEx"
+    },
+    {
+      "ord": 12,
+      "name": "TzSpecificLocalTimeToSystemTime"
+    },
+    {
+      "ord": 13,
+      "name": "TzSpecificLocalTimeToSystemTimeEx"
+    }
+  ]
+}

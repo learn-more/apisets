@@ -1,0 +1,46 @@
+{
+  "Version": "6.1.7601.23455-I386",
+  "md5": "13b2eaceeb314adbe18ce7996f5073f9",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.1.7601.23455 (win7sp1_ldr.160516-0600)",
+  "ProductVersion": "6.1.7601.23455",
+  "PeChecksum": 45519,
+  "Size": 3072,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CompareStringEx"
+    },
+    {
+      "ord": 2,
+      "name": "CompareStringOrdinal"
+    },
+    {
+      "ord": 3,
+      "name": "CompareStringW"
+    },
+    {
+      "ord": 4,
+      "name": "FoldStringW"
+    },
+    {
+      "ord": 5,
+      "name": "GetStringTypeExW"
+    },
+    {
+      "ord": 6,
+      "name": "GetStringTypeW"
+    },
+    {
+      "ord": 7,
+      "name": "MultiByteToWideChar"
+    },
+    {
+      "ord": 8,
+      "name": "WideCharToMultiByte"
+    }
+  ]
+}

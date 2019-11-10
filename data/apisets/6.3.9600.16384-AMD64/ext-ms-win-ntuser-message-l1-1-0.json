@@ -1,0 +1,102 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "7021cd027e409f4200c32b942075d4b8",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 7322,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CallMsgFilterW"
+    },
+    {
+      "ord": 2,
+      "name": "DispatchMessageA"
+    },
+    {
+      "ord": 3,
+      "name": "DispatchMessageW"
+    },
+    {
+      "ord": 4,
+      "name": "GetMessageA"
+    },
+    {
+      "ord": 5,
+      "name": "GetMessageW"
+    },
+    {
+      "ord": 6,
+      "name": "GetQueueStatus"
+    },
+    {
+      "ord": 7,
+      "name": "InSendMessage"
+    },
+    {
+      "ord": 8,
+      "name": "InSendMessageEx"
+    },
+    {
+      "ord": 9,
+      "name": "PeekMessageA"
+    },
+    {
+      "ord": 10,
+      "name": "PeekMessageW"
+    },
+    {
+      "ord": 11,
+      "name": "PostMessageA"
+    },
+    {
+      "ord": 12,
+      "name": "PostMessageW"
+    },
+    {
+      "ord": 13,
+      "name": "PostQuitMessage"
+    },
+    {
+      "ord": 14,
+      "name": "PostThreadMessageA"
+    },
+    {
+      "ord": 15,
+      "name": "PostThreadMessageW"
+    },
+    {
+      "ord": 16,
+      "name": "RegisterWindowMessageA"
+    },
+    {
+      "ord": 17,
+      "name": "RegisterWindowMessageW"
+    },
+    {
+      "ord": 18,
+      "name": "SendMessageA"
+    },
+    {
+      "ord": 19,
+      "name": "SendMessageTimeoutW"
+    },
+    {
+      "ord": 20,
+      "name": "SendMessageW"
+    },
+    {
+      "ord": 21,
+      "name": "SetMessageQueue"
+    },
+    {
+      "ord": 22,
+      "name": "TranslateMessage"
+    }
+  ]
+}

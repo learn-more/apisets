@@ -1,0 +1,266 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "004f7f67994de33959d6480ef4d4f515",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 26874,
+  "Size": 4608,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CreateProcessA"
+    },
+    {
+      "ord": 2,
+      "name": "CreateProcessAsUserW"
+    },
+    {
+      "ord": 3,
+      "name": "CreateProcessW"
+    },
+    {
+      "ord": 4,
+      "name": "CreateRemoteThread"
+    },
+    {
+      "ord": 5,
+      "name": "CreateRemoteThreadEx"
+    },
+    {
+      "ord": 6,
+      "name": "CreateThread"
+    },
+    {
+      "ord": 7,
+      "name": "DeleteProcThreadAttributeList"
+    },
+    {
+      "ord": 8,
+      "name": "ExitProcess"
+    },
+    {
+      "ord": 9,
+      "name": "ExitThread"
+    },
+    {
+      "ord": 10,
+      "name": "FlushInstructionCache"
+    },
+    {
+      "ord": 11,
+      "name": "FlushProcessWriteBuffers"
+    },
+    {
+      "ord": 12,
+      "name": "GetCurrentProcess"
+    },
+    {
+      "ord": 13,
+      "name": "GetCurrentProcessId"
+    },
+    {
+      "ord": 14,
+      "name": "GetCurrentProcessorNumber"
+    },
+    {
+      "ord": 15,
+      "name": "GetCurrentProcessorNumberEx"
+    },
+    {
+      "ord": 16,
+      "name": "GetCurrentThread"
+    },
+    {
+      "ord": 17,
+      "name": "GetCurrentThreadId"
+    },
+    {
+      "ord": 18,
+      "name": "GetCurrentThreadStackLimits"
+    },
+    {
+      "ord": 19,
+      "name": "GetExitCodeProcess"
+    },
+    {
+      "ord": 20,
+      "name": "GetExitCodeThread"
+    },
+    {
+      "ord": 21,
+      "name": "GetPriorityClass"
+    },
+    {
+      "ord": 22,
+      "name": "GetProcessHandleCount"
+    },
+    {
+      "ord": 23,
+      "name": "GetProcessId"
+    },
+    {
+      "ord": 24,
+      "name": "GetProcessIdOfThread"
+    },
+    {
+      "ord": 25,
+      "name": "GetProcessMitigationPolicy"
+    },
+    {
+      "ord": 26,
+      "name": "GetProcessTimes"
+    },
+    {
+      "ord": 27,
+      "name": "GetProcessVersion"
+    },
+    {
+      "ord": 28,
+      "name": "GetStartupInfoW"
+    },
+    {
+      "ord": 29,
+      "name": "GetThreadContext"
+    },
+    {
+      "ord": 30,
+      "name": "GetThreadId"
+    },
+    {
+      "ord": 31,
+      "name": "GetThreadIdealProcessorEx"
+    },
+    {
+      "ord": 32,
+      "name": "GetThreadPriority"
+    },
+    {
+      "ord": 33,
+      "name": "GetThreadPriorityBoost"
+    },
+    {
+      "ord": 34,
+      "name": "GetThreadTimes"
+    },
+    {
+      "ord": 35,
+      "name": "InitializeProcThreadAttributeList"
+    },
+    {
+      "ord": 36,
+      "name": "IsProcessorFeaturePresent"
+    },
+    {
+      "ord": 37,
+      "name": "OpenProcess"
+    },
+    {
+      "ord": 38,
+      "name": "OpenProcessToken"
+    },
+    {
+      "ord": 39,
+      "name": "OpenThread"
+    },
+    {
+      "ord": 40,
+      "name": "OpenThreadToken"
+    },
+    {
+      "ord": 41,
+      "name": "ProcessIdToSessionId"
+    },
+    {
+      "ord": 42,
+      "name": "QueryProcessAffinityUpdateMode"
+    },
+    {
+      "ord": 43,
+      "name": "QueueUserAPC"
+    },
+    {
+      "ord": 44,
+      "name": "ResumeThread"
+    },
+    {
+      "ord": 45,
+      "name": "SetPriorityClass"
+    },
+    {
+      "ord": 46,
+      "name": "SetProcessAffinityUpdateMode"
+    },
+    {
+      "ord": 47,
+      "name": "SetProcessMitigationPolicy"
+    },
+    {
+      "ord": 48,
+      "name": "SetProcessShutdownParameters"
+    },
+    {
+      "ord": 49,
+      "name": "SetThreadContext"
+    },
+    {
+      "ord": 50,
+      "name": "SetThreadIdealProcessorEx"
+    },
+    {
+      "ord": 51,
+      "name": "SetThreadPriority"
+    },
+    {
+      "ord": 52,
+      "name": "SetThreadPriorityBoost"
+    },
+    {
+      "ord": 53,
+      "name": "SetThreadStackGuarantee"
+    },
+    {
+      "ord": 54,
+      "name": "SetThreadToken"
+    },
+    {
+      "ord": 55,
+      "name": "SuspendThread"
+    },
+    {
+      "ord": 56,
+      "name": "SwitchToThread"
+    },
+    {
+      "ord": 57,
+      "name": "TerminateProcess"
+    },
+    {
+      "ord": 58,
+      "name": "TerminateThread"
+    },
+    {
+      "ord": 59,
+      "name": "TlsAlloc"
+    },
+    {
+      "ord": 60,
+      "name": "TlsFree"
+    },
+    {
+      "ord": 61,
+      "name": "TlsGetValue"
+    },
+    {
+      "ord": 62,
+      "name": "TlsSetValue"
+    },
+    {
+      "ord": 63,
+      "name": "UpdateProcThreadAttribute"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "Version": "6.1.7600.16385-I386",
+  "md5": "804ad3e54ad2c11ba91c28f73ade90da",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.1.7600.16385 (win7_rtm.090713-1255)",
+  "ProductVersion": "6.1.7600.16385",
+  "PeChecksum": 3160,
+  "Size": 3072,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ConvertSecurityDescriptorToStringSecurityDescriptorW"
+    },
+    {
+      "ord": 2,
+      "name": "ConvertSidToStringSidW"
+    },
+    {
+      "ord": 3,
+      "name": "ConvertStringSecurityDescriptorToSecurityDescriptorW"
+    },
+    {
+      "ord": 4,
+      "name": "ConvertStringSidToSidW"
+    }
+  ]
+}

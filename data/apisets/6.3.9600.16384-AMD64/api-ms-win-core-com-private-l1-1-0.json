@@ -1,0 +1,378 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "eba646e97f802fbc9e790d03e2bcaca2",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 56793,
+  "Size": 6144,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CLSIDFromOle1Class"
+    },
+    {
+      "ord": 2,
+      "name": "CleanupOleStateInAllTls"
+    },
+    {
+      "ord": 3,
+      "name": "CleanupTlsOleState"
+    },
+    {
+      "ord": 4,
+      "name": "ClearCleanupFlag"
+    },
+    {
+      "ord": 5,
+      "name": "CoCreateErrorInfo"
+    },
+    {
+      "ord": 6,
+      "name": "CoCreateObjectInContext"
+    },
+    {
+      "ord": 7,
+      "name": "CoDeactivateObject"
+    },
+    {
+      "ord": 8,
+      "name": "CoGetActivationState"
+    },
+    {
+      "ord": 9,
+      "name": "CoGetApartmentID"
+    },
+    {
+      "ord": 10,
+      "name": "CoGetCallState"
+    },
+    {
+      "ord": 11,
+      "name": "CoGetClassVersion"
+    },
+    {
+      "ord": 12,
+      "name": "CoGetErrorInfo"
+    },
+    {
+      "ord": 13,
+      "name": "CoGetInstanceFromFile"
+    },
+    {
+      "ord": 14,
+      "name": "CoGetInstanceFromIStorage"
+    },
+    {
+      "ord": 15,
+      "name": "CoGetModuleType"
+    },
+    {
+      "ord": 16,
+      "name": "CoGetProcessIdentifier"
+    },
+    {
+      "ord": 17,
+      "name": "CoGetSystemSecurityPermissions"
+    },
+    {
+      "ord": 18,
+      "name": "CoInitializeWOW"
+    },
+    {
+      "ord": 19,
+      "name": "CoPopServiceDomain"
+    },
+    {
+      "ord": 20,
+      "name": "CoPushServiceDomain"
+    },
+    {
+      "ord": 21,
+      "name": "CoReactivateObject"
+    },
+    {
+      "ord": 22,
+      "name": "CoRegisterInitializeSpy"
+    },
+    {
+      "ord": 23,
+      "name": "CoRegisterMallocSpy"
+    },
+    {
+      "ord": 24,
+      "name": "CoRegisterMessageFilter"
+    },
+    {
+      "ord": 25,
+      "name": "CoRegisterSurrogateEx"
+    },
+    {
+      "ord": 26,
+      "name": "CoRetireServer"
+    },
+    {
+      "ord": 27,
+      "name": "CoRevokeInitializeSpy"
+    },
+    {
+      "ord": 28,
+      "name": "CoRevokeMallocSpy"
+    },
+    {
+      "ord": 29,
+      "name": "CoSetErrorInfo"
+    },
+    {
+      "ord": 30,
+      "name": "CoUnloadingWOW"
+    },
+    {
+      "ord": 31,
+      "name": "CoVrfCheckThreadState"
+    },
+    {
+      "ord": 32,
+      "name": "CoVrfGetThreadState"
+    },
+    {
+      "ord": 33,
+      "name": "CoVrfReleaseThreadState"
+    },
+    {
+      "ord": 34,
+      "name": "DllDebugObjectRPCHook"
+    },
+    {
+      "ord": 35,
+      "name": "EnableHookObject"
+    },
+    {
+      "ord": 36,
+      "name": "FreePropVariantArrayWorker"
+    },
+    {
+      "ord": 37,
+      "name": "GetCatalogHelper"
+    },
+    {
+      "ord": 38,
+      "name": "GetFuncDescs"
+    },
+    {
+      "ord": 39,
+      "name": "GetHookInterface"
+    },
+    {
+      "ord": 40,
+      "name": "HkOleRegisterObject"
+    },
+    {
+      "ord": 41,
+      "name": "InternalAppInvokeExceptionFilter"
+    },
+    {
+      "ord": 42,
+      "name": "InternalCCFreeUnused"
+    },
+    {
+      "ord": 43,
+      "name": "InternalCCGetClassInformationForDde"
+    },
+    {
+      "ord": 44,
+      "name": "InternalCCGetClassInformationFromKey"
+    },
+    {
+      "ord": 45,
+      "name": "InternalCCSetDdeServerWindow"
+    },
+    {
+      "ord": 46,
+      "name": "InternalCMLSendReceive"
+    },
+    {
+      "ord": 47,
+      "name": "InternalCallAsProxyExceptionFilter"
+    },
+    {
+      "ord": 48,
+      "name": "InternalCallFrameExceptionFilter"
+    },
+    {
+      "ord": 49,
+      "name": "InternalCallerIsAppContainer"
+    },
+    {
+      "ord": 50,
+      "name": "InternalCanMakeOutCall"
+    },
+    {
+      "ord": 51,
+      "name": "InternalCoIsSurrogateProcess"
+    },
+    {
+      "ord": 52,
+      "name": "InternalCoRegisterDisconnectCallback"
+    },
+    {
+      "ord": 53,
+      "name": "InternalCoRegisterSurrogatedObject"
+    },
+    {
+      "ord": 54,
+      "name": "InternalCoStdMarshalObject"
+    },
+    {
+      "ord": 55,
+      "name": "InternalCoUnregisterDisconnectCallback"
+    },
+    {
+      "ord": 56,
+      "name": "InternalCompleteObjRef"
+    },
+    {
+      "ord": 57,
+      "name": "InternalCreateCAggId"
+    },
+    {
+      "ord": 58,
+      "name": "InternalCreateIdentityHandler"
+    },
+    {
+      "ord": 59,
+      "name": "InternalDoATClassCreate"
+    },
+    {
+      "ord": 60,
+      "name": "InternalFillLocalOXIDInfo"
+    },
+    {
+      "ord": 61,
+      "name": "InternalFreeObjRef"
+    },
+    {
+      "ord": 62,
+      "name": "InternalGetWindowPropInterface"
+    },
+    {
+      "ord": 63,
+      "name": "InternalIrotEnumRunning"
+    },
+    {
+      "ord": 64,
+      "name": "InternalIrotGetObject"
+    },
+    {
+      "ord": 65,
+      "name": "InternalIrotGetTimeOfLastChange"
+    },
+    {
+      "ord": 66,
+      "name": "InternalIrotIsRunning"
+    },
+    {
+      "ord": 67,
+      "name": "InternalIrotNoteChangeTime"
+    },
+    {
+      "ord": 68,
+      "name": "InternalIrotRegister"
+    },
+    {
+      "ord": 69,
+      "name": "InternalIrotRevoke"
+    },
+    {
+      "ord": 70,
+      "name": "InternalIsApartmentInitialized"
+    },
+    {
+      "ord": 71,
+      "name": "InternalIsProcessInitialized"
+    },
+    {
+      "ord": 72,
+      "name": "InternalMarshalObjRef"
+    },
+    {
+      "ord": 73,
+      "name": "InternalNotifyDDStartOrStop"
+    },
+    {
+      "ord": 74,
+      "name": "InternalOleModalLoopBlockFn"
+    },
+    {
+      "ord": 75,
+      "name": "InternalRegisterWindowPropInterface"
+    },
+    {
+      "ord": 76,
+      "name": "InternalReleaseMarshalObjRef"
+    },
+    {
+      "ord": 77,
+      "name": "InternalSTAInvoke"
+    },
+    {
+      "ord": 78,
+      "name": "InternalServerExceptionFilter"
+    },
+    {
+      "ord": 79,
+      "name": "InternalSetAptCallCtrlOnTlsIfRequired"
+    },
+    {
+      "ord": 80,
+      "name": "InternalSetOleThunkWowPtr"
+    },
+    {
+      "ord": 81,
+      "name": "InternalStubInvoke"
+    },
+    {
+      "ord": 82,
+      "name": "InternalTlsAllocData"
+    },
+    {
+      "ord": 83,
+      "name": "InternalUnmarshalObjRef"
+    },
+    {
+      "ord": 84,
+      "name": "NdrExtStubInitialize"
+    },
+    {
+      "ord": 85,
+      "name": "NdrOleDllGetClassObject"
+    },
+    {
+      "ord": 86,
+      "name": "NdrOleInitializeExtension"
+    },
+    {
+      "ord": 87,
+      "name": "NdrpFindInterface"
+    },
+    {
+      "ord": 88,
+      "name": "ReleaseFuncDescs"
+    },
+    {
+      "ord": 89,
+      "name": "SetCleanupFlag"
+    },
+    {
+      "ord": 90,
+      "name": "UpdateDCOMSettings"
+    },
+    {
+      "ord": 91,
+      "name": "UpdateProcessTracing"
+    }
+  ]
+}

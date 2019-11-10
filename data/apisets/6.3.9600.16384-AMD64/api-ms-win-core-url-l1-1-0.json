@@ -1,0 +1,166 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "43af038871a5a9b95469033ab484926e",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 7226,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "GetAcceptLanguagesA"
+    },
+    {
+      "ord": 2,
+      "name": "GetAcceptLanguagesW"
+    },
+    {
+      "ord": 3,
+      "name": "HashData"
+    },
+    {
+      "ord": 4,
+      "name": "IsInternetESCEnabled"
+    },
+    {
+      "ord": 5,
+      "name": "ParseURLA"
+    },
+    {
+      "ord": 6,
+      "name": "ParseURLW"
+    },
+    {
+      "ord": 7,
+      "name": "PathCreateFromUrlA"
+    },
+    {
+      "ord": 8,
+      "name": "PathCreateFromUrlAlloc"
+    },
+    {
+      "ord": 9,
+      "name": "PathCreateFromUrlW"
+    },
+    {
+      "ord": 10,
+      "name": "PathIsURLA"
+    },
+    {
+      "ord": 11,
+      "name": "PathIsURLW"
+    },
+    {
+      "ord": 12,
+      "name": "UrlApplySchemeA"
+    },
+    {
+      "ord": 13,
+      "name": "UrlApplySchemeW"
+    },
+    {
+      "ord": 14,
+      "name": "UrlCanonicalizeA"
+    },
+    {
+      "ord": 15,
+      "name": "UrlCanonicalizeW"
+    },
+    {
+      "ord": 16,
+      "name": "UrlCombineA"
+    },
+    {
+      "ord": 17,
+      "name": "UrlCombineW"
+    },
+    {
+      "ord": 18,
+      "name": "UrlCompareA"
+    },
+    {
+      "ord": 19,
+      "name": "UrlCompareW"
+    },
+    {
+      "ord": 20,
+      "name": "UrlCreateFromPathA"
+    },
+    {
+      "ord": 21,
+      "name": "UrlCreateFromPathW"
+    },
+    {
+      "ord": 22,
+      "name": "UrlEscapeA"
+    },
+    {
+      "ord": 23,
+      "name": "UrlEscapeW"
+    },
+    {
+      "ord": 24,
+      "name": "UrlFixupW"
+    },
+    {
+      "ord": 25,
+      "name": "UrlGetLocationA"
+    },
+    {
+      "ord": 26,
+      "name": "UrlGetLocationW"
+    },
+    {
+      "ord": 27,
+      "name": "UrlGetPartA"
+    },
+    {
+      "ord": 28,
+      "name": "UrlGetPartW"
+    },
+    {
+      "ord": 29,
+      "name": "UrlHashA"
+    },
+    {
+      "ord": 30,
+      "name": "UrlHashW"
+    },
+    {
+      "ord": 31,
+      "name": "UrlIsA"
+    },
+    {
+      "ord": 32,
+      "name": "UrlIsNoHistoryA"
+    },
+    {
+      "ord": 33,
+      "name": "UrlIsNoHistoryW"
+    },
+    {
+      "ord": 34,
+      "name": "UrlIsOpaqueA"
+    },
+    {
+      "ord": 35,
+      "name": "UrlIsOpaqueW"
+    },
+    {
+      "ord": 36,
+      "name": "UrlIsW"
+    },
+    {
+      "ord": 37,
+      "name": "UrlUnescapeA"
+    },
+    {
+      "ord": 38,
+      "name": "UrlUnescapeW"
+    }
+  ]
+}

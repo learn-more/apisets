@@ -1,0 +1,250 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "dc423923a15f70bfb04307d92fa94e3f",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 32952,
+  "Size": 5120,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "SamIAccountRestrictions"
+    },
+    {
+      "ord": 2,
+      "name": "SamIConnect"
+    },
+    {
+      "ord": 3,
+      "name": "SamIConvertSecurityAttributesToClaimsBlob"
+    },
+    {
+      "ord": 4,
+      "name": "SamIDecodeClaimsBlob"
+    },
+    {
+      "ord": 5,
+      "name": "SamIDoFSMORoleChange"
+    },
+    {
+      "ord": 6,
+      "name": "SamIFreeClaimsBlob"
+    },
+    {
+      "ord": 7,
+      "name": "SamIFreeLookupNamesInfo"
+    },
+    {
+      "ord": 8,
+      "name": "SamIFreeLookupSidsInfo"
+    },
+    {
+      "ord": 9,
+      "name": "SamIFreeRealmList"
+    },
+    {
+      "ord": 10,
+      "name": "SamIFreeSecurityAttributesInfo"
+    },
+    {
+      "ord": 11,
+      "name": "SamIFreeSidAndAttributesList"
+    },
+    {
+      "ord": 12,
+      "name": "SamIFreeSidArray"
+    },
+    {
+      "ord": 13,
+      "name": "SamIFreeVoid"
+    },
+    {
+      "ord": 14,
+      "name": "SamIFree_SAMPR_ENUMERATION_BUFFER"
+    },
+    {
+      "ord": 15,
+      "name": "SamIFree_SAMPR_GET_GROUPS_BUFFER"
+    },
+    {
+      "ord": 16,
+      "name": "SamIFree_SAMPR_RETURNED_USTRING_ARRAY"
+    },
+    {
+      "ord": 17,
+      "name": "SamIFree_SAMPR_ULONG_ARRAY"
+    },
+    {
+      "ord": 18,
+      "name": "SamIFree_SAMPR_USER_INFO_BUFFER"
+    },
+    {
+      "ord": 19,
+      "name": "SamIFree_UserInternal6Information"
+    },
+    {
+      "ord": 20,
+      "name": "SamIGetAliasMembership"
+    },
+    {
+      "ord": 21,
+      "name": "SamIGetResourceGroupMembershipsTransitive"
+    },
+    {
+      "ord": 22,
+      "name": "SamIGetUserLogonInformation"
+    },
+    {
+      "ord": 23,
+      "name": "SamIGetUserLogonInformation2"
+    },
+    {
+      "ord": 24,
+      "name": "SamIInitialize"
+    },
+    {
+      "ord": 25,
+      "name": "SamIIsExtendedSidMode"
+    },
+    {
+      "ord": 26,
+      "name": "SamIIsSetupInProgress"
+    },
+    {
+      "ord": 27,
+      "name": "SamILookupNamesBySid"
+    },
+    {
+      "ord": 28,
+      "name": "SamILookupSidsByName"
+    },
+    {
+      "ord": 29,
+      "name": "SamIMixedDomain"
+    },
+    {
+      "ord": 30,
+      "name": "SamIMixedDomain2"
+    },
+    {
+      "ord": 31,
+      "name": "SamIQueryCapabilities"
+    },
+    {
+      "ord": 32,
+      "name": "SamIQueryRealmList"
+    },
+    {
+      "ord": 33,
+      "name": "SamIQueryServerRole"
+    },
+    {
+      "ord": 34,
+      "name": "SamIScorePassword"
+    },
+    {
+      "ord": 35,
+      "name": "SamISetAuditingInformation"
+    },
+    {
+      "ord": 36,
+      "name": "SamISetPasswordForeignUser2"
+    },
+    {
+      "ord": 37,
+      "name": "SamISetPasswordForeignUser3"
+    },
+    {
+      "ord": 38,
+      "name": "SamITransformClaims"
+    },
+    {
+      "ord": 39,
+      "name": "SamIUninitialize"
+    },
+    {
+      "ord": 40,
+      "name": "SamIUpdateLogonStatistics"
+    },
+    {
+      "ord": 41,
+      "name": "SamIValidateAccountName"
+    },
+    {
+      "ord": 42,
+      "name": "SampDsIsRunning"
+    },
+    {
+      "ord": 43,
+      "name": "SamrAddMemberToAlias"
+    },
+    {
+      "ord": 44,
+      "name": "SamrCloseHandle"
+    },
+    {
+      "ord": 45,
+      "name": "SamrCreateUserInDomain"
+    },
+    {
+      "ord": 46,
+      "name": "SamrDeleteUser"
+    },
+    {
+      "ord": 47,
+      "name": "SamrEnumerateUsersInDomain2"
+    },
+    {
+      "ord": 48,
+      "name": "SamrGetGroupsForUser"
+    },
+    {
+      "ord": 49,
+      "name": "SamrLookupIdsInDomain"
+    },
+    {
+      "ord": 50,
+      "name": "SamrLookupNamesInDomain2"
+    },
+    {
+      "ord": 51,
+      "name": "SamrOpenAlias"
+    },
+    {
+      "ord": 52,
+      "name": "SamrOpenDomain"
+    },
+    {
+      "ord": 53,
+      "name": "SamrOpenUser"
+    },
+    {
+      "ord": 54,
+      "name": "SamrQueryInformationUser"
+    },
+    {
+      "ord": 55,
+      "name": "SamrQuerySecurityObject"
+    },
+    {
+      "ord": 56,
+      "name": "SamrRemoveMemberFromAlias"
+    },
+    {
+      "ord": 57,
+      "name": "SamrRidToSid"
+    },
+    {
+      "ord": 58,
+      "name": "SamrSetInformationUser"
+    },
+    {
+      "ord": 59,
+      "name": "SamrValidatePassword"
+    }
+  ]
+}

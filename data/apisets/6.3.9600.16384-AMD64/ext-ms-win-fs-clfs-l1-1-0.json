@@ -1,0 +1,246 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "24545dcf149e5ffb6260751a32bc7257",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 44008,
+  "Size": 14176,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ClfsAddLogContainer"
+    },
+    {
+      "ord": 2,
+      "name": "ClfsAddLogContainerSet"
+    },
+    {
+      "ord": 3,
+      "name": "ClfsAdvanceLogBase"
+    },
+    {
+      "ord": 4,
+      "name": "ClfsAlignReservedLog"
+    },
+    {
+      "ord": 5,
+      "name": "ClfsAllocReservedLog"
+    },
+    {
+      "ord": 6,
+      "name": "ClfsCloseAndResetLogFile"
+    },
+    {
+      "ord": 7,
+      "name": "ClfsCloseLogFileObject"
+    },
+    {
+      "ord": 8,
+      "name": "ClfsCreateLogFile"
+    },
+    {
+      "ord": 9,
+      "name": "ClfsCreateMarshallingArea"
+    },
+    {
+      "ord": 10,
+      "name": "ClfsCreateScanContext"
+    },
+    {
+      "ord": 11,
+      "name": "ClfsDeleteLogByPointer"
+    },
+    {
+      "ord": 12,
+      "name": "ClfsDeleteLogFile"
+    },
+    {
+      "ord": 13,
+      "name": "ClfsDeleteMarshallingArea"
+    },
+    {
+      "ord": 14,
+      "name": "ClfsEarlierLsn"
+    },
+    {
+      "ord": 15,
+      "name": "ClfsFinalize"
+    },
+    {
+      "ord": 16,
+      "name": "ClfsFlushBuffers"
+    },
+    {
+      "ord": 17,
+      "name": "ClfsFlushToLsn"
+    },
+    {
+      "ord": 18,
+      "name": "ClfsFreeReservedLog"
+    },
+    {
+      "ord": 19,
+      "name": "ClfsGetContainerName"
+    },
+    {
+      "ord": 20,
+      "name": "ClfsGetIoStatistics"
+    },
+    {
+      "ord": 21,
+      "name": "ClfsGetLogFileInformation"
+    },
+    {
+      "ord": 22,
+      "name": "ClfsInitialize"
+    },
+    {
+      "ord": 23,
+      "name": "ClfsLaterLsn"
+    },
+    {
+      "ord": 24,
+      "name": "ClfsLsnBlockOffset"
+    },
+    {
+      "ord": 25,
+      "name": "ClfsLsnContainer"
+    },
+    {
+      "ord": 26,
+      "name": "ClfsLsnCreate"
+    },
+    {
+      "ord": 27,
+      "name": "ClfsLsnDifference"
+    },
+    {
+      "ord": 28,
+      "name": "ClfsLsnEqual"
+    },
+    {
+      "ord": 29,
+      "name": "ClfsLsnGreater"
+    },
+    {
+      "ord": 30,
+      "name": "ClfsLsnInvalid"
+    },
+    {
+      "ord": 31,
+      "name": "ClfsLsnLess"
+    },
+    {
+      "ord": 32,
+      "name": "ClfsLsnNull"
+    },
+    {
+      "ord": 33,
+      "name": "ClfsLsnRecordSequence"
+    },
+    {
+      "ord": 34,
+      "name": "ClfsMgmtDeregisterManagedClient"
+    },
+    {
+      "ord": 35,
+      "name": "ClfsMgmtHandleLogFileFull"
+    },
+    {
+      "ord": 36,
+      "name": "ClfsMgmtInstallPolicy"
+    },
+    {
+      "ord": 37,
+      "name": "ClfsMgmtQueryPolicy"
+    },
+    {
+      "ord": 38,
+      "name": "ClfsMgmtRegisterManagedClient"
+    },
+    {
+      "ord": 39,
+      "name": "ClfsMgmtRemovePolicy"
+    },
+    {
+      "ord": 40,
+      "name": "ClfsMgmtSetLogFileSize"
+    },
+    {
+      "ord": 41,
+      "name": "ClfsMgmtSetLogFileSizeAsClient"
+    },
+    {
+      "ord": 42,
+      "name": "ClfsMgmtTailAdvanceFailure"
+    },
+    {
+      "ord": 43,
+      "name": "ClfsPrivGetBaseLogFileFromFileObjectPointer"
+    },
+    {
+      "ord": 44,
+      "name": "ClfsQueryLogFileInformation"
+    },
+    {
+      "ord": 45,
+      "name": "ClfsReadLogRecord"
+    },
+    {
+      "ord": 46,
+      "name": "ClfsReadNextLogRecord"
+    },
+    {
+      "ord": 47,
+      "name": "ClfsReadPreviousRestartArea"
+    },
+    {
+      "ord": 48,
+      "name": "ClfsReadRestartArea"
+    },
+    {
+      "ord": 49,
+      "name": "ClfsRemoveLogContainer"
+    },
+    {
+      "ord": 50,
+      "name": "ClfsRemoveLogContainerSet"
+    },
+    {
+      "ord": 51,
+      "name": "ClfsReserveAndAppendLog"
+    },
+    {
+      "ord": 52,
+      "name": "ClfsReserveAndAppendLogAligned"
+    },
+    {
+      "ord": 53,
+      "name": "ClfsScanLogContainers"
+    },
+    {
+      "ord": 54,
+      "name": "ClfsSetArchiveTail"
+    },
+    {
+      "ord": 55,
+      "name": "ClfsSetEndOfLog"
+    },
+    {
+      "ord": 56,
+      "name": "ClfsSetLogFileInformation"
+    },
+    {
+      "ord": 57,
+      "name": "ClfsTerminateReadLog"
+    },
+    {
+      "ord": 58,
+      "name": "ClfsWriteRestartArea"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "6a824a05e0c307e6dc2f53e7b0d5eafd",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 19595,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "DevCloseObjectQuery"
+    },
+    {
+      "ord": 2,
+      "name": "DevCreateObjectQuery"
+    },
+    {
+      "ord": 3,
+      "name": "DevCreateObjectQueryEx"
+    },
+    {
+      "ord": 4,
+      "name": "DevCreateObjectQueryFromId"
+    },
+    {
+      "ord": 5,
+      "name": "DevCreateObjectQueryFromIdEx"
+    },
+    {
+      "ord": 6,
+      "name": "DevCreateObjectQueryFromIds"
+    },
+    {
+      "ord": 7,
+      "name": "DevCreateObjectQueryFromIdsEx"
+    },
+    {
+      "ord": 8,
+      "name": "DevFindProperty"
+    },
+    {
+      "ord": 9,
+      "name": "DevFreeObjectProperties"
+    },
+    {
+      "ord": 10,
+      "name": "DevFreeObjects"
+    },
+    {
+      "ord": 11,
+      "name": "DevGetObjectProperties"
+    },
+    {
+      "ord": 12,
+      "name": "DevGetObjectPropertiesEx"
+    },
+    {
+      "ord": 13,
+      "name": "DevGetObjects"
+    },
+    {
+      "ord": 14,
+      "name": "DevGetObjectsEx"
+    },
+    {
+      "ord": 15,
+      "name": "DevSetObjectProperties"
+    }
+  ]
+}

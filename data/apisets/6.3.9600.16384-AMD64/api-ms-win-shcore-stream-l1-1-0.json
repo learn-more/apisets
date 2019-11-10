@@ -1,0 +1,74 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "8d68e5e83242018d917906b3efe8a50c",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 16881,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "IStream_Copy"
+    },
+    {
+      "ord": 2,
+      "name": "IStream_Read"
+    },
+    {
+      "ord": 3,
+      "name": "IStream_ReadStr"
+    },
+    {
+      "ord": 4,
+      "name": "IStream_Reset"
+    },
+    {
+      "ord": 5,
+      "name": "IStream_Size"
+    },
+    {
+      "ord": 6,
+      "name": "IStream_Write"
+    },
+    {
+      "ord": 7,
+      "name": "IStream_WriteStr"
+    },
+    {
+      "ord": 8,
+      "name": "SHCreateMemStream"
+    },
+    {
+      "ord": 9,
+      "name": "SHCreateStreamOnFileA"
+    },
+    {
+      "ord": 10,
+      "name": "SHCreateStreamOnFileEx"
+    },
+    {
+      "ord": 11,
+      "name": "SHCreateStreamOnFileW"
+    },
+    {
+      "ord": 12,
+      "name": "SHOpenRegStream2A"
+    },
+    {
+      "ord": 13,
+      "name": "SHOpenRegStream2W"
+    },
+    {
+      "ord": 14,
+      "name": "SHOpenRegStreamA"
+    },
+    {
+      "ord": 15,
+      "name": "SHOpenRegStreamW"
+    }
+  ]
+}

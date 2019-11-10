@@ -1,0 +1,54 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "ba80700163dcc294f187f65c42d073e5",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 59281,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CloseClipboard"
+    },
+    {
+      "ord": 2,
+      "name": "CountClipboardFormats"
+    },
+    {
+      "ord": 3,
+      "name": "EmptyClipboard"
+    },
+    {
+      "ord": 4,
+      "name": "GetClipboardFormatNameA"
+    },
+    {
+      "ord": 5,
+      "name": "GetClipboardFormatNameW"
+    },
+    {
+      "ord": 6,
+      "name": "IsClipboardFormatAvailable"
+    },
+    {
+      "ord": 7,
+      "name": "OpenClipboard"
+    },
+    {
+      "ord": 8,
+      "name": "RegisterClipboardFormatA"
+    },
+    {
+      "ord": 9,
+      "name": "RegisterClipboardFormatW"
+    },
+    {
+      "ord": 10,
+      "name": "SetClipboardData"
+    }
+  ]
+}

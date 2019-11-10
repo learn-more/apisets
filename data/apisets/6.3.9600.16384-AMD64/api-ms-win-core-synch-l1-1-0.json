@@ -1,0 +1,182 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "4219b20d53c2c6b533ae93ed45876351",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 35390,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AcquireSRWLockExclusive"
+    },
+    {
+      "ord": 2,
+      "name": "AcquireSRWLockShared"
+    },
+    {
+      "ord": 3,
+      "name": "CancelWaitableTimer"
+    },
+    {
+      "ord": 4,
+      "name": "CreateEventA"
+    },
+    {
+      "ord": 5,
+      "name": "CreateEventExA"
+    },
+    {
+      "ord": 6,
+      "name": "CreateEventExW"
+    },
+    {
+      "ord": 7,
+      "name": "CreateEventW"
+    },
+    {
+      "ord": 8,
+      "name": "CreateMutexA"
+    },
+    {
+      "ord": 9,
+      "name": "CreateMutexExA"
+    },
+    {
+      "ord": 10,
+      "name": "CreateMutexExW"
+    },
+    {
+      "ord": 11,
+      "name": "CreateMutexW"
+    },
+    {
+      "ord": 12,
+      "name": "CreateSemaphoreExW"
+    },
+    {
+      "ord": 13,
+      "name": "CreateWaitableTimerExW"
+    },
+    {
+      "ord": 14,
+      "name": "DeleteCriticalSection"
+    },
+    {
+      "ord": 15,
+      "name": "EnterCriticalSection"
+    },
+    {
+      "ord": 16,
+      "name": "InitializeCriticalSection"
+    },
+    {
+      "ord": 17,
+      "name": "InitializeCriticalSectionAndSpinCount"
+    },
+    {
+      "ord": 18,
+      "name": "InitializeCriticalSectionEx"
+    },
+    {
+      "ord": 19,
+      "name": "InitializeSRWLock"
+    },
+    {
+      "ord": 20,
+      "name": "LeaveCriticalSection"
+    },
+    {
+      "ord": 21,
+      "name": "OpenEventA"
+    },
+    {
+      "ord": 22,
+      "name": "OpenEventW"
+    },
+    {
+      "ord": 23,
+      "name": "OpenMutexW"
+    },
+    {
+      "ord": 24,
+      "name": "OpenProcess"
+    },
+    {
+      "ord": 25,
+      "name": "OpenSemaphoreW"
+    },
+    {
+      "ord": 26,
+      "name": "OpenWaitableTimerW"
+    },
+    {
+      "ord": 27,
+      "name": "ReleaseMutex"
+    },
+    {
+      "ord": 28,
+      "name": "ReleaseSRWLockExclusive"
+    },
+    {
+      "ord": 29,
+      "name": "ReleaseSRWLockShared"
+    },
+    {
+      "ord": 30,
+      "name": "ReleaseSemaphore"
+    },
+    {
+      "ord": 31,
+      "name": "ResetEvent"
+    },
+    {
+      "ord": 32,
+      "name": "SetCriticalSectionSpinCount"
+    },
+    {
+      "ord": 33,
+      "name": "SetEvent"
+    },
+    {
+      "ord": 34,
+      "name": "SetWaitableTimer"
+    },
+    {
+      "ord": 35,
+      "name": "SetWaitableTimerEx"
+    },
+    {
+      "ord": 36,
+      "name": "SleepEx"
+    },
+    {
+      "ord": 37,
+      "name": "TryAcquireSRWLockExclusive"
+    },
+    {
+      "ord": 38,
+      "name": "TryAcquireSRWLockShared"
+    },
+    {
+      "ord": 39,
+      "name": "TryEnterCriticalSection"
+    },
+    {
+      "ord": 40,
+      "name": "WaitForMultipleObjectsEx"
+    },
+    {
+      "ord": 41,
+      "name": "WaitForSingleObject"
+    },
+    {
+      "ord": 42,
+      "name": "WaitForSingleObjectEx"
+    }
+  ]
+}

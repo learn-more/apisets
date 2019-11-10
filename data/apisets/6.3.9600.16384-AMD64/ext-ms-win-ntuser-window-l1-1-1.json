@@ -1,0 +1,234 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "27304ac2408546e0c922ed8ffca43a03",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 69534,
+  "Size": 4608,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AdjustWindowRectEx"
+    },
+    {
+      "ord": 2,
+      "name": "AllowSetForegroundWindow"
+    },
+    {
+      "ord": 3,
+      "name": "AnimateWindow"
+    },
+    {
+      "ord": 4,
+      "name": "BringWindowToTop"
+    },
+    {
+      "ord": 5,
+      "name": "CallNextHookEx"
+    },
+    {
+      "ord": 6,
+      "name": "CreateWindowExA"
+    },
+    {
+      "ord": 7,
+      "name": "CreateWindowExW"
+    },
+    {
+      "ord": 8,
+      "name": "DefWindowProcA"
+    },
+    {
+      "ord": 9,
+      "name": "DefWindowProcW"
+    },
+    {
+      "ord": 10,
+      "name": "DestroyWindow"
+    },
+    {
+      "ord": 11,
+      "name": "EnumChildWindows"
+    },
+    {
+      "ord": 12,
+      "name": "EnumThreadWindows"
+    },
+    {
+      "ord": 13,
+      "name": "EnumWindows"
+    },
+    {
+      "ord": 14,
+      "name": "FindWindowA"
+    },
+    {
+      "ord": 15,
+      "name": "FindWindowExW"
+    },
+    {
+      "ord": 16,
+      "name": "FindWindowW"
+    },
+    {
+      "ord": 17,
+      "name": "GetAncestor"
+    },
+    {
+      "ord": 18,
+      "name": "GetClientRect"
+    },
+    {
+      "ord": 19,
+      "name": "GetDesktopWindow"
+    },
+    {
+      "ord": 20,
+      "name": "GetForegroundWindow"
+    },
+    {
+      "ord": 21,
+      "name": "GetGUIThreadInfo"
+    },
+    {
+      "ord": 22,
+      "name": "GetLayeredWindowAttributes"
+    },
+    {
+      "ord": 23,
+      "name": "GetParent"
+    },
+    {
+      "ord": 24,
+      "name": "GetPropW"
+    },
+    {
+      "ord": 25,
+      "name": "GetShellWindow"
+    },
+    {
+      "ord": 26,
+      "name": "GetWindow"
+    },
+    {
+      "ord": 27,
+      "name": "GetWindowDisplayAffinity"
+    },
+    {
+      "ord": 28,
+      "name": "GetWindowInfo"
+    },
+    {
+      "ord": 29,
+      "name": "GetWindowPlacement"
+    },
+    {
+      "ord": 30,
+      "name": "GetWindowRect"
+    },
+    {
+      "ord": 31,
+      "name": "GetWindowTextLengthW"
+    },
+    {
+      "ord": 32,
+      "name": "GetWindowTextW"
+    },
+    {
+      "ord": 33,
+      "name": "GetWindowThreadProcessId"
+    },
+    {
+      "ord": 34,
+      "name": "IsChild"
+    },
+    {
+      "ord": 35,
+      "name": "IsIconic"
+    },
+    {
+      "ord": 36,
+      "name": "IsWindow"
+    },
+    {
+      "ord": 37,
+      "name": "IsWindowUnicode"
+    },
+    {
+      "ord": 38,
+      "name": "IsWindowVisible"
+    },
+    {
+      "ord": 39,
+      "name": "LogicalToPhysicalPoint"
+    },
+    {
+      "ord": 40,
+      "name": "MoveWindow"
+    },
+    {
+      "ord": 41,
+      "name": "RemovePropW"
+    },
+    {
+      "ord": 42,
+      "name": "SetForegroundWindow"
+    },
+    {
+      "ord": 43,
+      "name": "SetLayeredWindowAttributes"
+    },
+    {
+      "ord": 44,
+      "name": "SetParent"
+    },
+    {
+      "ord": 45,
+      "name": "SetPropW"
+    },
+    {
+      "ord": 46,
+      "name": "SetWindowDisplayAffinity"
+    },
+    {
+      "ord": 47,
+      "name": "SetWindowPos"
+    },
+    {
+      "ord": 48,
+      "name": "SetWindowTextW"
+    },
+    {
+      "ord": 49,
+      "name": "SetWindowsHookExW"
+    },
+    {
+      "ord": 50,
+      "name": "ShowWindow"
+    },
+    {
+      "ord": 51,
+      "name": "SoundSentry"
+    },
+    {
+      "ord": 52,
+      "name": "UnhookWindowsHookEx"
+    },
+    {
+      "ord": 53,
+      "name": "UpdateLayeredWindow"
+    },
+    {
+      "ord": 54,
+      "name": "WindowFromPhysicalPoint"
+    },
+    {
+      "ord": 55,
+      "name": "WindowFromPoint"
+    }
+  ]
+}

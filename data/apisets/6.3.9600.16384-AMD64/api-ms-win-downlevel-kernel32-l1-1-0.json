@@ -1,0 +1,2486 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "53b3e0a84be27f657c98fe8b4b6a88a1",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 81521,
+  "Size": 20992,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AcquireSRWLockExclusive"
+    },
+    {
+      "ord": 2,
+      "name": "AcquireSRWLockShared"
+    },
+    {
+      "ord": 3,
+      "name": "AddSIDToBoundaryDescriptor"
+    },
+    {
+      "ord": 4,
+      "name": "AddVectoredContinueHandler"
+    },
+    {
+      "ord": 5,
+      "name": "AddVectoredExceptionHandler"
+    },
+    {
+      "ord": 6,
+      "name": "AllocConsole"
+    },
+    {
+      "ord": 7,
+      "name": "AllocateUserPhysicalPages"
+    },
+    {
+      "ord": 8,
+      "name": "AllocateUserPhysicalPagesNuma"
+    },
+    {
+      "ord": 9,
+      "name": "AttachConsole"
+    },
+    {
+      "ord": 10,
+      "name": "Beep"
+    },
+    {
+      "ord": 11,
+      "name": "CallbackMayRunLong"
+    },
+    {
+      "ord": 12,
+      "name": "CancelIo"
+    },
+    {
+      "ord": 13,
+      "name": "CancelIoEx"
+    },
+    {
+      "ord": 14,
+      "name": "CancelSynchronousIo"
+    },
+    {
+      "ord": 15,
+      "name": "CancelThreadpoolIo"
+    },
+    {
+      "ord": 16,
+      "name": "CancelWaitableTimer"
+    },
+    {
+      "ord": 17,
+      "name": "ChangeTimerQueueTimer"
+    },
+    {
+      "ord": 18,
+      "name": "CheckRemoteDebuggerPresent"
+    },
+    {
+      "ord": 19,
+      "name": "ClearCommBreak"
+    },
+    {
+      "ord": 20,
+      "name": "ClearCommError"
+    },
+    {
+      "ord": 21,
+      "name": "CloseHandle"
+    },
+    {
+      "ord": 22,
+      "name": "ClosePrivateNamespace"
+    },
+    {
+      "ord": 23,
+      "name": "CloseThreadpool"
+    },
+    {
+      "ord": 24,
+      "name": "CloseThreadpoolCleanupGroup"
+    },
+    {
+      "ord": 25,
+      "name": "CloseThreadpoolCleanupGroupMembers"
+    },
+    {
+      "ord": 26,
+      "name": "CloseThreadpoolIo"
+    },
+    {
+      "ord": 27,
+      "name": "CloseThreadpoolTimer"
+    },
+    {
+      "ord": 28,
+      "name": "CloseThreadpoolWait"
+    },
+    {
+      "ord": 29,
+      "name": "CloseThreadpoolWork"
+    },
+    {
+      "ord": 30,
+      "name": "CompareFileTime"
+    },
+    {
+      "ord": 31,
+      "name": "CompareStringA"
+    },
+    {
+      "ord": 32,
+      "name": "CompareStringEx"
+    },
+    {
+      "ord": 33,
+      "name": "CompareStringOrdinal"
+    },
+    {
+      "ord": 34,
+      "name": "CompareStringW"
+    },
+    {
+      "ord": 35,
+      "name": "ConnectNamedPipe"
+    },
+    {
+      "ord": 36,
+      "name": "ContinueDebugEvent"
+    },
+    {
+      "ord": 37,
+      "name": "ConvertDefaultLocale"
+    },
+    {
+      "ord": 38,
+      "name": "CopyFileExW"
+    },
+    {
+      "ord": 39,
+      "name": "CreateBoundaryDescriptorW"
+    },
+    {
+      "ord": 40,
+      "name": "CreateConsoleScreenBuffer"
+    },
+    {
+      "ord": 41,
+      "name": "CreateDirectoryA"
+    },
+    {
+      "ord": 42,
+      "name": "CreateDirectoryExW"
+    },
+    {
+      "ord": 43,
+      "name": "CreateDirectoryW"
+    },
+    {
+      "ord": 44,
+      "name": "CreateEventA"
+    },
+    {
+      "ord": 45,
+      "name": "CreateEventExA"
+    },
+    {
+      "ord": 46,
+      "name": "CreateEventExW"
+    },
+    {
+      "ord": 47,
+      "name": "CreateEventW"
+    },
+    {
+      "ord": 48,
+      "name": "CreateFileA"
+    },
+    {
+      "ord": 49,
+      "name": "CreateFileMappingNumaW"
+    },
+    {
+      "ord": 50,
+      "name": "CreateFileMappingW"
+    },
+    {
+      "ord": 51,
+      "name": "CreateFileW"
+    },
+    {
+      "ord": 52,
+      "name": "CreateHardLinkW"
+    },
+    {
+      "ord": 53,
+      "name": "CreateIoCompletionPort"
+    },
+    {
+      "ord": 54,
+      "name": "CreateMemoryResourceNotification"
+    },
+    {
+      "ord": 55,
+      "name": "CreateMutexA"
+    },
+    {
+      "ord": 56,
+      "name": "CreateMutexExA"
+    },
+    {
+      "ord": 57,
+      "name": "CreateMutexExW"
+    },
+    {
+      "ord": 58,
+      "name": "CreateMutexW"
+    },
+    {
+      "ord": 59,
+      "name": "CreateNamedPipeW"
+    },
+    {
+      "ord": 60,
+      "name": "CreatePipe"
+    },
+    {
+      "ord": 61,
+      "name": "CreatePrivateNamespaceW"
+    },
+    {
+      "ord": 62,
+      "name": "CreateProcessA"
+    },
+    {
+      "ord": 63,
+      "name": "CreateProcessW"
+    },
+    {
+      "ord": 64,
+      "name": "CreateRemoteThread"
+    },
+    {
+      "ord": 65,
+      "name": "CreateRemoteThreadEx"
+    },
+    {
+      "ord": 66,
+      "name": "CreateSemaphoreExW"
+    },
+    {
+      "ord": 67,
+      "name": "CreateSymbolicLinkW"
+    },
+    {
+      "ord": 68,
+      "name": "CreateThread"
+    },
+    {
+      "ord": 69,
+      "name": "CreateThreadpool"
+    },
+    {
+      "ord": 70,
+      "name": "CreateThreadpoolCleanupGroup"
+    },
+    {
+      "ord": 71,
+      "name": "CreateThreadpoolIo"
+    },
+    {
+      "ord": 72,
+      "name": "CreateThreadpoolTimer"
+    },
+    {
+      "ord": 73,
+      "name": "CreateThreadpoolWait"
+    },
+    {
+      "ord": 74,
+      "name": "CreateThreadpoolWork"
+    },
+    {
+      "ord": 75,
+      "name": "CreateTimerQueue"
+    },
+    {
+      "ord": 76,
+      "name": "CreateTimerQueueTimer"
+    },
+    {
+      "ord": 77,
+      "name": "CreateWaitableTimerExW"
+    },
+    {
+      "ord": 78,
+      "name": "DebugActiveProcess"
+    },
+    {
+      "ord": 79,
+      "name": "DebugActiveProcessStop"
+    },
+    {
+      "ord": 80,
+      "name": "DebugBreak"
+    },
+    {
+      "ord": 81,
+      "name": "DecodePointer"
+    },
+    {
+      "ord": 82,
+      "name": "DecodeSystemPointer"
+    },
+    {
+      "ord": 83,
+      "name": "DefineDosDeviceW"
+    },
+    {
+      "ord": 84,
+      "name": "DeleteBoundaryDescriptor"
+    },
+    {
+      "ord": 85,
+      "name": "DeleteCriticalSection"
+    },
+    {
+      "ord": 86,
+      "name": "DeleteFileA"
+    },
+    {
+      "ord": 87,
+      "name": "DeleteFileW"
+    },
+    {
+      "ord": 88,
+      "name": "DeleteProcThreadAttributeList"
+    },
+    {
+      "ord": 89,
+      "name": "DeleteTimerQueueEx"
+    },
+    {
+      "ord": 90,
+      "name": "DeleteTimerQueueTimer"
+    },
+    {
+      "ord": 91,
+      "name": "DeleteVolumeMountPointW"
+    },
+    {
+      "ord": 92,
+      "name": "DeviceIoControl"
+    },
+    {
+      "ord": 93,
+      "name": "DisableThreadLibraryCalls"
+    },
+    {
+      "ord": 94,
+      "name": "DisassociateCurrentThreadFromCallback"
+    },
+    {
+      "ord": 95,
+      "name": "DisconnectNamedPipe"
+    },
+    {
+      "ord": 96,
+      "name": "DuplicateHandle"
+    },
+    {
+      "ord": 97,
+      "name": "EncodePointer"
+    },
+    {
+      "ord": 98,
+      "name": "EncodeSystemPointer"
+    },
+    {
+      "ord": 99,
+      "name": "EnterCriticalSection"
+    },
+    {
+      "ord": 100,
+      "name": "EnumLanguageGroupLocalesW"
+    },
+    {
+      "ord": 101,
+      "name": "EnumResourceLanguagesExA"
+    },
+    {
+      "ord": 102,
+      "name": "EnumResourceLanguagesExW"
+    },
+    {
+      "ord": 103,
+      "name": "EnumResourceNamesExA"
+    },
+    {
+      "ord": 104,
+      "name": "EnumResourceNamesExW"
+    },
+    {
+      "ord": 105,
+      "name": "EnumResourceTypesExA"
+    },
+    {
+      "ord": 106,
+      "name": "EnumResourceTypesExW"
+    },
+    {
+      "ord": 107,
+      "name": "EnumSystemFirmwareTables"
+    },
+    {
+      "ord": 108,
+      "name": "EnumSystemGeoID"
+    },
+    {
+      "ord": 109,
+      "name": "EnumSystemLanguageGroupsW"
+    },
+    {
+      "ord": 110,
+      "name": "EnumSystemLocalesA"
+    },
+    {
+      "ord": 111,
+      "name": "EnumSystemLocalesEx"
+    },
+    {
+      "ord": 112,
+      "name": "EnumSystemLocalesW"
+    },
+    {
+      "ord": 113,
+      "name": "EnumUILanguagesW"
+    },
+    {
+      "ord": 114,
+      "name": "EscapeCommFunction"
+    },
+    {
+      "ord": 115,
+      "name": "ExitProcess"
+    },
+    {
+      "ord": 116,
+      "name": "ExitThread"
+    },
+    {
+      "ord": 117,
+      "name": "ExpandEnvironmentStringsA"
+    },
+    {
+      "ord": 118,
+      "name": "ExpandEnvironmentStringsW"
+    },
+    {
+      "ord": 119,
+      "name": "FileTimeToLocalFileTime"
+    },
+    {
+      "ord": 120,
+      "name": "FileTimeToSystemTime"
+    },
+    {
+      "ord": 121,
+      "name": "FillConsoleOutputAttribute"
+    },
+    {
+      "ord": 122,
+      "name": "FillConsoleOutputCharacterA"
+    },
+    {
+      "ord": 123,
+      "name": "FillConsoleOutputCharacterW"
+    },
+    {
+      "ord": 124,
+      "name": "FindClose"
+    },
+    {
+      "ord": 125,
+      "name": "FindCloseChangeNotification"
+    },
+    {
+      "ord": 126,
+      "name": "FindFirstChangeNotificationA"
+    },
+    {
+      "ord": 127,
+      "name": "FindFirstChangeNotificationW"
+    },
+    {
+      "ord": 128,
+      "name": "FindFirstFileA"
+    },
+    {
+      "ord": 129,
+      "name": "FindFirstFileExA"
+    },
+    {
+      "ord": 130,
+      "name": "FindFirstFileExW"
+    },
+    {
+      "ord": 131,
+      "name": "FindFirstFileW"
+    },
+    {
+      "ord": 132,
+      "name": "FindFirstVolumeW"
+    },
+    {
+      "ord": 133,
+      "name": "FindNLSString"
+    },
+    {
+      "ord": 134,
+      "name": "FindNLSStringEx"
+    },
+    {
+      "ord": 135,
+      "name": "FindNextChangeNotification"
+    },
+    {
+      "ord": 136,
+      "name": "FindNextFileA"
+    },
+    {
+      "ord": 137,
+      "name": "FindNextFileW"
+    },
+    {
+      "ord": 138,
+      "name": "FindNextVolumeW"
+    },
+    {
+      "ord": 139,
+      "name": "FindResourceExW"
+    },
+    {
+      "ord": 140,
+      "name": "FindStringOrdinal"
+    },
+    {
+      "ord": 141,
+      "name": "FindVolumeClose"
+    },
+    {
+      "ord": 142,
+      "name": "FlsAlloc"
+    },
+    {
+      "ord": 143,
+      "name": "FlsFree"
+    },
+    {
+      "ord": 144,
+      "name": "FlsGetValue"
+    },
+    {
+      "ord": 145,
+      "name": "FlsSetValue"
+    },
+    {
+      "ord": 146,
+      "name": "FlushConsoleInputBuffer"
+    },
+    {
+      "ord": 147,
+      "name": "FlushFileBuffers"
+    },
+    {
+      "ord": 148,
+      "name": "FlushInstructionCache"
+    },
+    {
+      "ord": 149,
+      "name": "FlushProcessWriteBuffers"
+    },
+    {
+      "ord": 150,
+      "name": "FlushViewOfFile"
+    },
+    {
+      "ord": 151,
+      "name": "FoldStringW"
+    },
+    {
+      "ord": 152,
+      "name": "FormatMessageA"
+    },
+    {
+      "ord": 153,
+      "name": "FormatMessageW"
+    },
+    {
+      "ord": 154,
+      "name": "FreeConsole"
+    },
+    {
+      "ord": 155,
+      "name": "FreeEnvironmentStringsA"
+    },
+    {
+      "ord": 156,
+      "name": "FreeEnvironmentStringsW"
+    },
+    {
+      "ord": 157,
+      "name": "FreeLibrary"
+    },
+    {
+      "ord": 158,
+      "name": "FreeLibraryAndExitThread"
+    },
+    {
+      "ord": 159,
+      "name": "FreeLibraryWhenCallbackReturns"
+    },
+    {
+      "ord": 160,
+      "name": "FreeResource"
+    },
+    {
+      "ord": 161,
+      "name": "FreeUserPhysicalPages"
+    },
+    {
+      "ord": 162,
+      "name": "GenerateConsoleCtrlEvent"
+    },
+    {
+      "ord": 163,
+      "name": "GetACP"
+    },
+    {
+      "ord": 164,
+      "name": "GetCPInfo"
+    },
+    {
+      "ord": 165,
+      "name": "GetCPInfoExW"
+    },
+    {
+      "ord": 166,
+      "name": "GetCalendarInfoEx"
+    },
+    {
+      "ord": 167,
+      "name": "GetCalendarInfoW"
+    },
+    {
+      "ord": 168,
+      "name": "GetCommConfig"
+    },
+    {
+      "ord": 169,
+      "name": "GetCommMask"
+    },
+    {
+      "ord": 170,
+      "name": "GetCommModemStatus"
+    },
+    {
+      "ord": 171,
+      "name": "GetCommProperties"
+    },
+    {
+      "ord": 172,
+      "name": "GetCommState"
+    },
+    {
+      "ord": 173,
+      "name": "GetCommTimeouts"
+    },
+    {
+      "ord": 174,
+      "name": "GetCommandLineA"
+    },
+    {
+      "ord": 175,
+      "name": "GetCommandLineW"
+    },
+    {
+      "ord": 176,
+      "name": "GetCompressedFileSizeA"
+    },
+    {
+      "ord": 177,
+      "name": "GetCompressedFileSizeW"
+    },
+    {
+      "ord": 178,
+      "name": "GetComputerNameExA"
+    },
+    {
+      "ord": 179,
+      "name": "GetComputerNameExW"
+    },
+    {
+      "ord": 180,
+      "name": "GetConsoleCP"
+    },
+    {
+      "ord": 181,
+      "name": "GetConsoleCursorInfo"
+    },
+    {
+      "ord": 182,
+      "name": "GetConsoleMode"
+    },
+    {
+      "ord": 183,
+      "name": "GetConsoleOutputCP"
+    },
+    {
+      "ord": 184,
+      "name": "GetConsoleScreenBufferInfo"
+    },
+    {
+      "ord": 185,
+      "name": "GetConsoleScreenBufferInfoEx"
+    },
+    {
+      "ord": 186,
+      "name": "GetConsoleTitleW"
+    },
+    {
+      "ord": 187,
+      "name": "GetCurrentDirectoryA"
+    },
+    {
+      "ord": 188,
+      "name": "GetCurrentDirectoryW"
+    },
+    {
+      "ord": 189,
+      "name": "GetCurrentProcess"
+    },
+    {
+      "ord": 190,
+      "name": "GetCurrentProcessId"
+    },
+    {
+      "ord": 191,
+      "name": "GetCurrentProcessorNumber"
+    },
+    {
+      "ord": 192,
+      "name": "GetCurrentProcessorNumberEx"
+    },
+    {
+      "ord": 193,
+      "name": "GetCurrentThread"
+    },
+    {
+      "ord": 194,
+      "name": "GetCurrentThreadId"
+    },
+    {
+      "ord": 195,
+      "name": "GetDateFormatA"
+    },
+    {
+      "ord": 196,
+      "name": "GetDateFormatEx"
+    },
+    {
+      "ord": 197,
+      "name": "GetDateFormatW"
+    },
+    {
+      "ord": 198,
+      "name": "GetDiskFreeSpaceA"
+    },
+    {
+      "ord": 199,
+      "name": "GetDiskFreeSpaceExA"
+    },
+    {
+      "ord": 200,
+      "name": "GetDiskFreeSpaceExW"
+    },
+    {
+      "ord": 201,
+      "name": "GetDiskFreeSpaceW"
+    },
+    {
+      "ord": 202,
+      "name": "GetDriveTypeA"
+    },
+    {
+      "ord": 203,
+      "name": "GetDriveTypeW"
+    },
+    {
+      "ord": 204,
+      "name": "GetDynamicTimeZoneInformation"
+    },
+    {
+      "ord": 205,
+      "name": "GetEnvironmentStrings"
+    },
+    {
+      "ord": 206,
+      "name": "GetEnvironmentStringsW"
+    },
+    {
+      "ord": 207,
+      "name": "GetEnvironmentVariableA"
+    },
+    {
+      "ord": 208,
+      "name": "GetEnvironmentVariableW"
+    },
+    {
+      "ord": 209,
+      "name": "GetErrorMode"
+    },
+    {
+      "ord": 210,
+      "name": "GetExitCodeProcess"
+    },
+    {
+      "ord": 211,
+      "name": "GetExitCodeThread"
+    },
+    {
+      "ord": 212,
+      "name": "GetFileAttributesA"
+    },
+    {
+      "ord": 213,
+      "name": "GetFileAttributesExA"
+    },
+    {
+      "ord": 214,
+      "name": "GetFileAttributesExW"
+    },
+    {
+      "ord": 215,
+      "name": "GetFileAttributesW"
+    },
+    {
+      "ord": 216,
+      "name": "GetFileInformationByHandle"
+    },
+    {
+      "ord": 217,
+      "name": "GetFileInformationByHandleEx"
+    },
+    {
+      "ord": 218,
+      "name": "GetFileMUIInfo"
+    },
+    {
+      "ord": 219,
+      "name": "GetFileMUIPath"
+    },
+    {
+      "ord": 220,
+      "name": "GetFileSize"
+    },
+    {
+      "ord": 221,
+      "name": "GetFileSizeEx"
+    },
+    {
+      "ord": 222,
+      "name": "GetFileTime"
+    },
+    {
+      "ord": 223,
+      "name": "GetFileType"
+    },
+    {
+      "ord": 224,
+      "name": "GetFinalPathNameByHandleA"
+    },
+    {
+      "ord": 225,
+      "name": "GetFinalPathNameByHandleW"
+    },
+    {
+      "ord": 226,
+      "name": "GetFullPathNameA"
+    },
+    {
+      "ord": 227,
+      "name": "GetFullPathNameW"
+    },
+    {
+      "ord": 228,
+      "name": "GetGeoInfoW"
+    },
+    {
+      "ord": 229,
+      "name": "GetHandleInformation"
+    },
+    {
+      "ord": 230,
+      "name": "GetLargePageMinimum"
+    },
+    {
+      "ord": 231,
+      "name": "GetLargestConsoleWindowSize"
+    },
+    {
+      "ord": 232,
+      "name": "GetLastError"
+    },
+    {
+      "ord": 233,
+      "name": "GetLocalTime"
+    },
+    {
+      "ord": 234,
+      "name": "GetLocaleInfoA"
+    },
+    {
+      "ord": 235,
+      "name": "GetLocaleInfoEx"
+    },
+    {
+      "ord": 236,
+      "name": "GetLocaleInfoW"
+    },
+    {
+      "ord": 237,
+      "name": "GetLogicalDriveStringsW"
+    },
+    {
+      "ord": 238,
+      "name": "GetLogicalDrives"
+    },
+    {
+      "ord": 239,
+      "name": "GetLogicalProcessorInformation"
+    },
+    {
+      "ord": 240,
+      "name": "GetLogicalProcessorInformationEx"
+    },
+    {
+      "ord": 241,
+      "name": "GetLongPathNameA"
+    },
+    {
+      "ord": 242,
+      "name": "GetLongPathNameW"
+    },
+    {
+      "ord": 243,
+      "name": "GetMemoryErrorHandlingCapabilities"
+    },
+    {
+      "ord": 244,
+      "name": "GetModuleFileNameA"
+    },
+    {
+      "ord": 245,
+      "name": "GetModuleFileNameW"
+    },
+    {
+      "ord": 246,
+      "name": "GetModuleHandleA"
+    },
+    {
+      "ord": 247,
+      "name": "GetModuleHandleExA"
+    },
+    {
+      "ord": 248,
+      "name": "GetModuleHandleExW"
+    },
+    {
+      "ord": 249,
+      "name": "GetModuleHandleW"
+    },
+    {
+      "ord": 250,
+      "name": "GetNLSVersion"
+    },
+    {
+      "ord": 251,
+      "name": "GetNLSVersionEx"
+    },
+    {
+      "ord": 252,
+      "name": "GetNamedPipeClientComputerNameW"
+    },
+    {
+      "ord": 253,
+      "name": "GetNativeSystemInfo"
+    },
+    {
+      "ord": 254,
+      "name": "GetNumaHighestNodeNumber"
+    },
+    {
+      "ord": 255,
+      "name": "GetNumaNodeProcessorMaskEx"
+    },
+    {
+      "ord": 256,
+      "name": "GetNumberFormatW"
+    },
+    {
+      "ord": 257,
+      "name": "GetNumberOfConsoleInputEvents"
+    },
+    {
+      "ord": 258,
+      "name": "GetOEMCP"
+    },
+    {
+      "ord": 259,
+      "name": "GetOverlappedResult"
+    },
+    {
+      "ord": 260,
+      "name": "GetPhysicallyInstalledSystemMemory"
+    },
+    {
+      "ord": 261,
+      "name": "GetPriorityClass"
+    },
+    {
+      "ord": 262,
+      "name": "GetProcAddress"
+    },
+    {
+      "ord": 263,
+      "name": "GetProcessGroupAffinity"
+    },
+    {
+      "ord": 264,
+      "name": "GetProcessHandleCount"
+    },
+    {
+      "ord": 265,
+      "name": "GetProcessHeap"
+    },
+    {
+      "ord": 266,
+      "name": "GetProcessHeaps"
+    },
+    {
+      "ord": 267,
+      "name": "GetProcessId"
+    },
+    {
+      "ord": 268,
+      "name": "GetProcessIdOfThread"
+    },
+    {
+      "ord": 269,
+      "name": "GetProcessPreferredUILanguages"
+    },
+    {
+      "ord": 270,
+      "name": "GetProcessPriorityBoost"
+    },
+    {
+      "ord": 271,
+      "name": "GetProcessTimes"
+    },
+    {
+      "ord": 272,
+      "name": "GetProcessVersion"
+    },
+    {
+      "ord": 273,
+      "name": "GetProcessWorkingSetSizeEx"
+    },
+    {
+      "ord": 274,
+      "name": "GetProductInfo"
+    },
+    {
+      "ord": 275,
+      "name": "GetQueuedCompletionStatus"
+    },
+    {
+      "ord": 276,
+      "name": "GetQueuedCompletionStatusEx"
+    },
+    {
+      "ord": 277,
+      "name": "GetShortPathNameW"
+    },
+    {
+      "ord": 278,
+      "name": "GetStartupInfoW"
+    },
+    {
+      "ord": 279,
+      "name": "GetStdHandle"
+    },
+    {
+      "ord": 280,
+      "name": "GetStringTypeA"
+    },
+    {
+      "ord": 281,
+      "name": "GetStringTypeExW"
+    },
+    {
+      "ord": 282,
+      "name": "GetStringTypeW"
+    },
+    {
+      "ord": 283,
+      "name": "GetSystemDefaultLCID"
+    },
+    {
+      "ord": 284,
+      "name": "GetSystemDefaultLangID"
+    },
+    {
+      "ord": 285,
+      "name": "GetSystemDefaultLocaleName"
+    },
+    {
+      "ord": 286,
+      "name": "GetSystemDefaultUILanguage"
+    },
+    {
+      "ord": 287,
+      "name": "GetSystemDirectoryA"
+    },
+    {
+      "ord": 288,
+      "name": "GetSystemDirectoryW"
+    },
+    {
+      "ord": 289,
+      "name": "GetSystemFileCacheSize"
+    },
+    {
+      "ord": 290,
+      "name": "GetSystemFirmwareTable"
+    },
+    {
+      "ord": 291,
+      "name": "GetSystemInfo"
+    },
+    {
+      "ord": 292,
+      "name": "GetSystemPreferredUILanguages"
+    },
+    {
+      "ord": 293,
+      "name": "GetSystemTime"
+    },
+    {
+      "ord": 294,
+      "name": "GetSystemTimeAdjustment"
+    },
+    {
+      "ord": 295,
+      "name": "GetSystemTimeAsFileTime"
+    },
+    {
+      "ord": 296,
+      "name": "GetSystemTimes"
+    },
+    {
+      "ord": 297,
+      "name": "GetSystemWindowsDirectoryA"
+    },
+    {
+      "ord": 298,
+      "name": "GetSystemWindowsDirectoryW"
+    },
+    {
+      "ord": 299,
+      "name": "GetTempFileNameW"
+    },
+    {
+      "ord": 300,
+      "name": "GetTempPathW"
+    },
+    {
+      "ord": 301,
+      "name": "GetThreadContext"
+    },
+    {
+      "ord": 302,
+      "name": "GetThreadGroupAffinity"
+    },
+    {
+      "ord": 303,
+      "name": "GetThreadIOPendingFlag"
+    },
+    {
+      "ord": 304,
+      "name": "GetThreadId"
+    },
+    {
+      "ord": 305,
+      "name": "GetThreadIdealProcessorEx"
+    },
+    {
+      "ord": 306,
+      "name": "GetThreadInformation"
+    },
+    {
+      "ord": 307,
+      "name": "GetThreadLocale"
+    },
+    {
+      "ord": 308,
+      "name": "GetThreadPreferredUILanguages"
+    },
+    {
+      "ord": 309,
+      "name": "GetThreadPriority"
+    },
+    {
+      "ord": 310,
+      "name": "GetThreadPriorityBoost"
+    },
+    {
+      "ord": 311,
+      "name": "GetThreadTimes"
+    },
+    {
+      "ord": 312,
+      "name": "GetThreadUILanguage"
+    },
+    {
+      "ord": 313,
+      "name": "GetTickCount"
+    },
+    {
+      "ord": 314,
+      "name": "GetTickCount64"
+    },
+    {
+      "ord": 315,
+      "name": "GetTimeFormatA"
+    },
+    {
+      "ord": 316,
+      "name": "GetTimeFormatEx"
+    },
+    {
+      "ord": 317,
+      "name": "GetTimeFormatW"
+    },
+    {
+      "ord": 318,
+      "name": "GetTimeZoneInformation"
+    },
+    {
+      "ord": 319,
+      "name": "GetTimeZoneInformationForYear"
+    },
+    {
+      "ord": 320,
+      "name": "GetUILanguageInfo"
+    },
+    {
+      "ord": 321,
+      "name": "GetUserDefaultLCID"
+    },
+    {
+      "ord": 322,
+      "name": "GetUserDefaultLangID"
+    },
+    {
+      "ord": 323,
+      "name": "GetUserDefaultLocaleName"
+    },
+    {
+      "ord": 324,
+      "name": "GetUserDefaultUILanguage"
+    },
+    {
+      "ord": 325,
+      "name": "GetUserGeoID"
+    },
+    {
+      "ord": 326,
+      "name": "GetUserPreferredUILanguages"
+    },
+    {
+      "ord": 327,
+      "name": "GetVersion"
+    },
+    {
+      "ord": 328,
+      "name": "GetVersionExA"
+    },
+    {
+      "ord": 329,
+      "name": "GetVersionExW"
+    },
+    {
+      "ord": 330,
+      "name": "GetVolumeInformationByHandleW"
+    },
+    {
+      "ord": 331,
+      "name": "GetVolumeInformationW"
+    },
+    {
+      "ord": 332,
+      "name": "GetVolumeNameForVolumeMountPointW"
+    },
+    {
+      "ord": 333,
+      "name": "GetVolumePathNameW"
+    },
+    {
+      "ord": 334,
+      "name": "GetVolumePathNamesForVolumeNameW"
+    },
+    {
+      "ord": 335,
+      "name": "GetWindowsDirectoryA"
+    },
+    {
+      "ord": 336,
+      "name": "GetWindowsDirectoryW"
+    },
+    {
+      "ord": 337,
+      "name": "GetWriteWatch"
+    },
+    {
+      "ord": 338,
+      "name": "GlobalMemoryStatusEx"
+    },
+    {
+      "ord": 339,
+      "name": "HeapAlloc"
+    },
+    {
+      "ord": 340,
+      "name": "HeapCompact"
+    },
+    {
+      "ord": 341,
+      "name": "HeapCreate"
+    },
+    {
+      "ord": 342,
+      "name": "HeapDestroy"
+    },
+    {
+      "ord": 343,
+      "name": "HeapFree"
+    },
+    {
+      "ord": 344,
+      "name": "HeapLock"
+    },
+    {
+      "ord": 345,
+      "name": "HeapQueryInformation"
+    },
+    {
+      "ord": 346,
+      "name": "HeapReAlloc"
+    },
+    {
+      "ord": 347,
+      "name": "HeapSetInformation"
+    },
+    {
+      "ord": 348,
+      "name": "HeapSize"
+    },
+    {
+      "ord": 349,
+      "name": "HeapUnlock"
+    },
+    {
+      "ord": 350,
+      "name": "HeapValidate"
+    },
+    {
+      "ord": 351,
+      "name": "HeapWalk"
+    },
+    {
+      "ord": 352,
+      "name": "InitOnceBeginInitialize"
+    },
+    {
+      "ord": 353,
+      "name": "InitOnceComplete"
+    },
+    {
+      "ord": 354,
+      "name": "InitOnceExecuteOnce"
+    },
+    {
+      "ord": 355,
+      "name": "InitOnceInitialize"
+    },
+    {
+      "ord": 356,
+      "name": "InitializeConditionVariable"
+    },
+    {
+      "ord": 357,
+      "name": "InitializeCriticalSection"
+    },
+    {
+      "ord": 358,
+      "name": "InitializeCriticalSectionAndSpinCount"
+    },
+    {
+      "ord": 359,
+      "name": "InitializeCriticalSectionEx"
+    },
+    {
+      "ord": 360,
+      "name": "InitializeProcThreadAttributeList"
+    },
+    {
+      "ord": 361,
+      "name": "InitializeSListHead"
+    },
+    {
+      "ord": 362,
+      "name": "InitializeSRWLock"
+    },
+    {
+      "ord": 363,
+      "name": "InterlockedFlushSList"
+    },
+    {
+      "ord": 364,
+      "name": "InterlockedPopEntrySList"
+    },
+    {
+      "ord": 365,
+      "name": "InterlockedPushEntrySList"
+    },
+    {
+      "ord": 366,
+      "name": "IsDBCSLeadByte"
+    },
+    {
+      "ord": 367,
+      "name": "IsDBCSLeadByteEx"
+    },
+    {
+      "ord": 368,
+      "name": "IsDebuggerPresent"
+    },
+    {
+      "ord": 369,
+      "name": "IsNLSDefinedString"
+    },
+    {
+      "ord": 370,
+      "name": "IsProcessInJob"
+    },
+    {
+      "ord": 371,
+      "name": "IsProcessorFeaturePresent"
+    },
+    {
+      "ord": 372,
+      "name": "IsThreadAFiber"
+    },
+    {
+      "ord": 373,
+      "name": "IsThreadpoolTimerSet"
+    },
+    {
+      "ord": 374,
+      "name": "IsValidCodePage"
+    },
+    {
+      "ord": 375,
+      "name": "IsValidLanguageGroup"
+    },
+    {
+      "ord": 376,
+      "name": "IsValidLocale"
+    },
+    {
+      "ord": 377,
+      "name": "IsValidLocaleName"
+    },
+    {
+      "ord": 378,
+      "name": "IsWow64Process"
+    },
+    {
+      "ord": 379,
+      "name": "LCIDToLocaleName"
+    },
+    {
+      "ord": 380,
+      "name": "LCMapStringA"
+    },
+    {
+      "ord": 381,
+      "name": "LCMapStringEx"
+    },
+    {
+      "ord": 382,
+      "name": "LCMapStringW"
+    },
+    {
+      "ord": 383,
+      "name": "LeaveCriticalSection"
+    },
+    {
+      "ord": 384,
+      "name": "LeaveCriticalSectionWhenCallbackReturns"
+    },
+    {
+      "ord": 385,
+      "name": "LoadLibraryExA"
+    },
+    {
+      "ord": 386,
+      "name": "LoadLibraryExW"
+    },
+    {
+      "ord": 387,
+      "name": "LoadResource"
+    },
+    {
+      "ord": 388,
+      "name": "LocalFileTimeToFileTime"
+    },
+    {
+      "ord": 389,
+      "name": "LocaleNameToLCID"
+    },
+    {
+      "ord": 390,
+      "name": "LockFile"
+    },
+    {
+      "ord": 391,
+      "name": "LockFileEx"
+    },
+    {
+      "ord": 392,
+      "name": "LockResource"
+    },
+    {
+      "ord": 393,
+      "name": "MapUserPhysicalPages"
+    },
+    {
+      "ord": 394,
+      "name": "MapViewOfFile"
+    },
+    {
+      "ord": 395,
+      "name": "MapViewOfFileEx"
+    },
+    {
+      "ord": 396,
+      "name": "MoveFileExW"
+    },
+    {
+      "ord": 397,
+      "name": "MoveFileWithProgressW"
+    },
+    {
+      "ord": 398,
+      "name": "MultiByteToWideChar"
+    },
+    {
+      "ord": 399,
+      "name": "NeedCurrentDirectoryForExePathA"
+    },
+    {
+      "ord": 400,
+      "name": "NeedCurrentDirectoryForExePathW"
+    },
+    {
+      "ord": 401,
+      "name": "OpenEventA"
+    },
+    {
+      "ord": 402,
+      "name": "OpenEventW"
+    },
+    {
+      "ord": 403,
+      "name": "OpenFileMappingW"
+    },
+    {
+      "ord": 404,
+      "name": "OpenMutexW"
+    },
+    {
+      "ord": 405,
+      "name": "OpenPrivateNamespaceW"
+    },
+    {
+      "ord": 406,
+      "name": "OpenProcess"
+    },
+    {
+      "ord": 407,
+      "name": "OpenSemaphoreW"
+    },
+    {
+      "ord": 408,
+      "name": "OpenThread"
+    },
+    {
+      "ord": 409,
+      "name": "OpenWaitableTimerW"
+    },
+    {
+      "ord": 410,
+      "name": "OutputDebugStringA"
+    },
+    {
+      "ord": 411,
+      "name": "OutputDebugStringW"
+    },
+    {
+      "ord": 412,
+      "name": "PeekConsoleInputA"
+    },
+    {
+      "ord": 413,
+      "name": "PeekConsoleInputW"
+    },
+    {
+      "ord": 414,
+      "name": "PeekNamedPipe"
+    },
+    {
+      "ord": 415,
+      "name": "PostQueuedCompletionStatus"
+    },
+    {
+      "ord": 416,
+      "name": "ProcessIdToSessionId"
+    },
+    {
+      "ord": 417,
+      "name": "PurgeComm"
+    },
+    {
+      "ord": 418,
+      "name": "QueryDepthSList"
+    },
+    {
+      "ord": 419,
+      "name": "QueryDosDeviceW"
+    },
+    {
+      "ord": 420,
+      "name": "QueryFullProcessImageNameA"
+    },
+    {
+      "ord": 421,
+      "name": "QueryFullProcessImageNameW"
+    },
+    {
+      "ord": 422,
+      "name": "QueryIdleProcessorCycleTime"
+    },
+    {
+      "ord": 423,
+      "name": "QueryIdleProcessorCycleTimeEx"
+    },
+    {
+      "ord": 424,
+      "name": "QueryMemoryResourceNotification"
+    },
+    {
+      "ord": 425,
+      "name": "QueryPerformanceCounter"
+    },
+    {
+      "ord": 426,
+      "name": "QueryPerformanceFrequency"
+    },
+    {
+      "ord": 427,
+      "name": "QueryProcessAffinityUpdateMode"
+    },
+    {
+      "ord": 428,
+      "name": "QueryProcessCycleTime"
+    },
+    {
+      "ord": 429,
+      "name": "QueryThreadCycleTime"
+    },
+    {
+      "ord": 430,
+      "name": "QueryThreadpoolStackInformation"
+    },
+    {
+      "ord": 431,
+      "name": "QueryUnbiasedInterruptTime"
+    },
+    {
+      "ord": 432,
+      "name": "QueueUserAPC"
+    },
+    {
+      "ord": 433,
+      "name": "QueueUserWorkItem"
+    },
+    {
+      "ord": 434,
+      "name": "RaiseException"
+    },
+    {
+      "ord": 435,
+      "name": "ReOpenFile"
+    },
+    {
+      "ord": 436,
+      "name": "ReadConsoleA"
+    },
+    {
+      "ord": 437,
+      "name": "ReadConsoleInputA"
+    },
+    {
+      "ord": 438,
+      "name": "ReadConsoleInputW"
+    },
+    {
+      "ord": 439,
+      "name": "ReadConsoleOutputA"
+    },
+    {
+      "ord": 440,
+      "name": "ReadConsoleOutputAttribute"
+    },
+    {
+      "ord": 441,
+      "name": "ReadConsoleOutputCharacterA"
+    },
+    {
+      "ord": 442,
+      "name": "ReadConsoleOutputCharacterW"
+    },
+    {
+      "ord": 443,
+      "name": "ReadConsoleOutputW"
+    },
+    {
+      "ord": 444,
+      "name": "ReadConsoleW"
+    },
+    {
+      "ord": 445,
+      "name": "ReadDirectoryChangesW"
+    },
+    {
+      "ord": 446,
+      "name": "ReadFile"
+    },
+    {
+      "ord": 447,
+      "name": "ReadFileEx"
+    },
+    {
+      "ord": 448,
+      "name": "ReadFileScatter"
+    },
+    {
+      "ord": 449,
+      "name": "ReadProcessMemory"
+    },
+    {
+      "ord": 450,
+      "name": "RegisterBadMemoryNotification"
+    },
+    {
+      "ord": 451,
+      "name": "ReleaseMutex"
+    },
+    {
+      "ord": 452,
+      "name": "ReleaseMutexWhenCallbackReturns"
+    },
+    {
+      "ord": 453,
+      "name": "ReleaseSRWLockExclusive"
+    },
+    {
+      "ord": 454,
+      "name": "ReleaseSRWLockShared"
+    },
+    {
+      "ord": 455,
+      "name": "ReleaseSemaphore"
+    },
+    {
+      "ord": 456,
+      "name": "ReleaseSemaphoreWhenCallbackReturns"
+    },
+    {
+      "ord": 457,
+      "name": "RemoveDirectoryA"
+    },
+    {
+      "ord": 458,
+      "name": "RemoveDirectoryW"
+    },
+    {
+      "ord": 459,
+      "name": "RemoveVectoredContinueHandler"
+    },
+    {
+      "ord": 460,
+      "name": "RemoveVectoredExceptionHandler"
+    },
+    {
+      "ord": 461,
+      "name": "ReplaceFileW"
+    },
+    {
+      "ord": 462,
+      "name": "ResetEvent"
+    },
+    {
+      "ord": 463,
+      "name": "ResetWriteWatch"
+    },
+    {
+      "ord": 464,
+      "name": "ResolveLocaleName"
+    },
+    {
+      "ord": 465,
+      "name": "RestoreLastError"
+    },
+    {
+      "ord": 466,
+      "name": "ResumeThread"
+    },
+    {
+      "ord": 467,
+      "name": "ScrollConsoleScreenBufferA"
+    },
+    {
+      "ord": 468,
+      "name": "ScrollConsoleScreenBufferW"
+    },
+    {
+      "ord": 469,
+      "name": "SearchPathA"
+    },
+    {
+      "ord": 470,
+      "name": "SearchPathW"
+    },
+    {
+      "ord": 471,
+      "name": "SetCalendarInfoW"
+    },
+    {
+      "ord": 472,
+      "name": "SetCommBreak"
+    },
+    {
+      "ord": 473,
+      "name": "SetCommConfig"
+    },
+    {
+      "ord": 474,
+      "name": "SetCommMask"
+    },
+    {
+      "ord": 475,
+      "name": "SetCommState"
+    },
+    {
+      "ord": 476,
+      "name": "SetCommTimeouts"
+    },
+    {
+      "ord": 477,
+      "name": "SetComputerNameExW"
+    },
+    {
+      "ord": 478,
+      "name": "SetConsoleActiveScreenBuffer"
+    },
+    {
+      "ord": 479,
+      "name": "SetConsoleCP"
+    },
+    {
+      "ord": 480,
+      "name": "SetConsoleCtrlHandler"
+    },
+    {
+      "ord": 481,
+      "name": "SetConsoleCursorInfo"
+    },
+    {
+      "ord": 482,
+      "name": "SetConsoleCursorPosition"
+    },
+    {
+      "ord": 483,
+      "name": "SetConsoleMode"
+    },
+    {
+      "ord": 484,
+      "name": "SetConsoleOutputCP"
+    },
+    {
+      "ord": 485,
+      "name": "SetConsoleScreenBufferInfoEx"
+    },
+    {
+      "ord": 486,
+      "name": "SetConsoleScreenBufferSize"
+    },
+    {
+      "ord": 487,
+      "name": "SetConsoleTextAttribute"
+    },
+    {
+      "ord": 488,
+      "name": "SetConsoleTitleW"
+    },
+    {
+      "ord": 489,
+      "name": "SetConsoleWindowInfo"
+    },
+    {
+      "ord": 490,
+      "name": "SetCriticalSectionSpinCount"
+    },
+    {
+      "ord": 491,
+      "name": "SetCurrentDirectoryA"
+    },
+    {
+      "ord": 492,
+      "name": "SetCurrentDirectoryW"
+    },
+    {
+      "ord": 493,
+      "name": "SetDynamicTimeZoneInformation"
+    },
+    {
+      "ord": 494,
+      "name": "SetEndOfFile"
+    },
+    {
+      "ord": 495,
+      "name": "SetEnvironmentStringsW"
+    },
+    {
+      "ord": 496,
+      "name": "SetEnvironmentVariableA"
+    },
+    {
+      "ord": 497,
+      "name": "SetEnvironmentVariableW"
+    },
+    {
+      "ord": 498,
+      "name": "SetErrorMode"
+    },
+    {
+      "ord": 499,
+      "name": "SetEvent"
+    },
+    {
+      "ord": 500,
+      "name": "SetEventWhenCallbackReturns"
+    },
+    {
+      "ord": 501,
+      "name": "SetFileAttributesA"
+    },
+    {
+      "ord": 502,
+      "name": "SetFileAttributesW"
+    },
+    {
+      "ord": 503,
+      "name": "SetFileInformationByHandle"
+    },
+    {
+      "ord": 504,
+      "name": "SetFileIoOverlappedRange"
+    },
+    {
+      "ord": 505,
+      "name": "SetFilePointer"
+    },
+    {
+      "ord": 506,
+      "name": "SetFilePointerEx"
+    },
+    {
+      "ord": 507,
+      "name": "SetFileTime"
+    },
+    {
+      "ord": 508,
+      "name": "SetFileValidData"
+    },
+    {
+      "ord": 509,
+      "name": "SetHandleInformation"
+    },
+    {
+      "ord": 510,
+      "name": "SetLastError"
+    },
+    {
+      "ord": 511,
+      "name": "SetLocalTime"
+    },
+    {
+      "ord": 512,
+      "name": "SetLocaleInfoW"
+    },
+    {
+      "ord": 513,
+      "name": "SetNamedPipeHandleState"
+    },
+    {
+      "ord": 514,
+      "name": "SetPriorityClass"
+    },
+    {
+      "ord": 515,
+      "name": "SetProcessAffinityUpdateMode"
+    },
+    {
+      "ord": 516,
+      "name": "SetProcessPreferredUILanguages"
+    },
+    {
+      "ord": 517,
+      "name": "SetProcessPriorityBoost"
+    },
+    {
+      "ord": 518,
+      "name": "SetProcessShutdownParameters"
+    },
+    {
+      "ord": 519,
+      "name": "SetProcessWorkingSetSizeEx"
+    },
+    {
+      "ord": 520,
+      "name": "SetStdHandle"
+    },
+    {
+      "ord": 521,
+      "name": "SetStdHandleEx"
+    },
+    {
+      "ord": 522,
+      "name": "SetSystemFileCacheSize"
+    },
+    {
+      "ord": 523,
+      "name": "SetSystemTime"
+    },
+    {
+      "ord": 524,
+      "name": "SetSystemTimeAdjustment"
+    },
+    {
+      "ord": 525,
+      "name": "SetThreadContext"
+    },
+    {
+      "ord": 526,
+      "name": "SetThreadGroupAffinity"
+    },
+    {
+      "ord": 527,
+      "name": "SetThreadIdealProcessorEx"
+    },
+    {
+      "ord": 528,
+      "name": "SetThreadInformation"
+    },
+    {
+      "ord": 529,
+      "name": "SetThreadLocale"
+    },
+    {
+      "ord": 530,
+      "name": "SetThreadPreferredUILanguages"
+    },
+    {
+      "ord": 531,
+      "name": "SetThreadPriority"
+    },
+    {
+      "ord": 532,
+      "name": "SetThreadPriorityBoost"
+    },
+    {
+      "ord": 533,
+      "name": "SetThreadStackGuarantee"
+    },
+    {
+      "ord": 534,
+      "name": "SetThreadUILanguage"
+    },
+    {
+      "ord": 535,
+      "name": "SetThreadpoolStackInformation"
+    },
+    {
+      "ord": 536,
+      "name": "SetThreadpoolThreadMaximum"
+    },
+    {
+      "ord": 537,
+      "name": "SetThreadpoolThreadMinimum"
+    },
+    {
+      "ord": 538,
+      "name": "SetThreadpoolTimer"
+    },
+    {
+      "ord": 539,
+      "name": "SetThreadpoolWait"
+    },
+    {
+      "ord": 540,
+      "name": "SetTimeZoneInformation"
+    },
+    {
+      "ord": 541,
+      "name": "SetUnhandledExceptionFilter"
+    },
+    {
+      "ord": 542,
+      "name": "SetUserGeoID"
+    },
+    {
+      "ord": 543,
+      "name": "SetWaitableTimer"
+    },
+    {
+      "ord": 544,
+      "name": "SetWaitableTimerEx"
+    },
+    {
+      "ord": 545,
+      "name": "SetupComm"
+    },
+    {
+      "ord": 546,
+      "name": "SignalObjectAndWait"
+    },
+    {
+      "ord": 547,
+      "name": "SizeofResource"
+    },
+    {
+      "ord": 548,
+      "name": "Sleep"
+    },
+    {
+      "ord": 549,
+      "name": "SleepConditionVariableCS"
+    },
+    {
+      "ord": 550,
+      "name": "SleepConditionVariableSRW"
+    },
+    {
+      "ord": 551,
+      "name": "SleepEx"
+    },
+    {
+      "ord": 552,
+      "name": "StartThreadpoolIo"
+    },
+    {
+      "ord": 553,
+      "name": "SubmitThreadpoolWork"
+    },
+    {
+      "ord": 554,
+      "name": "SuspendThread"
+    },
+    {
+      "ord": 555,
+      "name": "SwitchToThread"
+    },
+    {
+      "ord": 556,
+      "name": "SystemTimeToFileTime"
+    },
+    {
+      "ord": 557,
+      "name": "SystemTimeToTzSpecificLocalTime"
+    },
+    {
+      "ord": 558,
+      "name": "TerminateProcess"
+    },
+    {
+      "ord": 559,
+      "name": "TerminateThread"
+    },
+    {
+      "ord": 560,
+      "name": "TlsAlloc"
+    },
+    {
+      "ord": 561,
+      "name": "TlsFree"
+    },
+    {
+      "ord": 562,
+      "name": "TlsGetValue"
+    },
+    {
+      "ord": 563,
+      "name": "TlsSetValue"
+    },
+    {
+      "ord": 564,
+      "name": "TransactNamedPipe"
+    },
+    {
+      "ord": 565,
+      "name": "TransmitCommChar"
+    },
+    {
+      "ord": 566,
+      "name": "TryAcquireSRWLockExclusive"
+    },
+    {
+      "ord": 567,
+      "name": "TryAcquireSRWLockShared"
+    },
+    {
+      "ord": 568,
+      "name": "TryEnterCriticalSection"
+    },
+    {
+      "ord": 569,
+      "name": "TrySubmitThreadpoolCallback"
+    },
+    {
+      "ord": 570,
+      "name": "TzSpecificLocalTimeToSystemTime"
+    },
+    {
+      "ord": 571,
+      "name": "UnhandledExceptionFilter"
+    },
+    {
+      "ord": 572,
+      "name": "UnlockFile"
+    },
+    {
+      "ord": 573,
+      "name": "UnlockFileEx"
+    },
+    {
+      "ord": 574,
+      "name": "UnmapViewOfFile"
+    },
+    {
+      "ord": 575,
+      "name": "UnregisterBadMemoryNotification"
+    },
+    {
+      "ord": 576,
+      "name": "UnregisterWaitEx"
+    },
+    {
+      "ord": 577,
+      "name": "UpdateProcThreadAttribute"
+    },
+    {
+      "ord": 578,
+      "name": "VerLanguageNameA"
+    },
+    {
+      "ord": 579,
+      "name": "VerLanguageNameW"
+    },
+    {
+      "ord": 580,
+      "name": "VerSetConditionMask"
+    },
+    {
+      "ord": 581,
+      "name": "VirtualAlloc"
+    },
+    {
+      "ord": 582,
+      "name": "VirtualAllocEx"
+    },
+    {
+      "ord": 583,
+      "name": "VirtualFree"
+    },
+    {
+      "ord": 584,
+      "name": "VirtualFreeEx"
+    },
+    {
+      "ord": 585,
+      "name": "VirtualLock"
+    },
+    {
+      "ord": 586,
+      "name": "VirtualProtect"
+    },
+    {
+      "ord": 587,
+      "name": "VirtualProtectEx"
+    },
+    {
+      "ord": 588,
+      "name": "VirtualQuery"
+    },
+    {
+      "ord": 589,
+      "name": "VirtualQueryEx"
+    },
+    {
+      "ord": 590,
+      "name": "VirtualUnlock"
+    },
+    {
+      "ord": 591,
+      "name": "WaitCommEvent"
+    },
+    {
+      "ord": 592,
+      "name": "WaitForDebugEvent"
+    },
+    {
+      "ord": 593,
+      "name": "WaitForMultipleObjectsEx"
+    },
+    {
+      "ord": 594,
+      "name": "WaitForSingleObject"
+    },
+    {
+      "ord": 595,
+      "name": "WaitForSingleObjectEx"
+    },
+    {
+      "ord": 596,
+      "name": "WaitForThreadpoolIoCallbacks"
+    },
+    {
+      "ord": 597,
+      "name": "WaitForThreadpoolTimerCallbacks"
+    },
+    {
+      "ord": 598,
+      "name": "WaitForThreadpoolWaitCallbacks"
+    },
+    {
+      "ord": 599,
+      "name": "WaitForThreadpoolWorkCallbacks"
+    },
+    {
+      "ord": 600,
+      "name": "WaitNamedPipeW"
+    },
+    {
+      "ord": 601,
+      "name": "WakeAllConditionVariable"
+    },
+    {
+      "ord": 602,
+      "name": "WakeConditionVariable"
+    },
+    {
+      "ord": 603,
+      "name": "WideCharToMultiByte"
+    },
+    {
+      "ord": 604,
+      "name": "Wow64DisableWow64FsRedirection"
+    },
+    {
+      "ord": 605,
+      "name": "Wow64RevertWow64FsRedirection"
+    },
+    {
+      "ord": 606,
+      "name": "WriteConsoleA"
+    },
+    {
+      "ord": 607,
+      "name": "WriteConsoleInputA"
+    },
+    {
+      "ord": 608,
+      "name": "WriteConsoleInputW"
+    },
+    {
+      "ord": 609,
+      "name": "WriteConsoleOutputA"
+    },
+    {
+      "ord": 610,
+      "name": "WriteConsoleOutputAttribute"
+    },
+    {
+      "ord": 611,
+      "name": "WriteConsoleOutputCharacterA"
+    },
+    {
+      "ord": 612,
+      "name": "WriteConsoleOutputCharacterW"
+    },
+    {
+      "ord": 613,
+      "name": "WriteConsoleOutputW"
+    },
+    {
+      "ord": 614,
+      "name": "WriteConsoleW"
+    },
+    {
+      "ord": 615,
+      "name": "WriteFile"
+    },
+    {
+      "ord": 616,
+      "name": "WriteFileEx"
+    },
+    {
+      "ord": 617,
+      "name": "WriteFileGather"
+    },
+    {
+      "ord": 618,
+      "name": "WriteProcessMemory"
+    }
+  ]
+}

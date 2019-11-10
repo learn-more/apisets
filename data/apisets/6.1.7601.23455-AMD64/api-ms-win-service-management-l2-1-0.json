@@ -1,0 +1,46 @@
+{
+  "Version": "6.1.7600.16385-AMD64",
+  "md5": "f74d145f733ef4ace3e1bf38ec4e4418",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.1.7600.16385 (win7_rtm.090713-1255)",
+  "ProductVersion": "6.1.7600.16385",
+  "PeChecksum": 15103,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ChangeServiceConfig2W"
+    },
+    {
+      "ord": 2,
+      "name": "ChangeServiceConfigW"
+    },
+    {
+      "ord": 3,
+      "name": "NotifyServiceStatusChangeW"
+    },
+    {
+      "ord": 4,
+      "name": "QueryServiceConfig2W"
+    },
+    {
+      "ord": 5,
+      "name": "QueryServiceConfigW"
+    },
+    {
+      "ord": 6,
+      "name": "QueryServiceObjectSecurity"
+    },
+    {
+      "ord": 7,
+      "name": "QueryServiceStatusEx"
+    },
+    {
+      "ord": 8,
+      "name": "SetServiceObjectSecurity"
+    }
+  ]
+}

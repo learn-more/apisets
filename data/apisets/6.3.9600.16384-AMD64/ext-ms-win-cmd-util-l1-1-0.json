@@ -1,0 +1,70 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "44589e7056b36925bee4af170f62fa5c",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 49528,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CmdBatNotificationStub"
+    },
+    {
+      "ord": 2,
+      "name": "DoSHChangeNotify"
+    },
+    {
+      "ord": 3,
+      "name": "FindFirstStreamWStub"
+    },
+    {
+      "ord": 4,
+      "name": "FindNextStreamWStub"
+    },
+    {
+      "ord": 5,
+      "name": "GetBinaryTypeWStub"
+    },
+    {
+      "ord": 6,
+      "name": "GetVDMCurrentDirectoriesStub"
+    },
+    {
+      "ord": 7,
+      "name": "LookupAccountSidWStub"
+    },
+    {
+      "ord": 8,
+      "name": "MessageBeepStub"
+    },
+    {
+      "ord": 9,
+      "name": "QueryFullProcessImageNameWStub"
+    },
+    {
+      "ord": 10,
+      "name": "SaferWorker"
+    },
+    {
+      "ord": 11,
+      "name": "ShellExecuteWorker"
+    },
+    {
+      "ord": 12,
+      "name": "WNetAddConnection2WStub"
+    },
+    {
+      "ord": 13,
+      "name": "WNetCancelConnection2WStub"
+    },
+    {
+      "ord": 14,
+      "name": "WNetGetConnectionWStub"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "Version": "6.3.9600.17031-AMD64",
+  "md5": "797de44bf9df0231e9d39e3fa7b5898e",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.17031 (winblue_gdr.140221-1952)",
+  "ProductVersion": "6.3.9600.17031",
+  "PeChecksum": 47665,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 2537,
+      "name": "IsQueueAttached"
+    },
+    {
+      "ord": 2538,
+      "name": "IsThreadMessageQueueAttached"
+    },
+    {
+      "ord": 2539,
+      "name": "LoadLocalFonts"
+    },
+    {
+      "ord": 2540,
+      "name": "LoadRemoteFonts"
+    },
+    {
+      "ord": 2541,
+      "name": "RecordShutdownReason"
+    },
+    {
+      "ord": 2542,
+      "name": "RegisterLogonProcess"
+    },
+    {
+      "ord": 2543,
+      "name": "SetThreadInputBlocked"
+    },
+    {
+      "ord": 2544,
+      "name": "SetWindowStationUser"
+    },
+    {
+      "ord": 2545,
+      "name": "SwitchDesktopWithFade"
+    },
+    {
+      "ord": 2546,
+      "name": "UpdatePerUserSystemParameters"
+    },
+    {
+      "ord": 2547,
+      "name": "UpdateWindowInputSinkHints"
+    },
+    {
+      "ord": 2536
+    }
+  ]
+}

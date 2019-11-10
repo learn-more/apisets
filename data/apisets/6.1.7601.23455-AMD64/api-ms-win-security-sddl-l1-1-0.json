@@ -1,0 +1,30 @@
+{
+  "Version": "6.1.7600.16385-AMD64",
+  "md5": "f3b3e3370c767d623b35fedc8fa4c3fb",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.1.7600.16385 (win7_rtm.090713-1255)",
+  "ProductVersion": "6.1.7600.16385",
+  "PeChecksum": 59325,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ConvertSecurityDescriptorToStringSecurityDescriptorW"
+    },
+    {
+      "ord": 2,
+      "name": "ConvertSidToStringSidW"
+    },
+    {
+      "ord": 3,
+      "name": "ConvertStringSecurityDescriptorToSecurityDescriptorW"
+    },
+    {
+      "ord": 4,
+      "name": "ConvertStringSidToSidW"
+    }
+  ]
+}

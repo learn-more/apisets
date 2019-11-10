@@ -1,0 +1,42 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "fab33b50f131e5d8a1fda03b82358286",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 28601,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CancelIoEx"
+    },
+    {
+      "ord": 2,
+      "name": "CreateIoCompletionPort"
+    },
+    {
+      "ord": 3,
+      "name": "DeviceIoControl"
+    },
+    {
+      "ord": 4,
+      "name": "GetOverlappedResult"
+    },
+    {
+      "ord": 5,
+      "name": "GetQueuedCompletionStatus"
+    },
+    {
+      "ord": 6,
+      "name": "GetQueuedCompletionStatusEx"
+    },
+    {
+      "ord": 7,
+      "name": "PostQueuedCompletionStatus"
+    }
+  ]
+}

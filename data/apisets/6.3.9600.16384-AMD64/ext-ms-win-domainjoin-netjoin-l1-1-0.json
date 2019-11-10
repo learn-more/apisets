@@ -1,0 +1,114 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "cf55da045355fb9fc609b282d1c2c35a",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 62836,
+  "Size": 4096,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "NetSetuppCloseLog"
+    },
+    {
+      "ord": 2,
+      "name": "NetSetuppOpenLog"
+    },
+    {
+      "ord": 3,
+      "name": "NetpAvoidNetlogonSpnSet"
+    },
+    {
+      "ord": 4,
+      "name": "NetpChangeMachineName"
+    },
+    {
+      "ord": 5,
+      "name": "NetpCheckOfflineLsaPolicyUpdate"
+    },
+    {
+      "ord": 6,
+      "name": "NetpCompleteOfflineDomainJoin"
+    },
+    {
+      "ord": 7,
+      "name": "NetpContinueProvisioningPackageInstall"
+    },
+    {
+      "ord": 8,
+      "name": "NetpControlServices"
+    },
+    {
+      "ord": 9,
+      "name": "NetpCrackNamesStatus2Win32Error"
+    },
+    {
+      "ord": 10,
+      "name": "NetpDoDomainJoin"
+    },
+    {
+      "ord": 11,
+      "name": "NetpDomainJoinLicensingCheck"
+    },
+    {
+      "ord": 12,
+      "name": "NetpFreeLdapLsaDomainInfo"
+    },
+    {
+      "ord": 13,
+      "name": "NetpGetJoinInformation"
+    },
+    {
+      "ord": 14,
+      "name": "NetpGetListOfJoinableOUs"
+    },
+    {
+      "ord": 15,
+      "name": "NetpGetLsaPrimaryDomain"
+    },
+    {
+      "ord": 16,
+      "name": "NetpGetMachineAccountName"
+    },
+    {
+      "ord": 17,
+      "name": "NetpGetNewMachineName"
+    },
+    {
+      "ord": 18,
+      "name": "NetpIsSetupInProgress"
+    },
+    {
+      "ord": 19,
+      "name": "NetpLogPrintHelper"
+    },
+    {
+      "ord": 20,
+      "name": "NetpMachineValidToJoin"
+    },
+    {
+      "ord": 21,
+      "name": "NetpManageIPCConnect"
+    },
+    {
+      "ord": 22,
+      "name": "NetpQueryService"
+    },
+    {
+      "ord": 23,
+      "name": "NetpSeparateUserAndDomain"
+    },
+    {
+      "ord": 24,
+      "name": "NetpUnJoinDomain"
+    },
+    {
+      "ord": 25,
+      "name": "NetpValidateName"
+    }
+  ]
+}

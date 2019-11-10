@@ -1,0 +1,26 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "3f4914cef2609a196ec39a5a4bd2faa0",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 52703,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "OOBEComplete"
+    },
+    {
+      "ord": 2,
+      "name": "RegisterWaitUntilOOBECompleted"
+    },
+    {
+      "ord": 3,
+      "name": "UnregisterWaitUntilOOBECompleted"
+    }
+  ]
+}

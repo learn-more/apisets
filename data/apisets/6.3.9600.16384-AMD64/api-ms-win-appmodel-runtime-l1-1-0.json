@@ -1,0 +1,94 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "93bbbcf5ffed7be5534deaee26b4a618",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 65126,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ClosePackageInfo"
+    },
+    {
+      "ord": 2,
+      "name": "GetApplicationUserModelId"
+    },
+    {
+      "ord": 3,
+      "name": "GetCurrentApplicationUserModelId"
+    },
+    {
+      "ord": 4,
+      "name": "GetCurrentPackageFamilyName"
+    },
+    {
+      "ord": 5,
+      "name": "GetCurrentPackageFullName"
+    },
+    {
+      "ord": 6,
+      "name": "GetCurrentPackageId"
+    },
+    {
+      "ord": 7,
+      "name": "GetCurrentPackageInfo"
+    },
+    {
+      "ord": 8,
+      "name": "GetCurrentPackagePath"
+    },
+    {
+      "ord": 9,
+      "name": "GetPackageFamilyName"
+    },
+    {
+      "ord": 10,
+      "name": "GetPackageFullName"
+    },
+    {
+      "ord": 11,
+      "name": "GetPackageId"
+    },
+    {
+      "ord": 12,
+      "name": "GetPackageInfo"
+    },
+    {
+      "ord": 13,
+      "name": "GetPackagePath"
+    },
+    {
+      "ord": 14,
+      "name": "GetPackagesByPackageFamily"
+    },
+    {
+      "ord": 15,
+      "name": "OpenPackageInfoByFullName"
+    },
+    {
+      "ord": 16,
+      "name": "PackageFamilyNameFromFullName"
+    },
+    {
+      "ord": 17,
+      "name": "PackageFamilyNameFromId"
+    },
+    {
+      "ord": 18,
+      "name": "PackageFullNameFromId"
+    },
+    {
+      "ord": 19,
+      "name": "PackageIdFromFullName"
+    },
+    {
+      "ord": 20,
+      "name": "PackageNameAndPublisherIdFromFamilyName"
+    }
+  ]
+}

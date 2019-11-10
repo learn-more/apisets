@@ -1,0 +1,334 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "4fa05deba87b60c5c077b6d37556ce32",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 48411,
+  "Size": 5632,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CLSIDFromProgID"
+    },
+    {
+      "ord": 2,
+      "name": "CLSIDFromString"
+    },
+    {
+      "ord": 3,
+      "name": "CoAddRefServerProcess"
+    },
+    {
+      "ord": 4,
+      "name": "CoAllowUnmarshalerCLSID"
+    },
+    {
+      "ord": 5,
+      "name": "CoCancelCall"
+    },
+    {
+      "ord": 6,
+      "name": "CoCopyProxy"
+    },
+    {
+      "ord": 7,
+      "name": "CoCreateFreeThreadedMarshaler"
+    },
+    {
+      "ord": 8,
+      "name": "CoCreateGuid"
+    },
+    {
+      "ord": 9,
+      "name": "CoCreateInstance"
+    },
+    {
+      "ord": 10,
+      "name": "CoCreateInstanceEx"
+    },
+    {
+      "ord": 11,
+      "name": "CoCreateInstanceFromApp"
+    },
+    {
+      "ord": 12,
+      "name": "CoDecodeProxy"
+    },
+    {
+      "ord": 13,
+      "name": "CoDecrementMTAUsage"
+    },
+    {
+      "ord": 14,
+      "name": "CoDisableCallCancellation"
+    },
+    {
+      "ord": 15,
+      "name": "CoDisconnectContext"
+    },
+    {
+      "ord": 16,
+      "name": "CoDisconnectObject"
+    },
+    {
+      "ord": 17,
+      "name": "CoEnableCallCancellation"
+    },
+    {
+      "ord": 18,
+      "name": "CoFreeUnusedLibraries"
+    },
+    {
+      "ord": 19,
+      "name": "CoFreeUnusedLibrariesEx"
+    },
+    {
+      "ord": 20,
+      "name": "CoGetApartmentType"
+    },
+    {
+      "ord": 21,
+      "name": "CoGetCallContext"
+    },
+    {
+      "ord": 22,
+      "name": "CoGetCallerTID"
+    },
+    {
+      "ord": 23,
+      "name": "CoGetCancelObject"
+    },
+    {
+      "ord": 24,
+      "name": "CoGetClassObject"
+    },
+    {
+      "ord": 25,
+      "name": "CoGetContextToken"
+    },
+    {
+      "ord": 26,
+      "name": "CoGetCurrentLogicalThreadId"
+    },
+    {
+      "ord": 27,
+      "name": "CoGetCurrentProcess"
+    },
+    {
+      "ord": 28,
+      "name": "CoGetDefaultContext"
+    },
+    {
+      "ord": 29,
+      "name": "CoGetInterfaceAndReleaseStream"
+    },
+    {
+      "ord": 30,
+      "name": "CoGetMalloc"
+    },
+    {
+      "ord": 31,
+      "name": "CoGetMarshalSizeMax"
+    },
+    {
+      "ord": 32,
+      "name": "CoGetObjectContext"
+    },
+    {
+      "ord": 33,
+      "name": "CoGetPSClsid"
+    },
+    {
+      "ord": 34,
+      "name": "CoGetStandardMarshal"
+    },
+    {
+      "ord": 35,
+      "name": "CoGetStdMarshalEx"
+    },
+    {
+      "ord": 36,
+      "name": "CoGetTreatAsClass"
+    },
+    {
+      "ord": 37,
+      "name": "CoImpersonateClient"
+    },
+    {
+      "ord": 38,
+      "name": "CoIncrementMTAUsage"
+    },
+    {
+      "ord": 39,
+      "name": "CoInitializeEx"
+    },
+    {
+      "ord": 40,
+      "name": "CoInitializeSecurity"
+    },
+    {
+      "ord": 41,
+      "name": "CoInvalidateRemoteMachineBindings"
+    },
+    {
+      "ord": 42,
+      "name": "CoIsHandlerConnected"
+    },
+    {
+      "ord": 43,
+      "name": "CoLockObjectExternal"
+    },
+    {
+      "ord": 44,
+      "name": "CoMarshalHresult"
+    },
+    {
+      "ord": 45,
+      "name": "CoMarshalInterThreadInterfaceInStream"
+    },
+    {
+      "ord": 46,
+      "name": "CoMarshalInterface"
+    },
+    {
+      "ord": 47,
+      "name": "CoQueryAuthenticationServices"
+    },
+    {
+      "ord": 48,
+      "name": "CoQueryClientBlanket"
+    },
+    {
+      "ord": 49,
+      "name": "CoQueryProxyBlanket"
+    },
+    {
+      "ord": 50,
+      "name": "CoRegisterClassObject"
+    },
+    {
+      "ord": 51,
+      "name": "CoRegisterPSClsid"
+    },
+    {
+      "ord": 52,
+      "name": "CoRegisterSurrogate"
+    },
+    {
+      "ord": 53,
+      "name": "CoReleaseMarshalData"
+    },
+    {
+      "ord": 54,
+      "name": "CoReleaseServerProcess"
+    },
+    {
+      "ord": 55,
+      "name": "CoResumeClassObjects"
+    },
+    {
+      "ord": 56,
+      "name": "CoRevertToSelf"
+    },
+    {
+      "ord": 57,
+      "name": "CoRevokeClassObject"
+    },
+    {
+      "ord": 58,
+      "name": "CoSetCancelObject"
+    },
+    {
+      "ord": 59,
+      "name": "CoSetProxyBlanket"
+    },
+    {
+      "ord": 60,
+      "name": "CoSuspendClassObjects"
+    },
+    {
+      "ord": 61,
+      "name": "CoSwitchCallContext"
+    },
+    {
+      "ord": 62,
+      "name": "CoTaskMemAlloc"
+    },
+    {
+      "ord": 63,
+      "name": "CoTaskMemFree"
+    },
+    {
+      "ord": 64,
+      "name": "CoTaskMemRealloc"
+    },
+    {
+      "ord": 65,
+      "name": "CoTestCancel"
+    },
+    {
+      "ord": 66,
+      "name": "CoUninitialize"
+    },
+    {
+      "ord": 67,
+      "name": "CoUnmarshalHresult"
+    },
+    {
+      "ord": 68,
+      "name": "CoUnmarshalInterface"
+    },
+    {
+      "ord": 69,
+      "name": "CoWaitForMultipleHandles"
+    },
+    {
+      "ord": 70,
+      "name": "CoWaitForMultipleObjects"
+    },
+    {
+      "ord": 71,
+      "name": "CreateStreamOnHGlobal"
+    },
+    {
+      "ord": 72,
+      "name": "FreePropVariantArray"
+    },
+    {
+      "ord": 73,
+      "name": "GetHGlobalFromStream"
+    },
+    {
+      "ord": 74,
+      "name": "IIDFromString"
+    },
+    {
+      "ord": 75,
+      "name": "ProgIDFromCLSID"
+    },
+    {
+      "ord": 76,
+      "name": "PropVariantClear"
+    },
+    {
+      "ord": 77,
+      "name": "PropVariantCopy"
+    },
+    {
+      "ord": 78,
+      "name": "StringFromCLSID"
+    },
+    {
+      "ord": 79,
+      "name": "StringFromGUID2"
+    },
+    {
+      "ord": 80,
+      "name": "StringFromIID"
+    }
+  ]
+}

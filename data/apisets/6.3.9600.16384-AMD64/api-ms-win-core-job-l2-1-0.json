@@ -1,0 +1,38 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "b632f622ed97566332d2be7cbe77f873",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 27367,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AssignProcessToJobObject"
+    },
+    {
+      "ord": 2,
+      "name": "CreateJobObjectW"
+    },
+    {
+      "ord": 3,
+      "name": "OpenJobObjectW"
+    },
+    {
+      "ord": 4,
+      "name": "QueryInformationJobObject"
+    },
+    {
+      "ord": 5,
+      "name": "SetInformationJobObject"
+    },
+    {
+      "ord": 6,
+      "name": "TerminateJobObject"
+    }
+  ]
+}

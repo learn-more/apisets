@@ -1,0 +1,46 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "95b7bed40887af1a3cff85dc3770d621",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 65992,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CreateCaret"
+    },
+    {
+      "ord": 2,
+      "name": "DestroyCaret"
+    },
+    {
+      "ord": 3,
+      "name": "GetCaretBlinkTime"
+    },
+    {
+      "ord": 4,
+      "name": "GetCaretPos"
+    },
+    {
+      "ord": 5,
+      "name": "HideCaret"
+    },
+    {
+      "ord": 6,
+      "name": "SetCaretBlinkTime"
+    },
+    {
+      "ord": 7,
+      "name": "SetCaretPos"
+    },
+    {
+      "ord": 8,
+      "name": "ShowCaret"
+    }
+  ]
+}

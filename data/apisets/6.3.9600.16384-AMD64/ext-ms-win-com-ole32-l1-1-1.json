@@ -1,0 +1,138 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "71b419c4a599da9cb8937aee19dfc72f",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 69241,
+  "Size": 4096,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CheckInitDde"
+    },
+    {
+      "ord": 2,
+      "name": "CleanROTForApartment"
+    },
+    {
+      "ord": 3,
+      "name": "ClipboardProcessUninitialize"
+    },
+    {
+      "ord": 4,
+      "name": "CoAicGetTokenForCOM"
+    },
+    {
+      "ord": 5,
+      "name": "CoAllowSetForegroundWindow"
+    },
+    {
+      "ord": 6,
+      "name": "CoCheckElevationEnabled"
+    },
+    {
+      "ord": 7,
+      "name": "CoGetInterceptorForOle32"
+    },
+    {
+      "ord": 8,
+      "name": "CoGetSystemWow64DirectoryW"
+    },
+    {
+      "ord": 9,
+      "name": "CoInitialize"
+    },
+    {
+      "ord": 10,
+      "name": "CreateItemMoniker"
+    },
+    {
+      "ord": 11,
+      "name": "CreatePointerMoniker"
+    },
+    {
+      "ord": 12,
+      "name": "DdeBindToObject"
+    },
+    {
+      "ord": 13,
+      "name": "DeletePatternAndExtensionTables"
+    },
+    {
+      "ord": 14,
+      "name": "DestroyRunningObjectTable"
+    },
+    {
+      "ord": 15,
+      "name": "DragDropSetFDT"
+    },
+    {
+      "ord": 16,
+      "name": "FindExt"
+    },
+    {
+      "ord": 17,
+      "name": "GetObjectFromRotByPath"
+    },
+    {
+      "ord": 18,
+      "name": "GetRunningObjectTable"
+    },
+    {
+      "ord": 19,
+      "name": "IsRoInitializeASTAAllowedInDesktop"
+    },
+    {
+      "ord": 20,
+      "name": "MkParseDisplayName"
+    },
+    {
+      "ord": 21,
+      "name": "Ole32DllGetClassObject"
+    },
+    {
+      "ord": 22,
+      "name": "OleGetAutoConvert"
+    },
+    {
+      "ord": 23,
+      "name": "OleGetPackageClipboardOwner"
+    },
+    {
+      "ord": 24,
+      "name": "OleInitialize"
+    },
+    {
+      "ord": 25,
+      "name": "OleReleaseEnumVerbCache"
+    },
+    {
+      "ord": 26,
+      "name": "OleRun"
+    },
+    {
+      "ord": 27,
+      "name": "OleSaveToStream"
+    },
+    {
+      "ord": 28,
+      "name": "OleUninitialize"
+    },
+    {
+      "ord": 29,
+      "name": "StgCreateDocfile"
+    },
+    {
+      "ord": 30,
+      "name": "StgOpenStorageEx"
+    },
+    {
+      "ord": 31,
+      "name": "StgOpenStorageOnILockBytes"
+    }
+  ]
+}

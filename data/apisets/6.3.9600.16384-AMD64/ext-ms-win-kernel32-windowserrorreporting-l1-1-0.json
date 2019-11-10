@@ -1,0 +1,54 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "ac436daf98d7882958fa1eaa358eb63c",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 58637,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "GetApplicationRecoveryCallbackWorker"
+    },
+    {
+      "ord": 2,
+      "name": "GetApplicationRestartSettingsWorker"
+    },
+    {
+      "ord": 3,
+      "name": "WerRegisterFileWorker"
+    },
+    {
+      "ord": 4,
+      "name": "WerRegisterMemoryBlockWorker"
+    },
+    {
+      "ord": 5,
+      "name": "WerRegisterRuntimeExceptionModuleWorker"
+    },
+    {
+      "ord": 6,
+      "name": "WerUnregisterFileWorker"
+    },
+    {
+      "ord": 7,
+      "name": "WerUnregisterMemoryBlockWorker"
+    },
+    {
+      "ord": 8,
+      "name": "WerUnregisterRuntimeExceptionModuleWorker"
+    },
+    {
+      "ord": 9,
+      "name": "WerpNotifyLoadStringResourceWorker"
+    },
+    {
+      "ord": 10,
+      "name": "WerpNotifyUseStringResourceWorker"
+    }
+  ]
+}

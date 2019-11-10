@@ -1,0 +1,34 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "0a6d8dc60b85c56b917f756eae56e244",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 15418,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "IUnknown_AtomicRelease"
+    },
+    {
+      "ord": 2,
+      "name": "IUnknown_GetSite"
+    },
+    {
+      "ord": 3,
+      "name": "IUnknown_QueryService"
+    },
+    {
+      "ord": 4,
+      "name": "IUnknown_Set"
+    },
+    {
+      "ord": 5,
+      "name": "IUnknown_SetSite"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "7459ee4116f5224f13d44f41130225dc",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 21958,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "LookupAccountNameLocalA"
+    },
+    {
+      "ord": 2,
+      "name": "LookupAccountNameLocalW"
+    },
+    {
+      "ord": 3,
+      "name": "LookupAccountSidLocalA"
+    },
+    {
+      "ord": 4,
+      "name": "LookupAccountSidLocalW"
+    },
+    {
+      "ord": 5,
+      "name": "LsaLookupClose"
+    },
+    {
+      "ord": 6,
+      "name": "LsaLookupFreeMemory"
+    },
+    {
+      "ord": 7,
+      "name": "LsaLookupGetDomainInfo"
+    },
+    {
+      "ord": 8,
+      "name": "LsaLookupManageSidNameMapping"
+    },
+    {
+      "ord": 9,
+      "name": "LsaLookupOpenLocalPolicy"
+    },
+    {
+      "ord": 10,
+      "name": "LsaLookupTranslateNames"
+    },
+    {
+      "ord": 11,
+      "name": "LsaLookupTranslateSids"
+    }
+  ]
+}

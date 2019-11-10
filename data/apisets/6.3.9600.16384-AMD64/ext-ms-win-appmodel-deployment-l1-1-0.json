@@ -1,0 +1,58 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "a547a9fdd9a74d2b574f9b2b0a98b27c",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 66324,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ApplyStrongProtection"
+    },
+    {
+      "ord": 2,
+      "name": "CreateAppxDataProfile"
+    },
+    {
+      "ord": 3,
+      "name": "CreateAppxInstallProfile"
+    },
+    {
+      "ord": 4,
+      "name": "DeleteAppxDataProfile"
+    },
+    {
+      "ord": 5,
+      "name": "DeleteAppxInstallProfile"
+    },
+    {
+      "ord": 6,
+      "name": "DeprovisionMarketplaceApplication"
+    },
+    {
+      "ord": 7,
+      "name": "GetUserTempPath"
+    },
+    {
+      "ord": 8,
+      "name": "GetWPCapabilities"
+    },
+    {
+      "ord": 9,
+      "name": "GetWPCapabilitiesCount"
+    },
+    {
+      "ord": 10,
+      "name": "IsProvisioningAllowed"
+    },
+    {
+      "ord": 11,
+      "name": "ProvisionMarketplaceApplication"
+    }
+  ]
+}

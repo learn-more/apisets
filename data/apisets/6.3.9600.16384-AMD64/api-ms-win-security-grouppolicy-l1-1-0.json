@@ -1,0 +1,106 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "04682c1795b80bd0ca1d322cb753aaa8",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 67307,
+  "Size": 4096,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AreThereVisibleLogoffScriptsInternal"
+    },
+    {
+      "ord": 2,
+      "name": "AreThereVisibleShutdownScriptsInternal"
+    },
+    {
+      "ord": 3,
+      "name": "EnterCriticalPolicySectionInternal"
+    },
+    {
+      "ord": 4,
+      "name": "ForceSyncFgPolicyInternal"
+    },
+    {
+      "ord": 5,
+      "name": "FreeGPOListInternalA"
+    },
+    {
+      "ord": 6,
+      "name": "FreeGPOListInternalW"
+    },
+    {
+      "ord": 7,
+      "name": "GenerateGPNotificationInternal"
+    },
+    {
+      "ord": 8,
+      "name": "GetAppliedGPOListInternalA"
+    },
+    {
+      "ord": 9,
+      "name": "GetAppliedGPOListInternalW"
+    },
+    {
+      "ord": 10,
+      "name": "GetGPOListInternalA"
+    },
+    {
+      "ord": 11,
+      "name": "GetGPOListInternalW"
+    },
+    {
+      "ord": 12,
+      "name": "GetNextFgPolicyRefreshInfoInternal"
+    },
+    {
+      "ord": 13,
+      "name": "GetPreviousFgPolicyRefreshInfoInternal"
+    },
+    {
+      "ord": 14,
+      "name": "HasPolicyForegroundProcessingCompletedInternal"
+    },
+    {
+      "ord": 15,
+      "name": "IsSyncForegroundPolicyRefresh"
+    },
+    {
+      "ord": 16,
+      "name": "LeaveCriticalPolicySectionInternal"
+    },
+    {
+      "ord": 17,
+      "name": "RefreshPolicyExInternal"
+    },
+    {
+      "ord": 18,
+      "name": "RefreshPolicyInternal"
+    },
+    {
+      "ord": 19,
+      "name": "RegisterGPNotificationInternal"
+    },
+    {
+      "ord": 20,
+      "name": "RsopLoggingEnabledInternal"
+    },
+    {
+      "ord": 21,
+      "name": "UnregisterGPNotificationInternal"
+    },
+    {
+      "ord": 22,
+      "name": "WaitForMachinePolicyForegroundProcessingInternal"
+    },
+    {
+      "ord": 23,
+      "name": "WaitForUserPolicyForegroundProcessingInternal"
+    }
+  ]
+}

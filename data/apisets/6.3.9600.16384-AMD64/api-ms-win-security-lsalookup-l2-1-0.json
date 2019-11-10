@@ -1,0 +1,38 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "a3e2fb5d9c0b9503cced75c04f45af79",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 12732,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "LookupAccountNameW"
+    },
+    {
+      "ord": 2,
+      "name": "LookupAccountSidW"
+    },
+    {
+      "ord": 3,
+      "name": "LookupPrivilegeDisplayNameW"
+    },
+    {
+      "ord": 4,
+      "name": "LookupPrivilegeNameW"
+    },
+    {
+      "ord": 5,
+      "name": "LookupPrivilegeValueW"
+    },
+    {
+      "ord": 6,
+      "name": "LsaEnumerateTrustedDomains"
+    }
+  ]
+}

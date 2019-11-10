@@ -1,0 +1,74 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "849c2852479881984d83067094bbd7f9",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 66866,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CrackSingleName"
+    },
+    {
+      "ord": 2,
+      "name": "DNSHostNameValueCheckForNetlogon"
+    },
+    {
+      "ord": 3,
+      "name": "DsCanRODCHostNdncForNetLogon"
+    },
+    {
+      "ord": 4,
+      "name": "DsFreeDomainControllerInfoForNetLogon"
+    },
+    {
+      "ord": 5,
+      "name": "DsFreeServersAndSitesForNetLogon"
+    },
+    {
+      "ord": 6,
+      "name": "DsGetDomainControllerInfoForNetLogon"
+    },
+    {
+      "ord": 7,
+      "name": "DsGetServersAndSitesForNetLogon"
+    },
+    {
+      "ord": 8,
+      "name": "DsQueryDnsHostNameForNetLogon"
+    },
+    {
+      "ord": 9,
+      "name": "GetConfigurationName"
+    },
+    {
+      "ord": 10,
+      "name": "GetConfigurationNamesList"
+    },
+    {
+      "ord": 11,
+      "name": "GetDnsRootAlias"
+    },
+    {
+      "ord": 12,
+      "name": "IsFullDCInSiteForNetlogon"
+    },
+    {
+      "ord": 13,
+      "name": "IsMangledRDNExternal"
+    },
+    {
+      "ord": 14,
+      "name": "IsRODCInSiteForNetlogon"
+    },
+    {
+      "ord": 15,
+      "name": "SamISameSite"
+    }
+  ]
+}

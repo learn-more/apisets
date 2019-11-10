@@ -1,0 +1,122 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "fd79362b0b7f98189cf57c85a0d7e0a2",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 22842,
+  "Size": 4096,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "HSTRING_UserFree"
+    },
+    {
+      "ord": 2,
+      "name": "HSTRING_UserFree64"
+    },
+    {
+      "ord": 3,
+      "name": "HSTRING_UserMarshal"
+    },
+    {
+      "ord": 4,
+      "name": "HSTRING_UserMarshal64"
+    },
+    {
+      "ord": 5,
+      "name": "HSTRING_UserSize"
+    },
+    {
+      "ord": 6,
+      "name": "HSTRING_UserSize64"
+    },
+    {
+      "ord": 7,
+      "name": "HSTRING_UserUnmarshal"
+    },
+    {
+      "ord": 8,
+      "name": "HSTRING_UserUnmarshal64"
+    },
+    {
+      "ord": 9,
+      "name": "WindowsCompareStringOrdinal"
+    },
+    {
+      "ord": 10,
+      "name": "WindowsConcatString"
+    },
+    {
+      "ord": 11,
+      "name": "WindowsCreateString"
+    },
+    {
+      "ord": 12,
+      "name": "WindowsCreateStringReference"
+    },
+    {
+      "ord": 13,
+      "name": "WindowsDeleteString"
+    },
+    {
+      "ord": 14,
+      "name": "WindowsDeleteStringBuffer"
+    },
+    {
+      "ord": 15,
+      "name": "WindowsDuplicateString"
+    },
+    {
+      "ord": 16,
+      "name": "WindowsGetStringLen"
+    },
+    {
+      "ord": 17,
+      "name": "WindowsGetStringRawBuffer"
+    },
+    {
+      "ord": 18,
+      "name": "WindowsInspectString"
+    },
+    {
+      "ord": 19,
+      "name": "WindowsIsStringEmpty"
+    },
+    {
+      "ord": 20,
+      "name": "WindowsPreallocateStringBuffer"
+    },
+    {
+      "ord": 21,
+      "name": "WindowsPromoteStringBuffer"
+    },
+    {
+      "ord": 22,
+      "name": "WindowsReplaceString"
+    },
+    {
+      "ord": 23,
+      "name": "WindowsStringHasEmbeddedNull"
+    },
+    {
+      "ord": 24,
+      "name": "WindowsSubstring"
+    },
+    {
+      "ord": 25,
+      "name": "WindowsSubstringWithSpecifiedLength"
+    },
+    {
+      "ord": 26,
+      "name": "WindowsTrimStringEnd"
+    },
+    {
+      "ord": 27,
+      "name": "WindowsTrimStringStart"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "ac78759ccca2ae7c09c39e6cb706be8e",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 33859,
+  "Size": 4608,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "WinInetPalCanPurgeKeepAliveSocket"
+    },
+    {
+      "ord": 2,
+      "name": "WinInetPalCloneRequestContext"
+    },
+    {
+      "ord": 3,
+      "name": "WinInetPalCreateBackgroundConnectionFsmContext"
+    },
+    {
+      "ord": 4,
+      "name": "WinInetPalCreateCServerInfoContext"
+    },
+    {
+      "ord": 5,
+      "name": "WinInetPalCreateGetConnectionFsmContext"
+    },
+    {
+      "ord": 6,
+      "name": "WinInetPalCreateICSocketContext"
+    },
+    {
+      "ord": 7,
+      "name": "WinInetPalCreateICSocketContext2"
+    },
+    {
+      "ord": 8,
+      "name": "WinInetPalCreateRequestContext"
+    },
+    {
+      "ord": 9,
+      "name": "WinInetPalCreateResolveHostFsmContext"
+    },
+    {
+      "ord": 10,
+      "name": "WinInetPalCreateServerInfoLookupContext"
+    },
+    {
+      "ord": 11,
+      "name": "WinInetPalFilterServerInfo"
+    },
+    {
+      "ord": 12,
+      "name": "WinInetPalFreeBackgroundConnectionFsmCtx"
+    },
+    {
+      "ord": 13,
+      "name": "WinInetPalFreeGetConnectionFsmCtx"
+    },
+    {
+      "ord": 14,
+      "name": "WinInetPalFreeProxySettings"
+    },
+    {
+      "ord": 15,
+      "name": "WinInetPalFreeRequestCtx"
+    },
+    {
+      "ord": 16,
+      "name": "WinInetPalFreeResolveHostFsmCtx"
+    },
+    {
+      "ord": 17,
+      "name": "WinInetPalFreeServerInfoCtx"
+    },
+    {
+      "ord": 18,
+      "name": "WinInetPalFreeSocketCtx"
+    },
+    {
+      "ord": 19,
+      "name": "WinInetPalGetAppContainerRegistryLocation"
+    },
+    {
+      "ord": 20,
+      "name": "WinInetPalGetProxySettings"
+    },
+    {
+      "ord": 21,
+      "name": "WinInetPalImplemented"
+    },
+    {
+      "ord": 22,
+      "name": "WinInetPalInternetGetConnectedStateExW"
+    },
+    {
+      "ord": 23,
+      "name": "WinInetPalIsPerProcessOption"
+    },
+    {
+      "ord": 24,
+      "name": "WinInetPalOnGlobalDataInitialize"
+    },
+    {
+      "ord": 25,
+      "name": "WinInetPalOnGlobalDataTerminate"
+    },
+    {
+      "ord": 26,
+      "name": "WinInetPalOnHttpSendRequestFsmComplete"
+    },
+    {
+      "ord": 27,
+      "name": "WinInetPalOnInternetCloseHandle"
+    },
+    {
+      "ord": 28,
+      "name": "WinInetPalOnInternetQueryOptionA"
+    },
+    {
+      "ord": 29,
+      "name": "WinInetPalOnInternetSetOptionA"
+    },
+    {
+      "ord": 30,
+      "name": "WinInetPalOnResolveHostFsm"
+    },
+    {
+      "ord": 31,
+      "name": "WinInetPalOnSendRequest"
+    },
+    {
+      "ord": 32,
+      "name": "WinInetPalPurgeKeepAliveSockets"
+    },
+    {
+      "ord": 33,
+      "name": "WinInetPalRegisterKeepAlivePurgeCallback"
+    },
+    {
+      "ord": 34,
+      "name": "WinInetPalTrackKeepAliveSocket"
+    },
+    {
+      "ord": 35,
+      "name": "WinInetPalTransferKeepAliveSocket"
+    }
+  ]
+}

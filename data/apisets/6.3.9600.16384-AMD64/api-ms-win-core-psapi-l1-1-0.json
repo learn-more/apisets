@@ -1,0 +1,78 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "b19c4c3db419a153a2070a93a28825f5",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 36384,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "K32EmptyWorkingSet"
+    },
+    {
+      "ord": 2,
+      "name": "K32EnumDeviceDrivers"
+    },
+    {
+      "ord": 3,
+      "name": "K32EnumPageFilesW"
+    },
+    {
+      "ord": 4,
+      "name": "K32EnumProcesses"
+    },
+    {
+      "ord": 5,
+      "name": "K32GetDeviceDriverBaseNameW"
+    },
+    {
+      "ord": 6,
+      "name": "K32GetDeviceDriverFileNameW"
+    },
+    {
+      "ord": 7,
+      "name": "K32GetMappedFileNameW"
+    },
+    {
+      "ord": 8,
+      "name": "K32GetPerformanceInfo"
+    },
+    {
+      "ord": 9,
+      "name": "K32GetProcessImageFileNameW"
+    },
+    {
+      "ord": 10,
+      "name": "K32GetProcessMemoryInfo"
+    },
+    {
+      "ord": 11,
+      "name": "K32GetWsChanges"
+    },
+    {
+      "ord": 12,
+      "name": "K32GetWsChangesEx"
+    },
+    {
+      "ord": 13,
+      "name": "K32InitializeProcessForWsWatch"
+    },
+    {
+      "ord": 14,
+      "name": "K32QueryWorkingSet"
+    },
+    {
+      "ord": 15,
+      "name": "K32QueryWorkingSetEx"
+    },
+    {
+      "ord": 16,
+      "name": "QueryFullProcessImageNameW"
+    }
+  ]
+}

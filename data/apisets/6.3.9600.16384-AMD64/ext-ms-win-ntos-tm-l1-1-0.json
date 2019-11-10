@@ -1,0 +1,318 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "56c9af14cb3502381da41d3dc0dc4fe8",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 21165,
+  "Size": 15200,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "NtCommitComplete"
+    },
+    {
+      "ord": 2,
+      "name": "NtCommitEnlistment"
+    },
+    {
+      "ord": 3,
+      "name": "NtCommitTransaction"
+    },
+    {
+      "ord": 4,
+      "name": "NtCreateEnlistment"
+    },
+    {
+      "ord": 5,
+      "name": "NtCreateResourceManager"
+    },
+    {
+      "ord": 6,
+      "name": "NtCreateTransaction"
+    },
+    {
+      "ord": 7,
+      "name": "NtCreateTransactionManager"
+    },
+    {
+      "ord": 8,
+      "name": "NtEnumerateTransactionObject"
+    },
+    {
+      "ord": 9,
+      "name": "NtFreezeTransactions"
+    },
+    {
+      "ord": 10,
+      "name": "NtGetNotificationResourceManager"
+    },
+    {
+      "ord": 11,
+      "name": "NtOpenEnlistment"
+    },
+    {
+      "ord": 12,
+      "name": "NtOpenResourceManager"
+    },
+    {
+      "ord": 13,
+      "name": "NtOpenTransaction"
+    },
+    {
+      "ord": 14,
+      "name": "NtOpenTransactionManager"
+    },
+    {
+      "ord": 15,
+      "name": "NtPrePrepareComplete"
+    },
+    {
+      "ord": 16,
+      "name": "NtPrePrepareEnlistment"
+    },
+    {
+      "ord": 17,
+      "name": "NtPrepareComplete"
+    },
+    {
+      "ord": 18,
+      "name": "NtPrepareEnlistment"
+    },
+    {
+      "ord": 19,
+      "name": "NtPropagationComplete"
+    },
+    {
+      "ord": 20,
+      "name": "NtPropagationFailed"
+    },
+    {
+      "ord": 21,
+      "name": "NtQueryInformationEnlistment"
+    },
+    {
+      "ord": 22,
+      "name": "NtQueryInformationResourceManager"
+    },
+    {
+      "ord": 23,
+      "name": "NtQueryInformationTransaction"
+    },
+    {
+      "ord": 24,
+      "name": "NtQueryInformationTransactionManager"
+    },
+    {
+      "ord": 25,
+      "name": "NtReadOnlyEnlistment"
+    },
+    {
+      "ord": 26,
+      "name": "NtRecoverEnlistment"
+    },
+    {
+      "ord": 27,
+      "name": "NtRecoverResourceManager"
+    },
+    {
+      "ord": 28,
+      "name": "NtRecoverTransactionManager"
+    },
+    {
+      "ord": 29,
+      "name": "NtRegisterProtocolAddressInformation"
+    },
+    {
+      "ord": 30,
+      "name": "NtRenameTransactionManager"
+    },
+    {
+      "ord": 31,
+      "name": "NtRollbackComplete"
+    },
+    {
+      "ord": 32,
+      "name": "NtRollbackEnlistment"
+    },
+    {
+      "ord": 33,
+      "name": "NtRollbackTransaction"
+    },
+    {
+      "ord": 34,
+      "name": "NtRollforwardTransactionManager"
+    },
+    {
+      "ord": 35,
+      "name": "NtSetInformationEnlistment"
+    },
+    {
+      "ord": 36,
+      "name": "NtSetInformationResourceManager"
+    },
+    {
+      "ord": 37,
+      "name": "NtSetInformationTransaction"
+    },
+    {
+      "ord": 38,
+      "name": "NtSetInformationTransactionManager"
+    },
+    {
+      "ord": 39,
+      "name": "NtSinglePhaseReject"
+    },
+    {
+      "ord": 40,
+      "name": "NtThawTransactions"
+    },
+    {
+      "ord": 41,
+      "name": "TmCancelPropagationRequest"
+    },
+    {
+      "ord": 42,
+      "name": "TmCommitComplete"
+    },
+    {
+      "ord": 43,
+      "name": "TmCommitEnlistment"
+    },
+    {
+      "ord": 44,
+      "name": "TmCommitTransaction"
+    },
+    {
+      "ord": 45,
+      "name": "TmCreateEnlistment"
+    },
+    {
+      "ord": 46,
+      "name": "TmCurrentTransaction"
+    },
+    {
+      "ord": 47,
+      "name": "TmDereferenceEnlistmentKey"
+    },
+    {
+      "ord": 48,
+      "name": "TmEnableCallbacks"
+    },
+    {
+      "ord": 49,
+      "name": "TmEndPropagationRequest"
+    },
+    {
+      "ord": 50,
+      "name": "TmFreezeTransactions"
+    },
+    {
+      "ord": 51,
+      "name": "TmGetTransactionId"
+    },
+    {
+      "ord": 52,
+      "name": "TmInitSystem"
+    },
+    {
+      "ord": 53,
+      "name": "TmInitSystemPhase2"
+    },
+    {
+      "ord": 54,
+      "name": "TmInitializeTransactionManager"
+    },
+    {
+      "ord": 55,
+      "name": "TmIsKTMCommitCoordinator"
+    },
+    {
+      "ord": 56,
+      "name": "TmIsTransactionActive"
+    },
+    {
+      "ord": 57,
+      "name": "TmPrePrepareComplete"
+    },
+    {
+      "ord": 58,
+      "name": "TmPrePrepareEnlistment"
+    },
+    {
+      "ord": 59,
+      "name": "TmPrepareComplete"
+    },
+    {
+      "ord": 60,
+      "name": "TmPrepareEnlistment"
+    },
+    {
+      "ord": 61,
+      "name": "TmPropagationComplete"
+    },
+    {
+      "ord": 62,
+      "name": "TmPropagationFailed"
+    },
+    {
+      "ord": 63,
+      "name": "TmReadOnlyEnlistment"
+    },
+    {
+      "ord": 64,
+      "name": "TmRecoverEnlistment"
+    },
+    {
+      "ord": 65,
+      "name": "TmRecoverResourceManager"
+    },
+    {
+      "ord": 66,
+      "name": "TmRecoverTransactionManager"
+    },
+    {
+      "ord": 67,
+      "name": "TmReferenceEnlistmentKey"
+    },
+    {
+      "ord": 68,
+      "name": "TmRenameTransactionManager"
+    },
+    {
+      "ord": 69,
+      "name": "TmRequestOutcomeEnlistment"
+    },
+    {
+      "ord": 70,
+      "name": "TmRollbackComplete"
+    },
+    {
+      "ord": 71,
+      "name": "TmRollbackEnlistment"
+    },
+    {
+      "ord": 72,
+      "name": "TmRollbackTransaction"
+    },
+    {
+      "ord": 73,
+      "name": "TmSetCurrentTransaction"
+    },
+    {
+      "ord": 74,
+      "name": "TmShutdownSystem"
+    },
+    {
+      "ord": 75,
+      "name": "TmSinglePhaseReject"
+    },
+    {
+      "ord": 76,
+      "name": "TmThawTransactions"
+    }
+  ]
+}

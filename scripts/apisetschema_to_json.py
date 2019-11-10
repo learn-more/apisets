@@ -17,11 +17,13 @@ DEFAULTDATADIR = Path(SCRIPTDIR).parent / 'data'
 DEFAULTINPUTDIR = Path(SCRIPTDIR).parent / 'bin'
 DEFAULTCONTENTDIR = Path(SCRIPTDIR).parent / 'content'
 
+
 def value_or_none(table, name):
     value = table.entries.get(name, None)
     if value:
         return value.decode('UTF-8')
     return None
+
 
 class PeInfo:
     def __init__(self, pe):
@@ -112,6 +114,41 @@ def process_schema_file(input_file, output_dir):
     return name
 
 
+def get_forwarders(pe):
+    dirs = [pefile.DIRECTORY_ENTRY['IMAGE_DIRECTORY_ENTRY_EXPORT']]
+    pe.parse_data_directories(directories=dirs)
+    exports = []
+    for exp in pe.DIRECTORY_ENTRY_EXPORT.symbols:
+        assert not exp.forwarder
+        if exp.name:
+            assert not exp.forwarder_offset
+        curr_export = {
+            'ord': exp.ordinal
+        }
+        if exp.name:
+            curr_export['name'] = exp.name.decode('utf-8')
+        exports.append(curr_export)
+    return exports
+
+
+def process_apisets_dir(input_dir, output_dir, version_parent):
+    target_dir = output_dir / version_parent
+    target_dir.mkdir(parents=True, exist_ok=True)
+    for filename in Path(input_dir).glob('**/*.dll'):
+        pe = pefile.PE(filename, fast_load=True)
+
+        info = PeInfo(pe)
+        if not info.ProductVersion:
+            print('No version found in', input_file)
+            continue
+
+        obj = info.as_json()
+        exports = get_forwarders(pe)
+        obj['exports'] = exports
+        output_file = target_dir / '{}.json'.format(filename.stem)
+        with open(output_file, 'w') as json_file:
+            dump(obj, json_file, indent='  ')
+
 
 class ApisetSource:
     def __init__(self, version, directory):
@@ -129,6 +166,11 @@ def write_schemas(input_dir, output_dir):
 
 def main(input_dir, output_dir, content_dir):
     sources = write_schemas(input_dir, output_dir)
+    apisets_dir = output_dir / 'apisets'
+    for source in sources:
+        apisets = source.directory / 'apisets'
+        if apisets.is_dir():
+            process_apisets_dir(apisets, apisets_dir, source.version)
     hugo_pages_from_data.pages_from_data(output_dir, content_dir)
 
 

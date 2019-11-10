@@ -1,0 +1,50 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "95cfee0b406bd20c57333653af3a45fc",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 4380,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "RoActivateInstance"
+    },
+    {
+      "ord": 2,
+      "name": "RoGetActivationFactory"
+    },
+    {
+      "ord": 3,
+      "name": "RoGetApartmentIdentifier"
+    },
+    {
+      "ord": 4,
+      "name": "RoInitialize"
+    },
+    {
+      "ord": 5,
+      "name": "RoRegisterActivationFactories"
+    },
+    {
+      "ord": 6,
+      "name": "RoRegisterForApartmentShutdown"
+    },
+    {
+      "ord": 7,
+      "name": "RoRevokeActivationFactories"
+    },
+    {
+      "ord": 8,
+      "name": "RoUninitialize"
+    },
+    {
+      "ord": 9,
+      "name": "RoUnregisterForApartmentShutdown"
+    }
+  ]
+}

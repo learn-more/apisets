@@ -1,0 +1,698 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "eb51702286c41f9a45aad6da0aba1965",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 28116,
+  "Size": 6656,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "GetAcceptLanguagesW"
+    },
+    {
+      "ord": 2,
+      "name": "HashData"
+    },
+    {
+      "ord": 3,
+      "name": "IsCharSpaceA"
+    },
+    {
+      "ord": 4,
+      "name": "IsCharSpaceW"
+    },
+    {
+      "ord": 5,
+      "name": "IsInternetESCEnabled"
+    },
+    {
+      "ord": 6,
+      "name": "ParseURLW"
+    },
+    {
+      "ord": 7,
+      "name": "PathAddBackslashA"
+    },
+    {
+      "ord": 8,
+      "name": "PathAddBackslashW"
+    },
+    {
+      "ord": 9,
+      "name": "PathAddExtensionA"
+    },
+    {
+      "ord": 10,
+      "name": "PathAddExtensionW"
+    },
+    {
+      "ord": 11,
+      "name": "PathAppendA"
+    },
+    {
+      "ord": 12,
+      "name": "PathAppendW"
+    },
+    {
+      "ord": 13,
+      "name": "PathCanonicalizeA"
+    },
+    {
+      "ord": 14,
+      "name": "PathCanonicalizeW"
+    },
+    {
+      "ord": 15,
+      "name": "PathCombineA"
+    },
+    {
+      "ord": 16,
+      "name": "PathCombineW"
+    },
+    {
+      "ord": 17,
+      "name": "PathCommonPrefixA"
+    },
+    {
+      "ord": 18,
+      "name": "PathCommonPrefixW"
+    },
+    {
+      "ord": 19,
+      "name": "PathCreateFromUrlAlloc"
+    },
+    {
+      "ord": 20,
+      "name": "PathCreateFromUrlW"
+    },
+    {
+      "ord": 21,
+      "name": "PathFileExistsA"
+    },
+    {
+      "ord": 22,
+      "name": "PathFileExistsW"
+    },
+    {
+      "ord": 23,
+      "name": "PathFindExtensionA"
+    },
+    {
+      "ord": 24,
+      "name": "PathFindExtensionW"
+    },
+    {
+      "ord": 25,
+      "name": "PathFindFileNameA"
+    },
+    {
+      "ord": 26,
+      "name": "PathFindFileNameW"
+    },
+    {
+      "ord": 27,
+      "name": "PathFindNextComponentA"
+    },
+    {
+      "ord": 28,
+      "name": "PathFindNextComponentW"
+    },
+    {
+      "ord": 29,
+      "name": "PathGetArgsA"
+    },
+    {
+      "ord": 30,
+      "name": "PathGetArgsW"
+    },
+    {
+      "ord": 31,
+      "name": "PathGetCharTypeA"
+    },
+    {
+      "ord": 32,
+      "name": "PathGetCharTypeW"
+    },
+    {
+      "ord": 33,
+      "name": "PathGetDriveNumberA"
+    },
+    {
+      "ord": 34,
+      "name": "PathGetDriveNumberW"
+    },
+    {
+      "ord": 35,
+      "name": "PathIsFileSpecA"
+    },
+    {
+      "ord": 36,
+      "name": "PathIsFileSpecW"
+    },
+    {
+      "ord": 37,
+      "name": "PathIsLFNFileSpecA"
+    },
+    {
+      "ord": 38,
+      "name": "PathIsLFNFileSpecW"
+    },
+    {
+      "ord": 39,
+      "name": "PathIsPrefixA"
+    },
+    {
+      "ord": 40,
+      "name": "PathIsPrefixW"
+    },
+    {
+      "ord": 41,
+      "name": "PathIsRelativeA"
+    },
+    {
+      "ord": 42,
+      "name": "PathIsRelativeW"
+    },
+    {
+      "ord": 43,
+      "name": "PathIsRootA"
+    },
+    {
+      "ord": 44,
+      "name": "PathIsRootW"
+    },
+    {
+      "ord": 45,
+      "name": "PathIsSameRootA"
+    },
+    {
+      "ord": 46,
+      "name": "PathIsSameRootW"
+    },
+    {
+      "ord": 47,
+      "name": "PathIsUNCA"
+    },
+    {
+      "ord": 48,
+      "name": "PathIsUNCServerA"
+    },
+    {
+      "ord": 49,
+      "name": "PathIsUNCServerShareA"
+    },
+    {
+      "ord": 50,
+      "name": "PathIsUNCServerShareW"
+    },
+    {
+      "ord": 51,
+      "name": "PathIsUNCServerW"
+    },
+    {
+      "ord": 52,
+      "name": "PathIsUNCW"
+    },
+    {
+      "ord": 53,
+      "name": "PathIsURLW"
+    },
+    {
+      "ord": 54,
+      "name": "PathMatchSpecA"
+    },
+    {
+      "ord": 55,
+      "name": "PathMatchSpecExA"
+    },
+    {
+      "ord": 56,
+      "name": "PathMatchSpecExW"
+    },
+    {
+      "ord": 57,
+      "name": "PathMatchSpecW"
+    },
+    {
+      "ord": 58,
+      "name": "PathParseIconLocationA"
+    },
+    {
+      "ord": 59,
+      "name": "PathParseIconLocationW"
+    },
+    {
+      "ord": 60,
+      "name": "PathQuoteSpacesA"
+    },
+    {
+      "ord": 61,
+      "name": "PathQuoteSpacesW"
+    },
+    {
+      "ord": 62,
+      "name": "PathRelativePathToA"
+    },
+    {
+      "ord": 63,
+      "name": "PathRelativePathToW"
+    },
+    {
+      "ord": 64,
+      "name": "PathRemoveBackslashA"
+    },
+    {
+      "ord": 65,
+      "name": "PathRemoveBackslashW"
+    },
+    {
+      "ord": 66,
+      "name": "PathRemoveBlanksA"
+    },
+    {
+      "ord": 67,
+      "name": "PathRemoveBlanksW"
+    },
+    {
+      "ord": 68,
+      "name": "PathRemoveExtensionA"
+    },
+    {
+      "ord": 69,
+      "name": "PathRemoveExtensionW"
+    },
+    {
+      "ord": 70,
+      "name": "PathRemoveFileSpecA"
+    },
+    {
+      "ord": 71,
+      "name": "PathRemoveFileSpecW"
+    },
+    {
+      "ord": 72,
+      "name": "PathRenameExtensionA"
+    },
+    {
+      "ord": 73,
+      "name": "PathRenameExtensionW"
+    },
+    {
+      "ord": 74,
+      "name": "PathSearchAndQualifyA"
+    },
+    {
+      "ord": 75,
+      "name": "PathSearchAndQualifyW"
+    },
+    {
+      "ord": 76,
+      "name": "PathSkipRootA"
+    },
+    {
+      "ord": 77,
+      "name": "PathSkipRootW"
+    },
+    {
+      "ord": 78,
+      "name": "PathStripPathA"
+    },
+    {
+      "ord": 79,
+      "name": "PathStripPathW"
+    },
+    {
+      "ord": 80,
+      "name": "PathStripToRootA"
+    },
+    {
+      "ord": 81,
+      "name": "PathStripToRootW"
+    },
+    {
+      "ord": 82,
+      "name": "PathUnExpandEnvStringsA"
+    },
+    {
+      "ord": 83,
+      "name": "PathUnExpandEnvStringsW"
+    },
+    {
+      "ord": 84,
+      "name": "PathUnquoteSpacesA"
+    },
+    {
+      "ord": 85,
+      "name": "PathUnquoteSpacesW"
+    },
+    {
+      "ord": 86,
+      "name": "QISearch"
+    },
+    {
+      "ord": 87,
+      "name": "SHLoadIndirectString"
+    },
+    {
+      "ord": 88,
+      "name": "SHRegCloseUSKey"
+    },
+    {
+      "ord": 89,
+      "name": "SHRegDeleteUSValueA"
+    },
+    {
+      "ord": 90,
+      "name": "SHRegDeleteUSValueW"
+    },
+    {
+      "ord": 91,
+      "name": "SHRegEnumUSKeyA"
+    },
+    {
+      "ord": 92,
+      "name": "SHRegEnumUSKeyW"
+    },
+    {
+      "ord": 93,
+      "name": "SHRegGetBoolUSValueA"
+    },
+    {
+      "ord": 94,
+      "name": "SHRegGetBoolUSValueW"
+    },
+    {
+      "ord": 95,
+      "name": "SHRegGetUSValueA"
+    },
+    {
+      "ord": 96,
+      "name": "SHRegGetUSValueW"
+    },
+    {
+      "ord": 97,
+      "name": "SHRegOpenUSKeyA"
+    },
+    {
+      "ord": 98,
+      "name": "SHRegOpenUSKeyW"
+    },
+    {
+      "ord": 99,
+      "name": "SHRegQueryUSValueA"
+    },
+    {
+      "ord": 100,
+      "name": "SHRegQueryUSValueW"
+    },
+    {
+      "ord": 101,
+      "name": "SHRegSetUSValueA"
+    },
+    {
+      "ord": 102,
+      "name": "SHRegSetUSValueW"
+    },
+    {
+      "ord": 103,
+      "name": "StrCSpnA"
+    },
+    {
+      "ord": 104,
+      "name": "StrCSpnIA"
+    },
+    {
+      "ord": 105,
+      "name": "StrCSpnIW"
+    },
+    {
+      "ord": 106,
+      "name": "StrCSpnW"
+    },
+    {
+      "ord": 107,
+      "name": "StrCatBuffA"
+    },
+    {
+      "ord": 108,
+      "name": "StrCatBuffW"
+    },
+    {
+      "ord": 109,
+      "name": "StrCatChainW"
+    },
+    {
+      "ord": 110,
+      "name": "StrChrA"
+    },
+    {
+      "ord": 111,
+      "name": "StrChrIA"
+    },
+    {
+      "ord": 112,
+      "name": "StrChrIW"
+    },
+    {
+      "ord": 113,
+      "name": "StrChrNIW"
+    },
+    {
+      "ord": 114,
+      "name": "StrChrNW"
+    },
+    {
+      "ord": 115,
+      "name": "StrChrW"
+    },
+    {
+      "ord": 116,
+      "name": "StrCmpCA"
+    },
+    {
+      "ord": 117,
+      "name": "StrCmpCW"
+    },
+    {
+      "ord": 118,
+      "name": "StrCmpICA"
+    },
+    {
+      "ord": 119,
+      "name": "StrCmpICW"
+    },
+    {
+      "ord": 120,
+      "name": "StrCmpIW"
+    },
+    {
+      "ord": 121,
+      "name": "StrCmpLogicalW"
+    },
+    {
+      "ord": 122,
+      "name": "StrCmpNA"
+    },
+    {
+      "ord": 123,
+      "name": "StrCmpNCA"
+    },
+    {
+      "ord": 124,
+      "name": "StrCmpNCW"
+    },
+    {
+      "ord": 125,
+      "name": "StrCmpNIA"
+    },
+    {
+      "ord": 126,
+      "name": "StrCmpNICA"
+    },
+    {
+      "ord": 127,
+      "name": "StrCmpNICW"
+    },
+    {
+      "ord": 128,
+      "name": "StrCmpNIW"
+    },
+    {
+      "ord": 129,
+      "name": "StrCmpNW"
+    },
+    {
+      "ord": 130,
+      "name": "StrCmpW"
+    },
+    {
+      "ord": 131,
+      "name": "StrCpyNW"
+    },
+    {
+      "ord": 132,
+      "name": "StrDupA"
+    },
+    {
+      "ord": 133,
+      "name": "StrDupW"
+    },
+    {
+      "ord": 134,
+      "name": "StrIsIntlEqualA"
+    },
+    {
+      "ord": 135,
+      "name": "StrIsIntlEqualW"
+    },
+    {
+      "ord": 136,
+      "name": "StrPBrkA"
+    },
+    {
+      "ord": 137,
+      "name": "StrPBrkW"
+    },
+    {
+      "ord": 138,
+      "name": "StrRChrA"
+    },
+    {
+      "ord": 139,
+      "name": "StrRChrIA"
+    },
+    {
+      "ord": 140,
+      "name": "StrRChrIW"
+    },
+    {
+      "ord": 141,
+      "name": "StrRChrW"
+    },
+    {
+      "ord": 142,
+      "name": "StrRStrIA"
+    },
+    {
+      "ord": 143,
+      "name": "StrRStrIW"
+    },
+    {
+      "ord": 144,
+      "name": "StrSpnA"
+    },
+    {
+      "ord": 145,
+      "name": "StrSpnW"
+    },
+    {
+      "ord": 146,
+      "name": "StrStrA"
+    },
+    {
+      "ord": 147,
+      "name": "StrStrIA"
+    },
+    {
+      "ord": 148,
+      "name": "StrStrIW"
+    },
+    {
+      "ord": 149,
+      "name": "StrStrNIW"
+    },
+    {
+      "ord": 150,
+      "name": "StrStrNW"
+    },
+    {
+      "ord": 151,
+      "name": "StrStrW"
+    },
+    {
+      "ord": 152,
+      "name": "StrToInt64ExA"
+    },
+    {
+      "ord": 153,
+      "name": "StrToInt64ExW"
+    },
+    {
+      "ord": 154,
+      "name": "StrToIntA"
+    },
+    {
+      "ord": 155,
+      "name": "StrToIntExA"
+    },
+    {
+      "ord": 156,
+      "name": "StrToIntExW"
+    },
+    {
+      "ord": 157,
+      "name": "StrToIntW"
+    },
+    {
+      "ord": 158,
+      "name": "StrTrimA"
+    },
+    {
+      "ord": 159,
+      "name": "StrTrimW"
+    },
+    {
+      "ord": 160,
+      "name": "UrlApplySchemeW"
+    },
+    {
+      "ord": 161,
+      "name": "UrlCanonicalizeW"
+    },
+    {
+      "ord": 162,
+      "name": "UrlCombineA"
+    },
+    {
+      "ord": 163,
+      "name": "UrlCombineW"
+    },
+    {
+      "ord": 164,
+      "name": "UrlCreateFromPathW"
+    },
+    {
+      "ord": 165,
+      "name": "UrlEscapeW"
+    },
+    {
+      "ord": 166,
+      "name": "UrlFixupW"
+    },
+    {
+      "ord": 167,
+      "name": "UrlGetLocationW"
+    },
+    {
+      "ord": 168,
+      "name": "UrlGetPartW"
+    },
+    {
+      "ord": 169,
+      "name": "UrlIsW"
+    },
+    {
+      "ord": 170,
+      "name": "UrlUnescapeA"
+    },
+    {
+      "ord": 171,
+      "name": "UrlUnescapeW"
+    }
+  ]
+}

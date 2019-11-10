@@ -1,0 +1,258 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "3e12babe10e1c84a80e0ab9d4d7edbb7",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 33884,
+  "Size": 4096,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "IStream_Copy"
+    },
+    {
+      "ord": 2,
+      "name": "IStream_Read"
+    },
+    {
+      "ord": 3,
+      "name": "IStream_ReadStr"
+    },
+    {
+      "ord": 4,
+      "name": "IStream_Reset"
+    },
+    {
+      "ord": 5,
+      "name": "IStream_Size"
+    },
+    {
+      "ord": 6,
+      "name": "IStream_Write"
+    },
+    {
+      "ord": 7,
+      "name": "IStream_WriteStr"
+    },
+    {
+      "ord": 8,
+      "name": "IUnknown_AtomicRelease"
+    },
+    {
+      "ord": 9,
+      "name": "IUnknown_GetSite"
+    },
+    {
+      "ord": 10,
+      "name": "IUnknown_QueryService"
+    },
+    {
+      "ord": 11,
+      "name": "IUnknown_Set"
+    },
+    {
+      "ord": 12,
+      "name": "IUnknown_SetSite"
+    },
+    {
+      "ord": 13,
+      "name": "IsOS"
+    },
+    {
+      "ord": 14,
+      "name": "SHAnsiToAnsi"
+    },
+    {
+      "ord": 15,
+      "name": "SHAnsiToUnicode"
+    },
+    {
+      "ord": 16,
+      "name": "SHCopyKeyA"
+    },
+    {
+      "ord": 17,
+      "name": "SHCopyKeyW"
+    },
+    {
+      "ord": 18,
+      "name": "SHCreateMemStream"
+    },
+    {
+      "ord": 19,
+      "name": "SHCreateStreamOnFileA"
+    },
+    {
+      "ord": 20,
+      "name": "SHCreateStreamOnFileEx"
+    },
+    {
+      "ord": 21,
+      "name": "SHCreateStreamOnFileW"
+    },
+    {
+      "ord": 22,
+      "name": "SHCreateThread"
+    },
+    {
+      "ord": 23,
+      "name": "SHCreateThreadRef"
+    },
+    {
+      "ord": 24,
+      "name": "SHCreateThreadWithHandle"
+    },
+    {
+      "ord": 25,
+      "name": "SHDeleteEmptyKeyA"
+    },
+    {
+      "ord": 26,
+      "name": "SHDeleteEmptyKeyW"
+    },
+    {
+      "ord": 27,
+      "name": "SHDeleteKeyA"
+    },
+    {
+      "ord": 28,
+      "name": "SHDeleteKeyW"
+    },
+    {
+      "ord": 29,
+      "name": "SHDeleteValueA"
+    },
+    {
+      "ord": 30,
+      "name": "SHDeleteValueW"
+    },
+    {
+      "ord": 31,
+      "name": "SHEnumKeyExA"
+    },
+    {
+      "ord": 32,
+      "name": "SHEnumKeyExW"
+    },
+    {
+      "ord": 33,
+      "name": "SHEnumValueA"
+    },
+    {
+      "ord": 34,
+      "name": "SHEnumValueW"
+    },
+    {
+      "ord": 35,
+      "name": "SHGetThreadRef"
+    },
+    {
+      "ord": 36,
+      "name": "SHGetValueA"
+    },
+    {
+      "ord": 37,
+      "name": "SHGetValueW"
+    },
+    {
+      "ord": 38,
+      "name": "SHOpenRegStream2A"
+    },
+    {
+      "ord": 39,
+      "name": "SHOpenRegStream2W"
+    },
+    {
+      "ord": 40,
+      "name": "SHOpenRegStreamA"
+    },
+    {
+      "ord": 41,
+      "name": "SHOpenRegStreamW"
+    },
+    {
+      "ord": 42,
+      "name": "SHQueryInfoKeyA"
+    },
+    {
+      "ord": 43,
+      "name": "SHQueryInfoKeyW"
+    },
+    {
+      "ord": 44,
+      "name": "SHQueryValueExA"
+    },
+    {
+      "ord": 45,
+      "name": "SHQueryValueExW"
+    },
+    {
+      "ord": 46,
+      "name": "SHRegDuplicateHKey"
+    },
+    {
+      "ord": 47,
+      "name": "SHRegGetIntW"
+    },
+    {
+      "ord": 48,
+      "name": "SHRegGetPathA"
+    },
+    {
+      "ord": 49,
+      "name": "SHRegGetPathW"
+    },
+    {
+      "ord": 50,
+      "name": "SHRegGetValueA"
+    },
+    {
+      "ord": 51,
+      "name": "SHRegGetValueW"
+    },
+    {
+      "ord": 52,
+      "name": "SHRegSetPathA"
+    },
+    {
+      "ord": 53,
+      "name": "SHRegSetPathW"
+    },
+    {
+      "ord": 54,
+      "name": "SHReleaseThreadRef"
+    },
+    {
+      "ord": 55,
+      "name": "SHSetThreadRef"
+    },
+    {
+      "ord": 56,
+      "name": "SHSetValueA"
+    },
+    {
+      "ord": 57,
+      "name": "SHSetValueW"
+    },
+    {
+      "ord": 58,
+      "name": "SHStrDupA"
+    },
+    {
+      "ord": 59,
+      "name": "SHStrDupW"
+    },
+    {
+      "ord": 60,
+      "name": "SHUnicodeToAnsi"
+    },
+    {
+      "ord": 61,
+      "name": "SHUnicodeToUnicode"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "83a0e8812eb59a66d4eac9a8865f1256",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 13702,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ChangeServiceConfig2A"
+    },
+    {
+      "ord": 2,
+      "name": "ChangeServiceConfigA"
+    },
+    {
+      "ord": 3,
+      "name": "ControlService"
+    },
+    {
+      "ord": 4,
+      "name": "ControlServiceExA"
+    },
+    {
+      "ord": 5,
+      "name": "CreateServiceA"
+    },
+    {
+      "ord": 6,
+      "name": "I_QueryTagInformation"
+    },
+    {
+      "ord": 7,
+      "name": "I_ScBroadcastServiceControlMessage"
+    },
+    {
+      "ord": 8,
+      "name": "I_ScIsSecurityProcess"
+    },
+    {
+      "ord": 9,
+      "name": "I_ScPnPGetServiceName"
+    },
+    {
+      "ord": 10,
+      "name": "I_ScQueryServiceConfig"
+    },
+    {
+      "ord": 11,
+      "name": "I_ScRpcBindA"
+    },
+    {
+      "ord": 12,
+      "name": "I_ScRpcBindW"
+    },
+    {
+      "ord": 13,
+      "name": "I_ScSendPnPMessage"
+    },
+    {
+      "ord": 14,
+      "name": "I_ScSendTSMessage"
+    },
+    {
+      "ord": 15,
+      "name": "I_ScValidatePnPService"
+    },
+    {
+      "ord": 16,
+      "name": "NotifyServiceStatusChangeA"
+    },
+    {
+      "ord": 17,
+      "name": "OpenSCManagerA"
+    },
+    {
+      "ord": 18,
+      "name": "OpenServiceA"
+    },
+    {
+      "ord": 19,
+      "name": "QueryServiceConfig2A"
+    },
+    {
+      "ord": 20,
+      "name": "QueryServiceConfigA"
+    },
+    {
+      "ord": 21,
+      "name": "QueryServiceStatus"
+    },
+    {
+      "ord": 22,
+      "name": "RegisterServiceCtrlHandlerA"
+    },
+    {
+      "ord": 23,
+      "name": "RegisterServiceCtrlHandlerExA"
+    },
+    {
+      "ord": 24,
+      "name": "RegisterServiceCtrlHandlerW"
+    },
+    {
+      "ord": 25,
+      "name": "StartServiceA"
+    },
+    {
+      "ord": 26,
+      "name": "StartServiceCtrlDispatcherA"
+    }
+  ]
+}

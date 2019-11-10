@@ -1,0 +1,18 @@
+{
+  "Version": "6.1.7601.23455-AMD64",
+  "md5": "b6a76a891d054ac5e2ac0ad0158d2274",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.1.7601.23455 (win7sp1_ldr.160516-0600)",
+  "ProductVersion": "6.1.7601.23455",
+  "PeChecksum": 52243,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "DelayLoadFailureHook"
+    }
+  ]
+}

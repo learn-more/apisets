@@ -1,0 +1,206 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "8bcf720a0e3f47229f5b26051ad2d5b4",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 30158,
+  "Size": 4608,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CLSIDFromProgID"
+    },
+    {
+      "ord": 2,
+      "name": "CLSIDFromString"
+    },
+    {
+      "ord": 3,
+      "name": "CoCopyProxy"
+    },
+    {
+      "ord": 4,
+      "name": "CoCreateFreeThreadedMarshaler"
+    },
+    {
+      "ord": 5,
+      "name": "CoCreateGuid"
+    },
+    {
+      "ord": 6,
+      "name": "CoCreateInstance"
+    },
+    {
+      "ord": 7,
+      "name": "CoCreateInstanceEx"
+    },
+    {
+      "ord": 8,
+      "name": "CoDisconnectObject"
+    },
+    {
+      "ord": 9,
+      "name": "CoFreeUnusedLibraries"
+    },
+    {
+      "ord": 10,
+      "name": "CoFreeUnusedLibrariesEx"
+    },
+    {
+      "ord": 11,
+      "name": "CoGetApartmentType"
+    },
+    {
+      "ord": 12,
+      "name": "CoGetClassObject"
+    },
+    {
+      "ord": 13,
+      "name": "CoGetCurrentLogicalThreadId"
+    },
+    {
+      "ord": 14,
+      "name": "CoGetInterfaceAndReleaseStream"
+    },
+    {
+      "ord": 15,
+      "name": "CoGetMalloc"
+    },
+    {
+      "ord": 16,
+      "name": "CoGetMarshalSizeMax"
+    },
+    {
+      "ord": 17,
+      "name": "CoGetObjectContext"
+    },
+    {
+      "ord": 18,
+      "name": "CoGetStdMarshalEx"
+    },
+    {
+      "ord": 19,
+      "name": "CoGetTreatAsClass"
+    },
+    {
+      "ord": 20,
+      "name": "CoImpersonateClient"
+    },
+    {
+      "ord": 21,
+      "name": "CoInitializeEx"
+    },
+    {
+      "ord": 22,
+      "name": "CoInitializeSecurity"
+    },
+    {
+      "ord": 23,
+      "name": "CoMarshalInterThreadInterfaceInStream"
+    },
+    {
+      "ord": 24,
+      "name": "CoMarshalInterface"
+    },
+    {
+      "ord": 25,
+      "name": "CoRegisterClassObject"
+    },
+    {
+      "ord": 26,
+      "name": "CoRegisterInitializeSpy"
+    },
+    {
+      "ord": 27,
+      "name": "CoRegisterMessageFilter"
+    },
+    {
+      "ord": 28,
+      "name": "CoReleaseMarshalData"
+    },
+    {
+      "ord": 29,
+      "name": "CoRevertToSelf"
+    },
+    {
+      "ord": 30,
+      "name": "CoRevokeClassObject"
+    },
+    {
+      "ord": 31,
+      "name": "CoRevokeInitializeSpy"
+    },
+    {
+      "ord": 32,
+      "name": "CoSetProxyBlanket"
+    },
+    {
+      "ord": 33,
+      "name": "CoTaskMemAlloc"
+    },
+    {
+      "ord": 34,
+      "name": "CoTaskMemFree"
+    },
+    {
+      "ord": 35,
+      "name": "CoTaskMemRealloc"
+    },
+    {
+      "ord": 36,
+      "name": "CoUninitialize"
+    },
+    {
+      "ord": 37,
+      "name": "CoUnmarshalInterface"
+    },
+    {
+      "ord": 38,
+      "name": "CoWaitForMultipleHandles"
+    },
+    {
+      "ord": 39,
+      "name": "CreateStreamOnHGlobal"
+    },
+    {
+      "ord": 40,
+      "name": "FreePropVariantArray"
+    },
+    {
+      "ord": 41,
+      "name": "GetHGlobalFromStream"
+    },
+    {
+      "ord": 42,
+      "name": "IIDFromString"
+    },
+    {
+      "ord": 43,
+      "name": "ProgIDFromCLSID"
+    },
+    {
+      "ord": 44,
+      "name": "PropVariantClear"
+    },
+    {
+      "ord": 45,
+      "name": "PropVariantCopy"
+    },
+    {
+      "ord": 46,
+      "name": "StringFromCLSID"
+    },
+    {
+      "ord": 47,
+      "name": "StringFromGUID2"
+    },
+    {
+      "ord": 48,
+      "name": "StringFromIID"
+    }
+  ]
+}

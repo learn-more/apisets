@@ -1,0 +1,142 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "06594d7e73d732666f409e6ad8effb07",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 10380,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CreateFileMappingFromApp"
+    },
+    {
+      "ord": 2,
+      "name": "CreateFileMappingNumaW"
+    },
+    {
+      "ord": 3,
+      "name": "CreateFileMappingW"
+    },
+    {
+      "ord": 4,
+      "name": "CreateMemoryResourceNotification"
+    },
+    {
+      "ord": 5,
+      "name": "FlushViewOfFile"
+    },
+    {
+      "ord": 6,
+      "name": "GetLargePageMinimum"
+    },
+    {
+      "ord": 7,
+      "name": "GetProcessWorkingSetSizeEx"
+    },
+    {
+      "ord": 8,
+      "name": "GetSystemFileCacheSize"
+    },
+    {
+      "ord": 9,
+      "name": "GetWriteWatch"
+    },
+    {
+      "ord": 10,
+      "name": "MapViewOfFile"
+    },
+    {
+      "ord": 11,
+      "name": "MapViewOfFileEx"
+    },
+    {
+      "ord": 12,
+      "name": "MapViewOfFileFromApp"
+    },
+    {
+      "ord": 13,
+      "name": "OpenFileMappingW"
+    },
+    {
+      "ord": 14,
+      "name": "PrefetchVirtualMemory"
+    },
+    {
+      "ord": 15,
+      "name": "QueryMemoryResourceNotification"
+    },
+    {
+      "ord": 16,
+      "name": "ReadProcessMemory"
+    },
+    {
+      "ord": 17,
+      "name": "ResetWriteWatch"
+    },
+    {
+      "ord": 18,
+      "name": "SetProcessWorkingSetSizeEx"
+    },
+    {
+      "ord": 19,
+      "name": "SetSystemFileCacheSize"
+    },
+    {
+      "ord": 20,
+      "name": "UnmapViewOfFile"
+    },
+    {
+      "ord": 21,
+      "name": "UnmapViewOfFileEx"
+    },
+    {
+      "ord": 22,
+      "name": "VirtualAlloc"
+    },
+    {
+      "ord": 23,
+      "name": "VirtualAllocEx"
+    },
+    {
+      "ord": 24,
+      "name": "VirtualFree"
+    },
+    {
+      "ord": 25,
+      "name": "VirtualFreeEx"
+    },
+    {
+      "ord": 26,
+      "name": "VirtualLock"
+    },
+    {
+      "ord": 27,
+      "name": "VirtualProtect"
+    },
+    {
+      "ord": 28,
+      "name": "VirtualProtectEx"
+    },
+    {
+      "ord": 29,
+      "name": "VirtualQuery"
+    },
+    {
+      "ord": 30,
+      "name": "VirtualQueryEx"
+    },
+    {
+      "ord": 31,
+      "name": "VirtualUnlock"
+    },
+    {
+      "ord": 32,
+      "name": "WriteProcessMemory"
+    }
+  ]
+}

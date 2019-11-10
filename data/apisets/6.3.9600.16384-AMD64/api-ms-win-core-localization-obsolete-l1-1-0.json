@@ -1,0 +1,58 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "1f523da8a2f0d3fe5009a574bebfff26",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 58402,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CompareStringA"
+    },
+    {
+      "ord": 2,
+      "name": "EnumLanguageGroupLocalesW"
+    },
+    {
+      "ord": 3,
+      "name": "EnumSystemLanguageGroupsW"
+    },
+    {
+      "ord": 4,
+      "name": "EnumSystemLocalesEx"
+    },
+    {
+      "ord": 5,
+      "name": "EnumUILanguagesW"
+    },
+    {
+      "ord": 6,
+      "name": "GetNumberFormatW"
+    },
+    {
+      "ord": 7,
+      "name": "GetStringTypeA"
+    },
+    {
+      "ord": 8,
+      "name": "GetSystemDefaultLocaleName"
+    },
+    {
+      "ord": 9,
+      "name": "GetSystemDefaultUILanguage"
+    },
+    {
+      "ord": 10,
+      "name": "GetUserDefaultUILanguage"
+    },
+    {
+      "ord": 11,
+      "name": "LCIDToLocaleName"
+    }
+  ]
+}

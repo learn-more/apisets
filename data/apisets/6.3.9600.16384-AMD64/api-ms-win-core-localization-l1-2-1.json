@@ -1,0 +1,254 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "4125971db3f8a7bf71642123c32f670b",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 9458,
+  "Size": 4096,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ConvertDefaultLocale"
+    },
+    {
+      "ord": 2,
+      "name": "EnumSystemGeoID"
+    },
+    {
+      "ord": 3,
+      "name": "EnumSystemLocalesA"
+    },
+    {
+      "ord": 4,
+      "name": "EnumSystemLocalesEx"
+    },
+    {
+      "ord": 5,
+      "name": "EnumSystemLocalesW"
+    },
+    {
+      "ord": 6,
+      "name": "FindNLSString"
+    },
+    {
+      "ord": 7,
+      "name": "FindNLSStringEx"
+    },
+    {
+      "ord": 8,
+      "name": "FormatMessageA"
+    },
+    {
+      "ord": 9,
+      "name": "FormatMessageW"
+    },
+    {
+      "ord": 10,
+      "name": "GetACP"
+    },
+    {
+      "ord": 11,
+      "name": "GetCPInfo"
+    },
+    {
+      "ord": 12,
+      "name": "GetCPInfoExW"
+    },
+    {
+      "ord": 13,
+      "name": "GetCalendarInfoEx"
+    },
+    {
+      "ord": 14,
+      "name": "GetCalendarInfoW"
+    },
+    {
+      "ord": 15,
+      "name": "GetFileMUIInfo"
+    },
+    {
+      "ord": 16,
+      "name": "GetFileMUIPath"
+    },
+    {
+      "ord": 17,
+      "name": "GetGeoInfoW"
+    },
+    {
+      "ord": 18,
+      "name": "GetLocaleInfoA"
+    },
+    {
+      "ord": 19,
+      "name": "GetLocaleInfoEx"
+    },
+    {
+      "ord": 20,
+      "name": "GetLocaleInfoW"
+    },
+    {
+      "ord": 21,
+      "name": "GetNLSVersion"
+    },
+    {
+      "ord": 22,
+      "name": "GetNLSVersionEx"
+    },
+    {
+      "ord": 23,
+      "name": "GetOEMCP"
+    },
+    {
+      "ord": 24,
+      "name": "GetProcessPreferredUILanguages"
+    },
+    {
+      "ord": 25,
+      "name": "GetSystemDefaultLCID"
+    },
+    {
+      "ord": 26,
+      "name": "GetSystemDefaultLangID"
+    },
+    {
+      "ord": 27,
+      "name": "GetSystemPreferredUILanguages"
+    },
+    {
+      "ord": 28,
+      "name": "GetThreadLocale"
+    },
+    {
+      "ord": 29,
+      "name": "GetThreadPreferredUILanguages"
+    },
+    {
+      "ord": 30,
+      "name": "GetThreadUILanguage"
+    },
+    {
+      "ord": 31,
+      "name": "GetUILanguageInfo"
+    },
+    {
+      "ord": 32,
+      "name": "GetUserDefaultLCID"
+    },
+    {
+      "ord": 33,
+      "name": "GetUserDefaultLangID"
+    },
+    {
+      "ord": 34,
+      "name": "GetUserDefaultLocaleName"
+    },
+    {
+      "ord": 35,
+      "name": "GetUserGeoID"
+    },
+    {
+      "ord": 36,
+      "name": "GetUserPreferredUILanguages"
+    },
+    {
+      "ord": 37,
+      "name": "IdnToAscii"
+    },
+    {
+      "ord": 38,
+      "name": "IdnToUnicode"
+    },
+    {
+      "ord": 39,
+      "name": "IsDBCSLeadByte"
+    },
+    {
+      "ord": 40,
+      "name": "IsDBCSLeadByteEx"
+    },
+    {
+      "ord": 41,
+      "name": "IsNLSDefinedString"
+    },
+    {
+      "ord": 42,
+      "name": "IsValidCodePage"
+    },
+    {
+      "ord": 43,
+      "name": "IsValidLanguageGroup"
+    },
+    {
+      "ord": 44,
+      "name": "IsValidLocale"
+    },
+    {
+      "ord": 45,
+      "name": "IsValidLocaleName"
+    },
+    {
+      "ord": 46,
+      "name": "IsValidNLSVersion"
+    },
+    {
+      "ord": 47,
+      "name": "LCMapStringA"
+    },
+    {
+      "ord": 48,
+      "name": "LCMapStringEx"
+    },
+    {
+      "ord": 49,
+      "name": "LCMapStringW"
+    },
+    {
+      "ord": 50,
+      "name": "LocaleNameToLCID"
+    },
+    {
+      "ord": 51,
+      "name": "ResolveLocaleName"
+    },
+    {
+      "ord": 52,
+      "name": "SetCalendarInfoW"
+    },
+    {
+      "ord": 53,
+      "name": "SetLocaleInfoW"
+    },
+    {
+      "ord": 54,
+      "name": "SetProcessPreferredUILanguages"
+    },
+    {
+      "ord": 55,
+      "name": "SetThreadLocale"
+    },
+    {
+      "ord": 56,
+      "name": "SetThreadPreferredUILanguages"
+    },
+    {
+      "ord": 57,
+      "name": "SetThreadUILanguage"
+    },
+    {
+      "ord": 58,
+      "name": "SetUserGeoID"
+    },
+    {
+      "ord": 59,
+      "name": "VerLanguageNameA"
+    },
+    {
+      "ord": 60,
+      "name": "VerLanguageNameW"
+    }
+  ]
+}

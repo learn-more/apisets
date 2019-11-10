@@ -1,0 +1,140 @@
+{
+  "Version": "6.3.9600.17031-AMD64",
+  "md5": "22e1b49330d76f27fd0a13ad16a16a56",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.17031 (winblue_gdr.140221-1952)",
+  "ProductVersion": "6.3.9600.17031",
+  "PeChecksum": 10134,
+  "Size": 8192,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1503,
+      "name": "CancelShutdown"
+    },
+    {
+      "ord": 1504,
+      "name": "CreateWindowInBand"
+    },
+    {
+      "ord": 1505,
+      "name": "DwmGetRemoteSessionOcclusionEvent"
+    },
+    {
+      "ord": 1506,
+      "name": "DwmGetRemoteSessionOcclusionState"
+    },
+    {
+      "ord": 1507,
+      "name": "DwmLockScreenUpdates"
+    },
+    {
+      "ord": 1508,
+      "name": "GetClipboardAccessToken"
+    },
+    {
+      "ord": 1509,
+      "name": "GetWindowBand"
+    },
+    {
+      "ord": 1510,
+      "name": "GetWindowCompositionAttribute"
+    },
+    {
+      "ord": 1511,
+      "name": "IsQueueAttached"
+    },
+    {
+      "ord": 1512,
+      "name": "IsThreadDesktopComposited"
+    },
+    {
+      "ord": 1513,
+      "name": "IsThreadMessageQueueAttached"
+    },
+    {
+      "ord": 1514,
+      "name": "LoadLocalFonts"
+    },
+    {
+      "ord": 1515,
+      "name": "LoadRemoteFonts"
+    },
+    {
+      "ord": 1516,
+      "name": "LockWindowStation"
+    },
+    {
+      "ord": 1517,
+      "name": "RecordShutdownReason"
+    },
+    {
+      "ord": 1518,
+      "name": "RegisterLogonProcess"
+    },
+    {
+      "ord": 1519,
+      "name": "SetThreadInputBlocked"
+    },
+    {
+      "ord": 1520,
+      "name": "SetWindowCompositionAttribute"
+    },
+    {
+      "ord": 1521,
+      "name": "SetWindowStationUser"
+    },
+    {
+      "ord": 1522,
+      "name": "SwitchDesktopWithFade"
+    },
+    {
+      "ord": 1523,
+      "name": "UnlockWindowStation"
+    },
+    {
+      "ord": 1524,
+      "name": "UpdatePerUserSystemParameters"
+    },
+    {
+      "ord": 1525,
+      "name": "UpdateWindowInputSinkHints"
+    },
+    {
+      "ord": 1526,
+      "name": "WaitForRedirectionStartComplete"
+    },
+    {
+      "ord": 1502
+    },
+    {
+      "ord": 1553
+    },
+    {
+      "ord": 2506
+    },
+    {
+      "ord": 2508
+    },
+    {
+      "ord": 2518
+    },
+    {
+      "ord": 2529
+    },
+    {
+      "ord": 2534
+    },
+    {
+      "ord": 2536
+    },
+    {
+      "ord": 2538
+    },
+    {
+      "ord": 2539
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "05008195e7563068ff7ae3177c3bd954",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 50421,
+  "Size": 4096,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "RegConnectRegistryA"
+    },
+    {
+      "ord": 2,
+      "name": "RegConnectRegistryW"
+    },
+    {
+      "ord": 3,
+      "name": "RegCopyTreeA"
+    },
+    {
+      "ord": 4,
+      "name": "RegCreateKeyA"
+    },
+    {
+      "ord": 5,
+      "name": "RegCreateKeyTransactedA"
+    },
+    {
+      "ord": 6,
+      "name": "RegCreateKeyTransactedW"
+    },
+    {
+      "ord": 7,
+      "name": "RegCreateKeyW"
+    },
+    {
+      "ord": 8,
+      "name": "RegDeleteKeyA"
+    },
+    {
+      "ord": 9,
+      "name": "RegDeleteKeyTransactedA"
+    },
+    {
+      "ord": 10,
+      "name": "RegDeleteKeyTransactedW"
+    },
+    {
+      "ord": 11,
+      "name": "RegDeleteKeyValueA"
+    },
+    {
+      "ord": 12,
+      "name": "RegDeleteKeyValueW"
+    },
+    {
+      "ord": 13,
+      "name": "RegDeleteKeyW"
+    },
+    {
+      "ord": 14,
+      "name": "RegDisablePredefinedCache"
+    },
+    {
+      "ord": 15,
+      "name": "RegEnumKeyA"
+    },
+    {
+      "ord": 16,
+      "name": "RegEnumKeyW"
+    },
+    {
+      "ord": 17,
+      "name": "RegOpenKeyA"
+    },
+    {
+      "ord": 18,
+      "name": "RegOpenKeyTransactedA"
+    },
+    {
+      "ord": 19,
+      "name": "RegOpenKeyTransactedW"
+    },
+    {
+      "ord": 20,
+      "name": "RegOpenKeyW"
+    },
+    {
+      "ord": 21,
+      "name": "RegOverridePredefKey"
+    },
+    {
+      "ord": 22,
+      "name": "RegQueryMultipleValuesA"
+    },
+    {
+      "ord": 23,
+      "name": "RegQueryMultipleValuesW"
+    },
+    {
+      "ord": 24,
+      "name": "RegQueryValueA"
+    },
+    {
+      "ord": 25,
+      "name": "RegQueryValueW"
+    },
+    {
+      "ord": 26,
+      "name": "RegReplaceKeyA"
+    },
+    {
+      "ord": 27,
+      "name": "RegReplaceKeyW"
+    },
+    {
+      "ord": 28,
+      "name": "RegSaveKeyA"
+    },
+    {
+      "ord": 29,
+      "name": "RegSaveKeyW"
+    },
+    {
+      "ord": 30,
+      "name": "RegSetKeyValueA"
+    },
+    {
+      "ord": 31,
+      "name": "RegSetKeyValueW"
+    },
+    {
+      "ord": 32,
+      "name": "RegSetValueA"
+    },
+    {
+      "ord": 33,
+      "name": "RegSetValueW"
+    }
+  ]
+}

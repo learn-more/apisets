@@ -1,0 +1,34 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "8c2c2b52b2674fe7f0e6851a27c3fb88",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 40500,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "GetActiveProcessorCount"
+    },
+    {
+      "ord": 2,
+      "name": "GetProcessAffinityMask"
+    },
+    {
+      "ord": 3,
+      "name": "GetProcessIoCounters"
+    },
+    {
+      "ord": 4,
+      "name": "SetProcessAffinityMask"
+    },
+    {
+      "ord": 5,
+      "name": "SetThreadAffinityMask"
+    }
+  ]
+}

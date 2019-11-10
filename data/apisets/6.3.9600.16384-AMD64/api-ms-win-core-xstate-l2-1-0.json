@@ -1,0 +1,38 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "41500d42b4d636db7d14d794084e7750",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 54114,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CopyContext"
+    },
+    {
+      "ord": 2,
+      "name": "GetEnabledXStateFeatures"
+    },
+    {
+      "ord": 3,
+      "name": "GetXStateFeaturesMask"
+    },
+    {
+      "ord": 4,
+      "name": "InitializeContext"
+    },
+    {
+      "ord": 5,
+      "name": "LocateXStateFeature"
+    },
+    {
+      "ord": 6,
+      "name": "SetXStateFeaturesMask"
+    }
+  ]
+}

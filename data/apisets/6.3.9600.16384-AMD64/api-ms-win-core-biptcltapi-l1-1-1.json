@@ -1,0 +1,82 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "a67beb24123d5216aae411ff9c88fa2c",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 38225,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "BiPtActivateDeferredWorkItem"
+    },
+    {
+      "ord": 2,
+      "name": "BiPtActivateInBackground"
+    },
+    {
+      "ord": 3,
+      "name": "BiPtActivateWorkItem"
+    },
+    {
+      "ord": 4,
+      "name": "BiPtAssociateActivationProxy"
+    },
+    {
+      "ord": 5,
+      "name": "BiPtAssociateApplicationExtensionClass"
+    },
+    {
+      "ord": 6,
+      "name": "BiPtCancelWorkItem"
+    },
+    {
+      "ord": 7,
+      "name": "BiPtCreateEventForPackageName"
+    },
+    {
+      "ord": 8,
+      "name": "BiPtDeleteEvent"
+    },
+    {
+      "ord": 9,
+      "name": "BiPtDisassociateWorkItem"
+    },
+    {
+      "ord": 10,
+      "name": "BiPtEnumerateBrokeredEvents"
+    },
+    {
+      "ord": 11,
+      "name": "BiPtEnumerateWorkItemsForPackageName"
+    },
+    {
+      "ord": 12,
+      "name": "BiPtFreeMemory"
+    },
+    {
+      "ord": 13,
+      "name": "BiPtQueryBrokeredEvent"
+    },
+    {
+      "ord": 14,
+      "name": "BiPtQuerySystemStateBroadcastChannels"
+    },
+    {
+      "ord": 15,
+      "name": "BiPtQueryWorkItem"
+    },
+    {
+      "ord": 16,
+      "name": "BiPtSignalEvent"
+    },
+    {
+      "ord": 17,
+      "name": "BiPtSignalMultipleEvents"
+    }
+  ]
+}

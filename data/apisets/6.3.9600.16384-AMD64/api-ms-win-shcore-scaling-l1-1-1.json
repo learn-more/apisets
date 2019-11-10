@@ -1,0 +1,50 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "19320630c09d51312f5e2a4340fb7299",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 26622,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "GetDpiForMonitor"
+    },
+    {
+      "ord": 2,
+      "name": "GetProcessDpiAwareness"
+    },
+    {
+      "ord": 3,
+      "name": "GetScaleFactorForDevice"
+    },
+    {
+      "ord": 4,
+      "name": "GetScaleFactorForMonitor"
+    },
+    {
+      "ord": 5,
+      "name": "RegisterScaleChangeEvent"
+    },
+    {
+      "ord": 6,
+      "name": "RegisterScaleChangeNotifications"
+    },
+    {
+      "ord": 7,
+      "name": "RevokeScaleChangeNotifications"
+    },
+    {
+      "ord": 8,
+      "name": "SetProcessDpiAwareness"
+    },
+    {
+      "ord": 9,
+      "name": "UnregisterScaleChangeEvent"
+    }
+  ]
+}

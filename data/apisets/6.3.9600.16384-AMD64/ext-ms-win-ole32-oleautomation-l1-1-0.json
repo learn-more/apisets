@@ -1,0 +1,166 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "08a587490f05d46c35c75533e32abed8",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 6153,
+  "Size": 4096,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CLIPFORMAT_UserFreeExt"
+    },
+    {
+      "ord": 2,
+      "name": "CLIPFORMAT_UserMarshalExt"
+    },
+    {
+      "ord": 3,
+      "name": "CLIPFORMAT_UserSizeExt"
+    },
+    {
+      "ord": 4,
+      "name": "CLIPFORMAT_UserUnmarshalExt"
+    },
+    {
+      "ord": 5,
+      "name": "GetActiveObjectExt"
+    },
+    {
+      "ord": 6,
+      "name": "HPALETTE_UserFreeExt"
+    },
+    {
+      "ord": 7,
+      "name": "HPALETTE_UserMarshalExt"
+    },
+    {
+      "ord": 8,
+      "name": "HPALETTE_UserSizeExt"
+    },
+    {
+      "ord": 9,
+      "name": "HPALETTE_UserUnmarshalExt"
+    },
+    {
+      "ord": 10,
+      "name": "HWND_UserFree64Ext"
+    },
+    {
+      "ord": 11,
+      "name": "HWND_UserFreeExt"
+    },
+    {
+      "ord": 12,
+      "name": "HWND_UserMarshal64Ext"
+    },
+    {
+      "ord": 13,
+      "name": "HWND_UserMarshalExt"
+    },
+    {
+      "ord": 14,
+      "name": "HWND_UserSize64Ext"
+    },
+    {
+      "ord": 15,
+      "name": "HWND_UserSizeExt"
+    },
+    {
+      "ord": 16,
+      "name": "HWND_UserUnmarshal64Ext"
+    },
+    {
+      "ord": 17,
+      "name": "HWND_UserUnmarshalExt"
+    },
+    {
+      "ord": 18,
+      "name": "MonikerLoadTypeLib"
+    },
+    {
+      "ord": 19,
+      "name": "OleCreateFontIndirectExt"
+    },
+    {
+      "ord": 20,
+      "name": "OleCreatePictureIndirectExt"
+    },
+    {
+      "ord": 21,
+      "name": "OleCreatePropertyFrameIndirectExt"
+    },
+    {
+      "ord": 22,
+      "name": "OleIconToCursorExt"
+    },
+    {
+      "ord": 23,
+      "name": "OleLoadPictureExt"
+    },
+    {
+      "ord": 24,
+      "name": "OleLoadPictureFileExt"
+    },
+    {
+      "ord": 25,
+      "name": "OleLoadPicturePathExt"
+    },
+    {
+      "ord": 26,
+      "name": "OleSavePictureFileExt"
+    },
+    {
+      "ord": 27,
+      "name": "OleTranslateColorExt"
+    },
+    {
+      "ord": 28,
+      "name": "ReadStorageProperties"
+    },
+    {
+      "ord": 29,
+      "name": "RegisterActiveObjectExt"
+    },
+    {
+      "ord": 30,
+      "name": "RevokeActiveObjectExt"
+    },
+    {
+      "ord": 31,
+      "name": "STGMEDIUM_UserFreeExt"
+    },
+    {
+      "ord": 32,
+      "name": "STGMEDIUM_UserMarshalExt"
+    },
+    {
+      "ord": 33,
+      "name": "STGMEDIUM_UserSizeExt"
+    },
+    {
+      "ord": 34,
+      "name": "STGMEDIUM_UserUnmarshalExt"
+    },
+    {
+      "ord": 35,
+      "name": "SetOleautModule"
+    },
+    {
+      "ord": 36,
+      "name": "StdTypesGetClassObject"
+    },
+    {
+      "ord": 37,
+      "name": "StdTypesRegisterServer"
+    },
+    {
+      "ord": 38,
+      "name": "WriteStorageProperties"
+    }
+  ]
+}

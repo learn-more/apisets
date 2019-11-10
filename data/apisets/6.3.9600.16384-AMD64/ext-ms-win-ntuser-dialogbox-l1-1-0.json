@@ -1,0 +1,98 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "0993b1f8c6bae0638691ab6b018191c7",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 12811,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CheckDlgButton"
+    },
+    {
+      "ord": 2,
+      "name": "CreateDialogIndirectParamA"
+    },
+    {
+      "ord": 3,
+      "name": "CreateDialogIndirectParamW"
+    },
+    {
+      "ord": 4,
+      "name": "CreateDialogParamA"
+    },
+    {
+      "ord": 5,
+      "name": "CreateDialogParamW"
+    },
+    {
+      "ord": 6,
+      "name": "DialogBoxIndirectParamA"
+    },
+    {
+      "ord": 7,
+      "name": "DialogBoxIndirectParamW"
+    },
+    {
+      "ord": 8,
+      "name": "DialogBoxParamW"
+    },
+    {
+      "ord": 9,
+      "name": "EndDialog"
+    },
+    {
+      "ord": 10,
+      "name": "GetDlgCtrlID"
+    },
+    {
+      "ord": 11,
+      "name": "GetDlgItem"
+    },
+    {
+      "ord": 12,
+      "name": "GetDlgItemTextW"
+    },
+    {
+      "ord": 13,
+      "name": "IsDlgButtonChecked"
+    },
+    {
+      "ord": 14,
+      "name": "MessageBoxA"
+    },
+    {
+      "ord": 15,
+      "name": "MessageBoxIndirectA"
+    },
+    {
+      "ord": 16,
+      "name": "MessageBoxIndirectW"
+    },
+    {
+      "ord": 17,
+      "name": "MessageBoxW"
+    },
+    {
+      "ord": 18,
+      "name": "SendDlgItemMessageA"
+    },
+    {
+      "ord": 19,
+      "name": "SendDlgItemMessageW"
+    },
+    {
+      "ord": 20,
+      "name": "SetDlgItemTextA"
+    },
+    {
+      "ord": 21,
+      "name": "SetDlgItemTextW"
+    }
+  ]
+}

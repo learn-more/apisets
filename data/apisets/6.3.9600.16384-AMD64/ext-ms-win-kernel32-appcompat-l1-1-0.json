@@ -1,0 +1,54 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "5116a4d7d8bbf6b5233d041482fffe94",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 34445,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "BaseCheckAppcompatCacheExWorker"
+    },
+    {
+      "ord": 2,
+      "name": "BaseCheckAppcompatCacheWorker"
+    },
+    {
+      "ord": 3,
+      "name": "BaseCleanupAppcompatCacheSupportWorker"
+    },
+    {
+      "ord": 4,
+      "name": "BaseDumpAppcompatCacheWorker"
+    },
+    {
+      "ord": 5,
+      "name": "BaseFlushAppcompatCacheWorker"
+    },
+    {
+      "ord": 6,
+      "name": "BaseFreeAppCompatDataForProcessWorker"
+    },
+    {
+      "ord": 7,
+      "name": "BaseInitAppcompatCacheSupportWorker"
+    },
+    {
+      "ord": 8,
+      "name": "BaseIsAppcompatInfrastructureDisabledWorker"
+    },
+    {
+      "ord": 9,
+      "name": "BaseReadAppCompatDataForProcessWorker"
+    },
+    {
+      "ord": 10,
+      "name": "BaseUpdateAppcompatCacheWorker"
+    }
+  ]
+}

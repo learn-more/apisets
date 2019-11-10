@@ -1,0 +1,38 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "bb3c845ae0b59e9da7fcec5aeece1fe3",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 4482,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AddSIDToBoundaryDescriptor"
+    },
+    {
+      "ord": 2,
+      "name": "ClosePrivateNamespace"
+    },
+    {
+      "ord": 3,
+      "name": "CreateBoundaryDescriptorW"
+    },
+    {
+      "ord": 4,
+      "name": "CreatePrivateNamespaceW"
+    },
+    {
+      "ord": 5,
+      "name": "DeleteBoundaryDescriptor"
+    },
+    {
+      "ord": 6,
+      "name": "OpenPrivateNamespaceW"
+    }
+  ]
+}

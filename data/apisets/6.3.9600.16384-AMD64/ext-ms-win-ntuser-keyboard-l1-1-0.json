@@ -1,0 +1,110 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "e492f16032b7179df23601099f6cee95",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 11531,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ActivateKeyboardLayout"
+    },
+    {
+      "ord": 2,
+      "name": "BlockInput"
+    },
+    {
+      "ord": 3,
+      "name": "EnableWindow"
+    },
+    {
+      "ord": 4,
+      "name": "GetActiveWindow"
+    },
+    {
+      "ord": 5,
+      "name": "GetAsyncKeyState"
+    },
+    {
+      "ord": 6,
+      "name": "GetFocus"
+    },
+    {
+      "ord": 7,
+      "name": "GetKeyState"
+    },
+    {
+      "ord": 8,
+      "name": "GetKeyboardLayout"
+    },
+    {
+      "ord": 9,
+      "name": "GetKeyboardLayoutList"
+    },
+    {
+      "ord": 10,
+      "name": "GetKeyboardLayoutNameW"
+    },
+    {
+      "ord": 11,
+      "name": "GetKeyboardState"
+    },
+    {
+      "ord": 12,
+      "name": "GetKeyboardType"
+    },
+    {
+      "ord": 13,
+      "name": "GetLastInputInfo"
+    },
+    {
+      "ord": 14,
+      "name": "IsWindowEnabled"
+    },
+    {
+      "ord": 15,
+      "name": "LoadAcceleratorsW"
+    },
+    {
+      "ord": 16,
+      "name": "MapVirtualKeyExW"
+    },
+    {
+      "ord": 17,
+      "name": "MapVirtualKeyW"
+    },
+    {
+      "ord": 18,
+      "name": "RegisterHotKey"
+    },
+    {
+      "ord": 19,
+      "name": "SendInput"
+    },
+    {
+      "ord": 20,
+      "name": "SetFocus"
+    },
+    {
+      "ord": 21,
+      "name": "ToUnicodeEx"
+    },
+    {
+      "ord": 22,
+      "name": "TranslateAcceleratorW"
+    },
+    {
+      "ord": 23,
+      "name": "UnregisterHotKey"
+    },
+    {
+      "ord": 24,
+      "name": "VkKeyScanW"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "8543b084737989ba651b1bad236c764d",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 29979,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ScriptBreak"
+    },
+    {
+      "ord": 2,
+      "name": "ScriptFreeCache"
+    },
+    {
+      "ord": 3,
+      "name": "ScriptGetCMap"
+    },
+    {
+      "ord": 4,
+      "name": "ScriptGetLogicalWidths"
+    },
+    {
+      "ord": 5,
+      "name": "ScriptGetProperties"
+    },
+    {
+      "ord": 6,
+      "name": "ScriptItemize"
+    },
+    {
+      "ord": 7,
+      "name": "ScriptPlace"
+    },
+    {
+      "ord": 8,
+      "name": "ScriptShape"
+    },
+    {
+      "ord": 9,
+      "name": "ScriptStringAnalyse"
+    },
+    {
+      "ord": 10,
+      "name": "ScriptStringFree"
+    },
+    {
+      "ord": 11,
+      "name": "ScriptStringValidate"
+    },
+    {
+      "ord": 12,
+      "name": "ScriptString_pLogAttr"
+    },
+    {
+      "ord": 13,
+      "name": "ScriptSubstituteSingleGlyph"
+    },
+    {
+      "ord": 14,
+      "name": "ScriptTextOut"
+    }
+  ]
+}

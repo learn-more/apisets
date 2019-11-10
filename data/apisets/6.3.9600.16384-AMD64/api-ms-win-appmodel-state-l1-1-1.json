@@ -1,0 +1,214 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "286dfaa48387588a43b8329a7cb508da",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 63934,
+  "Size": 4096,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AcquireStateLock"
+    },
+    {
+      "ord": 2,
+      "name": "CheckIfStateChangeNotificationExists"
+    },
+    {
+      "ord": 3,
+      "name": "CloseState"
+    },
+    {
+      "ord": 4,
+      "name": "CloseStateAtom"
+    },
+    {
+      "ord": 5,
+      "name": "CloseStateChangeNotification"
+    },
+    {
+      "ord": 6,
+      "name": "CloseStateContainer"
+    },
+    {
+      "ord": 7,
+      "name": "CloseStateLock"
+    },
+    {
+      "ord": 8,
+      "name": "CommitStateAtom"
+    },
+    {
+      "ord": 9,
+      "name": "CreateStateAtom"
+    },
+    {
+      "ord": 10,
+      "name": "CreateStateChangeNotification"
+    },
+    {
+      "ord": 11,
+      "name": "CreateStateContainer"
+    },
+    {
+      "ord": 12,
+      "name": "CreateStateLock"
+    },
+    {
+      "ord": 13,
+      "name": "CreateStateSubcontainer"
+    },
+    {
+      "ord": 14,
+      "name": "DeleteStateAtomValue"
+    },
+    {
+      "ord": 15,
+      "name": "DeleteStateContainer"
+    },
+    {
+      "ord": 16,
+      "name": "DeleteStateContainerValue"
+    },
+    {
+      "ord": 17,
+      "name": "DuplicateStateContainerHandle"
+    },
+    {
+      "ord": 18,
+      "name": "EnumerateStateAtomValues"
+    },
+    {
+      "ord": 19,
+      "name": "EnumerateStateContainerItems"
+    },
+    {
+      "ord": 20,
+      "name": "GetHivePath"
+    },
+    {
+      "ord": 21,
+      "name": "GetRoamingLastObservedChangeTime"
+    },
+    {
+      "ord": 22,
+      "name": "GetSerializedAtomBytes"
+    },
+    {
+      "ord": 23,
+      "name": "GetStateContainerDepth"
+    },
+    {
+      "ord": 24,
+      "name": "GetStateFolder"
+    },
+    {
+      "ord": 25,
+      "name": "GetStateRootFolder"
+    },
+    {
+      "ord": 26,
+      "name": "GetStateSettingsFolder"
+    },
+    {
+      "ord": 27,
+      "name": "GetStateVersion"
+    },
+    {
+      "ord": 28,
+      "name": "GetSystemAppDataFolder"
+    },
+    {
+      "ord": 29,
+      "name": "GetSystemAppDataKey"
+    },
+    {
+      "ord": 30,
+      "name": "OpenState"
+    },
+    {
+      "ord": 31,
+      "name": "OpenStateAtom"
+    },
+    {
+      "ord": 32,
+      "name": "OpenStateExplicit"
+    },
+    {
+      "ord": 33,
+      "name": "OverrideRoamingDataModificationTimesInRange"
+    },
+    {
+      "ord": 34,
+      "name": "PublishStateChangeNotification"
+    },
+    {
+      "ord": 35,
+      "name": "QueryStateAtomValueInfo"
+    },
+    {
+      "ord": 36,
+      "name": "QueryStateContainerItemInfo"
+    },
+    {
+      "ord": 37,
+      "name": "ReadStateAtomValue"
+    },
+    {
+      "ord": 38,
+      "name": "ReadStateContainerValue"
+    },
+    {
+      "ord": 39,
+      "name": "RegisterStateChangeNotification"
+    },
+    {
+      "ord": 40,
+      "name": "RegisterStateLock"
+    },
+    {
+      "ord": 41,
+      "name": "ReleaseStateLock"
+    },
+    {
+      "ord": 42,
+      "name": "ResetState"
+    },
+    {
+      "ord": 43,
+      "name": "SetRoamingLastObservedChangeTime"
+    },
+    {
+      "ord": 44,
+      "name": "SetStateVersion"
+    },
+    {
+      "ord": 45,
+      "name": "SubscribeStateChangeNotification"
+    },
+    {
+      "ord": 46,
+      "name": "UnregisterStateChangeNotification"
+    },
+    {
+      "ord": 47,
+      "name": "UnregisterStateLock"
+    },
+    {
+      "ord": 48,
+      "name": "UnsubscribeStateChangeNotification"
+    },
+    {
+      "ord": 49,
+      "name": "WriteStateAtomValue"
+    },
+    {
+      "ord": 50,
+      "name": "WriteStateContainerValue"
+    }
+  ]
+}

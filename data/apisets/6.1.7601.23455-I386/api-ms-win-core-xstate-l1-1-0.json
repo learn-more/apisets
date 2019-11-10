@@ -1,0 +1,46 @@
+{
+  "Version": "6.1.7601.23455-I386",
+  "md5": "9c8ec978097f5524675afa61c3dfd497",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.1.7601.23455 (win7sp1_ldr.160516-0600)",
+  "ProductVersion": "6.1.7601.23455",
+  "PeChecksum": 55160,
+  "Size": 3584,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "RtlCopyExtendedContext"
+    },
+    {
+      "ord": 2,
+      "name": "RtlGetEnabledExtendedFeatures"
+    },
+    {
+      "ord": 3,
+      "name": "RtlGetExtendedContextLength"
+    },
+    {
+      "ord": 4,
+      "name": "RtlGetExtendedFeaturesMask"
+    },
+    {
+      "ord": 5,
+      "name": "RtlInitializeExtendedContext"
+    },
+    {
+      "ord": 6,
+      "name": "RtlLocateExtendedFeature"
+    },
+    {
+      "ord": 7,
+      "name": "RtlLocateLegacyContext"
+    },
+    {
+      "ord": 8,
+      "name": "RtlSetExtendedFeaturesMask"
+    }
+  ]
+}

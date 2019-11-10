@@ -1,0 +1,30 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "0abe21ea7f31a3e26b0ba4007c002023",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 58986,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "InternetTimeFromSystemTimeA"
+    },
+    {
+      "ord": 2,
+      "name": "InternetTimeFromSystemTimeW"
+    },
+    {
+      "ord": 3,
+      "name": "InternetTimeToSystemTimeA"
+    },
+    {
+      "ord": 4,
+      "name": "InternetTimeToSystemTimeW"
+    }
+  ]
+}

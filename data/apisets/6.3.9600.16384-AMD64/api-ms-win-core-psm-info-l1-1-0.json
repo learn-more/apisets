@@ -1,0 +1,22 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "e5f6070e3361cadae8b663c324e77368",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 56921,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "PsmQueryApplicationPerformanceInformation"
+    },
+    {
+      "ord": 2,
+      "name": "PsmQueryQuotaInformation"
+    }
+  ]
+}

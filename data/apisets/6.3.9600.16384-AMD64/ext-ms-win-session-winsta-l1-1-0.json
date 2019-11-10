@@ -1,0 +1,114 @@
+{
+  "Version": "6.3.9600.17031-AMD64",
+  "md5": "499cfce4cca7cc4d3fa07251c86a8641",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.17031 (winblue_gdr.140221-1952)",
+  "ProductVersion": "6.3.9600.17031",
+  "PeChecksum": 71047,
+  "Size": 5632,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "WinStationDisconnect"
+    },
+    {
+      "ord": 2,
+      "name": "WinStationEnumerateW"
+    },
+    {
+      "ord": 3,
+      "name": "WinStationFreeMemory"
+    },
+    {
+      "ord": 4,
+      "name": "WinStationFreePropertyValue"
+    },
+    {
+      "ord": 5,
+      "name": "WinStationFreeUserCredentials"
+    },
+    {
+      "ord": 6,
+      "name": "WinStationFreeUserSessionInfo"
+    },
+    {
+      "ord": 7,
+      "name": "WinStationGetAllUserSessions"
+    },
+    {
+      "ord": 8,
+      "name": "WinStationGetConnectionProperty"
+    },
+    {
+      "ord": 9,
+      "name": "WinStationGetParentSessionId"
+    },
+    {
+      "ord": 10,
+      "name": "WinStationGetRestrictedLogonInfo"
+    },
+    {
+      "ord": 11,
+      "name": "WinStationGetUserCredentials"
+    },
+    {
+      "ord": 12,
+      "name": "WinStationGetUserProfile"
+    },
+    {
+      "ord": 13,
+      "name": "WinStationIsSessionPermitted"
+    },
+    {
+      "ord": 14,
+      "name": "WinStationIsSessionRemoteable"
+    },
+    {
+      "ord": 15,
+      "name": "WinStationNameFromLogonIdW"
+    },
+    {
+      "ord": 16,
+      "name": "WinStationNegotiateSession"
+    },
+    {
+      "ord": 17,
+      "name": "WinStationPreCreateGlassReplacementSession"
+    },
+    {
+      "ord": 18,
+      "name": "WinStationQueryEnforcementCore"
+    },
+    {
+      "ord": 19,
+      "name": "WinStationQueryInformationW"
+    },
+    {
+      "ord": 20,
+      "name": "WinStationReportUIResult"
+    },
+    {
+      "ord": 21,
+      "name": "WinStationSendWindowMessage"
+    },
+    {
+      "ord": 22,
+      "name": "WinStationTerminateGlassReplacementSession"
+    },
+    {
+      "ord": 23,
+      "name": "WinStationVerify"
+    },
+    {
+      "ord": 24,
+      "name": "WinStationVirtualOpenEx"
+    },
+    {
+      "ord": 25,
+      "name": "_WinStationWaitForConnect"
+    }
+  ]
+}

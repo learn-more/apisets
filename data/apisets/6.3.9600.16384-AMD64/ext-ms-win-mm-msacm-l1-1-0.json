@@ -1,0 +1,134 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "d6dc2e934745978a7ae959302b7218da",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 68609,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "acmDriverAddW"
+    },
+    {
+      "ord": 2,
+      "name": "acmDriverClose"
+    },
+    {
+      "ord": 3,
+      "name": "acmDriverDetailsW"
+    },
+    {
+      "ord": 4,
+      "name": "acmDriverEnum"
+    },
+    {
+      "ord": 5,
+      "name": "acmDriverID"
+    },
+    {
+      "ord": 6,
+      "name": "acmDriverMessage"
+    },
+    {
+      "ord": 7,
+      "name": "acmDriverOpen"
+    },
+    {
+      "ord": 8,
+      "name": "acmDriverPriority"
+    },
+    {
+      "ord": 9,
+      "name": "acmDriverRemove"
+    },
+    {
+      "ord": 10,
+      "name": "acmFilterChooseW"
+    },
+    {
+      "ord": 11,
+      "name": "acmFilterDetailsW"
+    },
+    {
+      "ord": 12,
+      "name": "acmFilterEnumW"
+    },
+    {
+      "ord": 13,
+      "name": "acmFilterTagDetailsW"
+    },
+    {
+      "ord": 14,
+      "name": "acmFilterTagEnumW"
+    },
+    {
+      "ord": 15,
+      "name": "acmFormatChooseW"
+    },
+    {
+      "ord": 16,
+      "name": "acmFormatDetailsW"
+    },
+    {
+      "ord": 17,
+      "name": "acmFormatEnumW"
+    },
+    {
+      "ord": 18,
+      "name": "acmFormatSuggest"
+    },
+    {
+      "ord": 19,
+      "name": "acmFormatTagDetailsW"
+    },
+    {
+      "ord": 20,
+      "name": "acmFormatTagEnumW"
+    },
+    {
+      "ord": 21,
+      "name": "acmGetVersion"
+    },
+    {
+      "ord": 22,
+      "name": "acmMetrics"
+    },
+    {
+      "ord": 23,
+      "name": "acmStreamClose"
+    },
+    {
+      "ord": 24,
+      "name": "acmStreamConvert"
+    },
+    {
+      "ord": 25,
+      "name": "acmStreamMessage"
+    },
+    {
+      "ord": 26,
+      "name": "acmStreamOpen"
+    },
+    {
+      "ord": 27,
+      "name": "acmStreamPrepareHeader"
+    },
+    {
+      "ord": 28,
+      "name": "acmStreamReset"
+    },
+    {
+      "ord": 29,
+      "name": "acmStreamSize"
+    },
+    {
+      "ord": 30,
+      "name": "acmStreamUnprepareHeader"
+    }
+  ]
+}

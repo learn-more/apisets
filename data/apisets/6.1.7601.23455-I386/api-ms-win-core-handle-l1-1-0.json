@@ -1,0 +1,30 @@
+{
+  "Version": "6.1.7601.23455-I386",
+  "md5": "2a4ddd79e75219e950a2a4fedc1b87e8",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.1.7601.23455 (win7sp1_ldr.160516-0600)",
+  "ProductVersion": "6.1.7601.23455",
+  "PeChecksum": 35550,
+  "Size": 3072,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CloseHandle"
+    },
+    {
+      "ord": 2,
+      "name": "DuplicateHandle"
+    },
+    {
+      "ord": 3,
+      "name": "GetHandleInformation"
+    },
+    {
+      "ord": 4,
+      "name": "SetHandleInformation"
+    }
+  ]
+}

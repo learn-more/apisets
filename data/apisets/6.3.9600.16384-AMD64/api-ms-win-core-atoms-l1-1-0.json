@@ -1,0 +1,82 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "14dbdb09390ae586c92ec44a679e41de",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 26761,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AddAtomA"
+    },
+    {
+      "ord": 2,
+      "name": "AddAtomW"
+    },
+    {
+      "ord": 3,
+      "name": "DeleteAtom"
+    },
+    {
+      "ord": 4,
+      "name": "FindAtomA"
+    },
+    {
+      "ord": 5,
+      "name": "FindAtomW"
+    },
+    {
+      "ord": 6,
+      "name": "GetAtomNameA"
+    },
+    {
+      "ord": 7,
+      "name": "GetAtomNameW"
+    },
+    {
+      "ord": 8,
+      "name": "GlobalAddAtomA"
+    },
+    {
+      "ord": 9,
+      "name": "GlobalAddAtomExA"
+    },
+    {
+      "ord": 10,
+      "name": "GlobalAddAtomExW"
+    },
+    {
+      "ord": 11,
+      "name": "GlobalAddAtomW"
+    },
+    {
+      "ord": 12,
+      "name": "GlobalDeleteAtom"
+    },
+    {
+      "ord": 13,
+      "name": "GlobalFindAtomA"
+    },
+    {
+      "ord": 14,
+      "name": "GlobalFindAtomW"
+    },
+    {
+      "ord": 15,
+      "name": "GlobalGetAtomNameA"
+    },
+    {
+      "ord": 16,
+      "name": "GlobalGetAtomNameW"
+    },
+    {
+      "ord": 17,
+      "name": "InitAtomTable"
+    }
+  ]
+}

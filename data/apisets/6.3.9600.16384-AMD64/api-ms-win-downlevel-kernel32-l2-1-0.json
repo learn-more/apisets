@@ -1,0 +1,498 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "3fac897542488643337a6669b73384f8",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 20150,
+  "Size": 5632,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AddAtomA"
+    },
+    {
+      "ord": 2,
+      "name": "AddAtomW"
+    },
+    {
+      "ord": 3,
+      "name": "BackupRead"
+    },
+    {
+      "ord": 4,
+      "name": "BackupWrite"
+    },
+    {
+      "ord": 5,
+      "name": "BindIoCompletionCallback"
+    },
+    {
+      "ord": 6,
+      "name": "ConvertFiberToThread"
+    },
+    {
+      "ord": 7,
+      "name": "ConvertThreadToFiber"
+    },
+    {
+      "ord": 8,
+      "name": "CopyFileA"
+    },
+    {
+      "ord": 9,
+      "name": "CopyFileW"
+    },
+    {
+      "ord": 10,
+      "name": "CreateFiber"
+    },
+    {
+      "ord": 11,
+      "name": "CreateFileMappingA"
+    },
+    {
+      "ord": 12,
+      "name": "CreateFileTransactedW"
+    },
+    {
+      "ord": 13,
+      "name": "CreateMailslotA"
+    },
+    {
+      "ord": 14,
+      "name": "CreateNamedPipeA"
+    },
+    {
+      "ord": 15,
+      "name": "CreateSemaphoreW"
+    },
+    {
+      "ord": 16,
+      "name": "DeleteAtom"
+    },
+    {
+      "ord": 17,
+      "name": "DeleteFiber"
+    },
+    {
+      "ord": 18,
+      "name": "DnsHostnameToComputerNameW"
+    },
+    {
+      "ord": 19,
+      "name": "DosDateTimeToFileTime"
+    },
+    {
+      "ord": 20,
+      "name": "FatalAppExitA"
+    },
+    {
+      "ord": 21,
+      "name": "FatalAppExitW"
+    },
+    {
+      "ord": 22,
+      "name": "FileTimeToDosDateTime"
+    },
+    {
+      "ord": 23,
+      "name": "FindAtomA"
+    },
+    {
+      "ord": 24,
+      "name": "FindAtomW"
+    },
+    {
+      "ord": 25,
+      "name": "FindResourceA"
+    },
+    {
+      "ord": 26,
+      "name": "FindResourceExA"
+    },
+    {
+      "ord": 27,
+      "name": "FindResourceW"
+    },
+    {
+      "ord": 28,
+      "name": "GetActiveProcessorCount"
+    },
+    {
+      "ord": 29,
+      "name": "GetAtomNameA"
+    },
+    {
+      "ord": 30,
+      "name": "GetAtomNameW"
+    },
+    {
+      "ord": 31,
+      "name": "GetComputerNameA"
+    },
+    {
+      "ord": 32,
+      "name": "GetComputerNameW"
+    },
+    {
+      "ord": 33,
+      "name": "GetConsoleWindow"
+    },
+    {
+      "ord": 34,
+      "name": "GetDurationFormatEx"
+    },
+    {
+      "ord": 35,
+      "name": "GetFirmwareEnvironmentVariableW"
+    },
+    {
+      "ord": 36,
+      "name": "GetMaximumProcessorGroupCount"
+    },
+    {
+      "ord": 37,
+      "name": "GetNamedPipeClientProcessId"
+    },
+    {
+      "ord": 38,
+      "name": "GetNamedPipeServerProcessId"
+    },
+    {
+      "ord": 39,
+      "name": "GetPrivateProfileIntA"
+    },
+    {
+      "ord": 40,
+      "name": "GetPrivateProfileIntW"
+    },
+    {
+      "ord": 41,
+      "name": "GetPrivateProfileSectionW"
+    },
+    {
+      "ord": 42,
+      "name": "GetPrivateProfileStringA"
+    },
+    {
+      "ord": 43,
+      "name": "GetPrivateProfileStringW"
+    },
+    {
+      "ord": 44,
+      "name": "GetProcessAffinityMask"
+    },
+    {
+      "ord": 45,
+      "name": "GetProcessIoCounters"
+    },
+    {
+      "ord": 46,
+      "name": "GetProfileIntA"
+    },
+    {
+      "ord": 47,
+      "name": "GetProfileIntW"
+    },
+    {
+      "ord": 48,
+      "name": "GetProfileSectionA"
+    },
+    {
+      "ord": 49,
+      "name": "GetProfileSectionW"
+    },
+    {
+      "ord": 50,
+      "name": "GetProfileStringA"
+    },
+    {
+      "ord": 51,
+      "name": "GetProfileStringW"
+    },
+    {
+      "ord": 52,
+      "name": "GetShortPathNameA"
+    },
+    {
+      "ord": 53,
+      "name": "GetStartupInfoA"
+    },
+    {
+      "ord": 54,
+      "name": "GetStringTypeExA"
+    },
+    {
+      "ord": 55,
+      "name": "GetSystemPowerStatus"
+    },
+    {
+      "ord": 56,
+      "name": "GetSystemWow64DirectoryA"
+    },
+    {
+      "ord": 57,
+      "name": "GetSystemWow64DirectoryW"
+    },
+    {
+      "ord": 58,
+      "name": "GetTapeParameters"
+    },
+    {
+      "ord": 59,
+      "name": "GetTempPathA"
+    },
+    {
+      "ord": 60,
+      "name": "GetThreadSelectorEntry"
+    },
+    {
+      "ord": 61,
+      "name": "GlobalAddAtomA"
+    },
+    {
+      "ord": 62,
+      "name": "GlobalAddAtomW"
+    },
+    {
+      "ord": 63,
+      "name": "GlobalAlloc"
+    },
+    {
+      "ord": 64,
+      "name": "GlobalDeleteAtom"
+    },
+    {
+      "ord": 65,
+      "name": "GlobalFindAtomA"
+    },
+    {
+      "ord": 66,
+      "name": "GlobalFindAtomW"
+    },
+    {
+      "ord": 67,
+      "name": "GlobalFlags"
+    },
+    {
+      "ord": 68,
+      "name": "GlobalFree"
+    },
+    {
+      "ord": 69,
+      "name": "GlobalGetAtomNameA"
+    },
+    {
+      "ord": 70,
+      "name": "GlobalGetAtomNameW"
+    },
+    {
+      "ord": 71,
+      "name": "GlobalHandle"
+    },
+    {
+      "ord": 72,
+      "name": "GlobalLock"
+    },
+    {
+      "ord": 73,
+      "name": "GlobalMemoryStatus"
+    },
+    {
+      "ord": 74,
+      "name": "GlobalReAlloc"
+    },
+    {
+      "ord": 75,
+      "name": "GlobalSize"
+    },
+    {
+      "ord": 76,
+      "name": "GlobalUnlock"
+    },
+    {
+      "ord": 77,
+      "name": "InitAtomTable"
+    },
+    {
+      "ord": 78,
+      "name": "LoadLibraryA"
+    },
+    {
+      "ord": 79,
+      "name": "LoadLibraryW"
+    },
+    {
+      "ord": 80,
+      "name": "LocalAlloc"
+    },
+    {
+      "ord": 81,
+      "name": "LocalFlags"
+    },
+    {
+      "ord": 82,
+      "name": "LocalFree"
+    },
+    {
+      "ord": 83,
+      "name": "LocalLock"
+    },
+    {
+      "ord": 84,
+      "name": "LocalReAlloc"
+    },
+    {
+      "ord": 85,
+      "name": "LocalSize"
+    },
+    {
+      "ord": 86,
+      "name": "LocalUnlock"
+    },
+    {
+      "ord": 87,
+      "name": "MoveFileA"
+    },
+    {
+      "ord": 88,
+      "name": "MoveFileExA"
+    },
+    {
+      "ord": 89,
+      "name": "MoveFileW"
+    },
+    {
+      "ord": 90,
+      "name": "MulDiv"
+    },
+    {
+      "ord": 91,
+      "name": "OpenFile"
+    },
+    {
+      "ord": 92,
+      "name": "PulseEvent"
+    },
+    {
+      "ord": 93,
+      "name": "RaiseFailFastException"
+    },
+    {
+      "ord": 94,
+      "name": "RegisterWaitForSingleObject"
+    },
+    {
+      "ord": 95,
+      "name": "SetConsoleTitleA"
+    },
+    {
+      "ord": 96,
+      "name": "SetFileCompletionNotificationModes"
+    },
+    {
+      "ord": 97,
+      "name": "SetFirmwareEnvironmentVariableW"
+    },
+    {
+      "ord": 98,
+      "name": "SetHandleCount"
+    },
+    {
+      "ord": 99,
+      "name": "SetMailslotInfo"
+    },
+    {
+      "ord": 100,
+      "name": "SetProcessAffinityMask"
+    },
+    {
+      "ord": 101,
+      "name": "SetThreadAffinityMask"
+    },
+    {
+      "ord": 102,
+      "name": "SetThreadIdealProcessor"
+    },
+    {
+      "ord": 103,
+      "name": "SetVolumeLabelW"
+    },
+    {
+      "ord": 104,
+      "name": "SwitchToFiber"
+    },
+    {
+      "ord": 105,
+      "name": "UnregisterWait"
+    },
+    {
+      "ord": 106,
+      "name": "WTSGetActiveConsoleSessionId"
+    },
+    {
+      "ord": 107,
+      "name": "WaitForMultipleObjects"
+    },
+    {
+      "ord": 108,
+      "name": "WritePrivateProfileSectionA"
+    },
+    {
+      "ord": 109,
+      "name": "WritePrivateProfileSectionW"
+    },
+    {
+      "ord": 110,
+      "name": "WritePrivateProfileStringA"
+    },
+    {
+      "ord": 111,
+      "name": "WritePrivateProfileStringW"
+    },
+    {
+      "ord": 112,
+      "name": "lstrcatW"
+    },
+    {
+      "ord": 113,
+      "name": "lstrcmpA"
+    },
+    {
+      "ord": 114,
+      "name": "lstrcmpW"
+    },
+    {
+      "ord": 115,
+      "name": "lstrcmpiA"
+    },
+    {
+      "ord": 116,
+      "name": "lstrcmpiW"
+    },
+    {
+      "ord": 117,
+      "name": "lstrcpyW"
+    },
+    {
+      "ord": 118,
+      "name": "lstrcpynA"
+    },
+    {
+      "ord": 119,
+      "name": "lstrcpynW"
+    },
+    {
+      "ord": 120,
+      "name": "lstrlenA"
+    },
+    {
+      "ord": 121,
+      "name": "lstrlenW"
+    }
+  ]
+}

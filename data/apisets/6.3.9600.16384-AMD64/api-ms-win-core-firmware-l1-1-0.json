@@ -1,0 +1,30 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "deb438611b29f331d13c7a5f92ed1519",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 15184,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "GetFirmwareEnvironmentVariableExW"
+    },
+    {
+      "ord": 2,
+      "name": "GetFirmwareEnvironmentVariableW"
+    },
+    {
+      "ord": 3,
+      "name": "SetFirmwareEnvironmentVariableExW"
+    },
+    {
+      "ord": 4,
+      "name": "SetFirmwareEnvironmentVariableW"
+    }
+  ]
+}

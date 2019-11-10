@@ -1,0 +1,46 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "0efb045b16903e808f1f7fb22ae86245",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 6960,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "MsaUI_ClearThreadClientContext"
+    },
+    {
+      "ord": 2,
+      "name": "MsaUI_CloseClientContext"
+    },
+    {
+      "ord": 3,
+      "name": "MsaUI_CreateClientContext"
+    },
+    {
+      "ord": 4,
+      "name": "MsaUI_CredUIPromptForWindowsCredentials"
+    },
+    {
+      "ord": 5,
+      "name": "MsaUI_LaunchWebAuthFlow"
+    },
+    {
+      "ord": 6,
+      "name": "MsaUI_RunWizard"
+    },
+    {
+      "ord": 7,
+      "name": "MsaUI_SetThreadClientContext"
+    },
+    {
+      "ord": 8,
+      "name": "MsaUi_CreateClientContextFromWab"
+    }
+  ]
+}

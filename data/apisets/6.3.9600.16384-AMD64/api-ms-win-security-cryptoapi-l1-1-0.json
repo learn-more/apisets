@@ -1,0 +1,170 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "f64338f0afc4670fb9a21b29b8f19f33",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 61917,
+  "Size": 4096,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CryptAcquireContextA"
+    },
+    {
+      "ord": 2,
+      "name": "CryptAcquireContextW"
+    },
+    {
+      "ord": 3,
+      "name": "CryptContextAddRef"
+    },
+    {
+      "ord": 4,
+      "name": "CryptCreateHash"
+    },
+    {
+      "ord": 5,
+      "name": "CryptDecrypt"
+    },
+    {
+      "ord": 6,
+      "name": "CryptDeriveKey"
+    },
+    {
+      "ord": 7,
+      "name": "CryptDestroyHash"
+    },
+    {
+      "ord": 8,
+      "name": "CryptDestroyKey"
+    },
+    {
+      "ord": 9,
+      "name": "CryptDuplicateHash"
+    },
+    {
+      "ord": 10,
+      "name": "CryptDuplicateKey"
+    },
+    {
+      "ord": 11,
+      "name": "CryptEncrypt"
+    },
+    {
+      "ord": 12,
+      "name": "CryptEnumProviderTypesA"
+    },
+    {
+      "ord": 13,
+      "name": "CryptEnumProviderTypesW"
+    },
+    {
+      "ord": 14,
+      "name": "CryptEnumProvidersA"
+    },
+    {
+      "ord": 15,
+      "name": "CryptEnumProvidersW"
+    },
+    {
+      "ord": 16,
+      "name": "CryptExportKey"
+    },
+    {
+      "ord": 17,
+      "name": "CryptGenKey"
+    },
+    {
+      "ord": 18,
+      "name": "CryptGenRandom"
+    },
+    {
+      "ord": 19,
+      "name": "CryptGetDefaultProviderA"
+    },
+    {
+      "ord": 20,
+      "name": "CryptGetDefaultProviderW"
+    },
+    {
+      "ord": 21,
+      "name": "CryptGetHashParam"
+    },
+    {
+      "ord": 22,
+      "name": "CryptGetKeyParam"
+    },
+    {
+      "ord": 23,
+      "name": "CryptGetProvParam"
+    },
+    {
+      "ord": 24,
+      "name": "CryptGetUserKey"
+    },
+    {
+      "ord": 25,
+      "name": "CryptHashData"
+    },
+    {
+      "ord": 26,
+      "name": "CryptHashSessionKey"
+    },
+    {
+      "ord": 27,
+      "name": "CryptImportKey"
+    },
+    {
+      "ord": 28,
+      "name": "CryptReleaseContext"
+    },
+    {
+      "ord": 29,
+      "name": "CryptSetHashParam"
+    },
+    {
+      "ord": 30,
+      "name": "CryptSetKeyParam"
+    },
+    {
+      "ord": 31,
+      "name": "CryptSetProvParam"
+    },
+    {
+      "ord": 32,
+      "name": "CryptSetProviderA"
+    },
+    {
+      "ord": 33,
+      "name": "CryptSetProviderExA"
+    },
+    {
+      "ord": 34,
+      "name": "CryptSetProviderExW"
+    },
+    {
+      "ord": 35,
+      "name": "CryptSetProviderW"
+    },
+    {
+      "ord": 36,
+      "name": "CryptSignHashA"
+    },
+    {
+      "ord": 37,
+      "name": "CryptSignHashW"
+    },
+    {
+      "ord": 38,
+      "name": "CryptVerifySignatureA"
+    },
+    {
+      "ord": 39,
+      "name": "CryptVerifySignatureW"
+    }
+  ]
+}

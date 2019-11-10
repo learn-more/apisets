@@ -1,0 +1,62 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "47d2067df31e374c3c7694cf6afab562",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 47808,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AuthzFreeAuditEvent"
+    },
+    {
+      "ord": 2,
+      "name": "AuthzFreeContext"
+    },
+    {
+      "ord": 3,
+      "name": "AuthzFreeResourceManager"
+    },
+    {
+      "ord": 4,
+      "name": "AuthzInitializeContextFromAuthzContext"
+    },
+    {
+      "ord": 5,
+      "name": "AuthzInitializeContextFromSid"
+    },
+    {
+      "ord": 6,
+      "name": "AuthzInitializeContextFromToken"
+    },
+    {
+      "ord": 7,
+      "name": "AuthzInitializeResourceManager"
+    },
+    {
+      "ord": 8,
+      "name": "AuthziFreeAuditEventType"
+    },
+    {
+      "ord": 9,
+      "name": "AuthziInitializeAuditEvent"
+    },
+    {
+      "ord": 10,
+      "name": "AuthziInitializeAuditEventType"
+    },
+    {
+      "ord": 11,
+      "name": "AuthziInitializeAuditParams"
+    },
+    {
+      "ord": 12,
+      "name": "AuthziLogAuditEvent"
+    }
+  ]
+}

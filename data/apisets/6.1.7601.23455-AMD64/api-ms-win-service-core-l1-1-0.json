@@ -1,0 +1,26 @@
+{
+  "Version": "6.1.7600.16385-AMD64",
+  "md5": "7fdfd0af74c84a34a5ef289eb6044f32",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.1.7600.16385 (win7_rtm.090713-1255)",
+  "ProductVersion": "6.1.7600.16385",
+  "PeChecksum": 24254,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "RegisterServiceCtrlHandlerExW"
+    },
+    {
+      "ord": 2,
+      "name": "SetServiceStatus"
+    },
+    {
+      "ord": 3,
+      "name": "StartServiceCtrlDispatcherW"
+    }
+  ]
+}

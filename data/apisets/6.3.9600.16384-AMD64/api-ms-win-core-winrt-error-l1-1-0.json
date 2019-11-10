@@ -1,0 +1,58 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "8c1062c91fa9f749e38ffe39aeae49e6",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 42239,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "GetRestrictedErrorInfo"
+    },
+    {
+      "ord": 2,
+      "name": "RoCaptureErrorContext"
+    },
+    {
+      "ord": 3,
+      "name": "RoFailFastWithErrorContext"
+    },
+    {
+      "ord": 4,
+      "name": "RoGetErrorReportingFlags"
+    },
+    {
+      "ord": 5,
+      "name": "RoOriginateError"
+    },
+    {
+      "ord": 6,
+      "name": "RoOriginateErrorW"
+    },
+    {
+      "ord": 7,
+      "name": "RoResolveRestrictedErrorInfoReference"
+    },
+    {
+      "ord": 8,
+      "name": "RoSetErrorReportingFlags"
+    },
+    {
+      "ord": 9,
+      "name": "RoTransformError"
+    },
+    {
+      "ord": 10,
+      "name": "RoTransformErrorW"
+    },
+    {
+      "ord": 11,
+      "name": "SetRestrictedErrorInfo"
+    }
+  ]
+}

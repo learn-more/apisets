@@ -1,0 +1,62 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "e809d31a74f7c91db543a541ca588c4e",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 11641,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "EnumCalendarInfoExEx"
+    },
+    {
+      "ord": 2,
+      "name": "EnumCalendarInfoExW"
+    },
+    {
+      "ord": 3,
+      "name": "EnumCalendarInfoW"
+    },
+    {
+      "ord": 4,
+      "name": "EnumDateFormatsExEx"
+    },
+    {
+      "ord": 5,
+      "name": "EnumDateFormatsExW"
+    },
+    {
+      "ord": 6,
+      "name": "EnumDateFormatsW"
+    },
+    {
+      "ord": 7,
+      "name": "EnumSystemCodePagesW"
+    },
+    {
+      "ord": 8,
+      "name": "EnumTimeFormatsEx"
+    },
+    {
+      "ord": 9,
+      "name": "EnumTimeFormatsW"
+    },
+    {
+      "ord": 10,
+      "name": "GetCurrencyFormatEx"
+    },
+    {
+      "ord": 11,
+      "name": "GetCurrencyFormatW"
+    },
+    {
+      "ord": 12,
+      "name": "GetNumberFormatEx"
+    }
+  ]
+}

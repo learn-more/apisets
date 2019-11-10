@@ -1,0 +1,170 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "87e1d890a83e65b0f13bf88b5441a54e",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 45056,
+  "Size": 4608,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CM_Delete_Class_Key"
+    },
+    {
+      "ord": 2,
+      "name": "CM_Delete_DevNode_Key"
+    },
+    {
+      "ord": 3,
+      "name": "CM_Delete_Device_Interface_KeyW"
+    },
+    {
+      "ord": 4,
+      "name": "CM_Disable_DevNode"
+    },
+    {
+      "ord": 5,
+      "name": "CM_Enable_DevNode"
+    },
+    {
+      "ord": 6,
+      "name": "CM_Get_Child"
+    },
+    {
+      "ord": 7,
+      "name": "CM_Get_Class_PropertyW"
+    },
+    {
+      "ord": 8,
+      "name": "CM_Get_Class_Property_Keys"
+    },
+    {
+      "ord": 9,
+      "name": "CM_Get_Class_Registry_PropertyW"
+    },
+    {
+      "ord": 10,
+      "name": "CM_Get_Depth"
+    },
+    {
+      "ord": 11,
+      "name": "CM_Get_DevNode_PropertyW"
+    },
+    {
+      "ord": 12,
+      "name": "CM_Get_DevNode_Property_Keys"
+    },
+    {
+      "ord": 13,
+      "name": "CM_Get_DevNode_Registry_PropertyW"
+    },
+    {
+      "ord": 14,
+      "name": "CM_Get_DevNode_Status"
+    },
+    {
+      "ord": 15,
+      "name": "CM_Get_Device_IDW"
+    },
+    {
+      "ord": 16,
+      "name": "CM_Get_Device_ID_ListW"
+    },
+    {
+      "ord": 17,
+      "name": "CM_Get_Device_ID_List_SizeW"
+    },
+    {
+      "ord": 18,
+      "name": "CM_Get_Device_ID_Size"
+    },
+    {
+      "ord": 19,
+      "name": "CM_Get_Device_Interface_ListW"
+    },
+    {
+      "ord": 20,
+      "name": "CM_Get_Device_Interface_List_SizeW"
+    },
+    {
+      "ord": 21,
+      "name": "CM_Get_Device_Interface_PropertyW"
+    },
+    {
+      "ord": 22,
+      "name": "CM_Get_Device_Interface_Property_KeysW"
+    },
+    {
+      "ord": 23,
+      "name": "CM_Get_Parent"
+    },
+    {
+      "ord": 24,
+      "name": "CM_Get_Sibling"
+    },
+    {
+      "ord": 25,
+      "name": "CM_Locate_DevNodeW"
+    },
+    {
+      "ord": 26,
+      "name": "CM_MapCrToWin32Err"
+    },
+    {
+      "ord": 27,
+      "name": "CM_Open_Class_KeyW"
+    },
+    {
+      "ord": 28,
+      "name": "CM_Open_DevNode_Key"
+    },
+    {
+      "ord": 29,
+      "name": "CM_Open_Device_Interface_KeyW"
+    },
+    {
+      "ord": 30,
+      "name": "CM_Query_And_Remove_SubTreeW"
+    },
+    {
+      "ord": 31,
+      "name": "CM_Register_Notification"
+    },
+    {
+      "ord": 32,
+      "name": "CM_Set_Class_PropertyW"
+    },
+    {
+      "ord": 33,
+      "name": "CM_Set_Class_Registry_PropertyW"
+    },
+    {
+      "ord": 34,
+      "name": "CM_Set_DevNode_PropertyW"
+    },
+    {
+      "ord": 35,
+      "name": "CM_Set_DevNode_Registry_PropertyW"
+    },
+    {
+      "ord": 36,
+      "name": "CM_Set_Device_Interface_PropertyW"
+    },
+    {
+      "ord": 37,
+      "name": "CM_Setup_DevNode"
+    },
+    {
+      "ord": 38,
+      "name": "CM_Uninstall_DevNode"
+    },
+    {
+      "ord": 39,
+      "name": "CM_Unregister_Notification"
+    }
+  ]
+}

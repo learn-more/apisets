@@ -1,0 +1,134 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "e2898040cbe371c1e3c6ff3f71d27a07",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 9158,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CreateFontIndirectA"
+    },
+    {
+      "ord": 2,
+      "name": "CreateFontIndirectW"
+    },
+    {
+      "ord": 3,
+      "name": "EnumFontFamiliesA"
+    },
+    {
+      "ord": 4,
+      "name": "EnumFontFamiliesExA"
+    },
+    {
+      "ord": 5,
+      "name": "EnumFontFamiliesExW"
+    },
+    {
+      "ord": 6,
+      "name": "ExtTextOutA"
+    },
+    {
+      "ord": 7,
+      "name": "ExtTextOutW"
+    },
+    {
+      "ord": 8,
+      "name": "GetCharABCWidthsW"
+    },
+    {
+      "ord": 9,
+      "name": "GetCharWidth32A"
+    },
+    {
+      "ord": 10,
+      "name": "GetCharWidthA"
+    },
+    {
+      "ord": 11,
+      "name": "GetCharWidthW"
+    },
+    {
+      "ord": 12,
+      "name": "GetFontData"
+    },
+    {
+      "ord": 13,
+      "name": "GetFontFileData"
+    },
+    {
+      "ord": 14,
+      "name": "GetFontFileInfo"
+    },
+    {
+      "ord": 15,
+      "name": "GetFontRealizationInfo"
+    },
+    {
+      "ord": 16,
+      "name": "GetGlyphIndicesW"
+    },
+    {
+      "ord": 17,
+      "name": "GetGlyphOutlineW"
+    },
+    {
+      "ord": 18,
+      "name": "GetKerningPairsA"
+    },
+    {
+      "ord": 19,
+      "name": "GetKerningPairsW"
+    },
+    {
+      "ord": 20,
+      "name": "GetOutlineTextMetricsA"
+    },
+    {
+      "ord": 21,
+      "name": "GetOutlineTextMetricsW"
+    },
+    {
+      "ord": 22,
+      "name": "GetTextCharsetInfo"
+    },
+    {
+      "ord": 23,
+      "name": "GetTextExtentExPointW"
+    },
+    {
+      "ord": 24,
+      "name": "GetTextFaceA"
+    },
+    {
+      "ord": 25,
+      "name": "GetTextFaceW"
+    },
+    {
+      "ord": 26,
+      "name": "GetTextMetricsW"
+    },
+    {
+      "ord": 27,
+      "name": "SetTextAlign"
+    },
+    {
+      "ord": 28,
+      "name": "SetTextColor"
+    },
+    {
+      "ord": 29,
+      "name": "TextOutW"
+    },
+    {
+      "ord": 30,
+      "name": "TranslateCharsetInfo"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "7a683649557709c276f108487940b990",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 59909,
+  "Size": 12640,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "KsrClaimPersistedMemory"
+    },
+    {
+      "ord": 2,
+      "name": "KsrCleanupPageDatabase"
+    },
+    {
+      "ord": 3,
+      "name": "KsrFreePersistedMemory"
+    },
+    {
+      "ord": 4,
+      "name": "KsrGetFirmwareInformation"
+    },
+    {
+      "ord": 5,
+      "name": "KsrInitPageDatabase"
+    },
+    {
+      "ord": 6,
+      "name": "KsrInitSystem"
+    },
+    {
+      "ord": 7,
+      "name": "KsrMmMapLockedRestartPages"
+    },
+    {
+      "ord": 8,
+      "name": "KsrMmUnmapLockedRestartPages"
+    },
+    {
+      "ord": 9,
+      "name": "KsrPersistMemory"
+    },
+    {
+      "ord": 10,
+      "name": "KsrRegisterLoader"
+    }
+  ]
+}

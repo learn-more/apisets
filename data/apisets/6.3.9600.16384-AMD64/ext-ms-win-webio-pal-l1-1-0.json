@@ -1,0 +1,58 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "363e3c3185ad74bb8a8aac21a73499fc",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 31090,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "WebPalCanScavengeDnsCache"
+    },
+    {
+      "ord": 2,
+      "name": "WebPalCancelTwTimer"
+    },
+    {
+      "ord": 3,
+      "name": "WebPalCreateDnsCacheCtx"
+    },
+    {
+      "ord": 4,
+      "name": "WebPalCreateSocketCtx"
+    },
+    {
+      "ord": 5,
+      "name": "WebPalFreeDnsCacheCtx"
+    },
+    {
+      "ord": 6,
+      "name": "WebPalFreeSocketCtx"
+    },
+    {
+      "ord": 7,
+      "name": "WebPalInitializeTwTimer"
+    },
+    {
+      "ord": 8,
+      "name": "WebPalIsImplemented"
+    },
+    {
+      "ord": 9,
+      "name": "WebPalOverrideConnectResult"
+    },
+    {
+      "ord": 10,
+      "name": "WebPalSetTwTimer"
+    },
+    {
+      "ord": 11,
+      "name": "WebPalTerminateTwTimer"
+    }
+  ]
+}

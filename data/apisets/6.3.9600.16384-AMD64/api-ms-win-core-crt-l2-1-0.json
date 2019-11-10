@@ -1,0 +1,86 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "065e18e3c7dba3218df7456c063c7099",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 11511,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "__dllonexit3"
+    },
+    {
+      "ord": 2,
+      "name": "__wgetmainargs"
+    },
+    {
+      "ord": 3,
+      "name": "_amsg_exit"
+    },
+    {
+      "ord": 4,
+      "name": "_c_exit"
+    },
+    {
+      "ord": 5,
+      "name": "_cexit"
+    },
+    {
+      "ord": 6,
+      "name": "_exit"
+    },
+    {
+      "ord": 7,
+      "name": "_initterm"
+    },
+    {
+      "ord": 8,
+      "name": "_initterm_e"
+    },
+    {
+      "ord": 9,
+      "name": "_invalid_parameter"
+    },
+    {
+      "ord": 10,
+      "name": "_onexit"
+    },
+    {
+      "ord": 11,
+      "name": "_purecall"
+    },
+    {
+      "ord": 12,
+      "name": "_time64"
+    },
+    {
+      "ord": 13,
+      "name": "atexit"
+    },
+    {
+      "ord": 14,
+      "name": "exit"
+    },
+    {
+      "ord": 15,
+      "name": "hgets"
+    },
+    {
+      "ord": 16,
+      "name": "hwprintf"
+    },
+    {
+      "ord": 17,
+      "name": "time"
+    },
+    {
+      "ord": 18,
+      "name": "wprintf"
+    }
+  ]
+}

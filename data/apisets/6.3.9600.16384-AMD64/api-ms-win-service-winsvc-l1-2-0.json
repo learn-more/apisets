@@ -1,0 +1,78 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "6cf4e3bce0e8aa708872e239cbf68895",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 8707,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ChangeServiceConfig2A"
+    },
+    {
+      "ord": 2,
+      "name": "ChangeServiceConfigA"
+    },
+    {
+      "ord": 3,
+      "name": "ControlService"
+    },
+    {
+      "ord": 4,
+      "name": "ControlServiceExA"
+    },
+    {
+      "ord": 5,
+      "name": "CreateServiceA"
+    },
+    {
+      "ord": 6,
+      "name": "NotifyServiceStatusChangeA"
+    },
+    {
+      "ord": 7,
+      "name": "OpenSCManagerA"
+    },
+    {
+      "ord": 8,
+      "name": "OpenServiceA"
+    },
+    {
+      "ord": 9,
+      "name": "QueryServiceConfig2A"
+    },
+    {
+      "ord": 10,
+      "name": "QueryServiceConfigA"
+    },
+    {
+      "ord": 11,
+      "name": "QueryServiceStatus"
+    },
+    {
+      "ord": 12,
+      "name": "RegisterServiceCtrlHandlerA"
+    },
+    {
+      "ord": 13,
+      "name": "RegisterServiceCtrlHandlerExA"
+    },
+    {
+      "ord": 14,
+      "name": "RegisterServiceCtrlHandlerW"
+    },
+    {
+      "ord": 15,
+      "name": "StartServiceA"
+    },
+    {
+      "ord": 16,
+      "name": "StartServiceCtrlDispatcherA"
+    }
+  ]
+}

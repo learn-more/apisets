@@ -1,0 +1,62 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "2725e24f09af2871858f5f8325e45198",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 24732,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CopyFile2"
+    },
+    {
+      "ord": 2,
+      "name": "CopyFileExW"
+    },
+    {
+      "ord": 3,
+      "name": "CreateDirectoryExW"
+    },
+    {
+      "ord": 4,
+      "name": "CreateHardLinkW"
+    },
+    {
+      "ord": 5,
+      "name": "CreateSymbolicLinkW"
+    },
+    {
+      "ord": 6,
+      "name": "GetFileInformationByHandleEx"
+    },
+    {
+      "ord": 7,
+      "name": "MoveFileExW"
+    },
+    {
+      "ord": 8,
+      "name": "MoveFileWithProgressW"
+    },
+    {
+      "ord": 9,
+      "name": "OpenFileById"
+    },
+    {
+      "ord": 10,
+      "name": "ReOpenFile"
+    },
+    {
+      "ord": 11,
+      "name": "ReadDirectoryChangesW"
+    },
+    {
+      "ord": 12,
+      "name": "ReplaceFileW"
+    }
+  ]
+}

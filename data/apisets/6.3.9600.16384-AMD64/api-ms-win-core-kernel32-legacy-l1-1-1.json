@@ -1,0 +1,290 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "529cc1e2d5f340e17054262183ec608e",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 30988,
+  "Size": 5120,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AddLocalAlternateComputerNameW"
+    },
+    {
+      "ord": 2,
+      "name": "BackupRead"
+    },
+    {
+      "ord": 3,
+      "name": "BackupWrite"
+    },
+    {
+      "ord": 4,
+      "name": "BindIoCompletionCallback"
+    },
+    {
+      "ord": 5,
+      "name": "CopyFileA"
+    },
+    {
+      "ord": 6,
+      "name": "CopyFileW"
+    },
+    {
+      "ord": 7,
+      "name": "CreateFileMappingA"
+    },
+    {
+      "ord": 8,
+      "name": "CreateFileTransactedW"
+    },
+    {
+      "ord": 9,
+      "name": "CreateMailslotA"
+    },
+    {
+      "ord": 10,
+      "name": "CreateNamedPipeA"
+    },
+    {
+      "ord": 11,
+      "name": "CreateSemaphoreW"
+    },
+    {
+      "ord": 12,
+      "name": "DnsHostnameToComputerNameW"
+    },
+    {
+      "ord": 13,
+      "name": "DosDateTimeToFileTime"
+    },
+    {
+      "ord": 14,
+      "name": "FatalAppExitA"
+    },
+    {
+      "ord": 15,
+      "name": "FatalAppExitW"
+    },
+    {
+      "ord": 16,
+      "name": "FileTimeToDosDateTime"
+    },
+    {
+      "ord": 17,
+      "name": "FindFirstVolumeMountPointW"
+    },
+    {
+      "ord": 18,
+      "name": "FindNextVolumeMountPointW"
+    },
+    {
+      "ord": 19,
+      "name": "FindResourceA"
+    },
+    {
+      "ord": 20,
+      "name": "FindResourceExA"
+    },
+    {
+      "ord": 21,
+      "name": "FindResourceW"
+    },
+    {
+      "ord": 22,
+      "name": "FindVolumeMountPointClose"
+    },
+    {
+      "ord": 23,
+      "name": "GetComputerNameA"
+    },
+    {
+      "ord": 24,
+      "name": "GetComputerNameW"
+    },
+    {
+      "ord": 25,
+      "name": "GetConsoleWindow"
+    },
+    {
+      "ord": 26,
+      "name": "GetDurationFormatEx"
+    },
+    {
+      "ord": 27,
+      "name": "GetFileAttributesTransactedW"
+    },
+    {
+      "ord": 28,
+      "name": "GetFirmwareType"
+    },
+    {
+      "ord": 29,
+      "name": "GetMaximumProcessorGroupCount"
+    },
+    {
+      "ord": 30,
+      "name": "GetNamedPipeClientProcessId"
+    },
+    {
+      "ord": 31,
+      "name": "GetNamedPipeServerProcessId"
+    },
+    {
+      "ord": 32,
+      "name": "GetNumaAvailableMemoryNodeEx"
+    },
+    {
+      "ord": 33,
+      "name": "GetNumaNodeProcessorMask"
+    },
+    {
+      "ord": 34,
+      "name": "GetNumaProcessorNodeEx"
+    },
+    {
+      "ord": 35,
+      "name": "GetShortPathNameA"
+    },
+    {
+      "ord": 36,
+      "name": "GetStartupInfoA"
+    },
+    {
+      "ord": 37,
+      "name": "GetStringTypeExA"
+    },
+    {
+      "ord": 38,
+      "name": "GetSystemPowerStatus"
+    },
+    {
+      "ord": 39,
+      "name": "GetSystemWow64DirectoryA"
+    },
+    {
+      "ord": 40,
+      "name": "GetSystemWow64DirectoryW"
+    },
+    {
+      "ord": 41,
+      "name": "GetTapeParameters"
+    },
+    {
+      "ord": 42,
+      "name": "GetTempPathA"
+    },
+    {
+      "ord": 43,
+      "name": "GetThreadSelectorEntry"
+    },
+    {
+      "ord": 44,
+      "name": "GlobalMemoryStatus"
+    },
+    {
+      "ord": 45,
+      "name": "LoadLibraryA"
+    },
+    {
+      "ord": 46,
+      "name": "LoadLibraryW"
+    },
+    {
+      "ord": 47,
+      "name": "MoveFileA"
+    },
+    {
+      "ord": 48,
+      "name": "MoveFileExA"
+    },
+    {
+      "ord": 49,
+      "name": "MoveFileW"
+    },
+    {
+      "ord": 50,
+      "name": "MulDiv"
+    },
+    {
+      "ord": 51,
+      "name": "OpenFile"
+    },
+    {
+      "ord": 52,
+      "name": "PowerClearRequest"
+    },
+    {
+      "ord": 53,
+      "name": "PowerCreateRequest"
+    },
+    {
+      "ord": 54,
+      "name": "PowerSetRequest"
+    },
+    {
+      "ord": 55,
+      "name": "PulseEvent"
+    },
+    {
+      "ord": 56,
+      "name": "RaiseFailFastException"
+    },
+    {
+      "ord": 57,
+      "name": "RegisterWaitForSingleObject"
+    },
+    {
+      "ord": 58,
+      "name": "SetConsoleTitleA"
+    },
+    {
+      "ord": 59,
+      "name": "SetDllDirectoryW"
+    },
+    {
+      "ord": 60,
+      "name": "SetFileCompletionNotificationModes"
+    },
+    {
+      "ord": 61,
+      "name": "SetHandleCount"
+    },
+    {
+      "ord": 62,
+      "name": "SetMailslotInfo"
+    },
+    {
+      "ord": 63,
+      "name": "SetThreadIdealProcessor"
+    },
+    {
+      "ord": 64,
+      "name": "SetVolumeLabelW"
+    },
+    {
+      "ord": 65,
+      "name": "SetVolumeMountPointW"
+    },
+    {
+      "ord": 66,
+      "name": "UnregisterWait"
+    },
+    {
+      "ord": 67,
+      "name": "VerifyVersionInfoW"
+    },
+    {
+      "ord": 68,
+      "name": "WTSGetActiveConsoleSessionId"
+    },
+    {
+      "ord": 69,
+      "name": "WaitForMultipleObjects"
+    }
+  ]
+}

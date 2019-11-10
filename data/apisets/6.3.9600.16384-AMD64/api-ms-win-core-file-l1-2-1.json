@@ -1,0 +1,342 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "26ca5c02d433be6ac14874d9845cce53",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 24363,
+  "Size": 4608,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CompareFileTime"
+    },
+    {
+      "ord": 2,
+      "name": "CreateDirectoryA"
+    },
+    {
+      "ord": 3,
+      "name": "CreateDirectoryW"
+    },
+    {
+      "ord": 4,
+      "name": "CreateFile2"
+    },
+    {
+      "ord": 5,
+      "name": "CreateFileA"
+    },
+    {
+      "ord": 6,
+      "name": "CreateFileW"
+    },
+    {
+      "ord": 7,
+      "name": "DefineDosDeviceW"
+    },
+    {
+      "ord": 8,
+      "name": "DeleteFileA"
+    },
+    {
+      "ord": 9,
+      "name": "DeleteFileW"
+    },
+    {
+      "ord": 10,
+      "name": "DeleteVolumeMountPointW"
+    },
+    {
+      "ord": 11,
+      "name": "FileTimeToLocalFileTime"
+    },
+    {
+      "ord": 12,
+      "name": "FindClose"
+    },
+    {
+      "ord": 13,
+      "name": "FindCloseChangeNotification"
+    },
+    {
+      "ord": 14,
+      "name": "FindFirstChangeNotificationA"
+    },
+    {
+      "ord": 15,
+      "name": "FindFirstChangeNotificationW"
+    },
+    {
+      "ord": 16,
+      "name": "FindFirstFileA"
+    },
+    {
+      "ord": 17,
+      "name": "FindFirstFileExA"
+    },
+    {
+      "ord": 18,
+      "name": "FindFirstFileExW"
+    },
+    {
+      "ord": 19,
+      "name": "FindFirstFileW"
+    },
+    {
+      "ord": 20,
+      "name": "FindFirstVolumeW"
+    },
+    {
+      "ord": 21,
+      "name": "FindNextChangeNotification"
+    },
+    {
+      "ord": 22,
+      "name": "FindNextFileA"
+    },
+    {
+      "ord": 23,
+      "name": "FindNextFileW"
+    },
+    {
+      "ord": 24,
+      "name": "FindNextVolumeW"
+    },
+    {
+      "ord": 25,
+      "name": "FindVolumeClose"
+    },
+    {
+      "ord": 26,
+      "name": "FlushFileBuffers"
+    },
+    {
+      "ord": 27,
+      "name": "GetCompressedFileSizeA"
+    },
+    {
+      "ord": 28,
+      "name": "GetCompressedFileSizeW"
+    },
+    {
+      "ord": 29,
+      "name": "GetDiskFreeSpaceA"
+    },
+    {
+      "ord": 30,
+      "name": "GetDiskFreeSpaceExA"
+    },
+    {
+      "ord": 31,
+      "name": "GetDiskFreeSpaceExW"
+    },
+    {
+      "ord": 32,
+      "name": "GetDiskFreeSpaceW"
+    },
+    {
+      "ord": 33,
+      "name": "GetDriveTypeA"
+    },
+    {
+      "ord": 34,
+      "name": "GetDriveTypeW"
+    },
+    {
+      "ord": 35,
+      "name": "GetFileAttributesA"
+    },
+    {
+      "ord": 36,
+      "name": "GetFileAttributesExA"
+    },
+    {
+      "ord": 37,
+      "name": "GetFileAttributesExW"
+    },
+    {
+      "ord": 38,
+      "name": "GetFileAttributesW"
+    },
+    {
+      "ord": 39,
+      "name": "GetFileInformationByHandle"
+    },
+    {
+      "ord": 40,
+      "name": "GetFileSize"
+    },
+    {
+      "ord": 41,
+      "name": "GetFileSizeEx"
+    },
+    {
+      "ord": 42,
+      "name": "GetFileTime"
+    },
+    {
+      "ord": 43,
+      "name": "GetFileType"
+    },
+    {
+      "ord": 44,
+      "name": "GetFinalPathNameByHandleA"
+    },
+    {
+      "ord": 45,
+      "name": "GetFinalPathNameByHandleW"
+    },
+    {
+      "ord": 46,
+      "name": "GetFullPathNameA"
+    },
+    {
+      "ord": 47,
+      "name": "GetFullPathNameW"
+    },
+    {
+      "ord": 48,
+      "name": "GetLogicalDriveStringsW"
+    },
+    {
+      "ord": 49,
+      "name": "GetLogicalDrives"
+    },
+    {
+      "ord": 50,
+      "name": "GetLongPathNameA"
+    },
+    {
+      "ord": 51,
+      "name": "GetLongPathNameW"
+    },
+    {
+      "ord": 52,
+      "name": "GetShortPathNameW"
+    },
+    {
+      "ord": 53,
+      "name": "GetTempFileNameW"
+    },
+    {
+      "ord": 54,
+      "name": "GetTempPathW"
+    },
+    {
+      "ord": 55,
+      "name": "GetVolumeInformationByHandleW"
+    },
+    {
+      "ord": 56,
+      "name": "GetVolumeInformationW"
+    },
+    {
+      "ord": 57,
+      "name": "GetVolumeNameForVolumeMountPointW"
+    },
+    {
+      "ord": 58,
+      "name": "GetVolumePathNameW"
+    },
+    {
+      "ord": 59,
+      "name": "GetVolumePathNamesForVolumeNameW"
+    },
+    {
+      "ord": 60,
+      "name": "LocalFileTimeToFileTime"
+    },
+    {
+      "ord": 61,
+      "name": "LockFile"
+    },
+    {
+      "ord": 62,
+      "name": "LockFileEx"
+    },
+    {
+      "ord": 63,
+      "name": "QueryDosDeviceW"
+    },
+    {
+      "ord": 64,
+      "name": "ReadFile"
+    },
+    {
+      "ord": 65,
+      "name": "ReadFileEx"
+    },
+    {
+      "ord": 66,
+      "name": "ReadFileScatter"
+    },
+    {
+      "ord": 67,
+      "name": "RemoveDirectoryA"
+    },
+    {
+      "ord": 68,
+      "name": "RemoveDirectoryW"
+    },
+    {
+      "ord": 69,
+      "name": "SetEndOfFile"
+    },
+    {
+      "ord": 70,
+      "name": "SetFileAttributesA"
+    },
+    {
+      "ord": 71,
+      "name": "SetFileAttributesW"
+    },
+    {
+      "ord": 72,
+      "name": "SetFileInformationByHandle"
+    },
+    {
+      "ord": 73,
+      "name": "SetFileIoOverlappedRange"
+    },
+    {
+      "ord": 74,
+      "name": "SetFilePointer"
+    },
+    {
+      "ord": 75,
+      "name": "SetFilePointerEx"
+    },
+    {
+      "ord": 76,
+      "name": "SetFileTime"
+    },
+    {
+      "ord": 77,
+      "name": "SetFileValidData"
+    },
+    {
+      "ord": 78,
+      "name": "UnlockFile"
+    },
+    {
+      "ord": 79,
+      "name": "UnlockFileEx"
+    },
+    {
+      "ord": 80,
+      "name": "WriteFile"
+    },
+    {
+      "ord": 81,
+      "name": "WriteFileEx"
+    },
+    {
+      "ord": 82,
+      "name": "WriteFileGather"
+    }
+  ]
+}

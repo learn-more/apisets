@@ -1,0 +1,94 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "9fbe27cd4eeff3b4c9c433fd56578631",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 21461,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ChangeDisplaySettingsExW"
+    },
+    {
+      "ord": 2,
+      "name": "DisplayConfigGetDeviceInfo"
+    },
+    {
+      "ord": 3,
+      "name": "DisplayConfigSetDeviceInfo"
+    },
+    {
+      "ord": 4,
+      "name": "EnumDisplayDevicesW"
+    },
+    {
+      "ord": 5,
+      "name": "EnumDisplayMonitors"
+    },
+    {
+      "ord": 6,
+      "name": "EnumDisplaySettingsExW"
+    },
+    {
+      "ord": 7,
+      "name": "EnumDisplaySettingsW"
+    },
+    {
+      "ord": 8,
+      "name": "GetDisplayConfigBufferSizes"
+    },
+    {
+      "ord": 9,
+      "name": "GetMonitorInfoW"
+    },
+    {
+      "ord": 10,
+      "name": "GetSysColor"
+    },
+    {
+      "ord": 11,
+      "name": "GetSystemMetrics"
+    },
+    {
+      "ord": 12,
+      "name": "IsProcessDPIAware"
+    },
+    {
+      "ord": 13,
+      "name": "MonitorFromPoint"
+    },
+    {
+      "ord": 14,
+      "name": "MonitorFromRect"
+    },
+    {
+      "ord": 15,
+      "name": "MonitorFromWindow"
+    },
+    {
+      "ord": 16,
+      "name": "QueryDisplayConfig"
+    },
+    {
+      "ord": 17,
+      "name": "SetProcessDPIAware"
+    },
+    {
+      "ord": 18,
+      "name": "SetSysColors"
+    },
+    {
+      "ord": 19,
+      "name": "SystemParametersInfoA"
+    },
+    {
+      "ord": 20,
+      "name": "SystemParametersInfoW"
+    }
+  ]
+}

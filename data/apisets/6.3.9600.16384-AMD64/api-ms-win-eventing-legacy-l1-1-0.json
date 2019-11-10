@@ -1,0 +1,70 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "5c9ca143f675010138d468f9fe44c67e",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 43425,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ControlTraceA"
+    },
+    {
+      "ord": 2,
+      "name": "EnableTrace"
+    },
+    {
+      "ord": 3,
+      "name": "EnableTraceEx"
+    },
+    {
+      "ord": 4,
+      "name": "EnumerateTraceGuids"
+    },
+    {
+      "ord": 5,
+      "name": "FlushTraceA"
+    },
+    {
+      "ord": 6,
+      "name": "FlushTraceW"
+    },
+    {
+      "ord": 7,
+      "name": "OpenTraceA"
+    },
+    {
+      "ord": 8,
+      "name": "QueryAllTracesA"
+    },
+    {
+      "ord": 9,
+      "name": "QueryTraceA"
+    },
+    {
+      "ord": 10,
+      "name": "QueryTraceW"
+    },
+    {
+      "ord": 11,
+      "name": "StartTraceA"
+    },
+    {
+      "ord": 12,
+      "name": "StopTraceA"
+    },
+    {
+      "ord": 13,
+      "name": "UpdateTraceA"
+    },
+    {
+      "ord": 14,
+      "name": "UpdateTraceW"
+    }
+  ]
+}

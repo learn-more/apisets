@@ -1,0 +1,58 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "261df937d148bcb2e6ac7089c0f37fd2",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 3081,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ActivateActCtx"
+    },
+    {
+      "ord": 2,
+      "name": "AddRefActCtx"
+    },
+    {
+      "ord": 3,
+      "name": "CreateActCtxW"
+    },
+    {
+      "ord": 4,
+      "name": "DeactivateActCtx"
+    },
+    {
+      "ord": 5,
+      "name": "FindActCtxSectionGuid"
+    },
+    {
+      "ord": 6,
+      "name": "FindActCtxSectionStringW"
+    },
+    {
+      "ord": 7,
+      "name": "GetCurrentActCtx"
+    },
+    {
+      "ord": 8,
+      "name": "QueryActCtxSettingsW"
+    },
+    {
+      "ord": 9,
+      "name": "QueryActCtxW"
+    },
+    {
+      "ord": 10,
+      "name": "ReleaseActCtx"
+    },
+    {
+      "ord": 11,
+      "name": "ZombifyActCtx"
+    }
+  ]
+}

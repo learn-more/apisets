@@ -1,0 +1,54 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "35fd8df8ba991fb3744dea93ecb98d90",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 43776,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "EventActivityIdControl"
+    },
+    {
+      "ord": 2,
+      "name": "EventEnabled"
+    },
+    {
+      "ord": 3,
+      "name": "EventProviderEnabled"
+    },
+    {
+      "ord": 4,
+      "name": "EventRegister"
+    },
+    {
+      "ord": 5,
+      "name": "EventSetInformation"
+    },
+    {
+      "ord": 6,
+      "name": "EventUnregister"
+    },
+    {
+      "ord": 7,
+      "name": "EventWrite"
+    },
+    {
+      "ord": 8,
+      "name": "EventWriteEx"
+    },
+    {
+      "ord": 9,
+      "name": "EventWriteString"
+    },
+    {
+      "ord": 10,
+      "name": "EventWriteTransfer"
+    }
+  ]
+}

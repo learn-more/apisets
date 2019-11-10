@@ -1,0 +1,66 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "be06c7c5b051b2ad1785adab6f69dc07",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 32845,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "FWClosePolicyStore"
+    },
+    {
+      "ord": 2,
+      "name": "FWFreeFirewallRules"
+    },
+    {
+      "ord": 3,
+      "name": "FWGetConfig"
+    },
+    {
+      "ord": 4,
+      "name": "FWGetGlobalConfig"
+    },
+    {
+      "ord": 5,
+      "name": "FWIndicatePortInUse"
+    },
+    {
+      "ord": 6,
+      "name": "FWIndicateProxyForUrl"
+    },
+    {
+      "ord": 7,
+      "name": "FWIndicateProxyResolverRefresh"
+    },
+    {
+      "ord": 8,
+      "name": "FWIndicateTupleInUse"
+    },
+    {
+      "ord": 9,
+      "name": "FWIsTargetAProxy"
+    },
+    {
+      "ord": 10,
+      "name": "FWOpenPolicyStore"
+    },
+    {
+      "ord": 11,
+      "name": "FWQueryFirewallRules"
+    },
+    {
+      "ord": 12,
+      "name": "FWResetIndicatedTupleInUse"
+    },
+    {
+      "ord": 13,
+      "name": "IsFirewallInCoExistanceMode"
+    }
+  ]
+}

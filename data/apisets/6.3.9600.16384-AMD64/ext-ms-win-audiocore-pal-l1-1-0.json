@@ -1,0 +1,22 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "d872d715f7fdf36628f2c06d506675f2",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 18273,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "IsMuxSelectionSupported"
+    },
+    {
+      "ord": 2,
+      "name": "IsProtectedAudioOffloadSupported"
+    }
+  ]
+}

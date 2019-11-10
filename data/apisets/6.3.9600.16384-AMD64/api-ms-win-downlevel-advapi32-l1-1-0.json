@@ -1,0 +1,594 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "1265ab0b9036723a1b12c9f05897f7d5",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 52291,
+  "Size": 6656,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AccessCheck"
+    },
+    {
+      "ord": 2,
+      "name": "AccessCheckAndAuditAlarmW"
+    },
+    {
+      "ord": 3,
+      "name": "AccessCheckByType"
+    },
+    {
+      "ord": 4,
+      "name": "AccessCheckByTypeAndAuditAlarmW"
+    },
+    {
+      "ord": 5,
+      "name": "AccessCheckByTypeResultList"
+    },
+    {
+      "ord": 6,
+      "name": "AccessCheckByTypeResultListAndAuditAlarmByHandleW"
+    },
+    {
+      "ord": 7,
+      "name": "AccessCheckByTypeResultListAndAuditAlarmW"
+    },
+    {
+      "ord": 8,
+      "name": "AddAccessAllowedAce"
+    },
+    {
+      "ord": 9,
+      "name": "AddAccessAllowedAceEx"
+    },
+    {
+      "ord": 10,
+      "name": "AddAccessAllowedObjectAce"
+    },
+    {
+      "ord": 11,
+      "name": "AddAccessDeniedAce"
+    },
+    {
+      "ord": 12,
+      "name": "AddAccessDeniedAceEx"
+    },
+    {
+      "ord": 13,
+      "name": "AddAccessDeniedObjectAce"
+    },
+    {
+      "ord": 14,
+      "name": "AddAce"
+    },
+    {
+      "ord": 15,
+      "name": "AddAuditAccessAce"
+    },
+    {
+      "ord": 16,
+      "name": "AddAuditAccessAceEx"
+    },
+    {
+      "ord": 17,
+      "name": "AddAuditAccessObjectAce"
+    },
+    {
+      "ord": 18,
+      "name": "AddMandatoryAce"
+    },
+    {
+      "ord": 19,
+      "name": "AdjustTokenGroups"
+    },
+    {
+      "ord": 20,
+      "name": "AdjustTokenPrivileges"
+    },
+    {
+      "ord": 21,
+      "name": "AllocateAndInitializeSid"
+    },
+    {
+      "ord": 22,
+      "name": "AllocateLocallyUniqueId"
+    },
+    {
+      "ord": 23,
+      "name": "AreAllAccessesGranted"
+    },
+    {
+      "ord": 24,
+      "name": "AreAnyAccessesGranted"
+    },
+    {
+      "ord": 25,
+      "name": "CheckTokenMembership"
+    },
+    {
+      "ord": 26,
+      "name": "ConvertToAutoInheritPrivateObjectSecurity"
+    },
+    {
+      "ord": 27,
+      "name": "CopySid"
+    },
+    {
+      "ord": 28,
+      "name": "CreatePrivateObjectSecurity"
+    },
+    {
+      "ord": 29,
+      "name": "CreatePrivateObjectSecurityEx"
+    },
+    {
+      "ord": 30,
+      "name": "CreatePrivateObjectSecurityWithMultipleInheritance"
+    },
+    {
+      "ord": 31,
+      "name": "CreateProcessAsUserW"
+    },
+    {
+      "ord": 32,
+      "name": "CreateRestrictedToken"
+    },
+    {
+      "ord": 33,
+      "name": "CreateWellKnownSid"
+    },
+    {
+      "ord": 34,
+      "name": "DeleteAce"
+    },
+    {
+      "ord": 35,
+      "name": "DestroyPrivateObjectSecurity"
+    },
+    {
+      "ord": 36,
+      "name": "DuplicateToken"
+    },
+    {
+      "ord": 37,
+      "name": "DuplicateTokenEx"
+    },
+    {
+      "ord": 38,
+      "name": "EqualDomainSid"
+    },
+    {
+      "ord": 39,
+      "name": "EqualPrefixSid"
+    },
+    {
+      "ord": 40,
+      "name": "EqualSid"
+    },
+    {
+      "ord": 41,
+      "name": "EventActivityIdControl"
+    },
+    {
+      "ord": 42,
+      "name": "EventEnabled"
+    },
+    {
+      "ord": 43,
+      "name": "EventProviderEnabled"
+    },
+    {
+      "ord": 44,
+      "name": "EventRegister"
+    },
+    {
+      "ord": 45,
+      "name": "EventUnregister"
+    },
+    {
+      "ord": 46,
+      "name": "EventWrite"
+    },
+    {
+      "ord": 47,
+      "name": "EventWriteString"
+    },
+    {
+      "ord": 48,
+      "name": "EventWriteTransfer"
+    },
+    {
+      "ord": 49,
+      "name": "FindFirstFreeAce"
+    },
+    {
+      "ord": 50,
+      "name": "FreeSid"
+    },
+    {
+      "ord": 51,
+      "name": "GetAce"
+    },
+    {
+      "ord": 52,
+      "name": "GetAclInformation"
+    },
+    {
+      "ord": 53,
+      "name": "GetFileSecurityW"
+    },
+    {
+      "ord": 54,
+      "name": "GetKernelObjectSecurity"
+    },
+    {
+      "ord": 55,
+      "name": "GetLengthSid"
+    },
+    {
+      "ord": 56,
+      "name": "GetPrivateObjectSecurity"
+    },
+    {
+      "ord": 57,
+      "name": "GetSecurityDescriptorControl"
+    },
+    {
+      "ord": 58,
+      "name": "GetSecurityDescriptorDacl"
+    },
+    {
+      "ord": 59,
+      "name": "GetSecurityDescriptorGroup"
+    },
+    {
+      "ord": 60,
+      "name": "GetSecurityDescriptorLength"
+    },
+    {
+      "ord": 61,
+      "name": "GetSecurityDescriptorOwner"
+    },
+    {
+      "ord": 62,
+      "name": "GetSecurityDescriptorRMControl"
+    },
+    {
+      "ord": 63,
+      "name": "GetSecurityDescriptorSacl"
+    },
+    {
+      "ord": 64,
+      "name": "GetSidIdentifierAuthority"
+    },
+    {
+      "ord": 65,
+      "name": "GetSidLengthRequired"
+    },
+    {
+      "ord": 66,
+      "name": "GetSidSubAuthority"
+    },
+    {
+      "ord": 67,
+      "name": "GetSidSubAuthorityCount"
+    },
+    {
+      "ord": 68,
+      "name": "GetTokenInformation"
+    },
+    {
+      "ord": 69,
+      "name": "GetTraceEnableFlags"
+    },
+    {
+      "ord": 70,
+      "name": "GetTraceEnableLevel"
+    },
+    {
+      "ord": 71,
+      "name": "GetTraceLoggerHandle"
+    },
+    {
+      "ord": 72,
+      "name": "InitializeAcl"
+    },
+    {
+      "ord": 73,
+      "name": "InitializeSecurityDescriptor"
+    },
+    {
+      "ord": 74,
+      "name": "InitializeSid"
+    },
+    {
+      "ord": 75,
+      "name": "IsTokenRestricted"
+    },
+    {
+      "ord": 76,
+      "name": "IsValidAcl"
+    },
+    {
+      "ord": 77,
+      "name": "IsValidSecurityDescriptor"
+    },
+    {
+      "ord": 78,
+      "name": "IsValidSid"
+    },
+    {
+      "ord": 79,
+      "name": "MakeAbsoluteSD"
+    },
+    {
+      "ord": 80,
+      "name": "MakeSelfRelativeSD"
+    },
+    {
+      "ord": 81,
+      "name": "OpenProcessToken"
+    },
+    {
+      "ord": 82,
+      "name": "OpenThreadToken"
+    },
+    {
+      "ord": 83,
+      "name": "PrivilegeCheck"
+    },
+    {
+      "ord": 84,
+      "name": "PrivilegedServiceAuditAlarmW"
+    },
+    {
+      "ord": 85,
+      "name": "QuerySecurityAccessMask"
+    },
+    {
+      "ord": 86,
+      "name": "RegCloseKey"
+    },
+    {
+      "ord": 87,
+      "name": "RegCopyTreeW"
+    },
+    {
+      "ord": 88,
+      "name": "RegCreateKeyExA"
+    },
+    {
+      "ord": 89,
+      "name": "RegCreateKeyExW"
+    },
+    {
+      "ord": 90,
+      "name": "RegDeleteKeyExA"
+    },
+    {
+      "ord": 91,
+      "name": "RegDeleteKeyExW"
+    },
+    {
+      "ord": 92,
+      "name": "RegDeleteTreeA"
+    },
+    {
+      "ord": 93,
+      "name": "RegDeleteTreeW"
+    },
+    {
+      "ord": 94,
+      "name": "RegDeleteValueA"
+    },
+    {
+      "ord": 95,
+      "name": "RegDeleteValueW"
+    },
+    {
+      "ord": 96,
+      "name": "RegDisablePredefinedCacheEx"
+    },
+    {
+      "ord": 97,
+      "name": "RegEnumKeyExA"
+    },
+    {
+      "ord": 98,
+      "name": "RegEnumKeyExW"
+    },
+    {
+      "ord": 99,
+      "name": "RegEnumValueA"
+    },
+    {
+      "ord": 100,
+      "name": "RegEnumValueW"
+    },
+    {
+      "ord": 101,
+      "name": "RegFlushKey"
+    },
+    {
+      "ord": 102,
+      "name": "RegGetKeySecurity"
+    },
+    {
+      "ord": 103,
+      "name": "RegGetValueA"
+    },
+    {
+      "ord": 104,
+      "name": "RegGetValueW"
+    },
+    {
+      "ord": 105,
+      "name": "RegLoadAppKeyA"
+    },
+    {
+      "ord": 106,
+      "name": "RegLoadAppKeyW"
+    },
+    {
+      "ord": 107,
+      "name": "RegLoadKeyA"
+    },
+    {
+      "ord": 108,
+      "name": "RegLoadKeyW"
+    },
+    {
+      "ord": 109,
+      "name": "RegLoadMUIStringA"
+    },
+    {
+      "ord": 110,
+      "name": "RegLoadMUIStringW"
+    },
+    {
+      "ord": 111,
+      "name": "RegNotifyChangeKeyValue"
+    },
+    {
+      "ord": 112,
+      "name": "RegOpenCurrentUser"
+    },
+    {
+      "ord": 113,
+      "name": "RegOpenKeyExA"
+    },
+    {
+      "ord": 114,
+      "name": "RegOpenKeyExW"
+    },
+    {
+      "ord": 115,
+      "name": "RegOpenUserClassesRoot"
+    },
+    {
+      "ord": 116,
+      "name": "RegQueryInfoKeyA"
+    },
+    {
+      "ord": 117,
+      "name": "RegQueryInfoKeyW"
+    },
+    {
+      "ord": 118,
+      "name": "RegQueryValueExA"
+    },
+    {
+      "ord": 119,
+      "name": "RegQueryValueExW"
+    },
+    {
+      "ord": 120,
+      "name": "RegRestoreKeyA"
+    },
+    {
+      "ord": 121,
+      "name": "RegRestoreKeyW"
+    },
+    {
+      "ord": 122,
+      "name": "RegSaveKeyExA"
+    },
+    {
+      "ord": 123,
+      "name": "RegSaveKeyExW"
+    },
+    {
+      "ord": 124,
+      "name": "RegSetKeySecurity"
+    },
+    {
+      "ord": 125,
+      "name": "RegSetValueExA"
+    },
+    {
+      "ord": 126,
+      "name": "RegSetValueExW"
+    },
+    {
+      "ord": 127,
+      "name": "RegUnLoadKeyA"
+    },
+    {
+      "ord": 128,
+      "name": "RegUnLoadKeyW"
+    },
+    {
+      "ord": 129,
+      "name": "RegisterTraceGuidsW"
+    },
+    {
+      "ord": 130,
+      "name": "RevertToSelf"
+    },
+    {
+      "ord": 131,
+      "name": "SetAclInformation"
+    },
+    {
+      "ord": 132,
+      "name": "SetFileSecurityW"
+    },
+    {
+      "ord": 133,
+      "name": "SetKernelObjectSecurity"
+    },
+    {
+      "ord": 134,
+      "name": "SetSecurityAccessMask"
+    },
+    {
+      "ord": 135,
+      "name": "SetSecurityDescriptorControl"
+    },
+    {
+      "ord": 136,
+      "name": "SetSecurityDescriptorDacl"
+    },
+    {
+      "ord": 137,
+      "name": "SetSecurityDescriptorGroup"
+    },
+    {
+      "ord": 138,
+      "name": "SetSecurityDescriptorOwner"
+    },
+    {
+      "ord": 139,
+      "name": "SetSecurityDescriptorRMControl"
+    },
+    {
+      "ord": 140,
+      "name": "SetSecurityDescriptorSacl"
+    },
+    {
+      "ord": 141,
+      "name": "SetTokenInformation"
+    },
+    {
+      "ord": 142,
+      "name": "TraceEvent"
+    },
+    {
+      "ord": 143,
+      "name": "TraceMessage"
+    },
+    {
+      "ord": 144,
+      "name": "TraceMessageVa"
+    },
+    {
+      "ord": 145,
+      "name": "UnregisterTraceGuids"
+    }
+  ]
+}

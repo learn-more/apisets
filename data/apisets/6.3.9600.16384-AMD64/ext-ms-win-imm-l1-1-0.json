@@ -1,0 +1,94 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "533f08314e9ee23ececdb49df38f115d",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 56334,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ImmAssociateContext"
+    },
+    {
+      "ord": 2,
+      "name": "ImmEscapeW"
+    },
+    {
+      "ord": 3,
+      "name": "ImmGetCandidateWindow"
+    },
+    {
+      "ord": 4,
+      "name": "ImmGetCompositionStringA"
+    },
+    {
+      "ord": 5,
+      "name": "ImmGetCompositionStringW"
+    },
+    {
+      "ord": 6,
+      "name": "ImmGetContext"
+    },
+    {
+      "ord": 7,
+      "name": "ImmGetConversionStatus"
+    },
+    {
+      "ord": 8,
+      "name": "ImmGetDefaultIMEWnd"
+    },
+    {
+      "ord": 9,
+      "name": "ImmGetOpenStatus"
+    },
+    {
+      "ord": 10,
+      "name": "ImmGetProperty"
+    },
+    {
+      "ord": 11,
+      "name": "ImmGetVirtualKey"
+    },
+    {
+      "ord": 12,
+      "name": "ImmIsIME"
+    },
+    {
+      "ord": 13,
+      "name": "ImmNotifyIME"
+    },
+    {
+      "ord": 14,
+      "name": "ImmReleaseContext"
+    },
+    {
+      "ord": 15,
+      "name": "ImmSetCandidateWindow"
+    },
+    {
+      "ord": 16,
+      "name": "ImmSetCompositionFontA"
+    },
+    {
+      "ord": 17,
+      "name": "ImmSetCompositionStringW"
+    },
+    {
+      "ord": 18,
+      "name": "ImmSetCompositionWindow"
+    },
+    {
+      "ord": 19,
+      "name": "ImmSetConversionStatus"
+    },
+    {
+      "ord": 20,
+      "name": "ImmSetOpenStatus"
+    }
+  ]
+}

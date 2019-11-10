@@ -1,0 +1,42 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "00405b720ffd7b9d72def912e110690f",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 15789,
+  "Size": 2560,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CloseServiceHandle"
+    },
+    {
+      "ord": 2,
+      "name": "ControlServiceExW"
+    },
+    {
+      "ord": 3,
+      "name": "CreateServiceW"
+    },
+    {
+      "ord": 4,
+      "name": "DeleteService"
+    },
+    {
+      "ord": 5,
+      "name": "OpenSCManagerW"
+    },
+    {
+      "ord": 6,
+      "name": "OpenServiceW"
+    },
+    {
+      "ord": 7,
+      "name": "StartServiceW"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "d01d5d8fea0b7af20ee84fac222f7cda",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 36592,
+  "Size": 4096,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "CreateAppContainerProfileWorker"
+    },
+    {
+      "ord": 2,
+      "name": "CreateDirectoryJunctionsForSystemWorker"
+    },
+    {
+      "ord": 3,
+      "name": "CreateDirectoryJunctionsForUserProfileWorker"
+    },
+    {
+      "ord": 4,
+      "name": "CreateGroupExWorker"
+    },
+    {
+      "ord": 5,
+      "name": "CreateLinkFileExWorker"
+    },
+    {
+      "ord": 6,
+      "name": "DeleteAppContainerProfileWorker"
+    },
+    {
+      "ord": 7,
+      "name": "DeleteGroupWorker"
+    },
+    {
+      "ord": 8,
+      "name": "DeleteLinkFileWorker"
+    },
+    {
+      "ord": 9,
+      "name": "DeriveAppContainerSidFromAppContainerNameWorker"
+    },
+    {
+      "ord": 10,
+      "name": "DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedNameWorker"
+    },
+    {
+      "ord": 11,
+      "name": "GetAppContainerFolderPathWorker"
+    },
+    {
+      "ord": 12,
+      "name": "GetAppContainerRegistryLocationWorker"
+    },
+    {
+      "ord": 13,
+      "name": "LookupAppContainerDisplayNameWorker"
+    },
+    {
+      "ord": 14,
+      "name": "ProcessGroupPolicyCompletedExWorker"
+    },
+    {
+      "ord": 15,
+      "name": "ProcessGroupPolicyCompletedWorker"
+    },
+    {
+      "ord": 16,
+      "name": "RsopAccessCheckByTypeWorker"
+    },
+    {
+      "ord": 17,
+      "name": "RsopFileAccessCheckWorker"
+    },
+    {
+      "ord": 18,
+      "name": "RsopResetPolicySettingStatusWorker"
+    },
+    {
+      "ord": 19,
+      "name": "RsopSetPolicySettingStatusWorker"
+    },
+    {
+      "ord": 20,
+      "name": "UpdateAppContainerProfileWorker"
+    }
+  ]
+}

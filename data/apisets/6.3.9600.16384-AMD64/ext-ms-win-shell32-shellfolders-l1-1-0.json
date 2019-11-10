@@ -1,0 +1,70 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "30a73a75576202ae9675f07f4f606426",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 19334,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "PathCleanupSpecWorker"
+    },
+    {
+      "ord": 2,
+      "name": "PathIsExeWorker"
+    },
+    {
+      "ord": 3,
+      "name": "SHCreateDirectoryExWWorker"
+    },
+    {
+      "ord": 4,
+      "name": "SHGetDesktopFolderWorker"
+    },
+    {
+      "ord": 5,
+      "name": "SHGetFileInfoWWorker"
+    },
+    {
+      "ord": 6,
+      "name": "SHGetFolderLocationWorker"
+    },
+    {
+      "ord": 7,
+      "name": "SHGetFolderPathAWorker"
+    },
+    {
+      "ord": 8,
+      "name": "SHGetFolderPathAndSubDirWWorker"
+    },
+    {
+      "ord": 9,
+      "name": "SHGetFolderPathWWorker"
+    },
+    {
+      "ord": 10,
+      "name": "SHGetInstanceExplorerWorker"
+    },
+    {
+      "ord": 11,
+      "name": "SHGetKnownFolderPathWorker"
+    },
+    {
+      "ord": 12,
+      "name": "SHGetSpecialFolderPathAWorker"
+    },
+    {
+      "ord": 13,
+      "name": "SHGetSpecialFolderPathWWorker"
+    },
+    {
+      "ord": 14,
+      "name": "SHSetKnownFolderPathWorker"
+    }
+  ]
+}

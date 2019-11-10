@@ -1,0 +1,58 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "2ed8ec3dfd7d0ea499a51c439d1b56a3",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 42705,
+  "Size": 3072,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "GetCPFileNameFromRegistry"
+    },
+    {
+      "ord": 2,
+      "name": "LoadStringByReference"
+    },
+    {
+      "ord": 3,
+      "name": "NlsCheckPolicy"
+    },
+    {
+      "ord": 4,
+      "name": "NlsEventDataDescCreate"
+    },
+    {
+      "ord": 5,
+      "name": "NlsGetCacheUpdateCount"
+    },
+    {
+      "ord": 6,
+      "name": "NlsUpdateLocale"
+    },
+    {
+      "ord": 7,
+      "name": "NlsUpdateSystemLocale"
+    },
+    {
+      "ord": 8,
+      "name": "NlsWriteEtwEvent"
+    },
+    {
+      "ord": 9,
+      "name": "_AddMUIStringToCache"
+    },
+    {
+      "ord": 10,
+      "name": "_GetMUIStringFromCache"
+    },
+    {
+      "ord": 11,
+      "name": "_OpenMuiStringCache"
+    }
+  ]
+}

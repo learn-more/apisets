@@ -1,0 +1,86 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "9a24adc8cf1a7156c0aec4b40c123985",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 35469,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "BiActivateWorkItem"
+    },
+    {
+      "ord": 2,
+      "name": "BiAssociateActivationProxy"
+    },
+    {
+      "ord": 3,
+      "name": "BiAssociateApplicationExtensionClass"
+    },
+    {
+      "ord": 4,
+      "name": "BiCreateEventForPackageName"
+    },
+    {
+      "ord": 5,
+      "name": "BiDeleteEvent"
+    },
+    {
+      "ord": 6,
+      "name": "BiDisassociateWorkItem"
+    },
+    {
+      "ord": 7,
+      "name": "BiDiscardPendingActivations"
+    },
+    {
+      "ord": 8,
+      "name": "BiEnumerateBrokeredEvents"
+    },
+    {
+      "ord": 9,
+      "name": "BiEnumerateUserSessions"
+    },
+    {
+      "ord": 10,
+      "name": "BiEnumerateWorkItemsForPackageName"
+    },
+    {
+      "ord": 11,
+      "name": "BiFreeMemory"
+    },
+    {
+      "ord": 12,
+      "name": "BiQueryBrokeredEvent"
+    },
+    {
+      "ord": 13,
+      "name": "BiQuerySystemStateBroadcastChannels"
+    },
+    {
+      "ord": 14,
+      "name": "BiQueryUserSession"
+    },
+    {
+      "ord": 15,
+      "name": "BiQueryWorkItem"
+    },
+    {
+      "ord": 16,
+      "name": "BiSignalEvent"
+    },
+    {
+      "ord": 17,
+      "name": "BiSignalMultipleEvents"
+    },
+    {
+      "ord": 18,
+      "name": "BiUpdateEventFlags"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "177c3c358edb9beaf5eae3238d4635e9",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 66474,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "DrawTextW"
+    },
+    {
+      "ord": 2,
+      "name": "ExitWindowsEx"
+    },
+    {
+      "ord": 3,
+      "name": "GetClipboardFormatNameW"
+    },
+    {
+      "ord": 4,
+      "name": "GetGuiResources"
+    },
+    {
+      "ord": 5,
+      "name": "GetUserObjectSecurity"
+    },
+    {
+      "ord": 6,
+      "name": "KillTimer"
+    },
+    {
+      "ord": 7,
+      "name": "MessageBeep"
+    },
+    {
+      "ord": 8,
+      "name": "MonitorFromPoint"
+    },
+    {
+      "ord": 9,
+      "name": "MonitorFromRect"
+    },
+    {
+      "ord": 10,
+      "name": "RegisterClipboardFormatW"
+    },
+    {
+      "ord": 11,
+      "name": "RegisterDeviceNotificationW"
+    },
+    {
+      "ord": 12,
+      "name": "SetCoalescableTimer"
+    },
+    {
+      "ord": 13,
+      "name": "SetTimer"
+    },
+    {
+      "ord": 14,
+      "name": "SetUserObjectSecurity"
+    },
+    {
+      "ord": 15,
+      "name": "ShutdownBlockReasonCreate"
+    },
+    {
+      "ord": 16,
+      "name": "ShutdownBlockReasonDestroy"
+    },
+    {
+      "ord": 17,
+      "name": "TabbedTextOutW"
+    },
+    {
+      "ord": 18,
+      "name": "UnregisterDeviceNotification"
+    },
+    {
+      "ord": 19,
+      "name": "WaitForInputIdle"
+    },
+    {
+      "ord": 20,
+      "name": "WinHelpW"
+    }
+  ]
+}

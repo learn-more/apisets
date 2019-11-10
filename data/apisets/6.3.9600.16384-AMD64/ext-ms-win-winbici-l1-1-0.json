@@ -1,0 +1,186 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "191e415fda7ee9b70f4bb496ba64aabe",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 9313,
+  "Size": 4608,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AddDwordToDatapointValueList"
+    },
+    {
+      "ord": 2,
+      "name": "AddStringToDatapointValueList"
+    },
+    {
+      "ord": 3,
+      "name": "AddToStream"
+    },
+    {
+      "ord": 4,
+      "name": "ContinueExperience"
+    },
+    {
+      "ord": 5,
+      "name": "CreateBase64StringFromTransactionContext"
+    },
+    {
+      "ord": 6,
+      "name": "CreateDatapointValueList"
+    },
+    {
+      "ord": 7,
+      "name": "CreateTransactionContext"
+    },
+    {
+      "ord": 8,
+      "name": "CreateTransactionContextFromBase64String"
+    },
+    {
+      "ord": 9,
+      "name": "DestroyDatapointValueList"
+    },
+    {
+      "ord": 10,
+      "name": "DestroyTransactionContext"
+    },
+    {
+      "ord": 11,
+      "name": "DestroyTransactionId"
+    },
+    {
+      "ord": 12,
+      "name": "EndExperience"
+    },
+    {
+      "ord": 13,
+      "name": "GetApplicationId"
+    },
+    {
+      "ord": 14,
+      "name": "GetExperienceId"
+    },
+    {
+      "ord": 15,
+      "name": "GetIsMsftInternal"
+    },
+    {
+      "ord": 16,
+      "name": "GetNextTransactionContext"
+    },
+    {
+      "ord": 17,
+      "name": "GetTransactionContextExperienceId"
+    },
+    {
+      "ord": 18,
+      "name": "GetTransactionContextMarket"
+    },
+    {
+      "ord": 19,
+      "name": "GetTransactionContextScenarioId"
+    },
+    {
+      "ord": 20,
+      "name": "GetTransactionContextTransactionId"
+    },
+    {
+      "ord": 21,
+      "name": "Increment"
+    },
+    {
+      "ord": 22,
+      "name": "MakeSnapshotAndAttemptUpload"
+    },
+    {
+      "ord": 23,
+      "name": "PauseExperience"
+    },
+    {
+      "ord": 24,
+      "name": "RecordDependentApiQos"
+    },
+    {
+      "ord": 25,
+      "name": "RecordIncomingApiQos"
+    },
+    {
+      "ord": 26,
+      "name": "RecordInternalApiQos"
+    },
+    {
+      "ord": 27,
+      "name": "RecordScenarioQos"
+    },
+    {
+      "ord": 28,
+      "name": "RegisterNoOptDatapoint"
+    },
+    {
+      "ord": 29,
+      "name": "Set"
+    },
+    {
+      "ord": 30,
+      "name": "SetApplicationEnvironment"
+    },
+    {
+      "ord": 31,
+      "name": "SetDataExpiration"
+    },
+    {
+      "ord": 32,
+      "name": "SetDataPath"
+    },
+    {
+      "ord": 33,
+      "name": "SetDefaultSnapshotInterval"
+    },
+    {
+      "ord": 34,
+      "name": "SetDependentQosSnapshotInterval"
+    },
+    {
+      "ord": 35,
+      "name": "SetRetryInterval"
+    },
+    {
+      "ord": 36,
+      "name": "SetString"
+    },
+    {
+      "ord": 37,
+      "name": "SetUploadsEnabled"
+    },
+    {
+      "ord": 38,
+      "name": "SetUserAnid"
+    },
+    {
+      "ord": 39,
+      "name": "SetUserBetaState"
+    },
+    {
+      "ord": 40,
+      "name": "SetUserCid"
+    },
+    {
+      "ord": 41,
+      "name": "SetUserId"
+    },
+    {
+      "ord": 42,
+      "name": "StartExperience"
+    },
+    {
+      "ord": 43,
+      "name": "UploadPendingFiles"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "Version": "6.1.7601.23455-I386",
+  "md5": "818e4a68608fed7ce4d50b35409a8655",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.1.7601.23455 (win7sp1_ldr.160516-0600)",
+  "ProductVersion": "6.1.7601.23455",
+  "PeChecksum": 53368,
+  "Size": 4096,
+  "Machine": "I386",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "ConvertDefaultLocale"
+    },
+    {
+      "ord": 2,
+      "name": "FindNLSString"
+    },
+    {
+      "ord": 3,
+      "name": "FindNLSStringEx"
+    },
+    {
+      "ord": 4,
+      "name": "GetACP"
+    },
+    {
+      "ord": 5,
+      "name": "GetCPFileNameFromRegistry"
+    },
+    {
+      "ord": 6,
+      "name": "GetCPInfo"
+    },
+    {
+      "ord": 7,
+      "name": "GetCPInfoExW"
+    },
+    {
+      "ord": 8,
+      "name": "GetCalendarInfoEx"
+    },
+    {
+      "ord": 9,
+      "name": "GetCalendarInfoW"
+    },
+    {
+      "ord": 10,
+      "name": "GetFileMUIInfo"
+    },
+    {
+      "ord": 11,
+      "name": "GetFileMUIPath"
+    },
+    {
+      "ord": 12,
+      "name": "GetLocaleInfoEx"
+    },
+    {
+      "ord": 13,
+      "name": "GetLocaleInfoW"
+    },
+    {
+      "ord": 14,
+      "name": "GetNLSVersion"
+    },
+    {
+      "ord": 15,
+      "name": "GetNLSVersionEx"
+    },
+    {
+      "ord": 16,
+      "name": "GetOEMCP"
+    },
+    {
+      "ord": 17,
+      "name": "GetProcessPreferredUILanguages"
+    },
+    {
+      "ord": 18,
+      "name": "GetSystemDefaultLCID"
+    },
+    {
+      "ord": 19,
+      "name": "GetSystemDefaultLangID"
+    },
+    {
+      "ord": 20,
+      "name": "GetSystemPreferredUILanguages"
+    },
+    {
+      "ord": 21,
+      "name": "GetThreadLocale"
+    },
+    {
+      "ord": 22,
+      "name": "GetThreadPreferredUILanguages"
+    },
+    {
+      "ord": 23,
+      "name": "GetThreadUILanguage"
+    },
+    {
+      "ord": 24,
+      "name": "GetUILanguageInfo"
+    },
+    {
+      "ord": 25,
+      "name": "GetUserDefaultLCID"
+    },
+    {
+      "ord": 26,
+      "name": "GetUserDefaultLangID"
+    },
+    {
+      "ord": 27,
+      "name": "GetUserPreferredUILanguages"
+    },
+    {
+      "ord": 28,
+      "name": "IsNLSDefinedString"
+    },
+    {
+      "ord": 29,
+      "name": "IsValidCodePage"
+    },
+    {
+      "ord": 30,
+      "name": "IsValidLanguageGroup"
+    },
+    {
+      "ord": 31,
+      "name": "IsValidLocale"
+    },
+    {
+      "ord": 32,
+      "name": "IsValidLocaleName"
+    },
+    {
+      "ord": 33,
+      "name": "LCMapStringEx"
+    },
+    {
+      "ord": 34,
+      "name": "LCMapStringW"
+    },
+    {
+      "ord": 35,
+      "name": "LocaleNameToLCID"
+    },
+    {
+      "ord": 36,
+      "name": "NlsCheckPolicy"
+    },
+    {
+      "ord": 37,
+      "name": "NlsEventDataDescCreate"
+    },
+    {
+      "ord": 38,
+      "name": "NlsGetCacheUpdateCount"
+    },
+    {
+      "ord": 39,
+      "name": "NlsUpdateLocale"
+    },
+    {
+      "ord": 40,
+      "name": "NlsUpdateSystemLocale"
+    },
+    {
+      "ord": 41,
+      "name": "NlsWriteEtwEvent"
+    },
+    {
+      "ord": 42,
+      "name": "ResolveLocaleName"
+    },
+    {
+      "ord": 43,
+      "name": "SetCalendarInfoW"
+    },
+    {
+      "ord": 44,
+      "name": "SetLocaleInfoW"
+    },
+    {
+      "ord": 45,
+      "name": "SetThreadLocale"
+    },
+    {
+      "ord": 46,
+      "name": "VerLanguageNameA"
+    },
+    {
+      "ord": 47,
+      "name": "VerLanguageNameW"
+    }
+  ]
+}

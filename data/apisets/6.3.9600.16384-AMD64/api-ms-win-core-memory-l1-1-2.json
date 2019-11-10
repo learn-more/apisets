@@ -1,0 +1,174 @@
+{
+  "Version": "6.3.9600.16384-AMD64",
+  "md5": "0ab60035fced5b9821d5ed7c79a2775e",
+  "InternalName": "apisetstub",
+  "CompanyName": "Microsoft Corporation",
+  "FileDescription": "ApiSet Stub DLL",
+  "FileVersion": "6.3.9600.16384 (winblue_rtm.130821-1623)",
+  "ProductVersion": "6.3.9600.16384",
+  "PeChecksum": 34192,
+  "Size": 3584,
+  "Machine": "AMD64",
+  "exports": [
+    {
+      "ord": 1,
+      "name": "AllocateUserPhysicalPages"
+    },
+    {
+      "ord": 2,
+      "name": "AllocateUserPhysicalPagesNuma"
+    },
+    {
+      "ord": 3,
+      "name": "CreateFileMappingFromApp"
+    },
+    {
+      "ord": 4,
+      "name": "CreateFileMappingNumaW"
+    },
+    {
+      "ord": 5,
+      "name": "CreateFileMappingW"
+    },
+    {
+      "ord": 6,
+      "name": "CreateMemoryResourceNotification"
+    },
+    {
+      "ord": 7,
+      "name": "FlushViewOfFile"
+    },
+    {
+      "ord": 8,
+      "name": "FreeUserPhysicalPages"
+    },
+    {
+      "ord": 9,
+      "name": "GetLargePageMinimum"
+    },
+    {
+      "ord": 10,
+      "name": "GetMemoryErrorHandlingCapabilities"
+    },
+    {
+      "ord": 11,
+      "name": "GetProcessWorkingSetSizeEx"
+    },
+    {
+      "ord": 12,
+      "name": "GetSystemFileCacheSize"
+    },
+    {
+      "ord": 13,
+      "name": "GetWriteWatch"
+    },
+    {
+      "ord": 14,
+      "name": "MapUserPhysicalPages"
+    },
+    {
+      "ord": 15,
+      "name": "MapViewOfFile"
+    },
+    {
+      "ord": 16,
+      "name": "MapViewOfFileEx"
+    },
+    {
+      "ord": 17,
+      "name": "MapViewOfFileFromApp"
+    },
+    {
+      "ord": 18,
+      "name": "OpenFileMappingW"
+    },
+    {
+      "ord": 19,
+      "name": "PrefetchVirtualMemory"
+    },
+    {
+      "ord": 20,
+      "name": "QueryMemoryResourceNotification"
+    },
+    {
+      "ord": 21,
+      "name": "ReadProcessMemory"
+    },
+    {
+      "ord": 22,
+      "name": "RegisterBadMemoryNotification"
+    },
+    {
+      "ord": 23,
+      "name": "ResetWriteWatch"
+    },
+    {
+      "ord": 24,
+      "name": "SetProcessWorkingSetSizeEx"
+    },
+    {
+      "ord": 25,
+      "name": "SetSystemFileCacheSize"
+    },
+    {
+      "ord": 26,
+      "name": "UnmapViewOfFile"
+    },
+    {
+      "ord": 27,
+      "name": "UnmapViewOfFileEx"
+    },
+    {
+      "ord": 28,
+      "name": "UnregisterBadMemoryNotification"
+    },
+    {
+      "ord": 29,
+      "name": "VirtualAlloc"
+    },
+    {
+      "ord": 30,
+      "name": "VirtualAllocEx"
+    },
+    {
+      "ord": 31,
+      "name": "VirtualAllocExNuma"
+    },
+    {
+      "ord": 32,
+      "name": "VirtualFree"
+    },
+    {
+      "ord": 33,
+      "name": "VirtualFreeEx"
+    },
+    {
+      "ord": 34,
+      "name": "VirtualLock"
+    },
+    {
+      "ord": 35,
+      "name": "VirtualProtect"
+    },
+    {
+      "ord": 36,
+      "name": "VirtualProtectEx"
+    },
+    {
+      "ord": 37,
+      "name": "VirtualQuery"
+    },
+    {
+      "ord": 38,
+      "name": "VirtualQueryEx"
+    },
+    {
+      "ord": 39,
+      "name": "VirtualUnlock"
+    },
+    {
+      "ord": 40,
+      "name": "WriteProcessMemory"
+    }
+  ]
+}
