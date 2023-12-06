@@ -1,5 +1,6 @@
 
 {{ with (index $.Site.Data.apisetschema ($.Page.Slug)) }}
+{{ $winver := upper $.Page.Slug }}
 <br />
 Generated from apisetschema.dll
 <table class="noborder">
@@ -16,7 +17,12 @@ Generated from apisetschema.dll
     <tr><th>Apiset</th><th>Host</th><th>Special forwarder</th></tr>
 {{ range .namespaces }}
     <tr>
+        {{ $apisetname:= lower (path.BaseName .name) }}
+        {{ if (index (index $.Site.Data.apisets $winver) $apisetname) }}
+        <td><a href="/apisets/{{ lower $.Page.Slug }}/{{ $apisetname }}">{{ .name }}</a></td>
+        {{ else }}
         <td>{{ .name }}</td>
+        {{ end }}
         <td>{{ .host }}</td>
         <td>
             {{ if .alt_name }}
