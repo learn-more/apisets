@@ -7,14 +7,12 @@ theme = "kraiklyn-multipage"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
 [params]
   sidebarColor = "default"
   externalTitle = "links"
   customCss = ["css/kraiklyn-override.css"]
-
-#[outputs]
-    #, "SEARCH"
-  #home = ["HTML", "RSS"]
 
 [[menu.shortcuts]]
   name = "apisets on Github"
