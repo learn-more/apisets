@@ -1,0 +1,10 @@
+
+@media (min-width: 48em) {
+  .sidebar {
+    width: 16rem;
+  }
+}
+
+th.border-bottom {
+  border-bottom: 1px solid black !important;
+}
