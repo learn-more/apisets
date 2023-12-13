@@ -58,9 +58,6 @@
         columnDefs: [
             { targets: [0], searchable: true},
             {
-                // The `data` parameter refers to the data for the cell (defined by the
-                // `data` option, which defaults to the column being worked with, in
-                // this case `data: 0`.
                 render: function (data, type, row) {
                     if (data === 'yes') {
                         return '&check;';
@@ -80,7 +77,6 @@
             .every(function () {
                 let column = this;
  
-                // Create select element
                 let select = document.createElement('select');
                 select.add(new Option(''));
                 select.add(new Option('yes'));
@@ -89,7 +85,6 @@
                 $('<br />').appendTo(hdr);
                 $(select).appendTo(hdr).click(function(e) { e.stopPropagation(); });
  
-                // Apply listener for user change in value
                 select.addEventListener('change', function () {
                     let search_for = '';
                     if (select.value == 'yes') {

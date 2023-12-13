@@ -14,6 +14,6 @@ Names that begin with `ext-` may not exist on all Windows versions._
 
 {{< apisetschema_list >}}
 
-For more details see:
+For more background see:
  * {{< external_link href="https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-apisets" text="Windows API sets (MSDN)" >}}
  * {{< external_link href="https://www.geoffchappell.com/studies/windows/win32/apisetschema/index.htm" text="The API Set Schema (Geoff Chappell)" >}}
