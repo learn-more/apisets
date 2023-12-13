@@ -8,7 +8,7 @@ indent_style = space
 indent_size = 4
 end_of_line = lf
 
-[*.{html,toml,md}]
+[*.{html,toml,md,py}]
 end_of_line = crlf
 
 
