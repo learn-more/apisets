@@ -2,7 +2,7 @@
 PROJECT:     Apiset info
 LICENSE:     MIT (https://spdx.org/licenses/MIT)
 PURPOSE:     Parse the apisetschema binary format
-COPYRIGHT:   Copyright 2019 Mark Jansen (mark.jansen@reactos.org)
+COPYRIGHT:   Copyright 2019-2023 Mark Jansen (mark.jansen@reactos.org)
 '''
 
 import struct

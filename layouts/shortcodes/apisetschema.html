@@ -2,14 +2,14 @@
 {{ with (index $.Site.Data.apisetschema ($.Page.Slug)) }}
 {{ $winver := upper $.Page.Slug }}
 <br />
-Generated from apisetschema.dll
 <table class="noborder" style="margin-top: 1em;">
-    <tr><td>InternalName:</td><td>{{ .InternalName }}</td></tr>
-    <tr><td>CompanyName:</td><td>{{ .CompanyName }}</td></tr>
-    <tr><td>FileDescription:</td><td>{{ .FileDescription }}</td></tr>
-    <tr><td>FileVersion:</td><td>{{ .FileVersion }}</td></tr>
-    <tr><td>PE Checksum:</td><td>{{ .PeChecksum }}</td></tr>
-    <tr><td>Size:</td><td>{{ .Size }}</td></tr>
+    <tr><th colspan="2" class="border-bottom">apisetschema.dll PE details</th></tr>
+    <tr><td>InternalName:</td><td>{{ .PE.InternalName }}</td></tr>
+    <tr><td>CompanyName:</td><td>{{ .PE.CompanyName }}</td></tr>
+    <tr><td>FileDescription:</td><td>{{ .PE.FileDescription }}</td></tr>
+    <tr><td>FileVersion:</td><td>{{ .PE.FileVersion }}</td></tr>
+    <tr><td>PE Checksum:</td><td>{{ .PE.Checksum }}</td></tr>
+    <tr><td>Size:</td><td>{{ .PE.Size }}</td></tr>
     <tr><td>MD5:</td><td>{{ .md5 }}</td></tr>
 </table>
 <br />

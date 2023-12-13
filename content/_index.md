@@ -8,9 +8,12 @@ Instead of directly calling a specific DLL (Dynamic Link Library) or API (Applic
 
 In essence, API sets provide a layer of indirection, enhancing flexibility and maintaining compatibility between different versions of Windows.
 
-ApiSet names that begin with `api-` are guaranteeed to exist on all Windows versions.
-Names that begin with `ext-` may not exist on all Windows versions.
+_Apiset names that begin with `api-` are guaranteeed to exist on all Windows versions.
+Names that begin with `ext-` may not exist on all Windows versions._
 
 
 {{< apisetschema_list >}}
 
+For more details see:
+ * {{< external_link href="https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-apisets" text="Windows API sets (MSDN)" >}}
+ * {{< external_link href="https://www.geoffchappell.com/studies/windows/win32/apisetschema/index.htm" text="The API Set Schema (Geoff Chappell)" >}}
