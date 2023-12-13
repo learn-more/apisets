@@ -1,24 +1,19 @@
 {
-  "Version": "10.0.17763.1-AMD64",
-  "md5": "14637ec468580238aad580347b700e48",
+  "Version": "10.0.19041.1-AMD64",
+  "md5": "aa029b3aae21ba7d7a4a5e1cbaf8b6e2",
   "InternalName": "apisetschema.dll",
   "CompanyName": "Microsoft Corporation",
   "FileDescription": "ApiSet Schema DLL",
-  "FileVersion": "10.0.17763.1 (WinBuild.160101.0800)",
-  "ProductVersion": "10.0.17763.1",
-  "PeChecksum": 120647,
-  "Size": 116536,
+  "FileVersion": "10.0.19041.1 (WinBuild.160101.0800)",
+  "ProductVersion": "10.0.19041.1",
+  "PeChecksum": 178725,
+  "Size": 128312,
   "Machine": "AMD64",
-  "namespaces_count": 802,
+  "namespaces_count": 890,
   "namespaces": [
     {
       "name": "api-ms-onecoreuap-print-render-l1-1-0.dll",
       "host": "printrenderapihost.dll",
-      "flags": 1
-    },
-    {
-      "name": "api-ms-onecoreuap-settingsync-status-l1-1-0.dll",
-      "host": "settingsynccore.dll",
       "flags": 1
     },
     {
@@ -27,12 +22,12 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-appmodel-runtime-internal-l1-1-5.dll",
+      "name": "api-ms-win-appmodel-runtime-internal-l1-1-7.dll",
       "host": "kernel.appcore.dll",
       "flags": 1
     },
     {
-      "name": "api-ms-win-appmodel-runtime-l1-1-2.dll",
+      "name": "api-ms-win-appmodel-runtime-l1-1-3.dll",
       "host": "kernel.appcore.dll",
       "flags": 1
     },
@@ -72,7 +67,22 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-containers-cmclient-l1-1-0.dll",
+      "name": "api-ms-win-containers-cmclient-l1-1-1.dll",
+      "host": "cmclient.dll",
+      "flags": 1
+    },
+    {
+      "name": "api-ms-win-containers-cmclient-l1-2-0.dll",
+      "host": "cmclient.dll",
+      "flags": 1
+    },
+    {
+      "name": "api-ms-win-containers-cmdiagclient-l1-1-0.dll",
+      "host": "cmclient.dll",
+      "flags": 1
+    },
+    {
+      "name": "api-ms-win-containers-cmservicingclient-l1-1-0.dll",
       "host": "cmclient.dll",
       "flags": 1
     },
@@ -129,7 +139,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-core-com-l1-1-2.dll",
+      "name": "api-ms-win-core-com-l1-1-3.dll",
       "host": "combase.dll",
       "flags": 1
     },
@@ -154,6 +164,11 @@
       "flags": 1
     },
     {
+      "name": "api-ms-win-core-com-private-l1-3-0.dll",
+      "host": "combase.dll",
+      "flags": 1
+    },
+    {
       "name": "api-ms-win-core-comm-l1-1-2.dll",
       "host": "kernelbase.dll",
       "flags": 1
@@ -161,6 +176,11 @@
     {
       "name": "api-ms-win-core-console-ansi-l2-1-0.dll",
       "host": "kernel32.dll",
+      "flags": 1
+    },
+    {
+      "name": "api-ms-win-core-console-internal-l1-1-0.dll",
+      "host": "kernelbase.dll",
       "flags": 1
     },
     {
@@ -391,7 +411,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-core-localization-l1-2-3.dll",
+      "name": "api-ms-win-core-localization-l1-2-4.dll",
       "host": "kernelbase.dll",
       "flags": 1
     },
@@ -496,11 +516,6 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-core-perfstm-l1-1-0.dll",
-      "host": "kernelbase.dll",
-      "flags": 1
-    },
-    {
       "name": "api-ms-win-core-privateprofile-l1-1-1.dll",
       "host": "kernel32.dll",
       "flags": 1
@@ -533,7 +548,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-core-processthreads-l1-1-3.dll",
+      "name": "api-ms-win-core-processthreads-l1-1-4.dll",
       "host": "kernel32.dll",
       "flags": 1,
       "alt_name": "kernel32.dll",
@@ -590,7 +605,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-core-psm-appnotify-l1-1-0.dll",
+      "name": "api-ms-win-core-psm-appnotify-l1-1-1.dll",
       "host": "twinapi.appcore.dll",
       "flags": 1
     },
@@ -680,7 +695,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-core-rtlsupport-l1-2-0.dll",
+      "name": "api-ms-win-core-rtlsupport-l1-2-1.dll",
       "host": "ntdll.dll",
       "flags": 1
     },
@@ -775,7 +790,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-core-sysinfo-l1-2-4.dll",
+      "name": "api-ms-win-core-sysinfo-l1-2-6.dll",
       "host": "kernelbase.dll",
       "flags": 1
     },
@@ -790,7 +805,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-core-textinput-client-l1-1-0.dll",
+      "name": "api-ms-win-core-textinput-client-l1-1-1.dll",
       "host": "textinputframework.dll",
       "flags": 1
     },
@@ -867,7 +882,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-core-windowserrorreporting-l1-1-2.dll",
+      "name": "api-ms-win-core-windowserrorreporting-l1-1-3.dll",
       "host": "kernelbase.dll",
       "flags": 1
     },
@@ -912,7 +927,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-core-wow64-l1-1-2.dll",
+      "name": "api-ms-win-core-wow64-l1-1-3.dll",
       "host": "kernelbase.dll",
       "flags": 1
     },
@@ -1047,12 +1062,12 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-downlevel-advapi32-l1-1-1.dll",
+      "name": "api-ms-win-downlevel-advapi32-l1-1-0.dll",
       "host": "kernelbase.dll",
       "flags": 1
     },
     {
-      "name": "api-ms-win-downlevel-advapi32-l2-1-1.dll",
+      "name": "api-ms-win-downlevel-advapi32-l2-1-0.dll",
       "host": "sechost.dll",
       "flags": 1
     },
@@ -1082,7 +1097,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-downlevel-ole32-l1-1-1.dll",
+      "name": "api-ms-win-downlevel-ole32-l1-1-0.dll",
       "host": "combase.dll",
       "flags": 1
     },
@@ -1092,17 +1107,17 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-downlevel-shlwapi-l1-1-1.dll",
+      "name": "api-ms-win-downlevel-shlwapi-l1-1-0.dll",
       "host": "kernelbase.dll",
       "flags": 1
     },
     {
-      "name": "api-ms-win-downlevel-shlwapi-l2-1-1.dll",
+      "name": "api-ms-win-downlevel-shlwapi-l2-1-0.dll",
       "host": "shcore.dll",
       "flags": 1
     },
     {
-      "name": "api-ms-win-downlevel-user32-l1-1-1.dll",
+      "name": "api-ms-win-downlevel-user32-l1-1-0.dll",
       "host": "kernelbase.dll",
       "flags": 1
     },
@@ -1117,7 +1132,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-dx-d3dkmt-l1-1-4.dll",
+      "name": "api-ms-win-dx-d3dkmt-l1-1-6.dll",
       "host": "gdi32.dll",
       "flags": 1
     },
@@ -1152,11 +1167,9 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-eventing-tdh-l1-1-0.dll",
+      "name": "api-ms-win-eventing-tdh-l1-1-1.dll",
       "host": "tdh.dll",
-      "flags": 1,
-      "alt_name": "tdh.dll",
-      "alt_host": "mintdh.dll"
+      "flags": 1
     },
     {
       "name": "api-ms-win-eventlog-legacy-l1-1-0.dll",
@@ -1194,6 +1207,11 @@
       "flags": 1
     },
     {
+      "name": "api-ms-win-ham-apphistory-l1-1-0.dll",
+      "host": "rmclient.dll",
+      "flags": 1
+    },
+    {
       "name": "api-ms-win-http-time-l1-1-0.dll",
       "host": "kernelbase.dll",
       "flags": 1
@@ -1210,7 +1228,7 @@
     },
     {
       "name": "api-ms-win-mm-joystick-l1-1-0.dll",
-      "host": "winmmbase.dll",
+      "host": "winmm.dll",
       "flags": 1
     },
     {
@@ -1359,7 +1377,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-rtcore-ntuser-private-l1-1-8.dll",
+      "name": "api-ms-win-rtcore-ntuser-private-l1-1-10.dll",
       "host": "user32.dll",
       "flags": 1
     },
@@ -1385,6 +1403,11 @@
     },
     {
       "name": "api-ms-win-rtcore-ntuser-wmpointer-l1-1-3.dll",
+      "host": "user32.dll",
+      "flags": 1
+    },
+    {
+      "name": "api-ms-win-rtcore-ntuser-wmpointer-l1-2-0.dll",
       "host": "user32.dll",
       "flags": 1
     },
@@ -1474,7 +1497,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-security-isolatedcontainer-l1-1-0.dll",
+      "name": "api-ms-win-security-isolatedcontainer-l1-1-1.dll",
       "host": "shcore.dll",
       "flags": 1
     },
@@ -1484,7 +1507,17 @@
       "flags": 1
     },
     {
+      "name": "api-ms-win-security-isolationapi-l1-2-0.dll",
+      "host": "sechost.dll",
+      "flags": 1
+    },
+    {
       "name": "api-ms-win-security-isolationpolicy-l1-1-0.dll",
+      "host": "sechost.dll",
+      "flags": 1
+    },
+    {
+      "name": "api-ms-win-security-isolationpolicy-l1-2-0.dll",
       "host": "sechost.dll",
       "flags": 1
     },
@@ -1674,6 +1707,11 @@
       "flags": 1
     },
     {
+      "name": "api-ms-win-shell-shell32legacy-shdirectory-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
       "name": "api-ms-win-shell-shellcom-l1-1-0.dll",
       "host": "kernelbase.dll",
       "flags": 1
@@ -1699,7 +1737,7 @@
       "flags": 1
     },
     {
-      "name": "api-ms-win-storage-exports-external-l1-1-0.dll",
+      "name": "api-ms-win-storage-exports-external-l1-1-1.dll",
       "host": "windows.storage.dll",
       "flags": 1
     },
@@ -1719,7 +1757,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-mf-pal-l2-1-0.dll",
+      "name": "ext-ms-mf-pal-l2-1-1.dll",
       "host": "",
       "flags": 1
     },
@@ -1759,17 +1797,12 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-onecore-appmodel-plm-l1-1-1.dll",
-      "host": "execmodelclient.dll",
-      "flags": 1
-    },
-    {
-      "name": "ext-ms-onecore-appmodel-staterepository-cache-l1-1-1.dll",
+      "name": "ext-ms-onecore-appmodel-staterepository-cache-l1-1-2.dll",
       "host": "windows.staterepositorycore.dll",
       "flags": 1
     },
     {
-      "name": "ext-ms-onecore-appmodel-staterepository-internal-l1-1-2.dll",
+      "name": "ext-ms-onecore-appmodel-staterepository-internal-l1-1-4.dll",
       "host": "windows.staterepositoryclient.dll",
       "flags": 1
     },
@@ -1944,7 +1977,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-appcompat-apphelp-l1-1-1.dll",
+      "name": "ext-ms-win-appcompat-apphelp-l1-1-2.dll",
       "host": "apphelp.dll",
       "flags": 1
     },
@@ -1954,7 +1987,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-appmodel-activation-l1-1-0.dll",
+      "name": "ext-ms-win-appmodel-activation-l1-1-1.dll",
       "host": "activationmanager.dll",
       "flags": 1
     },
@@ -1964,7 +1997,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-appmodel-appexecutionalias-l1-1-1.dll",
+      "name": "ext-ms-win-appmodel-appexecutionalias-l1-1-2.dll",
       "host": "apisethost.appexecutionalias.dll",
       "flags": 1
     },
@@ -2115,17 +2148,22 @@
     },
     {
       "name": "ext-ms-win-casting-lockscreen-l1-1-0.dll",
-      "host": "castingshellext.dll",
+      "host": "miracastreceiverext.dll",
       "flags": 1
     },
     {
       "name": "ext-ms-win-casting-receiver-l1-1-1.dll",
-      "host": "",
+      "host": "hubuiext.dll",
       "flags": 1
     },
     {
       "name": "ext-ms-win-casting-shell-l1-1-0.dll",
       "host": "castingshellext.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-ci-management-l1-1-1.dll",
+      "host": "manageci.dll",
       "flags": 1
     },
     {
@@ -2144,7 +2182,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-cluster-clusapi-l1-1-3.dll",
+      "name": "ext-ms-win-cluster-clusapi-l1-1-4.dll",
       "host": "clusapi.dll",
       "flags": 1
     },
@@ -2164,6 +2202,11 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-com-apartmentrestriction-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-com-clbcatq-l1-1-0.dll",
       "host": "clbcatq.dll",
       "flags": 1
@@ -2175,6 +2218,11 @@
     },
     {
       "name": "ext-ms-win-com-ole32-l1-1-5.dll",
+      "host": "ole32.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-com-ole32-l1-2-0.dll",
       "host": "ole32.dll",
       "flags": 1
     },
@@ -2219,8 +2267,13 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-compositor-hosting-l1-2-0.dll",
+      "name": "ext-ms-win-compositor-hosting-l1-2-1.dll",
       "host": "ism.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-containers-policymanagercli-l1-1-0.dll",
+      "host": "",
       "flags": 1
     },
     {
@@ -2234,8 +2287,18 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-core-container-init-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-core-dhcp6client-l1-1-0.dll",
       "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-game-streaming-l1-1-0.dll",
+      "host": "gamestreamingext.dll",
       "flags": 1
     },
     {
@@ -2264,7 +2327,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-core-psm-service-l1-1-4.dll",
+      "name": "ext-ms-win-core-psm-service-l1-1-5.dll",
       "host": "psmserviceexthost.dll",
       "flags": 1
     },
@@ -2304,6 +2367,176 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-core-win32k-base-export-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-baseinit-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-common-export-l1-1-0.dll",
+      "host": "win32kfull.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-common-input-l1-1-0.dll",
+      "host": "win32kfull.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-common-inputrim-l1-1-0.dll",
+      "host": "win32kfull.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-common-user-l1-1-0.dll",
+      "host": "win32kfull.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-dcomp-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-ddccigdi-l1-1-0.dll",
+      "host": "win32kfull.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-dxgdi-l1-1-0.dll",
+      "host": "win32kfull.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-dxgk-l1-1-0.dll",
+      "host": "dxgkrnl.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-flipmgr-l1-1-0.dll",
+      "host": "dxgkrnl.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-full-export-l1-1-0.dll",
+      "host": "win32kfull.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-full-float-export-l1-1-0.dll",
+      "host": "win32kfull.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-fulldcompbase-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-fulldwm-l1-1-0.dll",
+      "host": "win32kfull.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-fullgdi-l1-1-0.dll",
+      "host": "win32kfull.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-fulluser-l1-1-0.dll",
+      "host": "win32kfull.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-fulluser64-l1-1-0.dll",
+      "host": "win32kfull.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-fulluserbase-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-gdi-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-input-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-inputmit-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-inputrim-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-mindwm-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-mininput-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-mininputmit-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-mininputmitbase-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-minuser-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-opmgdi-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-surfmgr-l1-1-0.dll",
+      "host": "dxgkrnl.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-tokenmgr-l1-1-0.dll",
+      "host": "dxgkrnl.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-user-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-userdisplay-l1-1-0.dll",
+      "host": "win32kbase.sys",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-win32k-userinit-l1-1-0.dll",
+      "host": "win32k.sys",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-core-winrt-remote-l1-1-0.dll",
       "host": "",
       "flags": 1
@@ -2314,7 +2547,12 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-core-xbrm-l1-1-0.dll",
+      "name": "ext-ms-win-core-winsrv-min-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-core-xbrm-l1-1-1.dll",
       "host": "",
       "flags": 1
     },
@@ -2339,17 +2577,17 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-desktopappx-l1-1-4.dll",
+      "name": "ext-ms-win-desktopappx-l1-1-6.dll",
       "host": "daxexec.dll",
       "flags": 1
     },
     {
-      "name": "ext-ms-win-devmgmt-dm-l1-1-1.dll",
+      "name": "ext-ms-win-devmgmt-dm-l1-1-2.dll",
       "host": "dmapisetextimpldesktop.dll",
       "flags": 1
     },
     {
-      "name": "ext-ms-win-devmgmt-policy-l1-1-2.dll",
+      "name": "ext-ms-win-devmgmt-policy-l1-1-3.dll",
       "host": "policymanager.dll",
       "flags": 1
     },
@@ -2369,18 +2607,38 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-driver-setup-l1-1-0.dll",
+      "host": "drvsetup.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-drvinst-desktop-l1-1-0.dll",
+      "host": "newdev.dll",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-dwmapi-ext-l1-1-2.dll",
       "host": "dwmapi.dll",
       "flags": 1
     },
     {
-      "name": "ext-ms-win-dwmapidxgi-ext-l1-1-0.dll",
+      "name": "ext-ms-win-dwmapidxgi-ext-l1-1-1.dll",
       "host": "dwmapi.dll",
       "flags": 1
     },
     {
       "name": "ext-ms-win-dx-d3d9-l1-1-0.dll",
       "host": "d3d9.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-dx-d3dkmt-dxcore-l1-1-1.dll",
+      "host": "dxcore.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-dx-d3dkmt-gdi-l1-1-0.dll",
+      "host": "gdi32.dll",
       "flags": 1
     },
     {
@@ -2394,7 +2652,17 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-edputil-policy-l1-1-1.dll",
+      "name": "ext-ms-win-dxcore-internal-l1-1-0.dll",
+      "host": "dxcore.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-dxcore-l1-1-0.dll",
+      "host": "dxcore.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-edputil-policy-l1-1-2.dll",
       "host": "edputil.dll",
       "flags": 1
     },
@@ -2404,7 +2672,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-eventing-pdh-l1-1-0.dll",
+      "name": "ext-ms-win-eventing-pdh-l1-1-1.dll",
       "host": "pdh.dll",
       "flags": 1
     },
@@ -2419,12 +2687,17 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-eventing-tdh-priv-l1-1-0.dll",
+      "host": "tdh.dll",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-familysafety-childaccount-l1-1-0.dll",
       "host": "familysafetyext.dll",
       "flags": 1
     },
     {
-      "name": "ext-ms-win-feclient-encryptedfile-l1-1-2.dll",
+      "name": "ext-ms-win-feclient-encryptedfile-l1-1-3.dll",
       "host": "feclient.dll",
       "flags": 1
     },
@@ -2444,7 +2717,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-fs-cscapi-l1-1-0.dll",
+      "name": "ext-ms-win-fs-cscapi-l1-1-1.dll",
       "host": "cscapi.dll",
       "flags": 1
     },
@@ -2519,7 +2792,12 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-gdi-internal-desktop-l1-1-2.dll",
+      "name": "ext-ms-win-gdi-internal-desktop-l1-1-3.dll",
+      "host": "gdi32full.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-gdi-internal-uap-init-l1-1-0.dll",
       "host": "gdi32full.dll",
       "flags": 1
     },
@@ -2559,11 +2837,6 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-globalization-collation-l1-1-0.dll",
-      "host": "globcollationhost.dll",
-      "flags": 1
-    },
-    {
       "name": "ext-ms-win-globalization-input-l1-1-2.dll",
       "host": "globinputhost.dll",
       "flags": 1
@@ -2589,7 +2862,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-gui-uxinit-l1-1-0.dll",
+      "name": "ext-ms-win-gui-uxinit-l1-1-1.dll",
       "host": "uxinit.dll",
       "flags": 1
     },
@@ -2604,7 +2877,7 @@
       "flags": 0
     },
     {
-      "name": "ext-ms-win-hyperv-compute-l1-2-0.dll",
+      "name": "ext-ms-win-hyperv-compute-l1-2-1.dll",
       "host": "",
       "flags": 0
     },
@@ -2619,7 +2892,12 @@
       "flags": 0
     },
     {
-      "name": "ext-ms-win-hyperv-devicevirtualization-l1-1-0.dll",
+      "name": "ext-ms-win-hyperv-devicevirtualization-l1-1-1.dll",
+      "host": "",
+      "flags": 0
+    },
+    {
+      "name": "ext-ms-win-hyperv-devicevirtualization-l1-2-0.dll",
       "host": "",
       "flags": 0
     },
@@ -2634,7 +2912,7 @@
       "flags": 0
     },
     {
-      "name": "ext-ms-win-hyperv-hvplatform-l1-1-1.dll",
+      "name": "ext-ms-win-hyperv-hvplatform-l1-1-3.dll",
       "host": "winhvplatform.dll",
       "flags": 0
     },
@@ -2721,7 +2999,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-kernelbase-processthread-l1-1-0.dll",
+      "name": "ext-ms-win-kernelbase-processthread-l1-1-1.dll",
       "host": "kernel32.dll",
       "flags": 1
     },
@@ -2766,13 +3044,18 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-mininput-inputhost-l1-3-0.dll",
+      "host": "inputhost.dll",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-mininput-systeminputhost-l1-1-0.dll",
       "host": "ism.dll",
       "flags": 1
     },
     {
       "name": "ext-ms-win-mm-io-l1-1-0.dll",
-      "host": "",
+      "host": "winmmbase.dll",
       "flags": 1
     },
     {
@@ -2808,11 +3091,6 @@
     {
       "name": "ext-ms-win-mpr-multipleproviderrouter-l1-1-0.dll",
       "host": "mprext.dll",
-      "flags": 1
-    },
-    {
-      "name": "ext-ms-win-mrmcorer-environment-l1-1-0.dll",
-      "host": "",
       "flags": 1
     },
     {
@@ -2971,6 +3249,11 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-ntos-dg-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-ntos-kcminitcfg-l1-1-0.dll",
       "host": "cmimcext.sys",
       "flags": 1
@@ -2981,14 +3264,14 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-ntos-ksigningpolicy-l1-1-0.dll",
-      "host": "",
-      "flags": 1
-    },
-    {
-      "name": "ext-ms-win-ntos-ksr-l1-1-2.dll",
+      "name": "ext-ms-win-ntos-ksr-l1-1-3.dll",
       "host": "",
       "flags": 0
+    },
+    {
+      "name": "ext-ms-win-ntos-processparameters-l1-1-0.dll",
+      "host": "",
+      "flags": 1
     },
     {
       "name": "ext-ms-win-ntos-stateseparation-l1-1-0.dll",
@@ -3106,6 +3389,11 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-ntuser-misc-l1-6-0.dll",
+      "host": "user32.dll",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-ntuser-mit-l1-1-0.dll",
       "host": "user32.dll",
       "flags": 1
@@ -3136,6 +3424,16 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-ntuser-private-l1-4-0.dll",
+      "host": "user32.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-ntuser-private-l1-5-0.dll",
+      "host": "user32.dll",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-ntuser-rawinput-l1-1-0.dll",
       "host": "user32.dll",
       "flags": 1
@@ -3146,7 +3444,12 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-ntuser-rim-l1-1-1.dll",
+      "name": "ext-ms-win-ntuser-rim-l1-1-2.dll",
+      "host": "user32.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-ntuser-rim-l1-2-0.dll",
       "host": "user32.dll",
       "flags": 1
     },
@@ -3236,8 +3539,18 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-oobe-query-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-parentalcontrols-setup-l1-1-0.dll",
       "host": "wpcapi.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-perception-device-l1-1-1.dll",
+      "host": "perceptiondevice.dll",
       "flags": 1
     },
     {
@@ -3246,12 +3559,22 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-printer-prntvpt-l1-1-1.dll",
+      "name": "ext-ms-win-printer-prntvpt-l1-1-2.dll",
       "host": "prntvpt.dll",
       "flags": 1
     },
     {
+      "name": "ext-ms-win-printer-winspool-core-l1-1-0.dll",
+      "host": "winspool.drv",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-printer-winspool-l1-1-4.dll",
+      "host": "winspool.drv",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-printer-winspool-l1-2-0.dll",
       "host": "winspool.drv",
       "flags": 1
     },
@@ -3351,7 +3674,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-resources-languageoverlay-l1-1-1.dll",
+      "name": "ext-ms-win-resources-languageoverlay-l1-1-3.dll",
       "host": "languageoverlayutil.dll",
       "flags": 1
     },
@@ -3391,17 +3714,27 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-rtcore-minuser-display-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-rtcore-minuser-host-l1-1-0.dll",
       "host": "",
       "flags": 1
     },
     {
-      "name": "ext-ms-win-rtcore-minuser-input-l1-1-3.dll",
+      "name": "ext-ms-win-rtcore-minuser-input-l1-1-4.dll",
       "host": "",
       "flags": 1
     },
     {
-      "name": "ext-ms-win-rtcore-minuser-private-ext-l1-1-0.dll",
+      "name": "ext-ms-win-rtcore-minuser-internal-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-rtcore-minuser-private-ext-l1-1-1.dll",
       "host": "",
       "flags": 1
     },
@@ -3421,13 +3754,28 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-rtcore-ntuser-dialogbox-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-rtcore-ntuser-dpi-l1-1-0.dll",
       "host": "user32.dll",
       "flags": 1
     },
     {
-      "name": "ext-ms-win-rtcore-ntuser-dpi-l1-2-1.dll",
+      "name": "ext-ms-win-rtcore-ntuser-dpi-l1-2-2.dll",
       "host": "user32.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-rtcore-ntuser-draw-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-rtcore-ntuser-gui-l1-1-0.dll",
+      "host": "",
       "flags": 1
     },
     {
@@ -3446,12 +3794,47 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-rtcore-ntuser-keyboard-l1-1-0.dll",
+      "host": "user32.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-rtcore-ntuser-message-ansi-l1-1-0.dll",
+      "host": "user32.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-rtcore-ntuser-message-l1-1-0.dll",
+      "host": "user32.dll",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-rtcore-ntuser-mininit-l1-1-0.dll",
       "host": "",
       "flags": 1
     },
     {
-      "name": "ext-ms-win-rtcore-ntuser-rawinput-l1-1-0.dll",
+      "name": "ext-ms-win-rtcore-ntuser-misc-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-rtcore-ntuser-mouse-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-rtcore-ntuser-powermanagement-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-rtcore-ntuser-private-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-rtcore-ntuser-rawinput-l1-1-1.dll",
       "host": "user32.dll",
       "flags": 1
     },
@@ -3471,7 +3854,22 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-rtcore-ntuser-window-ext-l1-1-0.dll",
+      "name": "ext-ms-win-rtcore-ntuser-usersecurity-l1-1-0.dll",
+      "host": "user32.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-rtcore-ntuser-window-ansi-l1-1-0.dll",
+      "host": "user32.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-rtcore-ntuser-window-ext-l1-1-1.dll",
+      "host": "user32.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-rtcore-ntuser-window-l1-1-0.dll",
       "host": "user32.dll",
       "flags": 1
     },
@@ -3481,12 +3879,22 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-rtcore-ntuser-winstamin-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-rtcore-ntuser-wmpointer-l1-1-0.dll",
       "host": "user32.dll",
       "flags": 1
     },
     {
-      "name": "ext-ms-win-samsrv-accountstore-l1-1-0.dll",
+      "name": "ext-ms-win-rtcore-ntuser-wmpointermin-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-samsrv-accountstore-l1-1-1.dll",
       "host": "samsrv.dll",
       "flags": 1
     },
@@ -3521,11 +3929,6 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-security-capauthz-ext-l1-1-0.dll",
-      "host": "",
-      "flags": 1
-    },
-    {
       "name": "ext-ms-win-security-capauthz-l1-1-1.dll",
       "host": "capauthz.dll",
       "flags": 1
@@ -3541,7 +3944,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-security-cfl-l1-1-0.dll",
+      "name": "ext-ms-win-security-cfl-l1-1-1.dll",
       "host": "cflapi.dll",
       "flags": 1
     },
@@ -3558,6 +3961,11 @@
     {
       "name": "ext-ms-win-security-credui-l1-1-1.dll",
       "host": "credui.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-security-crosscontainerauthhelper-l1-1-0.dll",
+      "host": "",
       "flags": 1
     },
     {
@@ -3581,7 +3989,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-security-efswrt-l1-1-2.dll",
+      "name": "ext-ms-win-security-efswrt-l1-1-3.dll",
       "host": "efswrt.dll",
       "flags": 1
     },
@@ -3621,6 +4029,11 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-security-vaultcds-l1-2-0.dll",
+      "host": "vaultcds.dll",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-security-vaultcli-l1-1-1.dll",
       "host": "vaultcli.dll",
       "flags": 1
@@ -3631,13 +4044,18 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-sensors-core-private-l1-1-4.dll",
+      "name": "ext-ms-win-sensors-core-private-l1-1-5.dll",
       "host": "sensorsnativeapi.dll",
       "flags": 1
     },
     {
       "name": "ext-ms-win-sensors-utilities-private-l1-1-3.dll",
       "host": "sensorsutilsv2.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-servicing-uapi-l1-1-0.dll",
+      "host": "servicinguapi.dll",
       "flags": 1
     },
     {
@@ -3671,12 +4089,12 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-session-winlogon-l1-1-1.dll",
+      "name": "ext-ms-win-session-winlogon-l1-1-2.dll",
       "host": "winlogonext.dll",
       "flags": 1
     },
     {
-      "name": "ext-ms-win-session-winsta-l1-1-3.dll",
+      "name": "ext-ms-win-session-winsta-l1-1-4.dll",
       "host": "winsta.dll",
       "flags": 1
     },
@@ -3756,6 +4174,11 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-shell-fileplaceholder-l1-1-0.dll",
+      "host": "windows.fileexplorer.common.dll",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-shell-knownfolderext-l1-1-0.dll",
       "host": "",
       "flags": 1
@@ -3771,17 +4194,17 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-shell-settingsync-l1-1-3.dll",
-      "host": "settingsyncpolicy.dll",
-      "flags": 1
-    },
-    {
       "name": "ext-ms-win-shell-shdocvw-l1-1-0.dll",
       "host": "shdocvw.dll",
       "flags": 1
     },
     {
-      "name": "ext-ms-win-shell-shell32-l1-2-2.dll",
+      "name": "ext-ms-win-shell-shell32-l1-2-3.dll",
+      "host": "shell32.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-shell-shell32-l1-3-0.dll",
       "host": "shell32.dll",
       "flags": 1
     },
@@ -3791,13 +4214,8 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-shell-shlwapi-l1-2-0.dll",
+      "name": "ext-ms-win-shell-shlwapi-l1-2-1.dll",
       "host": "shlwapi.dll",
-      "flags": 1
-    },
-    {
-      "name": "ext-ms-win-shell-tabbedtitlebar-l1-1-0.dll",
-      "host": "twinapi.appcore.dll",
       "flags": 1
     },
     {
@@ -3851,13 +4269,18 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-storage-sense-l1-2-0.dll",
+      "name": "ext-ms-win-storage-sense-l1-2-1.dll",
       "host": "storageusage.dll",
       "flags": 1
     },
     {
       "name": "ext-ms-win-sxs-oleautomation-l1-1-0.dll",
       "host": "sxs.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-teapext-eap-l1-1-0.dll",
+      "host": "eapteapext.dll",
       "flags": 1
     },
     {
@@ -3876,7 +4299,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-tsf-msctf-l1-1-2.dll",
+      "name": "ext-ms-win-tsf-msctf-l1-1-3.dll",
       "host": "msctf.dll",
       "flags": 1
     },
@@ -3911,8 +4334,13 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-uxtheme-themes-l1-1-1.dll",
+      "name": "ext-ms-win-uxtheme-themes-l1-1-2.dll",
       "host": "uxtheme.dll",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win-virtualizationcontext-l1-1-0.dll",
+      "host": "daxexec.dll",
       "flags": 1
     },
     {
@@ -3921,7 +4349,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-wer-ui-l1-1-0.dll",
+      "name": "ext-ms-win-wer-ui-l1-1-1.dll",
       "host": "werui.dll",
       "flags": 1
     },
@@ -3931,7 +4359,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-wer-xbox-l1-1-0.dll",
+      "name": "ext-ms-win-wer-xbox-l1-1-1.dll",
       "host": "",
       "flags": 1
     },
@@ -3956,7 +4384,7 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-winrt-storage-l1-2-2.dll",
+      "name": "ext-ms-win-winrt-storage-l1-2-3.dll",
       "host": "windows.storage.dll",
       "flags": 1
     },
@@ -3976,8 +4404,8 @@
       "flags": 1
     },
     {
-      "name": "ext-ms-win-wnv-l1-1-0.dll",
-      "host": "wnv.sys",
+      "name": "ext-ms-win-wpc-webfilter-l1-1-0.dll",
+      "host": "wpcwebfilter.dll",
       "flags": 1
     },
     {
@@ -4021,12 +4449,22 @@
       "flags": 1
     },
     {
+      "name": "ext-ms-win-xaudio-platform-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
       "name": "ext-ms-win-xblauth-console-l1-1-0.dll",
       "host": "",
       "flags": 1
     },
     {
       "name": "ext-ms-win-xboxlive-xboxnetapisvc-l1-1-0.dll",
+      "host": "",
+      "flags": 1
+    },
+    {
+      "name": "ext-ms-win32-subsystem-query-l1-1-0.dll",
       "host": "",
       "flags": 1
     },

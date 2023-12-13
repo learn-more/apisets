@@ -75,6 +75,6 @@ def pages_from_schemas(apisetschema_data_dir, schema_content_dir):
 
 
 if __name__ == '__main__':
-    pages_from_schemas(DEFAULTDATADIR / 'apisetschema', DEFAULTCONTENTDIR)
+    pages_from_schemas(DEFAULTDATADIR / 'apisetschema', DEFAULTCONTENTDIR / 'apisetschemas')
     #pages_from_apisets(DEFAULTDATADIR / 'apisets', DEFAULTCONTENTDIR / 'apisets')
 

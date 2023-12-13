@@ -1,6 +1,115 @@
 
+{{ $all_apisets := slice }}
+{{ $all_versions := slice }}
 
-{{ range $.Page.Pages }}
-    <li><a href="{{ .RelPermalink }}">{{ .Slug }}</a></li>
+{{ $lookup := newScratch }}
+
+{{/* First gather all apisets */}}
+{{ range $.Site.Data.apisetschema }}
+    {{ $all_versions = $all_versions | append .Version }}
+    {{ $current_version := .Version }}
+    {{ range .namespaces }}
+        {{ $apiset_name := lower (.name) }}
+        {{ $all_apisets = $all_apisets | append $apiset_name }}
+        {{ $lookup.SetInMap $apiset_name $current_version "yes" }}
+    {{ end }}
 {{ end }}
+
+{{/* Remove duplicates and sort them */}}
+{{ $all_apisets = $all_apisets | uniq | sort }}
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.css" />
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.js"></script>
+
+<br />
+
+<table id="apisets" class="display compact">
+   <thead>
+    <tr>
+        <th>apiset</th>
+        {{ range $all_versions }}
+        <th>{{ . }}</th>
+        {{ end }}
+    </tr>
+    </thead>
+    <tbody>
+    {{ range $all_apisets }}
+    <tr>
+        {{ $apiset_name := . }}
+        {{ $versions := $lookup.Get $apiset_name }}
+        <td>{{ $apiset_name }}</td>
+        {{ range $all_versions }}
+            {{ if isset $versions . }}
+                <td>yes</td>
+            {{ else }}
+                <td>no</td>
+            {{ end }}
+        {{ end }}
+    </tr>
+    {{ end }}
+    </tbody>
+</table>
+
+<br />
+
+<script type="text/javascript">
+    new DataTable('#apisets', {
+        paging: false,
+        columnDefs: [
+            {
+                // The `data` parameter refers to the data for the cell (defined by the
+                // `data` option, which defaults to the column being worked with, in
+                // this case `data: 0`.
+                render: function (data, type, row) {
+                    if (data === 'yes') {
+                        return '&check;';
+                    } else if (data === 'no') {
+                        return '';
+                    } else {
+                        return data;
+                    }
+                },
+                targets: '_all'
+            },
+        ],
+        initComplete: function () {
+        this.api()
+            .columns()
+            .every(function () {
+                let column = this;
+ 
+                column.render = function ( data, type, row ) {
+                    return '$'+ data;
+                }
+
+                // Create select element
+                let select = document.createElement('select');
+                select.add(new Option(''));
+                let hdr = $(column.header());
+                $('<br />').appendTo(hdr);
+                $(select).appendTo(hdr).click(function(e) { e.stopPropagation(); });
+                //column.header().replaceChildren(select);
+ 
+                // Apply listener for user change in value
+                select.addEventListener('change', function () {
+                    var val = DataTable.util.escapeRegex(select.value);
+ 
+                    column
+                        .search(val ? '^' + val + '$' : '', true, false)
+                        .draw();
+                });
+ 
+                // Add list of options
+                column
+                    .data()
+                    .unique()
+                    .sort()
+                    .each(function (d, j) {
+                        select.add(new Option(d));
+                    });
+            });
+        }
+    });
+</script>
 

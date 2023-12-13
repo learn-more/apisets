@@ -7,12 +7,22 @@ theme = "kraiklyn-multipage"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
-[Params]
+[params]
   sidebarColor = "default"
   externalTitle = "links"
+  customCss = ["css/kraiklyn-override.css"]
+
+#[outputs]
+    #, "SEARCH"
+  #home = ["HTML", "RSS"]
 
 [[menu.shortcuts]]
   name = "apisets on Github"
   url = "https://github.com/learn-more/apisets"
   weight = 10
+
+[[menu.shortcuts]]
+  name = "data files (json)"
+  url = "https://github.com/learn-more/apisets/tree/master/data/apisetschema"
+  weight = 11
 

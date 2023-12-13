@@ -3,7 +3,7 @@
 {{ $winver := upper $.Page.Slug }}
 <br />
 Generated from apisetschema.dll
-<table class="noborder">
+<table class="noborder" style="margin-top: 1em;">
     <tr><td>InternalName:</td><td>{{ .InternalName }}</td></tr>
     <tr><td>CompanyName:</td><td>{{ .CompanyName }}</td></tr>
     <tr><td>FileDescription:</td><td>{{ .FileDescription }}</td></tr>
@@ -18,11 +18,8 @@ Generated from apisetschema.dll
 {{ range .namespaces }}
     <tr>
         {{ $apisetname:= lower (path.BaseName .name) }}
-        {{ if (index (index $.Site.Data.apisets $winver) $apisetname) }}
-        <td><a href="/apisets/{{ lower $.Page.Slug }}/{{ $apisetname }}">{{ .name }}</a></td>
-        {{ else }}
+
         <td>{{ .name }}</td>
-        {{ end }}
         <td>{{ .host }}</td>
         <td>
             {{ if .alt_name }}
@@ -35,3 +32,4 @@ Generated from apisetschema.dll
 
 {{ end }}
 
+<br />

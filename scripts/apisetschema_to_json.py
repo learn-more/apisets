@@ -168,12 +168,12 @@ def write_schemas(input_dir, output_dir):
 
 def main(input_dir, output_dir, content_dir):
     sources = write_schemas(input_dir, output_dir)
-    apisets_dir = output_dir / 'apisets'
+    #apisets_dir = output_dir / 'apisets'
     #for source in sources:
     #    apisets = source.directory / 'apisets'
     #    if apisets.is_dir():
     #        process_apisets_dir(apisets, apisets_dir, source.version)
-    hugo_pages_from_data.pages_from_schemas(output_dir / 'apisetschema', content_dir)
+    hugo_pages_from_data.pages_from_schemas(output_dir / 'apisetschema', content_dir / 'apisetschemas')
     #hugo_pages_from_data.pages_from_apisets(output_dir / 'apisets', content_dir / 'apisets')
 
 
