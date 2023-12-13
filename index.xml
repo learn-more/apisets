@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apiset forwarders on apisets index</title><link>https://apisets.info/</link><description>Recent content in Apiset forwarders on apisets index</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://apisets.info/index.xml" rel="self" type="application/rss+xml"/><item><title>Win7-x64</title><link>https://apisets.info/apisetschemas/06.1.7601.23455-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/06.1.7601.23455-amd64/</guid><description>apisetschema.dll PE details
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apiset forwarders on apisets index</title><link>https://apisets.info/</link><description>Recent content in Apiset forwarders on apisets index</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://apisets.info/index.xml" rel="self" type="application/rss+xml"/><item><title>Win7-x64 apisets</title><link>https://apisets.info/apisetschemas/06.1.7601.23455-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/06.1.7601.23455-amd64/</guid><description>apisetschema.dll PE details
 InternalName:apisetschema
 CompanyName:Microsoft Corporation
 FileDescription:ApiSet Schema DLL
@@ -49,7 +49,7 @@ api-MS-Win-Core-ProcessEnvironment-L1-1-0.dll
 kernelbase.dll
 api-MS-Win-Core-ProcessThreads-L1-1-0.dll
 kernel32.dll
-kernel32.dll &amp;roarr; kernelbase.</description></item><item><title>Win7-x86</title><link>https://apisets.info/apisetschemas/06.1.7601.23455-i386/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/06.1.7601.23455-i386/</guid><description>apisetschema.dll PE details
+kernel32.dll &amp;roarr; kernelbase.</description></item><item><title>Win7-x86 apisets</title><link>https://apisets.info/apisetschemas/06.1.7601.23455-i386/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/06.1.7601.23455-i386/</guid><description>apisetschema.dll PE details
 InternalName:apisetschema
 CompanyName:Microsoft Corporation
 FileDescription:ApiSet Schema DLL
@@ -100,7 +100,7 @@ api-MS-Win-Core-ProcessEnvironment-L1-1-0.dll
 kernelbase.dll
 api-MS-Win-Core-ProcessThreads-L1-1-0.dll
 kernel32.dll
-kernel32.dll &amp;roarr; kernelbase.</description></item><item><title>Win8-x64</title><link>https://apisets.info/apisetschemas/06.2.9200.16384-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/06.2.9200.16384-amd64/</guid><description>apisetschema.dll PE details
+kernel32.dll &amp;roarr; kernelbase.</description></item><item><title>Win8-x64 apisets</title><link>https://apisets.info/apisetschemas/06.2.9200.16384-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/06.2.9200.16384-amd64/</guid><description>apisetschema.dll PE details
 InternalName:apisetschema
 CompanyName:Microsoft Corporation
 FileDescription:ApiSet Schema DLL
@@ -161,7 +161,7 @@ api-ms-win-cmd-util-l1-1-0.dll
 cmdext.dll
 api-ms-win-cng-rng-l1-1-0.dll
 bcryptprimitives.dll
-api-ms-win-com-clbcatq-l1-1-0.</description></item><item><title>Win8-x86</title><link>https://apisets.info/apisetschemas/06.2.9200.16384-i386/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/06.2.9200.16384-i386/</guid><description>apisetschema.dll PE details
+api-ms-win-com-clbcatq-l1-1-0.</description></item><item><title>Win8-x86 apisets</title><link>https://apisets.info/apisetschemas/06.2.9200.16384-i386/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/06.2.9200.16384-i386/</guid><description>apisetschema.dll PE details
 InternalName:apisetschema
 CompanyName:Microsoft Corporation
 FileDescription:ApiSet Schema DLL
@@ -222,7 +222,7 @@ api-ms-win-cmd-util-l1-1-0.dll
 cmdext.dll
 api-ms-win-cng-rng-l1-1-0.dll
 bcryptprimitives.dll
-api-ms-win-com-clbcatq-l1-1-0.</description></item><item><title>Win8.1-x64</title><link>https://apisets.info/apisetschemas/06.3.9600.16384-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/06.3.9600.16384-amd64/</guid><description>apisetschema.dll PE details
+api-ms-win-com-clbcatq-l1-1-0.</description></item><item><title>Win8.1-x64 apisets</title><link>https://apisets.info/apisetschemas/06.3.9600.16384-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/06.3.9600.16384-amd64/</guid><description>apisetschema.dll PE details
 InternalName:apisetschema
 CompanyName:Microsoft Corporation
 FileDescription:ApiSet Schema DLL
@@ -283,7 +283,7 @@ api-ms-win-base-util-l1-1-0.dll
 advapi32.dll
 api-ms-win-biometrics-winbio-l1-1-0.dll
 winbio.dll
-api-ms-win-bluetooth-deviceassociation-l1-1-0.</description></item><item><title>Win10-x64</title><link>https://apisets.info/apisetschemas/10.0.19041.1-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/10.0.19041.1-amd64/</guid><description>apisetschema.dll PE details
+api-ms-win-bluetooth-deviceassociation-l1-1-0.</description></item><item><title>Win10-x64 apisets</title><link>https://apisets.info/apisetschemas/10.0.19041.1-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/10.0.19041.1-amd64/</guid><description>apisetschema.dll PE details
 InternalName:apisetschema.dll
 CompanyName:Microsoft Corporation
 FileDescription:ApiSet Schema DLL
@@ -342,7 +342,7 @@ twinapi.appcore.dll
 api-ms-win-core-biptcltapi-l1-1-7.dll
 twinapi.appcore.dll
 api-ms-win-core-calendar-l1-1-0.dll
-kernel32.</description></item><item><title>Win11-x64</title><link>https://apisets.info/apisetschemas/10.0.22621.2506-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/10.0.22621.2506-amd64/</guid><description>apisetschema.dll PE details
+kernel32.</description></item><item><title>Win11-x64 apisets</title><link>https://apisets.info/apisetschemas/10.0.22621.2506-amd64/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://apisets.info/apisetschemas/10.0.22621.2506-amd64/</guid><description>apisetschema.dll PE details
 InternalName:apisetschema.dll
 CompanyName:Microsoft Corporation
 FileDescription:ApiSet Schema DLL
