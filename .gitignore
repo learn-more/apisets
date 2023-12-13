@@ -105,3 +105,4 @@ venv.bak/
 bin/
 public/
 test/
+.hugo_build.lock

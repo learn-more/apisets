@@ -28,7 +28,7 @@
     <tr>
         <th>apiset</th>
         {{ range $all_versions }}
-        <th>{{ . }}</th>
+        <th class="version-col">{{ . }}</th>
         {{ end }}
     </tr>
     </thead>
@@ -56,6 +56,7 @@
     new DataTable('#apisets', {
         paging: false,
         columnDefs: [
+            { targets: [0], searchable: true},
             {
                 // The `data` parameter refers to the data for the cell (defined by the
                 // `data` option, which defaults to the column being worked with, in
@@ -69,44 +70,37 @@
                         return data;
                     }
                 },
-                targets: '_all'
+                targets: 'version-col',
+                searchable: true
             },
         ],
         initComplete: function () {
         this.api()
-            .columns()
+            .columns('.version-col')
             .every(function () {
                 let column = this;
  
-                column.render = function ( data, type, row ) {
-                    return '$'+ data;
-                }
-
                 // Create select element
                 let select = document.createElement('select');
                 select.add(new Option(''));
+                select.add(new Option('yes'));
+                select.add(new Option('no'));
                 let hdr = $(column.header());
                 $('<br />').appendTo(hdr);
                 $(select).appendTo(hdr).click(function(e) { e.stopPropagation(); });
-                //column.header().replaceChildren(select);
  
                 // Apply listener for user change in value
                 select.addEventListener('change', function () {
-                    var val = DataTable.util.escapeRegex(select.value);
- 
+                    let search_for = '';
+                    if (select.value == 'yes') {
+                        search_for = '.+';
+                    } else if (select.value == 'no') {
+                        search_for = '^$';
+                    }
                     column
-                        .search(val ? '^' + val + '$' : '', true, false)
+                        .search(search_for, true, false)
                         .draw();
                 });
- 
-                // Add list of options
-                column
-                    .data()
-                    .unique()
-                    .sort()
-                    .each(function (d, j) {
-                        select.add(new Option(d));
-                    });
             });
         }
     });
