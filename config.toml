@@ -24,3 +24,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   url = "https://github.com/learn-more/apisets/tree/master/data/apisetschema"
   weight = 11
 
+[[menu.shortcuts]]
+  name = "winexports.info"
+  url = "https://winexports.info"
+  weight = 21
