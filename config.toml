@@ -28,3 +28,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   name = "winexports.info"
   url = "https://winexports.info"
   weight = 21
+
+[[menu.shortcuts]]
+  name = "shimindex.info"
+  url = "https://shimindex.info"
+  weight = 22
